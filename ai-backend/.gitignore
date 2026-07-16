@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+model/artifacts/suraksha-classifier/*
+!model/artifacts/suraksha-classifier/.gitkeep
+data/raw/*/*.csv
+data/processed/*.csv
+data/synthetic/*.csv
+.pytest_cache/
+*.egg-info/

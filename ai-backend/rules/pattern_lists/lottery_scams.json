@@ -1,0 +1,20 @@
+{
+  "category": "lottery_scam",
+  "description": "Fake lottery / prize-winning notifications",
+  "patterns": {
+    "english": [
+      "you have won",
+      "lucky winner",
+      "claim your prize",
+      "lottery winner"
+    ],
+    "hindi": [
+      "आपने जीता है",
+      "लॉटरी विजेता"
+    ],
+    "gujarati": [
+      "તમે જીત્યા છો",
+      "લોટરી વિજેતા"
+    ]
+  }
+}

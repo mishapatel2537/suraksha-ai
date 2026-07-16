@@ -1,0 +1,20 @@
+{
+  "category": "upi_scam",
+  "description": "Fake UPI payment requests / collect requests disguised as refunds",
+  "patterns": {
+    "english": [
+      "upi request",
+      "accept to receive",
+      "refund pending",
+      "scan qr to receive payment"
+    ],
+    "hindi": [
+      "यूपीआई अनुरोध",
+      "रिफंड लंबित"
+    ],
+    "gujarati": [
+      "યુપીઆઈ વિનંતી",
+      "રિફંડ બાકી"
+    ]
+  }
+}

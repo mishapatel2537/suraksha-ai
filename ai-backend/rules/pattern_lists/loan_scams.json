@@ -1,0 +1,20 @@
+{
+  "category": "loan_scam",
+  "description": "Fake instant-loan / processing-fee scams",
+  "patterns": {
+    "english": [
+      "instant loan approved",
+      "processing fee",
+      "loan without documents",
+      "guaranteed loan approval"
+    ],
+    "hindi": [
+      "तुरंत लोन स्वीकृत",
+      "प्रोसेसिंग फीस"
+    ],
+    "gujarati": [
+      "તાત્કાલિક લોન મંજૂર",
+      "પ્રોસેસિંગ ફી"
+    ]
+  }
+}

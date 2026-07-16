@@ -1,0 +1,23 @@
+{
+  "category": "kyc_scam",
+  "description": "Fake KYC update requests — a very common scam vector for rural digital-banking users",
+  "patterns": {
+    "english": [
+      "kyc update",
+      "kyc expire",
+      "account will be blocked",
+      "verify your kyc",
+      "update kyc immediately"
+    ],
+    "hindi": [
+      "केवाईसी अपडेट",
+      "केवाईसी समाप्त",
+      "खाता ब्लॉक हो जाएगा"
+    ],
+    "gujarati": [
+      "કેવાયસી અપડેટ",
+      "કેવાયસી સમાપ્ત",
+      "ખાતું બ્લોક થઈ જશે"
+    ]
+  }
+}
