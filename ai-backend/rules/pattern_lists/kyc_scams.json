@@ -7,17 +7,26 @@
       "kyc expire",
       "account will be blocked",
       "verify your kyc",
-      "update kyc immediately"
+      "update kyc immediately",
+      "kyc pending",
+      "complete kyc",
+      "kyc verification",
+      "kyc"
     ],
     "hindi": [
       "केवाईसी अपडेट",
       "केवाईसी समाप्त",
-      "खाता ब्लॉक हो जाएगा"
+      "खाता ब्लॉक हो जाएगा",
+      "केवाईसी पेंडिंग",
+      "केवाईसी वेरिफिकेशन",
+      "केवाईसी"
     ],
     "gujarati": [
       "કેવાયસી અપડેટ",
       "કેવાયસી સમાપ્ત",
-      "ખાતું બ્લોક થઈ જશે"
+      "ખાતું બ્લોક થઈ જશે",
+      "કેવાયસી પેન્ડિંગ",
+      "કેવાયસી"
     ]
   }
 }

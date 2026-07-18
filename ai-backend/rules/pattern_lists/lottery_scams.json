@@ -6,15 +6,22 @@
       "you have won",
       "lucky winner",
       "claim your prize",
-      "lottery winner"
+      "lottery winner",
+      "lucky draw",
+      "congratulations you",
+      "claim your"
     ],
     "hindi": [
       "आपने जीता है",
-      "लॉटरी विजेता"
+      "लॉटरी विजेता",
+      "लकी ड्रॉ",
+      "इनाम दावा"
     ],
     "gujarati": [
       "તમે જીત્યા છો",
-      "લોટરી વિજેતા"
+      "લોટરી વિજેતા",
+      "લકી ડ્રો",
+      "ઈનામ"
     ]
   }
 }

@@ -6,15 +6,24 @@
       "upi request",
       "accept to receive",
       "refund pending",
-      "scan qr to receive payment"
+      "scan qr to receive payment",
+      "upi pin",
+      "collect request",
+      "accept the request"
     ],
     "hindi": [
       "यूपीआई अनुरोध",
-      "रिफंड लंबित"
+      "रिफंड लंबित",
+      "यूपीआई रिक्वेस्ट",
+      "यूपीआई पिन",
+      "रिक्वेस्ट एक्सेप्ट"
     ],
     "gujarati": [
       "યુપીઆઈ વિનંતી",
-      "રિફંડ બાકી"
+      "રિફંડ બાકી",
+      "યુપીઆઈ રિક્વેસ્ટ",
+      "યુપીઆઈ પિન",
+      "એક્સેપ્ટ કરો"
     ]
   }
 }

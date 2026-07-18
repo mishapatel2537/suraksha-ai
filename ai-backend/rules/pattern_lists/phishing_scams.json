@@ -1,0 +1,40 @@
+{
+  "category": "phishing",
+  "description": "Generic account/link-based phishing — fake security alerts, subscription renewals, suspicious-activity warnings pushing a link or card details",
+  "patterns": {
+    "english": [
+      "verify your account",
+      "suspicious activity",
+      "click here",
+      "account suspended",
+      "confirm your details",
+      "unusual login",
+      "update your payment",
+      "password",
+      "card number",
+      "cvv",
+      "remote access"
+    ],
+    "hindi": [
+      "लिंक पर क्लिक",
+      "संदिग्ध गतिविधि",
+      "खाता सस्पेंड",
+      "इस लिंक पर",
+      "पासवर्ड रीसेट",
+      "पासवर्ड",
+      "कार्ड नंबर",
+      "सीवीवी",
+      "रिमोट एक्सेस"
+    ],
+    "gujarati": [
+      "લિંક પર ક્લિક",
+      "શંકાસ્પદ પ્રવૃત્તિ",
+      "ખાતું સસ્પેન્ડ",
+      "આ લિંક પર",
+      "પાસવર્ડ",
+      "કાર્ડ નંબર",
+      "સીવીવી",
+      "રિમોટ એક્સેસ"
+    ]
+  }
+}

@@ -6,15 +6,21 @@
       "instant loan approved",
       "processing fee",
       "loan without documents",
-      "guaranteed loan approval"
+      "guaranteed loan approval",
+      "loan approved",
+      "your loan",
+      "loan disbursed"
     ],
     "hindi": [
       "तुरंत लोन स्वीकृत",
-      "प्रोसेसिंग फीस"
+      "प्रोसेसिंग फीस",
+      "लोन स्वीकृत",
+      "प्रोसेसिंग शुल्क"
     ],
     "gujarati": [
       "તાત્કાલિક લોન મંજૂર",
-      "પ્રોસેસિંગ ફી"
+      "પ્રોસેસિંગ ફી",
+      "લોન મંજૂર"
     ]
   }
 }
