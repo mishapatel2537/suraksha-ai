@@ -1,0 +1,141 @@
+text,language,category
+"You have received a payment request of Rs 2,000 from Rahul. Accept to receive money in your account.",english,upi_scam
+Refund of Rs 499 pending. Tap Accept on the collect request in your UPI app to receive it instantly.,english,upi_scam
+Your cashback of Rs 150 is ready. Approve the payment request notification to claim it now.,english,upi_scam
+"Scan this QR code to receive Rs 5,000 as a gift from your relative. Do not share your UPI PIN with anyone else.",english,upi_scam
+"Payment failed, retry by entering your UPI PIN on this link to complete the refund process.",english,upi_scam
+"Congratulations! Someone sent you Rs 10,000 via UPI. Enter your PIN in the app to accept the transfer.",english,upi_scam
+Your electricity refund of Rs 850 is stuck. Accept the collect request sent to your registered UPI ID.,english,upi_scam
+"I am the buyer for your OLX listing, I've sent advance payment. Please accept the request to confirm.",english,upi_scam
+"Your GPay account shows Rs 3,200 pending refund. Click the link and scan the QR to release the amount.",english,upi_scam
+"Hi, I accidentally sent money to your account, please scan this QR code to refund it back to me.",english,upi_scam
+Your PhonePe KYC is linked to a pending Rs 999 cashback. Enter your UPI PIN to complete the claim.,english,upi_scam
+"Delivery agent here — for COD refund of Rs 350, please accept the payment request I just sent.",english,upi_scam
+"Your Paytm wallet has an unclaimed balance of Rs 1,200. Approve the request notification to transfer it to your bank.",english,upi_scam
+"Sir maine aapko paisa bhej diya hai, request accept kar dijiye taaki transaction complete ho jaye.",english,upi_scam
+Your bank has issued a refund via UPI for the failed transaction. Enter PIN on the collect request to receive Rs 700.,english,upi_scam
+"This is your relative, I sent money by mistake to a wrong UPI ID, please scan and refund immediately.",english,upi_scam
+"Your UPI ID has won a lucky transaction bonus of Rs 2,500. Accept the request to claim your reward.",english,upi_scam
+"Buyer interested in your Facebook Marketplace item, sending token amount now, please accept to confirm the sale.",english,upi_scam
+"Your bank UPI limit has increased. To activate, enter your UPI PIN when prompted by the SMS link.",english,upi_scam
+"I am your college senior, please accept this Rs 500 collect request, I'll explain later, urgent.",english,upi_scam
+Your cab fare refund of Rs 120 is pending due to app error. Scan the QR to receive it in your wallet.,english,upi_scam
+"Congratulations, your UPI transaction qualifies for a reward. Enter your UPI PIN to unlock Rs 999 instantly.",english,upi_scam
+"Sir aapka parcel COD hai, refund ke liye maine request bheji hai, accept kar dijiye.",english,upi_scam
+Your bank has flagged a pending UPI mandate for auto-refund. Approve now to avoid transaction reversal charges.,english,upi_scam
+"I found your lost wallet, sending back the cash via UPI, please scan the QR code I'm sharing to receive it.",english,upi_scam
+Your electricity board owes you a rebate. Tap the collect request link to receive Rs 640 in your account.,english,upi_scam
+"This is customer support, your last UPI transaction failed, please share your UPI PIN to process the reversal.",english,upi_scam
+"Your friend requested Rs 1,000 via UPI for an emergency. Please accept quickly, they said it's urgent.",english,upi_scam
+"Get instant loan disbursed to your UPI ID, just scan this QR and enter your PIN to activate.",english,upi_scam
+Your recharge failed but amount was deducted. Accept the refund request on your UPI app to get it back.,english,upi_scam
+"आपको राहुल से 2,000 रुपये का पेमेंट रिक्वेस्ट मिला है। पैसे पाने के लिए एक्सेप्ट करें।",hindi,upi_scam
+499 रुपये का रिफंड लंबित है। तुरंत पाने के लिए अपने यूपीआई ऐप में कलेक्ट रिक्वेस्ट पर एक्सेप्ट टैप करें।,hindi,upi_scam
+आपका 150 रुपये कैशबैक तैयार है। अभी दावा करने के लिए पेमेंट रिक्वेस्ट नोटिफिकेशन अप्रूव करें।,hindi,upi_scam
+"अपने रिश्तेदार से 5,000 रुपये का गिफ्ट पाने के लिए यह क्यूआर कोड स्कैन करें। किसी को भी यूपीआई पिन न बताएं।",hindi,upi_scam
+"भुगतान असफल रहा, रिफंड प्रोसेस पूरा करने के लिए इस लिंक पर अपना यूपीआई पिन दर्ज करके फिर कोशिश करें।",hindi,upi_scam
+"बधाई हो! किसी ने आपको यूपीआई से 10,000 रुपये भेजे हैं। ट्रांसफर स्वीकार करने के लिए ऐप में अपना पिन दर्ज करें।",hindi,upi_scam
+आपका बिजली रिफंड 850 रुपये अटका हुआ है। अपने रजिस्टर्ड यूपीआई आईडी पर भेजी गई कलेक्ट रिक्वेस्ट एक्सेप्ट करें।,hindi,upi_scam
+"मैं आपकी ओएलएक्स लिस्टिंग का खरीदार हूं, एडवांस पेमेंट भेज दिया है। पुष्टि के लिए रिक्वेस्ट एक्सेप्ट करें।",hindi,upi_scam
+"आपके जीपे खाते में 3,200 रुपये का रिफंड लंबित दिख रहा है। राशि पाने के लिए लिंक पर क्लिक करें और क्यूआर स्कैन करें।",hindi,upi_scam
+"नमस्ते, गलती से मैंने आपके खाते में पैसे भेज दिए, कृपया वापस भेजने के लिए यह क्यूआर कोड स्कैन करें।",hindi,upi_scam
+आपका फोनपे केवाईसी 999 रुपये के लंबित कैशबैक से जुड़ा है। दावा पूरा करने के लिए अपना यूपीआई पिन दर्ज करें।,hindi,upi_scam
+"डिलीवरी एजेंट बोल रहा हूं — 350 रुपये सीओडी रिफंड के लिए, मैंने भेजी पेमेंट रिक्वेस्ट एक्सेप्ट करें।",hindi,upi_scam
+"आपके पेटीएम वॉलेट में 1,200 रुपये का अनक्लेम्ड बैलेंस है। बैंक में ट्रांसफर करने के लिए रिक्वेस्ट नोटिफिकेशन अप्रूव करें।",hindi,upi_scam
+"सर मैंने आपको पैसा भेज दिया है, ट्रांजैक्शन पूरा करने के लिए रिक्वेस्ट एक्सेप्ट कर दीजिए।",hindi,upi_scam
+असफल ट्रांजैक्शन के लिए आपके बैंक ने यूपीआई से रिफंड जारी किया है। 700 रुपये पाने के लिए कलेक्ट रिक्वेस्ट पर पिन डालें।,hindi,upi_scam
+"यह आपका रिश्तेदार है, गलती से गलत यूपीआई आईडी पर पैसे भेज दिए, कृपया स्कैन करके तुरंत वापस भेजें।",hindi,upi_scam
+"आपकी यूपीआई आईडी ने लकी ट्रांजैक्शन बोनस 2,500 रुपये जीता है। इनाम दावा करने के लिए रिक्वेस्ट एक्सेप्ट करें।",hindi,upi_scam
+"आपके फेसबुक मार्केटप्लेस आइटम में खरीदार दिलचस्पी रखता है, टोकन राशि भेज रहा हूं, बिक्री पक्की करने के लिए एक्सेप्ट करें।",hindi,upi_scam
+आपकी यूपीआई सीमा बढ़ा दी गई है। सक्रिय करने के लिए एसएमएस लिंक पर पूछे जाने पर अपना यूपीआई पिन दर्ज करें।,hindi,upi_scam
+"मैं आपका कॉलेज सीनियर हूं, कृपया यह 500 रुपये की कलेक्ट रिक्वेस्ट एक्सेप्ट करें, बाद में बताऊंगा, अर्जेंट है।",hindi,upi_scam
+ऐप एरर के कारण आपका 120 रुपये का कैब किराया रिफंड लंबित है। वॉलेट में पाने के लिए क्यूआर स्कैन करें।,hindi,upi_scam
+"बधाई हो, आपका यूपीआई ट्रांजैक्शन इनाम के लिए योग्य है। तुरंत 999 रुपये अनलॉक करने के लिए अपना यूपीआई पिन दर्ज करें।",hindi,upi_scam
+"सर आपका पार्सल सीओडी है, रिफंड के लिए मैंने रिक्वेस्ट भेजी है, एक्सेप्ट कर दीजिए।",hindi,upi_scam
+आपके बैंक ने ऑटो-रिफंड के लिए लंबित यूपीआई मैंडेट फ्लैग किया है। ट्रांजैक्शन रिवर्सल शुल्क से बचने के लिए अभी अप्रूव करें।,hindi,upi_scam
+"मुझे आपका खोया हुआ वॉलेट मिला, यूपीआई से पैसे वापस भेज रहा हूं, पाने के लिए मेरा भेजा क्यूआर कोड स्कैन करें।",hindi,upi_scam
+बिजली बोर्ड पर आपका रिबेट बकाया है। 640 रुपये पाने के लिए कलेक्ट रिक्वेस्ट लिंक टैप करें।,hindi,upi_scam
+"यह कस्टमर सपोर्ट है, आपका आखिरी यूपीआई ट्रांजैक्शन असफल रहा, रिवर्सल प्रोसेस के लिए अपना यूपीआई पिन बताएं।",hindi,upi_scam
+"आपके दोस्त ने इमरजेंसी के लिए यूपीआई से 1,000 रुपये मांगे हैं। जल्दी एक्सेप्ट करें, उसने कहा अर्जेंट है।",hindi,upi_scam
+"अपनी यूपीआई आईडी पर तुरंत लोन पाएं, बस यह क्यूआर स्कैन करें और सक्रिय करने के लिए पिन दर्ज करें।",hindi,upi_scam
+आपका रिचार्ज असफल रहा लेकिन राशि कट गई। वापस पाने के लिए अपने यूपीआई ऐप पर रिफंड रिक्वेस्ट एक्सेप्ट करें।,hindi,upi_scam
+"તમને રાહુલ તરફથી 2,000 રૂપિયાની પેમેન્ટ રિક્વેસ્ટ મળી છે. પૈસા મેળવવા એક્સેપ્ટ કરો.",gujarati,upi_scam
+499 રૂપિયાનું રિફંડ બાકી છે. તાત્કાલિક મેળવવા તમારી યુપીઆઈ એપમાં કલેક્ટ રિક્વેસ્ટ પર એક્સેપ્ટ ટેપ કરો.,gujarati,upi_scam
+તમારું 150 રૂપિયા કેશબેક તૈયાર છે. હમણાં દાવો કરવા પેમેન્ટ રિક્વેસ્ટ નોટિફિકેશન મંજૂર કરો.,gujarati,upi_scam
+"તમારા સંબંધી પાસેથી 5,000 રૂપિયાની ભેટ મેળવવા આ ક્યુઆર કોડ સ્કેન કરો. કોઈને પણ યુપીઆઈ પિન ન જણાવો.",gujarati,upi_scam
+"ચુકવણી નિષ્ફળ ગઈ, રિફંડ પ્રક્રિયા પૂર્ણ કરવા આ લિંક પર તમારો યુપીઆઈ પિન દાખલ કરીને ફરી પ્રયાસ કરો.",gujarati,upi_scam
+"અભિનંદન! કોઈએ તમને યુપીઆઈ દ્વારા 10,000 રૂપિયા મોકલ્યા છે. ટ્રાન્સફર સ્વીકારવા એપમાં તમારો પિન દાખલ કરો.",gujarati,upi_scam
+તમારું વીજળી રિફંડ 850 રૂપિયા અટકેલું છે. તમારા નોંધાયેલ યુપીઆઈ આઈડી પર મોકલેલી કલેક્ટ રિક્વેસ્ટ એક્સેપ્ટ કરો.,gujarati,upi_scam
+"હું તમારી ઓએલએક્સ લિસ્ટિંગનો ખરીદનાર છું, એડવાન્સ પેમેન્ટ મોકલી દીધું છે. પુષ્ટિ માટે રિક્વેસ્ટ એક્સેપ્ટ કરો.",gujarati,upi_scam
+"તમારા જીપે ખાતામાં 3,200 રૂપિયાનું રિફંડ બાકી દેખાય છે. રકમ મેળવવા લિંક પર ક્લિક કરો અને ક્યુઆર સ્કેન કરો.",gujarati,upi_scam
+"નમસ્તે, ભૂલથી મેં તમારા ખાતામાં પૈસા મોકલી દીધા, કૃપા કરી પાછા મોકલવા આ ક્યુઆર કોડ સ્કેન કરો.",gujarati,upi_scam
+તમારું ફોનપે કેવાયસી 999 રૂપિયાના બાકી કેશબેક સાથે જોડાયેલું છે. દાવો પૂર્ણ કરવા તમારો યુપીઆઈ પિન દાખલ કરો.,gujarati,upi_scam
+"ડિલિવરી એજન્ટ બોલું છું — 350 રૂપિયા સીઓડી રિફંડ માટે, મેં મોકલેલી પેમેન્ટ રિક્વેસ્ટ એક્સેપ્ટ કરો.",gujarati,upi_scam
+"તમારા પેટીએમ વોલેટમાં 1,200 રૂપિયાનું અનક્લેમ્ડ બેલેન્સ છે. બેંકમાં ટ્રાન્સફર કરવા રિક્વેસ્ટ નોટિફિકેશન મંજૂર કરો.",gujarati,upi_scam
+"સર મેં તમને પૈસા મોકલી દીધા છે, ટ્રાન્ઝેક્શન પૂર્ણ કરવા રિક્વેસ્ટ એક્સેપ્ટ કરી દો.",gujarati,upi_scam
+નિષ્ફળ ટ્રાન્ઝેક્શન માટે તમારી બેંકે યુપીઆઈ દ્વારા રિફંડ જારી કર્યું છે. 700 રૂપિયા મેળવવા કલેક્ટ રિક્વેસ્ટ પર પિન નાખો.,gujarati,upi_scam
+"આ તમારો સંબંધી છે, ભૂલથી ખોટા યુપીઆઈ આઈડી પર પૈસા મોકલી દીધા, કૃપા કરી સ્કેન કરીને તાત્કાલિક પાછા મોકલો.",gujarati,upi_scam
+"તમારા યુપીઆઈ આઈડીએ લકી ટ્રાન્ઝેક્શન બોનસ 2,500 રૂપિયા જીત્યું છે. ઈનામ દાવો કરવા રિક્વેસ્ટ એક્સેપ્ટ કરો.",gujarati,upi_scam
+"તમારી ફેસબુક માર્કેટપ્લેસ આઈટમમાં ખરીદનારને રસ છે, ટોકન રકમ મોકલું છું, વેચાણ પાક્કું કરવા એક્સેપ્ટ કરો.",gujarati,upi_scam
+તમારી યુપીઆઈ મર્યાદા વધારી દેવામાં આવી છે. સક્રિય કરવા એસએમએસ લિંક પર પૂછતી વખતે તમારો યુપીઆઈ પિન દાખલ કરો.,gujarati,upi_scam
+"હું તમારો કોલેજ સિનિયર છું, કૃપા કરી આ 500 રૂપિયાની કલેક્ટ રિક્વેસ્ટ એક્સેપ્ટ કરો, પછી સમજાવીશ, અર્જન્ટ છે.",gujarati,upi_scam
+એપ ભૂલના કારણે તમારું 120 રૂપિયાનું કેબ ભાડું રિફંડ બાકી છે. વોલેટમાં મેળવવા ક્યુઆર સ્કેન કરો.,gujarati,upi_scam
+"અભિનંદન, તમારું યુપીઆઈ ટ્રાન્ઝેક્શન ઈનામ માટે લાયક છે. તાત્કાલિક 999 રૂપિયા અનલોક કરવા તમારો યુપીઆઈ પિન દાખલ કરો.",gujarati,upi_scam
+"સર તમારો પાર્સલ સીઓડી છે, રિફંડ માટે મેં રિક્વેસ્ટ મોકલી છે, એક્સેપ્ટ કરી દો.",gujarati,upi_scam
+તમારી બેંકે ઓટો-રિફંડ માટે બાકી યુપીઆઈ મેન્ડેટ ફ્લેગ કર્યું છે. ટ્રાન્ઝેક્શન રિવર્સલ ચાર્જથી બચવા હમણાં મંજૂર કરો.,gujarati,upi_scam
+"મને તમારું ખોવાયેલું વોલેટ મળ્યું, યુપીઆઈથી પૈસા પાછા મોકલું છું, મેળવવા મેં મોકલેલો ક્યુઆર કોડ સ્કેન કરો.",gujarati,upi_scam
+વીજળી બોર્ડ પર તમારો રિબેટ બાકી છે. 640 રૂપિયા મેળવવા કલેક્ટ રિક્વેસ્ટ લિંક ટેપ કરો.,gujarati,upi_scam
+"આ કસ્ટમર સપોર્ટ છે, તમારું છેલ્લું યુપીઆઈ ટ્રાન્ઝેક્શન નિષ્ફળ ગયું, રિવર્સલ પ્રક્રિયા માટે તમારો યુપીઆઈ પિન જણાવો.",gujarati,upi_scam
+"તમારા મિત્રએ ઈમરજન્સી માટે યુપીઆઈથી 1,000 રૂપિયા માંગ્યા છે. ઝડપથી એક્સેપ્ટ કરો, તેણે કહ્યું અર્જન્ટ છે.",gujarati,upi_scam
+"તમારા યુપીઆઈ આઈડી પર તાત્કાલિક લોન મેળવો, ફક્ત આ ક્યુઆર સ્કેન કરો અને સક્રિય કરવા પિન દાખલ કરો.",gujarati,upi_scam
+તમારું રિચાર્જ નિષ્ફળ ગયું પણ રકમ કપાઈ ગઈ. પાછી મેળવવા તમારી યુપીઆઈ એપ પર રિફંડ રિક્વેસ્ટ એક્સેપ્ટ કરો.,gujarati,upi_scam
+आपके ईमेल खाते में असामान्य गतिविधि देखी गई है। सुरक्षित करने के लिए तुरंत इस लिंक पर लॉगिन करें।,hindi,phishing
+आपका नेटफ्लिक्स सब्सक्रिप्शन समाप्त हो गया है। भुगतान अपडेट करने के लिए इस लिंक पर कार्ड विवरण दर्ज करें।,hindi,phishing
+आपका फेसबुक अकाउंट 24 घंटे में डिलीट हो जाएगा। सत्यापित करने के लिए अपना पासवर्ड इस लिंक पर डालें।,hindi,phishing
+जरूरी: आपके व्हाट्सएप अकाउंट पर नई पॉलिसी लागू होगी। जारी रखने के लिए इस लिंक पर टैप करें और ओटीपी डालें।,hindi,phishing
+आपका ईमेल स्टोरेज फुल हो गया है। डेटा खोने से बचाने के लिए तुरंत इस लिंक पर लॉगिन करके अपग्रेड करें।,hindi,phishing
+यह आपकी बैंक सुरक्षा टीम है। असामान्य लॉगिन रोकने के लिए तुरंत अपना नेट बैंकिंग पासवर्ड कन्फर्म करें।,hindi,phishing
+आपके अकाउंट में सस्पिशियस एक्टिविटी मिली है। सुरक्षा के लिए इस लिंक पर क्लिक करके अपनी डिटेल्स वेरीफाई करें।,hindi,phishing
+आपका इंस्टाग्राम अकाउंट कॉपीराइट उल्लंघन के कारण बंद हो जाएगा। अपील करने के लिए इस फॉर्म में लॉगिन डिटेल्स भरें।,hindi,phishing
+"गूगल सुरक्षा चेतावनी: नए डिवाइस से लॉगिन हुआ। यदि आप नहीं थे, तो तुरंत इस लिंक पर पासवर्ड रीसेट करें।",hindi,phishing
+आपका मोबाइल सिम कल बंद हो जाएगा। पुनः सक्रिय करने के लिए इस लिंक पर अपनी जानकारी भरें।,hindi,phishing
+यह ऐप्पल सपोर्ट है। आपकी आईक्लाउड आईडी लॉक हो गई है। अनलॉक करने के लिए अपना पासवर्ड और ओटीपी बताएं।,hindi,phishing
+"आपका पैन कार्ड आधार से लिंक नहीं है, जिससे आयकर रिटर्न रुक जाएगा। अभी इस लिंक पर लिंक करें।",hindi,phishing
+आपके पास एक सुरक्षित दस्तावेज़ है जिसे डाउनलोड करने के लिए आपको अपने ऑफिस ईमेल पासवर्ड से लॉगिन करना होगा।,hindi,phishing
+"आपका कूरियर डिलीवर नहीं हो सका, पता कन्फर्म करने के लिए इस लिंक पर अपना कार्ड नंबर दर्ज करें।",hindi,phishing
+"यह माइक्रोसॉफ्ट सपोर्ट टीम है, आपके कंप्यूटर में वायरस मिला है, ठीक करने के लिए हमें रिमोट एक्सेस दें।",hindi,phishing
+आपका डीमैट अकाउंट सस्पेंड होने वाला है। तुरंत इस लिंक पर लॉगिन करके अपनी जानकारी अपडेट करें।,hindi,phishing
+आपकी बिजली कनेक्शन आज रात काट दी जाएगी। भुगतान करने के लिए इस लिंक पर तुरंत कार्ड विवरण डालें।,hindi,phishing
+आपके क्रेडिट कार्ड की लिमिट बढ़ाने के लिए इस लिंक पर अपना कार्ड नंबर और सीवीवी दर्ज करें।,hindi,phishing
+एलआईसी पॉलिसी बोनस पाने के लिए अपनी पॉलिसी डिटेल्स और बैंक खाता इस लिंक पर सबमिट करें।,hindi,phishing
+"आपका पासपोर्ट आवेदन अटका हुआ है, आगे बढ़ाने के लिए इस लिंक पर अपनी व्यक्तिगत जानकारी भरें।",hindi,phishing
+"यह जॉब ऑफर लेटर है, अकाउंट सेटअप के लिए अपना बैंक विवरण और आधार इस फॉर्म में भरें।",hindi,phishing
+आपके ट्विटर अकाउंट में लॉगिन असफलताएं मिलीं। सुरक्षित करने के लिए इस लिंक पर अपना पासवर्ड बदलें।,hindi,phishing
+जीएसटी रिटर्न फाइलिंग में एरर मिली है। जुर्माने से बचने के लिए इस लिंक पर अपनी जानकारी अपडेट करें।,hindi,phishing
+आपका राशन कार्ड आधार से लिंक नहीं है। तुरंत इस लिंक पर सभी विवरण भरकर लिंक करें।,hindi,phishing
+"यह टेलीकॉम रेगुलेटर की सूचना है, आपका सिम कल बंद होगा, फिर से वेरीफाई करने के लिए ओटीपी भेजें।",hindi,phishing
+તમારા ઈમેલ ખાતામાં અસામાન્ય પ્રવૃત્તિ જોવા મળી છે. સુરક્ષિત કરવા તાત્કાલિક આ લિંક પર લોગિન કરો.,gujarati,phishing
+તમારું નેટફ્લિક્સ સબસ્ક્રિપ્શન સમાપ્ત થઈ ગયું છે. ચુકવણી અપડેટ કરવા આ લિંક પર કાર્ડ વિગતો દાખલ કરો.,gujarati,phishing
+તમારું ફેસબુક એકાઉન્ટ 24 કલાકમાં ડિલીટ થઈ જશે. ચકાસવા તમારો પાસવર્ડ આ લિંક પર નાખો.,gujarati,phishing
+તાત્કાલિક: તમારા વોટ્સએપ એકાઉન્ટ પર નવી પોલિસી લાગુ થશે. ચાલુ રાખવા આ લિંક પર ટેપ કરો અને ઓટીપી નાખો.,gujarati,phishing
+તમારો ઈમેલ સ્ટોરેજ ભરાઈ ગયો છે. ડેટા ગુમાવવાથી બચવા તાત્કાલિક આ લિંક પર લોગિન કરીને અપગ્રેડ કરો.,gujarati,phishing
+આ તમારી બેંક સુરક્ષા ટીમ છે. અસામાન્ય લોગિન રોકવા તાત્કાલિક તમારો નેટ બેંકિંગ પાસવર્ડ કન્ફર્મ કરો.,gujarati,phishing
+તમારા એકાઉન્ટમાં શંકાસ્પદ પ્રવૃત્તિ મળી છે. સુરક્ષા માટે આ લિંક પર ક્લિક કરીને તમારી વિગતો ચકાસો.,gujarati,phishing
+તમારું ઇન્સ્ટાગ્રામ એકાઉન્ટ કોપીરાઈટ ઉલ્લંઘનના કારણે બંધ થઈ જશે. અપીલ કરવા આ ફોર્મમાં લોગિન વિગતો ભરો.,gujarati,phishing
+"ગૂગલ સુરક્ષા ચેતવણી: નવા ડિવાઈસથી લોગિન થયું. જો તમે નહોતા, તો તાત્કાલિક આ લિંક પર પાસવર્ડ રીસેટ કરો.",gujarati,phishing
+તમારો મોબાઈલ સિમ કાલે બંધ થઈ જશે. ફરીથી સક્રિય કરવા આ લિંક પર તમારી માહિતી ભરો.,gujarati,phishing
+આ એપલ સપોર્ટ છે. તમારી આઈક્લાઉડ આઈડી લોક થઈ ગઈ છે. અનલોક કરવા તમારો પાસવર્ડ અને ઓટીપી જણાવો.,gujarati,phishing
+"તમારું પાન કાર્ડ આધાર સાથે લિંક નથી, જેનાથી ઈન્કમ ટેક્સ રિટર્ન અટકશે. હમણાં આ લિંક પર લિંક કરો.",gujarati,phishing
+તમારી પાસે એક સુરક્ષિત દસ્તાવેજ છે જે ડાઉનલોડ કરવા તમારે તમારા ઓફિસ ઈમેલ પાસવર્ડથી લોગિન કરવું પડશે.,gujarati,phishing
+"તમારો કુરિયર ડિલિવર થઈ શક્યો નથી, સરનામું કન્ફર્મ કરવા આ લિંક પર તમારો કાર્ડ નંબર દાખલ કરો.",gujarati,phishing
+"આ માઈક્રોસોફ્ટ સપોર્ટ ટીમ છે, તમારા કમ્પ્યુટરમાં વાયરસ મળ્યો છે, ઠીક કરવા અમને રિમોટ એક્સેસ આપો.",gujarati,phishing
+તમારું ડિમેટ એકાઉન્ટ સસ્પેન્ડ થવાનું છે. તાત્કાલિક આ લિંક પર લોગિન કરીને તમારી માહિતી અપડેટ કરો.,gujarati,phishing
+તમારું વીજળી કનેક્શન આજે રાત્રે કાપી નાખવામાં આવશે. ચુકવણી કરવા આ લિંક પર તાત્કાલિક કાર્ડ વિગતો નાખો.,gujarati,phishing
+તમારા ક્રેડિટ કાર્ડની મર્યાદા વધારવા આ લિંક પર તમારો કાર્ડ નંબર અને સીવીવી દાખલ કરો.,gujarati,phishing
+એલઆઈસી પોલિસી બોનસ મેળવવા તમારી પોલિસી વિગતો અને બેંક ખાતું આ લિંક પર સબમિટ કરો.,gujarati,phishing
+"તમારી પાસપોર્ટ અરજી અટકેલી છે, આગળ વધારવા આ લિંક પર તમારી વ્યક્તિગત માહિતી ભરો.",gujarati,phishing
+"આ જોબ ઓફર લેટર છે, એકાઉન્ટ સેટઅપ માટે તમારી બેંક વિગતો અને આધાર આ ફોર્મમાં ભરો.",gujarati,phishing
+તમારા ટ્વિટર એકાઉન્ટમાં લોગિન નિષ્ફળતાઓ મળી. સુરક્ષિત કરવા આ લિંક પર તમારો પાસવર્ડ બદલો.,gujarati,phishing
+જીએસટી રિટર્ન ફાઈલિંગમાં ભૂલ મળી છે. દંડથી બચવા આ લિંક પર તમારી માહિતી અપડેટ કરો.,gujarati,phishing
+તમારું રેશન કાર્ડ આધાર સાથે લિંક નથી. તાત્કાલિક આ લિંક પર બધી વિગતો ભરીને લિંક કરો.,gujarati,phishing
+"આ ટેલિકોમ રેગ્યુલેટરની સૂચના છે, તમારો સિમ કાલે બંધ થશે, ફરીથી ચકાસવા ઓટીપી મોકલો.",gujarati,phishing

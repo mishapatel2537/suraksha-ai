@@ -1,0 +1,299 @@
+text,language,category,source
+Claim your loan approved by sending OTP immediately.,english,loan_scam,kaggle_financial_scams_filtered
+"Fraudulent transaction detected, provide your OTP.",english,phishing,kaggle_financial_scams_filtered
+"Your account has been suspended, verify OTP now!",english,phishing,kaggle_financial_scams_filtered
+Your account balance is adequate.,english,not_scam,kaggle_financial_scams_filtered
+Please ignore unknown SMS.,english,not_scam,kaggle_financial_scams_filtered
+Click here to reset your banking password.,english,phishing,kaggle_financial_scams_filtered
+Payment received successfully.,english,not_scam,kaggle_financial_scams_filtered
+Send your OTP to claim your prize!,english,lottery_scam,kaggle_financial_scams_filtered
+Your debit card has been blocked.,english,phishing,kaggle_financial_scams_filtered
+"New offers available, accept today!",english,not_scam,kaggle_financial_scams_filtered
+"Your account is at risk, immediate action required.",english,phishing,kaggle_financial_scams_filtered
+"Your mobile recharge was successful, thank you.",english,not_scam,kaggle_financial_scams_filtered
+"Your loan application is approved, send OTP now!",english,loan_scam,kaggle_financial_scams_filtered
+Do not share your bank details with anyone.,english,not_scam,kaggle_financial_scams_filtered
+Account hacked! Open the app now to secure it.,english,phishing,kaggle_financial_scams_filtered
+"Your OTP code expires in 5 minutes, do not share",english,not_scam,kaggle_financial_scams_filtered
+"Loan approved, confirm by sending OTP code.",english,loan_scam,kaggle_financial_scams_filtered
+Update your account details to avoid suspension.,english,phishing,kaggle_financial_scams_filtered
+Thank you for using our service.,english,not_scam,kaggle_financial_scams_filtered
+Claim your loan approved by sending OTP.,english,loan_scam,kaggle_financial_scams_filtered
+"Fraudulent transaction detected, provide OTP.",english,phishing,kaggle_financial_scams_filtered
+"Your OTP is 8741, do not share it with anyone.",english,not_scam,kaggle_financial_scams_filtered
+Click here to reset your banking password.,english,phishing,kaggle_financial_scams_filtered
+"Your account suspended, verify OTP now!",english,phishing,kaggle_financial_scams_filtered
+Congratulations! You won a prize. Please send OTP to claim.,english,lottery_scam,kaggle_financial_scams_filtered
+"Your OTP is 789654, keep it confidential to secure your account.",english,not_scam,kaggle_financial_scams_filtered
+Claim your cashback by entering OTP received in next 5 minutes.,english,lottery_scam,kaggle_financial_scams_filtered
+Important: Your account verification is pending. Please provide OTP.,english,phishing,kaggle_financial_scams_filtered
+Your debit card transaction of 5000 taka was declined. Contact support.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! Claim your reward by submitting OTP within 10 minutes.,english,phishing,kaggle_financial_scams_filtered
+"Your recent login was from a new device. If not you, verify with OTP.",english,phishing,kaggle_financial_scams_filtered
+Update your payment information immediately to avoid suspension.,english,phishing,kaggle_financial_scams_filtered
+Your mobile recharge of 20 taka is successful. Thank you for your payment.,english,not_scam,kaggle_financial_scams_filtered
+Refund of 100 taka has been processed to your account.,english,not_scam,kaggle_financial_scams_filtered
+"Warning: Suspicious activity detected, confirm via OTP now.",english,phishing,kaggle_financial_scams_filtered
+Your loan application was approved. Verify details using OTP.,english,loan_scam,kaggle_financial_scams_filtered
+Please ignore any unknown messages pretending to be your bank.,english,not_scam,kaggle_financial_scams_filtered
+Your online banking password expired. Reset it via the provided link.,english,phishing,kaggle_financial_scams_filtered
+Your account balance is low. Add funds to continue service.,english,not_scam,kaggle_financial_scams_filtered
+"To secure your account, provide the OTP sent to your registered phone.",english,phishing,kaggle_financial_scams_filtered
+Payment of 2500 taka received. Thanks for banking with us,english,not_scam,kaggle_financial_scams_filtered
+Alert: Unauthorized transaction attempt detected. Change password now.,english,phishing,kaggle_financial_scams_filtered
+Your credit card limit has been increased. Check details in app.,english,not_scam,kaggle_financial_scams_filtered
+Verify your identity to avoid account suspension. OTP required.,english,phishing,kaggle_financial_scams_filtered
+Your request to withdraw 5000 taka was successful.,english,not_scam,kaggle_financial_scams_filtered
+Last chance: Provide OTP to claim your prize money now.,english,lottery_scam,kaggle_financial_scams_filtered
+Your scheduled payment will be processed tomorrow.,english,not_scam,kaggle_financial_scams_filtered
+Alert! Unauthorized login attempt detected. Confirm with OTP immediately.,english,phishing,kaggle_financial_scams_filtered
+"Your internet banking password expired, reset it today to avoid service disruption.",english,phishing,kaggle_financial_scams_filtered
+Verify your identity by entering the OTP sent to your mobile to continue transactions.,english,phishing,kaggle_financial_scams_filtered
+Your debit card ending 1234 has been temporarily blocked for suspicious activity.,english,phishing,kaggle_financial_scams_filtered
+"Immediate action needed! Unrecognized device logged in, confirm with OTP now.",english,phishing,kaggle_financial_scams_filtered
+Update your mobile number in banking records today for uninterrupted service.,english,phishing,kaggle_financial_scams_filtered
+Secure your account now! OTP sent to your registered contact.,english,phishing,kaggle_financial_scams_filtered
+Warning: Suspicious activity in your account. Verify using your OTP immediately.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You won a free investment plan. Call now to claim your prize.,english,lottery_scam,kaggle_financial_scams_filtered
+New job opportunity with high salary. Send your CV to apply immediately.,english,phishing,kaggle_financial_scams_filtered
+Exclusive offer: Double your money in 30 days with our secret scheme.,english,phishing,kaggle_financial_scams_filtered
+Join our online trading platform for guaranteed profits.,english,phishing,kaggle_financial_scams_filtered
+Beware of strangers asking for your financial details over chat or SMS.,english,not_scam,kaggle_financial_scams_filtered
+Your KYC verification is complete. Thank you for your cooperation.,english,not_scam,kaggle_financial_scams_filtered
+Congratulations! You are shortlisted for a luxury car giveaway.,english,lottery_scam,kaggle_financial_scams_filtered
+Investment opportunity with zero risk and high returns. Contact us.,english,phishing,kaggle_financial_scams_filtered
+Monthly subscription paid successfully.,english,not_scam,kaggle_financial_scams_filtered
+Avoid fake schemes promising overnight wealth. Stay cautious.,english,not_scam,kaggle_financial_scams_filtered
+Free smartphone giveaway for lucky winners. Reply to participate.,english,lottery_scam,kaggle_financial_scams_filtered
+Your online order has been shipped successfully.,english,not_scam,kaggle_financial_scams_filtered
+Your health insurance claim has been approved. Contact for details.,english,not_scam,kaggle_financial_scams_filtered
+Secure your future with our pension plan. Enroll today!,english,phishing,kaggle_financial_scams_filtered
+Your package has been shipped. Track your delivery at this link.,english,not_scam,kaggle_financial_scams_filtered
+Congratulations! You've won a free gift card. Click now to claim.,english,lottery_scam,kaggle_financial_scams_filtered
+Our records show suspicious activity in your account. Contact support.,english,phishing,kaggle_financial_scams_filtered
+Your subscription is about to expire. Renew now for uninterrupted service.,english,phishing,kaggle_financial_scams_filtered
+Limited-time offer! Double your money in 7 days. Invest now.,english,phishing,kaggle_financial_scams_filtered
+Loan approved! Send your details to receive funds today.,english,loan_scam,kaggle_financial_scams_filtered
+Your online order is ready. View details here.,english,not_scam,kaggle_financial_scams_filtered
+Fake invoice attached. Please review and click the link to pay.,english,phishing,kaggle_financial_scams_filtered
+Your car insurance claim has been approved. Contact us to finalize.,english,phishing,kaggle_financial_scams_filtered
+It’s your last chance to claim your cashback. Act now!,english,lottery_scam,kaggle_financial_scams_filtered
+Attention! Your mobile data plan will expire tomorrow. Renew now.,english,phishing,kaggle_financial_scams_filtered
+Your bank account is locked. Verify now to regain access.,english,phishing,kaggle_financial_scams_filtered
+Limited-time deal: Buy now and get 50% discount on all products.,english,phishing,kaggle_financial_scams_filtered
+Warning! Suspicious activity detected. Change your credentials now.,english,phishing,kaggle_financial_scams_filtered
+Your gaming account has been hacked. Change your password immediately.,english,phishing,kaggle_financial_scams_filtered
+"Hello from BLOrange club. For 1 month's free access to games, news and sport, plus 10 free texts and 20 photo messages, reply YES. Terms apply: www.blorange.club.bd",english,phishing,kaggle_financial_scams_filtered
+Call FREEPHONE +8800 542 0578 now!,english,phishing,kaggle_financial_scams_filtered
+"7 wonders in My WORLD 7th You 6th Ur style 5th Ur smile 4th Ur Personality 3rd Ur Nature 2nd Ur SMS and 1st \Ur Lovely Friendship\""... good morning dear""",english,not_scam,kaggle_financial_scams_filtered
+"Loan for any purpose 500 tk- 75,000tk. Homeowners + Tenants welcome. Have you been previously refused? We can still help. Call Free +880 1956669 or text back 'help'",english,loan_scam,kaggle_financial_scams_filtered
+Sorry i'm not free...,english,not_scam,kaggle_financial_scams_filtered
+How. Its a little difficult but its a simple way to enter this place,english,not_scam,kaggle_financial_scams_filtered
+BIG BROTHER ALERT! The computer has selected u for 10k cash or #150 voucher. Call +8801906401883. NTT PO Box CRO1327 18+ BT Landline Cost 150ppm mobiles vary,english,phishing,kaggle_financial_scams_filtered
+Your package delivery is delayed. Track now at this fake link.,english,phishing,kaggle_financial_scams_filtered
+Your job application was successful! Reply to claim your position,english,phishing,kaggle_financial_scams_filtered
+Verify your phone number now to avoid service interruption.,english,phishing,kaggle_financial_scams_filtered
+Free $1000 gift card! Click here to redeem before it expires.,english,phishing,kaggle_financial_scams_filtered
+Your recent online purchase has been shipped successfully.,english,not_scam,kaggle_financial_scams_filtered
+Alert: Classified documents found linked to your account. Contact now!,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You’ve won a holiday trip. Reply to claim.,english,lottery_scam,kaggle_financial_scams_filtered
+Urgent notice! Verify your social security number immediately.,english,phishing,kaggle_financial_scams_filtered
+Your bank loan has been approved. Send documents to finalize.,english,loan_scam,kaggle_financial_scams_filtered
+Your subscription payment failed. Update billing info to continue.,english,phishing,kaggle_financial_scams_filtered
+Your ticket to the concert is confirmed. Thank you for your purchase.,english,not_scam,kaggle_financial_scams_filtered
+Your online account will be suspended soon. Verify credentials now.,english,phishing,kaggle_financial_scams_filtered
+Your medical insurance claim has been processed successfully.,english,not_scam,kaggle_financial_scams_filtered
+New investment opportunity: Guaranteed 30% monthly returns.,english,phishing,kaggle_financial_scams_filtered
+Your parcel has been dispatched. Track with tracking number XYZ123.,english,not_scam,kaggle_financial_scams_filtered
+You have unclaimed cashback waiting. Submit your details to claim it immediately.,english,lottery_scam,kaggle_financial_scams_filtered
+Congratulations! Claim your exclusive shopping voucher by replying with YES.,english,phishing,kaggle_financial_scams_filtered
+Claim your prize by verifying your phone number within 2 hours.,english,lottery_scam,kaggle_financial_scams_filtered
+Claim your loan disbursed amount now by confirming your bank details.,english,loan_scam,kaggle_financial_scams_filtered
+Urgent: Claim compensation for delayed delivery by visiting this link.,english,phishing,kaggle_financial_scams_filtered
+Claim your free ticket for the concert happening near you this weekend.,english,phishing,kaggle_financial_scams_filtered
+Claim your cashback by logging into your account with this link.,english,lottery_scam,kaggle_financial_scams_filtered
+"You have been selected to claim a new government subsidy, respond with your ID",english,phishing,kaggle_financial_scams_filtered
+Claim your refund for the recent transaction now before the offer expires.,english,phishing,kaggle_financial_scams_filtered
+Claim your mystery gift by sending a reply with your full name and address.,english,phishing,kaggle_financial_scams_filtered
+Claim your free mobile upgrade by confirming your account info via SMS.,english,phishing,kaggle_financial_scams_filtered
+You have a new message from the lottery office. Claim your winnings ASAP.,english,lottery_scam,kaggle_financial_scams_filtered
+Claim your prize money by paying a small processing fee at the link below,english,lottery_scam,kaggle_financial_scams_filtered
+Claim your tax refund by uploading your financial documents immediately.,english,phishing,kaggle_financial_scams_filtered
+Claim your exclusive membership rewards by clicking here. Limited time offer!,english,phishing,kaggle_financial_scams_filtered
+Urgent: Verify your identity to avoid account closure. Click this link now.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You have been selected for a free smartwatch. Reply YES.,english,phishing,kaggle_financial_scams_filtered
+Immediate action required! Suspicious login detected. Confirm your password.,english,phishing,kaggle_financial_scams_filtered
+Package delivered! Track it anytime using tracking number #12345.,english,not_scam,kaggle_financial_scams_filtered
+You won an exclusive holiday package. Contact us immediately to claim.,english,lottery_scam,kaggle_financial_scams_filtered
+Your online subscription has been renewed successfully,english,not_scam,kaggle_financial_scams_filtered
+Warning! Your account has been suspended due to suspicious activity.,english,phishing,kaggle_financial_scams_filtered
+Enjoy 20% discount on your next purchase. Use code SAVE20.,english,not_scam,kaggle_financial_scams_filtered
+Your loan application was approved. Submit documents to receive payment.,english,loan_scam,kaggle_financial_scams_filtered
+Alert! Unrecognized device logged in to your account. Verify immediately.,english,phishing,kaggle_financial_scams_filtered
+Your food delivery has arrived. Please collect it.,english,not_scam,kaggle_financial_scams_filtered
+Your appointment with Dr. Rahman has been confirmed for tomorrow.,english,not_scam,kaggle_financial_scams_filtered
+Urgent! Confirm your credit card details to avoid suspension.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You won a free trip. Reply YES to claim your prize.,english,lottery_scam,kaggle_financial_scams_filtered
+Your mobile data has been recharged with 2GB. Enjoy surfing.,english,not_scam,kaggle_financial_scams_filtered
+Warning: Suspicious transaction detected. Verify your identity immediately.,english,phishing,kaggle_financial_scams_filtered
+Your food order from FoodieApp is delivered. Enjoy your meal!,english,not_scam,kaggle_financial_scams_filtered
+Limited-time offer! Double your investment in 15 days. Call now.,english,phishing,kaggle_financial_scams_filtered
+You have successfully booked a taxi for 9 AM tomorrow.,english,not_scam,kaggle_financial_scams_filtered
+Your monthly gym subscription has been renewed. Thank you.,english,not_scam,kaggle_financial_scams_filtered
+Event reminder: Music concert tonight at 7 PM at City Arena.,english,not_scam,kaggle_financial_scams_filtered
+Your debit card has been temporarily blocked for security reasons.,english,phishing,kaggle_financial_scams_filtered
+Your parcel #XZ1234 is ready for pickup at the post office.,english,not_scam,kaggle_financial_scams_filtered
+Urgent: Your loan approval is pending. Submit documents to proceed.,english,loan_scam,kaggle_financial_scams_filtered
+Your cab driver will arrive in 5 minutes. Please be ready,english,not_scam,kaggle_financial_scams_filtered
+Thank you for registering for the webinar. We will email the link soon.,english,not_scam,kaggle_financial_scams_filtered
+Last chance: Claim your cashback by verifying your account details now.,english,lottery_scam,kaggle_financial_scams_filtered
+Alert: Suspicious account activity detected. Verify your info immediately.,english,not_scam,kaggle_financial_scams_filtered
+Congratulations! You are selected for a free smartphone giveaway. Reply YES.,english,lottery_scam,kaggle_financial_scams_filtered
+Urgent! Your login was from an unknown device. Confirm your identity now.,english,phishing,kaggle_financial_scams_filtered
+Your food delivery order has arrived. Enjoy your meal!,english,not_scam,kaggle_financial_scams_filtered
+Double your money with our new investment plan. Call us today,english,phishing,kaggle_financial_scams_filtered
+Urgent! Verify your bank details to prevent account suspension.,english,phishing,kaggle_financial_scams_filtered
+Your parcel #AB123 is out for delivery.,english,not_scam,kaggle_financial_scams_filtered
+"Immediate notice: Unauthorized transaction detected, act now!",english,phishing,kaggle_financial_scams_filtered
+You have won a free luxury watch. Reply to claim now.,english,lottery_scam,kaggle_financial_scams_filtered
+Reminder: Doctor’s appointment tomorrow at 10 AM,english,not_scam,kaggle_financial_scams_filtered
+"Alert! Suspicious login attempt detected, verify your account.",english,phishing,kaggle_financial_scams_filtered
+Your cab driver will arrive in 10 minutes.,english,not_scam,kaggle_financial_scams_filtered
+Your online subscription has been renewed. Thank you!,english,not_scam,kaggle_financial_scams_filtered
+You have a new message from the lottery office. Claim winnings.,english,not_scam,kaggle_financial_scams_filtered
+Your credit card has been temporarily blocked. Confirm details.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You are selected for exclusive cashback offer.,english,lottery_scam,kaggle_financial_scams_filtered
+Your order #5678 has been processed and shipped.,english,not_scam,kaggle_financial_scams_filtered
+You won a free vacation to the Bahamas! Reply YES to claim your prize.,english,lottery_scam,kaggle_financial_scams_filtered
+Your package #ZX12345 is out for delivery. Track it using our app.,english,not_scam,kaggle_financial_scams_filtered
+Reminder: Doctor appointment scheduled for tomorrow at 9:30 AM.,english,not_scam,kaggle_financial_scams_filtered
+Urgent: Your bank account has been locked due to suspicious activity. Verify now.,english,phishing,kaggle_financial_scams_filtered
+Your Uber ride has been confirmed for 3 PM today.,english,not_scam,kaggle_financial_scams_filtered
+Last chance to update your payment info or your subscription will be suspended.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You have been pre-approved for a loan. Apply now to get instant approval.,english,loan_scam,kaggle_financial_scams_filtered
+Your recent grocery order #78345 has been delivered. Enjoy your purchase!,english,not_scam,kaggle_financial_scams_filtered
+Your Netflix subscription has been renewed. Thank you for staying with us.,english,not_scam,kaggle_financial_scams_filtered
+Alert: Unrecognized login attempt detected on your email. Secure your account now.,english,phishing,kaggle_financial_scams_filtered
+Please verify your social security number to claim your government grant.,english,phishing,kaggle_financial_scams_filtered
+Your cab driver is on the way and will arrive in 5 minutes.,english,not_scam,kaggle_financial_scams_filtered
+Verify your Apple ID to prevent permanent lockout. Ignore if you did not request.,english,phishing,kaggle_financial_scams_filtered
+Let's meet at the cafe around 8 PM?,english,not_scam,kaggle_financial_scams_filtered
+Claim your cashback reward #10 now! Limited time offer.,english,lottery_scam,kaggle_financial_scams_filtered
+Congratulations! You won a free iPhone. Claim now at secure-link.com,english,lottery_scam,kaggle_financial_scams_filtered
+Don't forget to bring the documents for tomorrow's meeting,english,not_scam,kaggle_financial_scams_filtered
+Limited offer! Get 50% cashback on your next payment. Click here,english,lottery_scam,kaggle_financial_scams_filtered
+Can you send me your notes for today's class?,english,not_scam,kaggle_financial_scams_filtered
+Win ₹5000 instantly! Verify your account at rewardsite.com,english,phishing,kaggle_financial_scams_filtered
+Your parcel #YZ6789 will be delivered today. Track live through our app,english,not_scam,kaggle_financial_scams_filtered
+Reminder: Your flight booking to Dhaka is scheduled for tomorrow at 6 AM.,english,not_scam,kaggle_financial_scams_filtered
+Important: Your bank account is locked due to suspicious activity. Verify your identity now.,english,phishing,kaggle_financial_scams_filtered
+Your hotel booking confirmation #12345 for 3 nights in London.,english,not_scam,kaggle_financial_scams_filtered
+Final notice: Update your billing info or your mobile service will be suspended.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You’re pre-qualified for a credit card with a $5000 limit. Apply now.,english,phishing,kaggle_financial_scams_filtered
+Your online shopping order #78654 is confirmed and will be delivered soon.,english,not_scam,kaggle_financial_scams_filtered
+Your subscription to Sports Daily renewed successfully. Enjoy your exclusive content!,english,not_scam,kaggle_financial_scams_filtered
+Alert: Suspicious login attempt on your email account. Secure it immediately.,english,phishing,kaggle_financial_scams_filtered
+"Your taxi will arrive in 7 minutes. Driver: Saiful, Car: Blue Toyota.",english,not_scam,kaggle_financial_scams_filtered
+Your Apple ID has been temporarily disabled. Verify now to avoid permanent lockout,english,phishing,kaggle_financial_scams_filtered
+You’ve won a free entry to the VIP concert! Reply YES to claim your tickets.,english,lottery_scam,kaggle_financial_scams_filtered
+Your parcel #A7821 was successfully delivered. Thank you for shopping with us.,english,not_scam,kaggle_financial_scams_filtered
+Warning: Multiple failed login attempts on your social media account. Check activity now.,english,phishing,kaggle_financial_scams_filtered
+Your flight to Chittagong is on schedule for 10 AM tomorrow. Have a safe trip!,english,not_scam,kaggle_financial_scams_filtered
+Confirm your bank details now to avoid loan application cancellation.,english,loan_scam,kaggle_financial_scams_filtered
+Congratulations! You have been selected to get an exclusive reward! Your name came up for a YETI War Survival Kit. This special gift is from Tractor Supply. Hurry up! Your Reward is Ready,english,phishing,kaggle_financial_scams_filtered
+Enjoy Annual Fee Waiver on Your Medical Quota Debit Card for Safe and Convenient Payment Abroad!,english,phishing,kaggle_financial_scams_filtered
+Your cloud storage is full. Please take action to free up space. Cloud Storage – Storage Limit Reached Your storage reached 100%,english,phishing,kaggle_financial_scams_filtered
+ANSWER FOR FREE!You have been chosen to participate in our Loyalty Program for FREE! It will take you only a minute to receive this fantastic prize.,english,lottery_scam,kaggle_financial_scams_filtered
+Get a free Amazon voucher by completing this survey now.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! Your subscription is upgraded. Click to confirm,english,phishing,kaggle_financial_scams_filtered
+Alert: Suspicious activity detected in your PayPal account. Verify now,english,phishing,kaggle_financial_scams_filtered
+Do you want to join the study group this evening?,english,not_scam,kaggle_financial_scams_filtered
+Bank Alert: Your account will be locked due to pending verification.,english,phishing,kaggle_financial_scams_filtered
+Earn $100 per day from home with this financial program. Apply now!,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You have been selected for a $5000 government loan with 0% interest. Apply now!,english,loan_scam,kaggle_financial_scams_filtered
+Get 200% return by investing just $100 in our crypto program. Limited seats!,english,phishing,kaggle_financial_scams_filtered
+Claim your free cashback of $250 today by entering your card details,english,lottery_scam,kaggle_financial_scams_filtered
+Last chance! Clear your loan dues now to avoid legal action,english,loan_scam,kaggle_financial_scams_filtered
+Win a brand new iPhone 15 by paying just $5 registration fee!,english,phishing,kaggle_financial_scams_filtered
+Your credit card has been temporarily blocked. Reactivate by verifying your PIN.,english,phishing,kaggle_financial_scams_filtered
+Client sent the 40% advance today. Check the bank statement,english,not_scam,kaggle_financial_scams_filtered
+Earn $300 per day without investment. Just forward messages!,english,phishing,kaggle_financial_scams_filtered
+Can you share the bank details for transferring the rent money?,english,not_scam,kaggle_financial_scams_filtered
+"Your bank flagged a transaction of $1,250. Verify at securebank-verify.com within 24 hours to avoid suspension",english,phishing,kaggle_financial_scams_filtered
+"Congratulations, you have been pre-approved for an instant $5,000 loan. Apply here to receive funds within 24 hours",english,loan_scam,kaggle_financial_scams_filtered
+Alert: Unusual login detected on your PayPal. Confirm identity to prevent account hold,english,phishing,kaggle_financial_scams_filtered
+Limited offer: Get 15% cashback on utility bill payments. Submit card details to claim reward,english,lottery_scam,kaggle_financial_scams_filtered
+Immediate action required: Confirm your bank OTP to stop a pending fraudulent transfer,english,phishing,kaggle_financial_scams_filtered
+"You are shortlisted for a high-return investment program. Invest $200 to get $2,000 monthly returns. Limited seats",english,phishing,kaggle_financial_scams_filtered
+Final notice: Overdue loan amount of $850 must be cleared or legal action will follow. Click to resolve,english,loan_scam,kaggle_financial_scams_filtered
+Reward claim: Your tax refund of $420 is pending. Submit bank details to process immediately,english,phishing,kaggle_financial_scams_filtered
+Urgent verification requested: Reactivate your debit card by confirming 4-digit PIN at banklink.verify,english,phishing,kaggle_financial_scams_filtered
+"I sent the freelance payment of $150 via Payoneer. Check and confirm receipt, please",english,not_scam,kaggle_financial_scams_filtered
+"Exclusive: Instant credit limit increase to $3,000 available. Click link to accept the offer now",english,phishing,kaggle_financial_scams_filtered
+Claim your cashback reward of $300 now. Complete the form to receive instant transfer,english,lottery_scam,kaggle_financial_scams_filtered
+Your credit score has been upgraded. Unlock premium loan access with zero documentation,english,loan_scam,kaggle_financial_scams_filtered
+Sent the advance payment of $200 via Wise. Check your email for confirmation,english,not_scam,kaggle_financial_scams_filtered
+PayPal alert: Unverified login attempt blocked. Recover account before suspension,english,phishing,kaggle_financial_scams_filtered
+Government relief fund available for selected citizens. Register to receive $500 instantly,english,phishing,kaggle_financial_scams_filtered
+Your insurance refund request is approved. Submit billing address to release payment,english,phishing,kaggle_financial_scams_filtered
+"Crypto investment deal: Deposit $100 and earn $1,000 monthly return guaranteed",english,phishing,kaggle_financial_scams_filtered
+Salary allowance of $120 added separately. Check your payroll slip,english,not_scam,kaggle_financial_scams_filtered
+Your subscription payment failed. Update card details to avoid service halt,english,phishing,kaggle_financial_scams_filtered
+Settled the vendor payment through bank draft just now. Awaiting your acknowledgment,english,not_scam,kaggle_financial_scams_filtered
+Limited stock: Get gold savings account with 5x bonus interest. Activate through special code,english,phishing,kaggle_financial_scams_filtered
+Immediate action required to prevent permanent block on your debit card. Confirm identity at verify-mybank.net,english,phishing,kaggle_financial_scams_filtered
+"Exclusive loan offer of $10,000 with no credit check. Apply before midnight",english,loan_scam,kaggle_financial_scams_filtered
+Final reminder: Your pending tax fee of $260 must be cleared to avoid penalty,english,phishing,kaggle_financial_scams_filtered
+"Congratulations, your wallet has been credited with $700 bonus. Activate reward using secure link",english,upi_scam,kaggle_financial_scams_filtered
+Suspicious payment attempt detected on your MasterCard. Validate transaction immediately,english,phishing,kaggle_financial_scams_filtered
+Your reward of $950 is waiting for withdrawal. Submit bank details to receive instantly,english,phishing,kaggle_financial_scams_filtered
+Urgent notification: Loan recovery team assigned to your case. Clear dues to avoid legal visit,english,loan_scam,kaggle_financial_scams_filtered
+"Increase your credit limit to $5,000 instantly without documentation. Click to activate",english,phishing,kaggle_financial_scams_filtered
+Your insurance refund of $350 is ready. Complete verification before it expires,english,phishing,kaggle_financial_scams_filtered
+I paid the hotel booking charge via Visa. Check the confirmation email,english,not_scam,kaggle_financial_scams_filtered
+Security alert: Multiple failed login attempts on your wallet. Restore access now,english,upi_scam,kaggle_financial_scams_filtered
+Final warning: Your credit card account will be frozen within 24 hours. Verify now at securebankportal.com,english,phishing,kaggle_financial_scams_filtered
+"Congratulations! You are selected for a $2,000 investment bonus. Submit details to claim",english,phishing,kaggle_financial_scams_filtered
+Your PayPal account is under review due to suspicious activity. Confirm identity immediately,english,phishing,kaggle_financial_scams_filtered
+Exclusive: Unlock a high-yield savings account with 5% bonus interest. Apply now,english,phishing,kaggle_financial_scams_filtered
+Alert: Unauthorized loan application detected in your name. Verify or report now,english,loan_scam,kaggle_financial_scams_filtered
+Urgent: Your bank account has been flagged for multiple failed login attempts. Verify now to avoid freeze,english,phishing,kaggle_financial_scams_filtered
+"Limited offer: Apply for an instant $1,500 payday loan without credit check",english,loan_scam,kaggle_financial_scams_filtered
+"Your lottery reward of $1,200 is pending. Submit bank details to claim before deadline",english,lottery_scam,kaggle_financial_scams_filtered
+Security alert: Your debit card shows suspicious activity. Confirm transaction immediately,english,phishing,kaggle_financial_scams_filtered
+"Exclusive crypto investment opportunity: Deposit $200 to earn $1,500 monthly. Limited seats",english,phishing,kaggle_financial_scams_filtered
+Congratulations! You have won a prize. Send OTP to claim your reward.,english,lottery_scam,kaggle_financial_scams_filtered
+"Urgent! Your account will be suspended, verify now by sending OTP.",english,phishing,kaggle_financial_scams_filtered
+Your loan approved! Send your personal details to receive funds.,english,loan_scam,kaggle_financial_scams_filtered
+Monthly subscription payment received. Thank you for your service usage.,english,not_scam,kaggle_financial_scams_filtered
+"Warning! Suspicious login detected, confirm your identity with OTP.",english,phishing,kaggle_financial_scams_filtered
+Account locked! Provide OTP now to unlock your account.,english,phishing,kaggle_financial_scams_filtered
+Urgent! Update your bank details to continue service.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You are selected for a free gift. Send OTP to claim.,english,phishing,kaggle_financial_scams_filtered
+Urgent action required! Verify your account with OTP within 10 minutes.,english,phishing,kaggle_financial_scams_filtered
+Your debit card is blocked for suspicious activity. Call now to unblock.,english,phishing,kaggle_financial_scams_filtered
+New mobile plan launched. Contact customer care for details.,english,not_scam,kaggle_financial_scams_filtered
+OTP verification failed. Please try again.,english,not_scam,kaggle_financial_scams_filtered
+Warning! Unauthorized access attempt detected. Verify with OTP now.,english,phishing,kaggle_financial_scams_filtered
+Your subscription has been renewed successfully.	,english,not_scam,kaggle_financial_scams_filtered
+Your debit card has been temporarily blocked due to suspicious activity.,english,phishing,kaggle_financial_scams_filtered
+Your subscription has been renewed successfully. Thank you.,english,not_scam,kaggle_financial_scams_filtered
+Update your bank details now to avoid service disruption.,english,phishing,kaggle_financial_scams_filtered
+"Dear user, update your payment info to avoid account suspension. Click the link now.",english,phishing,kaggle_financial_scams_filtered
+Your package delivery is scheduled for tomorrow. Track here: tracking-link.com,english,not_scam,kaggle_financial_scams_filtered
+Urgent: Verify your email by clicking the verification link within 24 hours.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You are selected for a free iPhone. Claim by replying with your address.,english,phishing,kaggle_financial_scams_filtered
+"Team meeting is rescheduled to 3 PM, please confirm your availability.",english,not_scam,kaggle_financial_scams_filtered
+Win big with our new lottery. Reply WIN to participate.,english,lottery_scam,kaggle_financial_scams_filtered
+A new login to your account was detected from an unknown device. Secure your login now.,english,not_scam,kaggle_financial_scams_filtered
+Thank you for your recent purchase. Your order #12345 will arrive soon.,english,not_scam,kaggle_financial_scams_filtered
+Update your password immediately to safeguard your account.,english,phishing,kaggle_financial_scams_filtered
+Limited time offer: Upgrade your plan now and save 30%.,english,phishing,kaggle_financial_scams_filtered
+Your bank statement is ready. Download your PDF here.,english,not_scam,kaggle_financial_scams_filtered
+New message from support team. Check your inbox for details.,english,not_scam,kaggle_financial_scams_filtered
+Friend request from Raisa Moni.,english,not_scam,kaggle_financial_scams_filtered
+	Your insurance claim has been approved. Contact us for details.,english,not_scam,kaggle_financial_scams_filtered
+Your software update is ready to install. Proceed now.,english,not_scam,kaggle_financial_scams_filtered
+Verify your email address by clicking this link.,english,phishing,kaggle_financial_scams_filtered
+Your subscription will expire tomorrow. Renew to continue service.,english,not_scam,kaggle_financial_scams_filtered
+Friend request from Rafi Ahmed. Accept to connect.,english,not_scam,kaggle_financial_scams_filtered

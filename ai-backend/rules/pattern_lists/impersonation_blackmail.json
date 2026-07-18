@@ -1,0 +1,24 @@
+{
+  "category": "impersonation_blackmail",
+  "description": "Fake claims that your number/photos are linked to obscene content, morphed photos, or FIRs, used to pressure victims out of fear/shame — often paired with digital-arrest tactics.",
+  "patterns": {
+    "english": [
+      "morphed photos",
+      "obscene content",
+      "pornographic material",
+      "fir has been filed",
+      "your whatsapp is being used to send"
+    ],
+    "hindi": [
+      "मॉर्फ्ड तस्वीरें",
+      "अश्लील सामग्री",
+      "एफआईआर हो चुकी है",
+      "अश्लील संदेश"
+    ],
+    "gujarati": [
+      "મોર્ફ્ડ તસવીરો",
+      "અશ્લીલ સામગ્રી",
+      "એફઆઈઆર થઈ ચૂકી છે"
+    ]
+  }
+}

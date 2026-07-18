@@ -1,0 +1,34 @@
+{
+  "category": "impersonation_digital_arrest",
+  "description": "Fake police/CBI/Cyber Crime Department calls threatening arrest, legal action, or claiming your Aadhaar/SIM/account is linked to a crime — the 'digital arrest' scam. Currently very active in India.",
+  "patterns": {
+    "english": [
+      "digital arrest",
+      "cyber crime department",
+      "legal action against you",
+      "criminal complaint",
+      "money laundering case",
+      "your aadhaar is linked to",
+      "cbi",
+      "national cyber cell",
+      "investigation officer"
+    ],
+    "hindi": [
+      "डिजिटल अरेस्ट",
+      "साइबर क्राइम डिपार्टमेंट",
+      "आपके खिलाफ कानूनी कार्रवाई",
+      "आपराधिक शिकायत",
+      "मनी लॉन्ड्रिंग",
+      "जांच अधिकारी",
+      "सीबीआई",
+      "क्राइम ब्रांच"
+    ],
+    "gujarati": [
+      "ડિજિટલ અરેસ્ટ",
+      "સાયબર ક્રાઈમ ડિપાર્ટમેન્ટ",
+      "તમારી વિરુદ્ધ કાનૂની કાર્યવાહી",
+      "ફોજદારી ફરિયાદ",
+      "તપાસ અધિકારી"
+    ]
+  }
+}

@@ -20,6 +20,8 @@ class ScamCategory(str, Enum):
     LOTTERY_SCAM = "lottery_scam"
     UPI_SCAM = "upi_scam"
     PHISHING = "phishing"
+    IMPERSONATION_DIGITAL_ARREST = "impersonation_digital_arrest"  # added: fake police/CBI/cyber-cell calls
+    IMPERSONATION_BLACKMAIL = "impersonation_blackmail"  # added: fake obscene-content/morphed-photo threats
     NOT_SCAM = "not_scam"
     UNKNOWN = "unknown"  # low-confidence / couldn't classify
 

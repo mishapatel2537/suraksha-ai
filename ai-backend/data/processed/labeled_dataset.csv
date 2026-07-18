@@ -1,0 +1,1236 @@
+text,language,category,source
+"Dear customer, your KYC has expired. Update immediately at bit.ly/kyc-update123 or account will be blocked in 24 hours.",english,kyc_scam,claude_synthetic
+URGENT: Your bank account will be suspended today. Click here to complete KYC verification: kyc-verify.net/update,english,kyc_scam,claude_synthetic
+Your Aadhaar-linked KYC is pending. Complete now to avoid deactivation: click http://kyc-bank-portal.com,english,kyc_scam,claude_synthetic
+Alert: Incomplete KYC detected on your account. Verify within 2 hours or lose access. Link: verify-now.co/kyc,english,kyc_scam,claude_synthetic
+Bank Notice: KYC document mismatch found. Re-upload PAN and Aadhaar at this link to keep your account active.,english,kyc_scam,claude_synthetic
+Your SBI account KYC is not updated. Failure to update in 6 hrs will lead to account freeze. Update: sbi-kyc-online.in,english,kyc_scam,claude_synthetic
+"Congratulations, your KYC is 90% complete. Enter your card number and OTP to finish verification and unlock full access.",english,kyc_scam,claude_synthetic
+RBI mandate: All bank accounts must complete e-KYC by tomorrow. Tap the link and enter your debit card PIN to confirm.,english,kyc_scam,claude_synthetic
+Your mobile banking will stop working from tomorrow due to pending KYC. Call this number and share your OTP to fix it now.,english,kyc_scam,claude_synthetic
+Final Reminder: KYC not updated. Your account number ending 4521 will be permanently blocked unless verified today.,english,kyc_scam,claude_synthetic
+"This is Rakesh from your bank's KYC department. Sir your video KYC failed, please share the OTP sent to your phone to redo it.",english,kyc_scam,claude_synthetic
+IMPORTANT: Your PAN card is not linked to your bank KYC. Link now within 12 hours: pan-kyc-link.com/verify,english,kyc_scam,claude_synthetic
+"Sir/Madam, our records show your KYC as invalid. Kindly download AnyDesk app and let our executive assist you with re-verification.",english,kyc_scam,claude_synthetic
+Your bank account is under review due to expired KYC. Send a scanned copy of your Aadhaar and OTP to this WhatsApp number to resolve.,english,kyc_scam,claude_synthetic
+Notice from Bank Compliance Team: KYC re-verification pending since 3 months. Non-compliance may lead to account closure per RBI rules.,english,kyc_scam,claude_synthetic
+"Dear valued customer, we noticed your e-KYC is outdated. Complete biometric verification today at the link to avoid service disruption.",english,kyc_scam,claude_synthetic
+Your account KYC status: FAILED. Please call our helpline immediately and provide your debit card details to reactivate.,english,kyc_scam,claude_synthetic
+Kotak/HDFC/ICICI Alert: Your KYC form submitted has errors. Click to resubmit with your net banking password for quick approval.,english,kyc_scam,claude_synthetic
+We tried to update your KYC but your OTP verification failed twice. One more attempt and account gets locked — verify here now.,english,kyc_scam,claude_synthetic
+Government of India KYC Compliance: All account holders must re-verify by month end. Non-verified accounts will be frozen as per new policy.,english,kyc_scam,claude_synthetic
+Your Post Office savings account KYC needs urgent update. Share your account number and registered mobile OTP to our agent to proceed.,english,kyc_scam,claude_synthetic
+eKYC pending: Complete your video call verification today between 10am-6pm by clicking the appointment link and sharing your card CVV.,english,kyc_scam,claude_synthetic
+Your bank has flagged your account for KYC non-compliance. A fine of Rs 500/day applies from tomorrow unless resolved via this portal.,english,kyc_scam,claude_synthetic
+"Dear customer, due to a system update, all customers must re-enter KYC details including ATM PIN at our secure portal within 24 hrs.",english,kyc_scam,claude_synthetic
+This is a reminder that your KYC document (uploaded 2019) has expired as per new RBI norms. Renew today to avoid account suspension.,english,kyc_scam,claude_synthetic
+Your linked mobile number needs KYC re-verification for UPI services. Click the link and confirm your UPI PIN to continue using GPay/PhonePe.,english,kyc_scam,claude_synthetic
+"Bank Security Alert: unusual login detected. To secure your account, complete KYC re-authentication by sharing the OTP you just received.",english,kyc_scam,claude_synthetic
+"आपका डेबिट कार्ड will be blocked without KYC update. Please visit the link and enter your card number, expiry and CVV to avoid blockage.",english,kyc_scam,claude_synthetic
+"Dear Sir, your Jan Dhan account KYC is incomplete. Government subsidy will stop unless updated. Reply with your Aadhaar number now.",english,kyc_scam,claude_synthetic
+Your bank locker KYC also needs renewal along with account KYC. Complete both together at this link using your net banking login.,english,kyc_scam,claude_synthetic
+"प्रिय ग्राहक, आपका केवाईसी समाप्त हो गया है। तुरंत अपडेट करें अन्यथा 24 घंटे में खाता ब्लॉक हो जाएगा।",hindi,kyc_scam,claude_synthetic
+जरूरी सूचना: आपका बैंक खाता आज बंद हो जाएगा। केवाईसी पूरा करने के लिए इस लिंक पर क्लिक करें।,hindi,kyc_scam,claude_synthetic
+आपका आधार से जुड़ा केवाईसी लंबित है। खाता निष्क्रिय होने से बचने के लिए अभी पूरा करें।,hindi,kyc_scam,claude_synthetic
+चेतावनी: आपके खाते में अधूरा केवाईसी पाया गया। 2 घंटे में सत्यापित करें अन्यथा पहुंच खो देंगे।,hindi,kyc_scam,claude_synthetic
+बैंक सूचना: केवाईसी दस्तावेज़ मेल नहीं खाते। खाता सक्रिय रखने के लिए पैन और आधार फिर से अपलोड करें।,hindi,kyc_scam,claude_synthetic
+आपके खाते का केवाईसी अपडेट नहीं है। 6 घंटे में अपडेट न करने पर खाता फ्रीज हो जाएगा।,hindi,kyc_scam,claude_synthetic
+आपका केवाईसी 90% पूरा है। सत्यापन पूरा करने के लिए अपना कार्ड नंबर और ओटीपी दर्ज करें।,hindi,kyc_scam,claude_synthetic
+आरबीआई निर्देश: सभी बैंक खातों का ई-केवाईसी कल तक पूरा होना चाहिए। लिंक पर टैप करें और अपना डेबिट कार्ड पिन दर्ज करें।,hindi,kyc_scam,claude_synthetic
+केवाईसी लंबित होने के कारण कल से मोबाइल बैंकिंग बंद हो जाएगी। इस नंबर पर कॉल करें और ओटीपी साझा करें।,hindi,kyc_scam,claude_synthetic
+अंतिम चेतावनी: केवाईसी अपडेट नहीं हुआ। आज सत्यापित न करने पर आपका खाता स्थायी रूप से ब्लॉक हो जाएगा।,hindi,kyc_scam,claude_synthetic
+"मैं आपके बैंक के केवाईसी विभाग से राकेश बोल रहा हूं। सर आपका वीडियो केवाईसी फेल हो गया, कृपया फोन पर आया ओटीपी बताएं।",hindi,kyc_scam,claude_synthetic
+महत्वपूर्ण: आपका पैन कार्ड बैंक केवाईसी से लिंक नहीं है। 12 घंटे के अंदर लिंक करें: pan-kyc-link.com,hindi,kyc_scam,claude_synthetic
+"श्रीमान/श्रीमती, हमारे रिकॉर्ड में आपका केवाईसी अमान्य दिख रहा है। कृपया AnyDesk ऐप डाउनलोड करें, हमारा एजेंट मदद करेगा।",hindi,kyc_scam,claude_synthetic
+एक्सपायर्ड केवाईसी के कारण आपका खाता समीक्षा में है। आधार की स्कैन कॉपी और ओटीपी इस व्हाट्सएप नंबर पर भेजें।,hindi,kyc_scam,claude_synthetic
+बैंक अनुपालन टीम की सूचना: केवाईसी पुनर्सत्यापन 3 महीने से लंबित है। आरबीआई नियमों के अनुसार खाता बंद हो सकता है।,hindi,kyc_scam,claude_synthetic
+"प्रिय ग्राहक, आपका ई-केवाईसी पुराना हो गया है। सेवा बाधित होने से बचने के लिए आज ही बायोमेट्रिक सत्यापन पूरा करें।",hindi,kyc_scam,claude_synthetic
+आपके खाते की केवाईसी स्थिति: असफल। कृपया तुरंत हमारी हेल्पलाइन पर कॉल करें और अपने डेबिट कार्ड की जानकारी दें।,hindi,kyc_scam,claude_synthetic
+अलर्ट: आपके जमा किए केवाईसी फॉर्म में त्रुटियां हैं। जल्दी अनुमोदन के लिए अपना नेट बैंकिंग पासवर्ड देकर पुनः जमा करें।,hindi,kyc_scam,claude_synthetic
+"हमने आपका केवाईसी अपडेट करने की कोशिश की लेकिन ओटीपी सत्यापन दो बार असफल रहा। एक और मौका है, अभी सत्यापित करें।",hindi,kyc_scam,claude_synthetic
+भारत सरकार केवाईसी अनुपालन: सभी खाताधारकों को महीने के अंत तक पुनः सत्यापन करना होगा। नई नीति के अनुसार असत्यापित खाते फ्रीज होंगे।,hindi,kyc_scam,claude_synthetic
+आपके डाकघर बचत खाते के केवाईसी को तुरंत अपडेट करने की आवश्यकता है। अपना खाता नंबर और पंजीकृत मोबाइल ओटीपी हमारे एजेंट को बताएं।,hindi,kyc_scam,claude_synthetic
+"ई-केवाईसी लंबित: आज सुबह 10 से शाम 6 बजे के बीच वीडियो कॉल सत्यापन पूरा करें, अपॉइंटमेंट लिंक पर क्लिक करके अपना कार्ड सीवीवी बताएं।",hindi,kyc_scam,claude_synthetic
+आपके बैंक ने केवाईसी अनुपालन न करने पर आपके खाते को चिन्हित किया है। कल से प्रतिदिन 500 रुपये जुर्माना लगेगा जब तक इस पोर्टल से हल न हो।,hindi,kyc_scam,claude_synthetic
+"प्रिय ग्राहक, सिस्टम अपडेट के कारण सभी ग्राहकों को हमारे सुरक्षित पोर्टल पर एटीएम पिन सहित केवाईसी विवरण 24 घंटे में फिर से दर्ज करना होगा।",hindi,kyc_scam,claude_synthetic
+यह एक अनुस्मारक है कि आपका केवाईसी दस्तावेज़ (2019 में अपलोड किया गया) नए आरबीआई मानदंडों के अनुसार समाप्त हो गया है। आज ही नवीनीकृत करें।,hindi,kyc_scam,claude_synthetic
+यूपीआई सेवाओं के लिए आपके लिंक किए गए मोबाइल नंबर को केवाईसी पुनः सत्यापन की आवश्यकता है। लिंक पर क्लिक करें और अपना यूपीआई पिन बताएं।,hindi,kyc_scam,claude_synthetic
+"बैंक सुरक्षा अलर्ट: असामान्य लॉगिन का पता चला। अपने खाते को सुरक्षित करने के लिए, अभी प्राप्त ओटीपी साझा करके केवाईसी पुनः प्रमाणीकरण पूरा करें।",hindi,kyc_scam,claude_synthetic
+"आपका डेबिट कार्ड केवाईसी अपडेट के बिना ब्लॉक हो जाएगा। कृपया लिंक पर जाएं और अपना कार्ड नंबर, समाप्ति तिथि और सीवीवी दर्ज करें।",hindi,kyc_scam,claude_synthetic
+"श्रीमान, आपके जन धन खाते का केवाईसी अधूरा है। अपडेट न होने पर सरकारी सब्सिडी बंद हो जाएगी। अभी अपना आधार नंबर भेजें।",hindi,kyc_scam,claude_synthetic
+आपके बैंक लॉकर के केवाईसी को भी खाता केवाईसी के साथ नवीनीकृत करने की आवश्यकता है। इस लिंक पर अपने नेट बैंकिंग लॉगिन से दोनों पूरा करें।,hindi,kyc_scam,claude_synthetic
+"પ્રિય ગ્રાહક, તમારું કેવાયસી સમાપ્ત થઈ ગયું છે. તાત્કાલિક અપડેટ કરો નહીં તો 24 કલાકમાં ખાતું બ્લોક થઈ જશે.",gujarati,kyc_scam,claude_synthetic
+તાત્કાલિક સૂચના: તમારું બેંક ખાતું આજે બંધ થઈ જશે. કેવાયસી પૂર્ણ કરવા માટે આ લિંક પર ક્લિક કરો.,gujarati,kyc_scam,claude_synthetic
+તમારું આધાર સાથે જોડાયેલ કેવાયસી બાકી છે. ખાતું નિષ્ક્રિય થતું અટકાવવા હમણાં જ પૂર્ણ કરો.,gujarati,kyc_scam,claude_synthetic
+ચેતવણી: તમારા ખાતામાં અધૂરું કેવાયસી મળ્યું છે. 2 કલાકમાં ચકાસો નહીં તો પ્રવેશ ગુમાવશો.,gujarati,kyc_scam,claude_synthetic
+બેંક સૂચના: કેવાયસી દસ્તાવેજો મેળ ખાતા નથી. ખાતું સક્રિય રાખવા પાન અને આધાર ફરીથી અપલોડ કરો.,gujarati,kyc_scam,claude_synthetic
+તમારા ખાતાનું કેવાયસી અપડેટ નથી. 6 કલાકમાં અપડેટ ન કરવાથી ખાતું ફ્રીઝ થઈ જશે.,gujarati,kyc_scam,claude_synthetic
+તમારું કેવાયસી 90% પૂર્ણ છે. ચકાસણી પૂર્ણ કરવા તમારો કાર્ડ નંબર અને ઓટીપી દાખલ કરો.,gujarati,kyc_scam,claude_synthetic
+આરબીઆઈ સૂચના: તમામ બેંક ખાતાઓનું ઈ-કેવાયસી કાલ સુધીમાં પૂર્ણ થવું જોઈએ. લિંક પર ટેપ કરો અને તમારો ડેબિટ કાર્ડ પિન દાખલ કરો.,gujarati,kyc_scam,claude_synthetic
+કેવાયસી બાકી હોવાથી કાલથી મોબાઇલ બેંકિંગ બંધ થઈ જશે. આ નંબર પર કૉલ કરો અને ઓટીપી શેર કરો.,gujarati,kyc_scam,claude_synthetic
+અંતિમ ચેતવણી: કેવાયસી અપડેટ થયું નથી. આજે ચકાસણી ન કરવાથી તમારું ખાતું કાયમ માટે બ્લોક થઈ જશે.,gujarati,kyc_scam,claude_synthetic
+"હું તમારી બેંકના કેવાયસી વિભાગમાંથી રાકેશ બોલું છું. સર તમારું વિડિયો કેવાયસી નિષ્ફળ ગયું, કૃપા કરી ફોન પર આવેલ ઓટીપી જણાવો.",gujarati,kyc_scam,claude_synthetic
+મહત્વપૂર્ણ: તમારું પાન કાર્ડ બેંક કેવાયસી સાથે લિંક નથી. 12 કલાકમાં લિંક કરો.,gujarati,kyc_scam,claude_synthetic
+"સર/મેડમ, અમારા રેકોર્ડમાં તમારું કેવાયસી અમાન્ય દેખાય છે. કૃપા કરી AnyDesk એપ ડાઉનલોડ કરો, અમારો એજન્ટ મદદ કરશે.",gujarati,kyc_scam,claude_synthetic
+સમાપ્ત થયેલ કેવાયસીના કારણે તમારું ખાતું સમીક્ષા હેઠળ છે. આધારની સ્કેન કોપી અને ઓટીપી આ વોટ્સએપ નંબર પર મોકલો.,gujarati,kyc_scam,claude_synthetic
+બેંક અનુપાલન ટીમની સૂચના: કેવાયસી પુનઃચકાસણી 3 મહિનાથી બાકી છે. આરબીઆઈ નિયમો મુજબ ખાતું બંધ થઈ શકે છે.,gujarati,kyc_scam,claude_synthetic
+"પ્રિય ગ્રાહક, તમારું ઈ-કેવાયસી જૂનું થઈ ગયું છે. સેવામાં વિક્ષેપ ટાળવા આજે જ બાયોમેટ્રિક ચકાસણી પૂર્ણ કરો.",gujarati,kyc_scam,claude_synthetic
+તમારા ખાતાની કેવાયસી સ્થિતિ: નિષ્ફળ. કૃપા કરી તાત્કાલિક અમારી હેલ્પલાઇન પર કૉલ કરો અને તમારા ડેબિટ કાર્ડની વિગતો આપો.,gujarati,kyc_scam,claude_synthetic
+એલર્ટ: તમે સબમિટ કરેલા કેવાયસી ફોર્મમાં ભૂલો છે. ઝડપી મંજૂરી માટે તમારો નેટ બેંકિંગ પાસવર્ડ આપીને ફરીથી સબમિટ કરો.,gujarati,kyc_scam,claude_synthetic
+"અમે તમારું કેવાયસી અપડેટ કરવાનો પ્રયાસ કર્યો પણ ઓટીપી ચકાસણી બે વાર નિષ્ફળ રહી. એક વધુ તક છે, હમણાં ચકાસો.",gujarati,kyc_scam,claude_synthetic
+ભારત સરકાર કેવાયસી અનુપાલન: તમામ ખાતાધારકોએ મહિનાના અંત સુધીમાં પુનઃચકાસણી કરવી પડશે. નવી નીતિ મુજબ અચકાસાયેલ ખાતાઓ ફ્રીઝ થશે.,gujarati,kyc_scam,claude_synthetic
+તમારા પોસ્ટ ઓફિસ બચત ખાતાના કેવાયસીને તાત્કાલિક અપડેટ કરવાની જરૂર છે. તમારો ખાતા નંબર અને નોંધાયેલ મોબાઇલ ઓટીપી અમારા એજન્ટને જણાવો.,gujarati,kyc_scam,claude_synthetic
+"ઈ-કેવાયસી બાકી: આજે સવારે 10 થી સાંજે 6 વચ્ચે વિડિયો કૉલ ચકાસણી પૂર્ણ કરો, એપોઇન્ટમેન્ટ લિંક પર ક્લિક કરીને તમારો કાર્ડ સીવીવી જણાવો.",gujarati,kyc_scam,claude_synthetic
+તમારી બેંકે કેવાયસી અનુપાલન ન કરવા બદલ તમારા ખાતાને ચિહ્નિત કર્યું છે. કાલથી દરરોજ 500 રૂપિયા દંડ લાગશે જ્યાં સુધી આ પોર્ટલથી ઉકેલાય નહીં.,gujarati,kyc_scam,claude_synthetic
+"પ્રિય ગ્રાહક, સિસ્ટમ અપડેટના કારણે તમામ ગ્રાહકોએ અમારા સુરક્ષિત પોર્ટલ પર એટીએમ પિન સહિત કેવાયસી વિગતો 24 કલાકમાં ફરીથી દાખલ કરવી પડશે.",gujarati,kyc_scam,claude_synthetic
+આ યાદ અપાવવાનું છે કે તમારો કેવાયસી દસ્તાવેજ (2019માં અપલોડ કરેલ) નવા આરબીઆઈ ધોરણો મુજબ સમાપ્ત થઈ ગયો છે. આજે જ નવીકરણ કરો.,gujarati,kyc_scam,claude_synthetic
+યુપીઆઈ સેવાઓ માટે તમારા લિંક કરેલા મોબાઇલ નંબરને કેવાયસી પુનઃચકાસણીની જરૂર છે. લિંક પર ક્લિક કરો અને તમારો યુપીઆઈ પિન જણાવો.,gujarati,kyc_scam,claude_synthetic
+"બેંક સુરક્ષા એલર્ટ: અસામાન્ય લોગિન મળ્યું. તમારું ખાતું સુરક્ષિત રાખવા, હમણાં મળેલ ઓટીપી શેર કરીને કેવાયસી પુનઃપ્રમાણીકરણ પૂર્ણ કરો.",gujarati,kyc_scam,claude_synthetic
+"તમારું ડેબિટ કાર્ડ કેવાયસી અપડેટ વગર બ્લોક થઈ જશે. કૃપા કરી લિંક પર જાઓ અને તમારો કાર્ડ નંબર, સમાપ્તિ તારીખ અને સીવીવી દાખલ કરો.",gujarati,kyc_scam,claude_synthetic
+"સર, તમારા જન ધન ખાતાનું કેવાયસી અધૂરું છે. અપડેટ ન થવાથી સરકારી સબસિડી બંધ થઈ જશે. હમણાં જ તમારો આધાર નંબર મોકલો.",gujarati,kyc_scam,claude_synthetic
+તમારા બેંક લોકરના કેવાયસીને પણ ખાતા કેવાયસી સાથે નવીકરણ કરવાની જરૂર છે. આ લિંક પર તમારા નેટ બેંકિંગ લોગિનથી બંને પૂર્ણ કરો.,gujarati,kyc_scam,claude_synthetic
+"Hi, are we still meeting for lunch tomorrow at 1pm?",english,not_scam,claude_synthetic
+Your electricity bill of Rs. 1240 is due on the 25th. Pay via the app or at the counter.,english,not_scam,claude_synthetic
+Reminder: your doctor's appointment is scheduled for Friday at 10am.,english,not_scam,claude_synthetic
+Thank you for shopping with us! Your order #4521 has been shipped and will arrive in 3-5 days.,english,not_scam,claude_synthetic
+"Mom, I'll be home late tonight, don't wait for dinner.",english,not_scam,claude_synthetic
+Your monthly account statement is now available in your net banking dashboard.,english,not_scam,claude_synthetic
+"School notice: PTA meeting rescheduled to next Monday, 9am, in the main hall.",english,not_scam,claude_synthetic
+Your mobile recharge of Rs. 199 was successful. Validity: 28 days.,english,not_scam,claude_synthetic
+Happy birthday! Hope you have a wonderful day with family.,english,not_scam,claude_synthetic
+The plumber will come to fix the tap tomorrow morning around 10.,english,not_scam,claude_synthetic
+"Your salary of Rs. 32,000 has been credited to your account ending 7743.",english,not_scam,claude_synthetic
+Can you pick up milk and bread on your way home?,english,not_scam,claude_synthetic
+Your LPG cylinder booking is confirmed. Delivery expected within 2 days.,english,not_scam,claude_synthetic
+"Bus ticket confirmed: Ahmedabad to Bopal, departure 6:30pm, seat 14.",english,not_scam,claude_synthetic
+Your electricity meter reading has been recorded. No action needed.,english,not_scam,claude_synthetic
+"Diwali sale starts tomorrow at our store, 20% off on all sarees.",english,not_scam,claude_synthetic
+Please bring your Aadhaar card original when you come to the branch for the new passbook.,english,not_scam,claude_synthetic
+"Your child's school fee receipt has been generated, download from the parent portal.",english,not_scam,claude_synthetic
+"We've received your complaint regarding the water leakage, technician will visit tomorrow.",english,not_scam,claude_synthetic
+"Grandpa's checkup went well, doctor said everything is fine, don't worry.",english,not_scam,claude_synthetic
+"Your train PNR 4527891 is confirmed, seat B2-45, departure 11:20pm from platform 3.",english,not_scam,claude_synthetic
+Reminder: society maintenance meeting today evening at 7pm in the community hall.,english,not_scam,claude_synthetic
+The tailor said your blouse will be ready by Thursday.,english,not_scam,claude_synthetic
+"Your fixed deposit of Rs. 50,000 matures on 15th August, interest credited automatically.",english,not_scam,claude_synthetic
+Congratulations on completing your degree! We are so proud of you.,english,not_scam,claude_synthetic
+Please remember to take your medicine after dinner tonight.,english,not_scam,claude_synthetic
+Your gas connection transfer request has been approved and updated.,english,not_scam,claude_synthetic
+Neighbour aunty asked if you can water her plants while she's away this week.,english,not_scam,claude_synthetic
+"Your insurance premium payment of Rs. 4500 was received, thank you.",english,not_scam,claude_synthetic
+The farmer's cooperative meeting is postponed to next Sunday due to rain.,english,not_scam,claude_synthetic
+"नमस्ते, क्या हम कल दोपहर 1 बजे लंच के लिए मिल रहे हैं?",hindi,not_scam,claude_synthetic
+आपका बिजली बिल 1240 रुपये 25 तारीख को देय है। ऐप के माध्यम से भुगतान करें।,hindi,not_scam,claude_synthetic
+याद दिलाना: आपकी डॉक्टर की अपॉइंटमेंट शुक्रवार सुबह 10 बजे है।,hindi,not_scam,claude_synthetic
+"हमारे साथ खरीदारी के लिए धन्यवाद! आपका ऑर्डर भेज दिया गया है, 3-5 दिनों में पहुंचेगा।",hindi,not_scam,claude_synthetic
+"मां, मुझे आज रात देर हो जाएगी, खाने का इंतज़ार मत करना।",hindi,not_scam,claude_synthetic
+आपका मासिक खाता विवरण अब नेट बैंकिंग डैशबोर्ड में उपलब्ध है।,hindi,not_scam,claude_synthetic
+स्कूल सूचना: पीटीए बैठक सोमवार सुबह 9 बजे मुख्य हॉल में होगी।,hindi,not_scam,claude_synthetic
+आपका 199 रुपये का रिचार्ज सफल रहा। वैधता: 28 दिन।,hindi,not_scam,claude_synthetic
+जन्मदिन मुबारक हो! परिवार के साथ अच्छा दिन बिताएं।,hindi,not_scam,claude_synthetic
+प्लंबर कल सुबह करीब 10 बजे नल ठीक करने आएगा।,hindi,not_scam,claude_synthetic
+"आपकी 32,000 रुपये की सैलरी खाते में जमा हो गई है।",hindi,not_scam,claude_synthetic
+क्या तुम आते वक्त दूध और ब्रेड ले आओगे?,hindi,not_scam,claude_synthetic
+"आपकी एलपीजी सिलेंडर बुकिंग की पुष्टि हो गई है, 2 दिन में डिलीवरी होगी।",hindi,not_scam,claude_synthetic
+"बस टिकट कन्फर्म: अहमदाबाद से बोपल, शाम 6:30 बजे प्रस्थान, सीट 14।",hindi,not_scam,claude_synthetic
+"आपका बिजली मीटर रीडिंग दर्ज कर लिया गया है, कोई कार्रवाई आवश्यक नहीं।",hindi,not_scam,claude_synthetic
+"दिवाली सेल कल से हमारी दुकान में शुरू, सभी साड़ियों पर 20% छूट।",hindi,not_scam,claude_synthetic
+नई पासबुक के लिए शाखा आते समय अपना आधार कार्ड मूल लाना।,hindi,not_scam,claude_synthetic
+"बच्चे की स्कूल फीस रसीद बन गई है, पैरेंट पोर्टल से डाउनलोड करें।",hindi,not_scam,claude_synthetic
+"पानी रिसाव की आपकी शिकायत मिल गई है, तकनीशियन कल आएगा।",hindi,not_scam,claude_synthetic
+"दादाजी का चेकअप अच्छा रहा, डॉक्टर ने कहा सब ठीक है, चिंता मत करो।",hindi,not_scam,claude_synthetic
+"आपका ट्रेन पीएनआर कन्फर्म है, सीट बी2-45, रात 11:20 बजे प्लेटफॉर्म 3 से।",hindi,not_scam,claude_synthetic
+याद दिलाना: सोसाइटी की मीटिंग आज शाम 7 बजे कम्युनिटी हॉल में है।,hindi,not_scam,claude_synthetic
+दर्जी ने कहा कि तुम्हारा ब्लाउज गुरुवार तक तैयार हो जाएगा।,hindi,not_scam,claude_synthetic
+"आपकी 50,000 रुपये की एफडी 15 अगस्त को मैच्योर होगी, ब्याज अपने आप जमा होगा।",hindi,not_scam,claude_synthetic
+डिग्री पूरी करने पर बधाई! हमें तुम पर बहुत गर्व है।,hindi,not_scam,claude_synthetic
+आज रात खाने के बाद दवाई लेना मत भूलना।,hindi,not_scam,claude_synthetic
+आपके गैस कनेक्शन ट्रांसफर की रिक्वेस्ट मंजूर हो गई है।,hindi,not_scam,claude_synthetic
+पड़ोस वाली आंटी ने पूछा कि क्या तुम इस हफ्ते उनके पौधों को पानी दे सकते हो।,hindi,not_scam,claude_synthetic
+"आपका 4500 रुपये का बीमा प्रीमियम प्राप्त हो गया, धन्यवाद।",hindi,not_scam,claude_synthetic
+बारिश के कारण किसान सहकारी बैठक अगले रविवार तक टाल दी गई है।,hindi,not_scam,claude_synthetic
+"નમસ્તે, શું આપણે કાલે બપોરે 1 વાગ્યે લંચ માટે મળી રહ્યા છીએ?",gujarati,not_scam,claude_synthetic
+તમારું વીજળી બિલ 1240 રૂપિયા 25 તારીખે ચૂકવવાનું છે. એપ દ્વારા ચૂકવો.,gujarati,not_scam,claude_synthetic
+યાદ અપાવવું: તમારી ડોક્ટરની એપોઇન્ટમેન્ટ શુક્રવારે સવારે 10 વાગ્યે છે.,gujarati,not_scam,claude_synthetic
+"અમારી સાથે ખરીદી બદલ આભાર! તમારો ઓર્ડર મોકલી દેવાયો છે, 3-5 દિવસમાં પહોંચશે.",gujarati,not_scam,claude_synthetic
+"મમ્મી, મને આજે રાત્રે મોડું થશે, જમવાની રાહ ન જોશો.",gujarati,not_scam,claude_synthetic
+તમારું માસિક ખાતા સ્ટેટમેન્ટ હવે નેટ બેંકિંગ ડેશબોર્ડમાં ઉપલબ્ધ છે.,gujarati,not_scam,claude_synthetic
+શાળા સૂચના: પીટીએ મીટિંગ સોમવારે સવારે 9 વાગ્યે મુખ્ય હોલમાં રાખવામાં આવી છે.,gujarati,not_scam,claude_synthetic
+તમારું 199 રૂપિયાનું રિચાર્જ સફળ થયું. માન્યતા: 28 દિવસ.,gujarati,not_scam,claude_synthetic
+જન્મદિવસની શુભકામનાઓ! પરિવાર સાથે સરસ દિવસ પસાર કરો.,gujarati,not_scam,claude_synthetic
+પ્લમ્બર કાલે સવારે લગભગ 10 વાગ્યે નળ ઠીક કરવા આવશે.,gujarati,not_scam,claude_synthetic
+"તમારો 32,000 રૂપિયાનો પગાર ખાતામાં જમા થઈ ગયો છે.",gujarati,not_scam,claude_synthetic
+તું આવતી વખતે દૂધ અને બ્રેડ લેતો આવીશ?,gujarati,not_scam,claude_synthetic
+"તમારી એલપીજી સિલિન્ડર બુકિંગ કન્ફર્મ થઈ ગઈ છે, 2 દિવસમાં ડિલિવરી થશે.",gujarati,not_scam,claude_synthetic
+"બસ ટિકિટ કન્ફર્મ: અમદાવાદથી બોપલ, સાંજે 6:30 વાગ્યે પ્રસ્થાન, સીટ 14.",gujarati,not_scam,claude_synthetic
+"તમારું વીજળી મીટર રીડિંગ નોંધાઈ ગયું છે, કોઈ પગલાં લેવાની જરૂર નથી.",gujarati,not_scam,claude_synthetic
+"દિવાળી સેલ કાલથી અમારા સ્ટોરમાં શરૂ, બધી સાડીઓ પર 20% છૂટ.",gujarati,not_scam,claude_synthetic
+નવી પાસબુક માટે શાખામાં આવતી વખતે તમારું આધાર કાર્ડ ઓરિજિનલ લાવવું.,gujarati,not_scam,claude_synthetic
+"બાળકની શાળા ફીની રસીદ બની ગઈ છે, પેરેન્ટ પોર્ટલ પરથી ડાઉનલોડ કરો.",gujarati,not_scam,claude_synthetic
+"પાણી લીકેજની તમારી ફરિયાદ મળી ગઈ છે, ટેકનિશિયન કાલે આવશે.",gujarati,not_scam,claude_synthetic
+"દાદાજીનું ચેકઅપ સારું રહ્યું, ડોક્ટરે કહ્યું બધું બરાબર છે, ચિંતા ન કરો.",gujarati,not_scam,claude_synthetic
+"તમારો ટ્રેન પીએનઆર કન્ફર્મ છે, સીટ બી2-45, રાત્રે 11:20 વાગ્યે પ્લેટફોર્મ 3 પરથી.",gujarati,not_scam,claude_synthetic
+યાદ અપાવવું: સોસાયટીની મીટિંગ આજે સાંજે 7 વાગ્યે કોમ્યુનિટી હોલમાં છે.,gujarati,not_scam,claude_synthetic
+દરજીએ કહ્યું કે તમારું બ્લાઉઝ ગુરુવાર સુધીમાં તૈયાર થઈ જશે.,gujarati,not_scam,claude_synthetic
+"તમારી 50,000 રૂપિયાની એફડી 15 ઓગસ્ટે મેચ્યોર થશે, વ્યાજ આપોઆપ જમા થશે.",gujarati,not_scam,claude_synthetic
+ડિગ્રી પૂર્ણ કરવા બદલ અભિનંદન! અમને તારા પર ખૂબ ગર્વ છે.,gujarati,not_scam,claude_synthetic
+આજે રાત્રે જમ્યા પછી દવા લેવાનું ભૂલશો નહીં.,gujarati,not_scam,claude_synthetic
+તમારી ગેસ કનેક્શન ટ્રાન્સફર રિક્વેસ્ટ મંજૂર થઈ ગઈ છે.,gujarati,not_scam,claude_synthetic
+પડોશની આંટીએ પૂછ્યું કે શું તું આ અઠવાડિયે તેમના છોડને પાણી આપી શકે.,gujarati,not_scam,claude_synthetic
+"તમારું 4500 રૂપિયાનું વીમા પ્રીમિયમ મળી ગયું, આભાર.",gujarati,not_scam,claude_synthetic
+વરસાદના કારણે ખેડૂત સહકારી મંડળીની મીટિંગ આવતા રવિવાર સુધી મુલતવી રાખવામાં આવી છે.,gujarati,not_scam,claude_synthetic
+"Congratulations! You are pre-approved for a personal loan of Rs 5,00,000 with 0% processing fee. Apply now: quickloan-app.in",english,loan_scam,claude_synthetic
+"Instant loan approved without CIBIL check! Get Rs 50,000 in your account in 10 minutes. Download our app and enter your bank details.",english,loan_scam,claude_synthetic
+"Dear customer, your loan application is 90% complete. Pay Rs 1,999 processing fee via UPI to release the amount today.",english,loan_scam,claude_synthetic
+"SIDBI approved: Small business loan of Rs 2 lakh available instantly, no documents needed. Reply YES to proceed.",english,loan_scam,claude_synthetic
+"Your loan of Rs 3,00,000 has been sanctioned. To disburse, pay GST charges of Rs 3,200 to this UPI ID immediately.",english,loan_scam,claude_synthetic
+Gold loan without pledging gold! Get instant cash against your Aadhaar. Call now and share your bank account number.,english,loan_scam,claude_synthetic
+"We are a registered NBFC offering loans at 2% interest. Send your Aadhaar, PAN and a selfie to start processing.",english,loan_scam,claude_synthetic
+Your EMI relief scheme is approved. Pay a one-time Rs 999 activation fee to reduce your loan interest by 50%.,english,loan_scam,claude_synthetic
+"URGENT: Your loan disbursement is on hold due to unpaid insurance premium of Rs 4,500. Pay now to release funds.",english,loan_scam,claude_synthetic
+"Get a loan against your PAN card instantly, no income proof required. WhatsApp your PAN and Aadhaar photo now.",english,loan_scam,claude_synthetic
+"Farmer loan scheme: Rs 1,00,000 KCC loan approved under govt scheme. Pay Rs 1,200 registration fee to your agent today.",english,loan_scam,claude_synthetic
+"Your loan app shows a pending refundable security deposit of Rs 2,500. Transfer now to unlock your approved amount.",english,loan_scam,claude_synthetic
+"Congratulations, you qualify for a collateral-free business loan of Rs 10 lakh. Processing agent will call, keep your OTP ready.",english,loan_scam,claude_synthetic
+This app offers instant personal loans with same-day disbursal. Just install and grant all permissions to verify eligibility.,english,loan_scam,claude_synthetic
+"Your loan EMI has been auto-debited twice by mistake. To claim refund of Rs 3,200, share your account number and OTP.",english,loan_scam,claude_synthetic
+"Loan against mutual funds available in 5 minutes, no paperwork. Click the link and login with your net banking credentials.",english,loan_scam,claude_synthetic
+"Dear applicant, your gold finance loan of Rs 80,000 requires final KYC. Pay Rs 1,500 verification charge to proceed.",english,loan_scam,claude_synthetic
+"We noticed you searched for personal loans. Get pre-approved for Rs 4,00,000 at low interest, just share your salary slip and Aadhaar via WhatsApp.",english,loan_scam,claude_synthetic
+"Loan agent here — your file is ready but requires Rs 2,000 legal documentation fee before we can release the amount.",english,loan_scam,claude_synthetic
+"Special festive offer: Get instant loan up to Rs 5 lakh with zero documentation. Download app, enable screen sharing for verification.",english,loan_scam,claude_synthetic
+"Your informal chit fund payout of Rs 15,000 is ready. Pay Rs 800 as processing charge to your group agent to receive it.",english,loan_scam,claude_synthetic
+Your loan account shows an overdue processing charge. Pay immediately to avoid negative CIBIL score impact within 24 hours.,english,loan_scam,claude_synthetic
+"Approved: Rs 25,000 salary advance loan, no salary slip needed. Share your bank statement screenshot to complete verification.",english,loan_scam,claude_synthetic
+This is your loan officer. Your disbursement failed due to wrong IFSC. Share your correct account number and OTP to resend funds.,english,loan_scam,claude_synthetic
+Get instant loan approval by installing this app and giving contact list access — required to assess your loan eligibility.,english,loan_scam,claude_synthetic
+"Your business loan under Mudra Yojana is sanctioned for Rs 3,00,000. Pay stamp duty of Rs 2,100 to your local agent to collect the cheque.",english,loan_scam,claude_synthetic
+"Dear customer, we could not verify your loan documents. Reply with your Aadhaar OTP to confirm your identity and proceed.",english,loan_scam,claude_synthetic
+"Loan settlement offer: Clear your existing loan for 40% less. Pay Rs 5,000 today to freeze this one-time settlement offer.",english,loan_scam,claude_synthetic
+Your car loan pre-closure amount is ready to be refunded. Provide your account number and card CVV to process the refund.,english,loan_scam,claude_synthetic
+Zero collateral education loan of Rs 8 lakh approved for your child. Pay processing fee to unlock disbursement before admission deadline.,english,loan_scam,claude_synthetic
+"बधाई हो! आपको 5,00,000 रुपये का पर्सनल लोन 0% प्रोसेसिंग फीस पर मंजूर हुआ है। अभी अप्लाई करें।",hindi,loan_scam,claude_synthetic
+"बिना सिबिल चेक के तुरंत लोन मंजूर! 10 मिनट में 50,000 रुपये खाते में। ऐप डाउनलोड करें और बैंक विवरण दें।",hindi,loan_scam,claude_synthetic
+"प्रिय ग्राहक, आपका लोन आवेदन 90% पूरा है। आज राशि जारी करने के लिए यूपीआई से 1,999 रुपये प्रोसेसिंग फीस भरें।",hindi,loan_scam,claude_synthetic
+"सिडबी स्वीकृत: 2 लाख रुपये का व्यापार लोन तुरंत उपलब्ध, कोई दस्तावेज़ नहीं चाहिए। आगे बढ़ने के लिए YES लिखें।",hindi,loan_scam,claude_synthetic
+"आपका 3,00,000 रुपये का लोन स्वीकृत हो गया है। वितरण के लिए इस यूपीआई आईडी पर 3,200 रुपये जीएसटी शुल्क भरें।",hindi,loan_scam,claude_synthetic
+बिना सोना गिरवी रखे गोल्ड लोन! आधार पर तुरंत नकद पाएं। अभी कॉल करें और अपना बैंक खाता नंबर बताएं।,hindi,loan_scam,claude_synthetic
+"हम एक पंजीकृत एनबीएफसी हैं, 2% ब्याज पर लोन देते हैं। प्रोसेसिंग शुरू करने के लिए आधार, पैन और सेल्फी भेजें।",hindi,loan_scam,claude_synthetic
+आपकी ईएमआई राहत योजना मंजूर है। ब्याज 50% कम करने के लिए एक बार 999 रुपये सक्रियण शुल्क भरें।,hindi,loan_scam,claude_synthetic
+"जरूरी: बीमा प्रीमियम के 4,500 रुपये बकाया होने के कारण आपका लोन वितरण रुका है। राशि जारी करने के लिए अभी भुगतान करें।",hindi,loan_scam,claude_synthetic
+"अपने पैन कार्ड पर तुरंत लोन पाएं, आय प्रमाण की जरूरत नहीं। अपना पैन और आधार फोटो व्हाट्सएप करें।",hindi,loan_scam,claude_synthetic
+"किसान लोन योजना: सरकारी योजना के तहत 1,00,000 रुपये का केसीसी लोन मंजूर। आज अपने एजेंट को 1,200 रुपये पंजीकरण शुल्क दें।",hindi,loan_scam,claude_synthetic
+"आपके लोन ऐप में 2,500 रुपये की वापसी योग्य सुरक्षा जमा राशि लंबित है। अपनी स्वीकृत राशि अनलॉक करने के लिए अभी ट्रांसफर करें।",hindi,loan_scam,claude_synthetic
+"बधाई हो, आप 10 लाख रुपये के बिना गिरवी व्यापार लोन के लिए योग्य हैं। एजेंट कॉल करेगा, अपना ओटीपी तैयार रखें।",hindi,loan_scam,claude_synthetic
+यह ऐप तुरंत पर्सनल लोन और उसी दिन वितरण देता है। बस इंस्टॉल करें और पात्रता जांचने के लिए सभी अनुमतियां दें।,hindi,loan_scam,claude_synthetic
+"आपकी लोन ईएमआई गलती से दो बार कट गई है। 3,200 रुपये रिफंड पाने के लिए अपना खाता नंबर और ओटीपी बताएं।",hindi,loan_scam,claude_synthetic
+"म्यूचुअल फंड पर लोन 5 मिनट में उपलब्ध, कोई कागजी काम नहीं। लिंक पर क्लिक करें और नेट बैंकिंग से लॉगिन करें।",hindi,loan_scam,claude_synthetic
+"प्रिय आवेदक, आपके गोल्ड फाइनेंस लोन के लिए अंतिम केवाईसी आवश्यक है। आगे बढ़ने के लिए 1,500 रुपये सत्यापन शुल्क भरें।",hindi,loan_scam,claude_synthetic
+"हमने देखा आपने पर्सनल लोन खोजा। 4,00,000 रुपये कम ब्याज पर पाएं, बस अपनी सैलरी स्लिप और आधार व्हाट्सएप करें।",hindi,loan_scam,claude_synthetic
+"मैं लोन एजेंट बोल रहा हूं — आपकी फाइल तैयार है, राशि जारी करने से पहले 2,000 रुपये दस्तावेज़ शुल्क चाहिए।",hindi,loan_scam,claude_synthetic
+"त्योहार ऑफर: बिना दस्तावेज़ के 5 लाख रुपये तक तुरंत लोन। ऐप डाउनलोड करें, सत्यापन के लिए स्क्रीन शेयरिंग चालू करें।",hindi,loan_scam,claude_synthetic
+"आपके अनौपचारिक चिट फंड का 15,000 रुपये भुगतान तैयार है। पाने के लिए अपने ग्रुप एजेंट को 800 रुपये प्रोसेसिंग शुल्क दें।",hindi,loan_scam,claude_synthetic
+आपके लोन खाते में बकाया प्रोसेसिंग शुल्क दिख रहा है। 24 घंटे में सिबिल स्कोर प्रभावित होने से बचने के लिए तुरंत भुगतान करें।,hindi,loan_scam,claude_synthetic
+"स्वीकृत: 25,000 रुपये का सैलरी एडवांस लोन, सैलरी स्लिप की जरूरत नहीं। सत्यापन के लिए अपना बैंक स्टेटमेंट स्क्रीनशॉट भेजें।",hindi,loan_scam,claude_synthetic
+मैं आपका लोन अधिकारी बोल रहा हूं। गलत आईएफएससी के कारण वितरण असफल हुआ। सही खाता नंबर और ओटीपी बताएं।,hindi,loan_scam,claude_synthetic
+यह ऐप इंस्टॉल करके और कॉन्टैक्ट लिस्ट एक्सेस देकर तुरंत लोन स्वीकृति पाएं — पात्रता जांचने के लिए जरूरी है।,hindi,loan_scam,claude_synthetic
+"मुद्रा योजना के तहत आपका 3,00,000 रुपये का व्यापार लोन स्वीकृत है। चेक लेने के लिए एजेंट को 2,100 रुपये स्टांप शुल्क दें।",hindi,loan_scam,claude_synthetic
+"प्रिय ग्राहक, हम आपके लोन दस्तावेज़ सत्यापित नहीं कर सके। पहचान पुष्टि के लिए आधार ओटीपी के साथ जवाब दें।",hindi,loan_scam,claude_synthetic
+"लोन सेटलमेंट ऑफर: अपना मौजूदा लोन 40% कम में चुकाएं। यह एकमुश्त ऑफर पक्का करने के लिए आज 5,000 रुपये भरें।",hindi,loan_scam,claude_synthetic
+आपकी कार लोन प्री-क्लोजर राशि रिफंड के लिए तैयार है। रिफंड प्रोसेस करने के लिए खाता नंबर और कार्ड सीवीवी दें।,hindi,loan_scam,claude_synthetic
+आपके बच्चे के लिए बिना गिरवी 8 लाख रुपये का शिक्षा लोन स्वीकृत। एडमिशन डेडलाइन से पहले वितरण के लिए प्रोसेसिंग शुल्क भरें।,hindi,loan_scam,claude_synthetic
+"અભિનંદન! તમને 5,00,000 રૂપિયાની પર્સનલ લોન 0% પ્રોસેસિંગ ફી પર મંજૂર થઈ છે. હમણાં જ અરજી કરો.",gujarati,loan_scam,claude_synthetic
+"સિબિલ ચેક વગર તાત્કાલિક લોન મંજૂર! 10 મિનિટમાં 50,000 રૂપિયા ખાતામાં. એપ ડાઉનલોડ કરો અને બેંક વિગતો આપો.",gujarati,loan_scam,claude_synthetic
+"પ્રિય ગ્રાહક, તમારી લોન અરજી 90% પૂર્ણ છે. આજે રકમ જારી કરવા યુપીઆઈથી 1,999 રૂપિયા પ્રોસેસિંગ ફી ભરો.",gujarati,loan_scam,claude_synthetic
+"સિડબી મંજૂર: 2 લાખ રૂપિયાની બિઝનેસ લોન તાત્કાલિક ઉપલબ્ધ, કોઈ દસ્તાવેજની જરૂર નથી. આગળ વધવા YES લખો.",gujarati,loan_scam,claude_synthetic
+"તમારી 3,00,000 રૂપિયાની લોન મંજૂર થઈ ગઈ છે. વિતરણ માટે આ યુપીઆઈ આઈડી પર 3,200 રૂપિયા જીએસટી ચાર્જ ભરો.",gujarati,loan_scam,claude_synthetic
+સોનું ગીરવે મૂક્યા વગર ગોલ્ડ લોન! આધાર પર તાત્કાલિક રોકડ મેળવો. હમણાં કૉલ કરો અને તમારો બેંક ખાતા નંબર જણાવો.,gujarati,loan_scam,claude_synthetic
+"અમે નોંધાયેલ એનબીએફસી છીએ, 2% વ્યાજે લોન આપીએ છીએ. પ્રોસેસિંગ શરૂ કરવા આધાર, પાન અને સેલ્ફી મોકલો.",gujarati,loan_scam,claude_synthetic
+તમારી ઈએમઆઈ રાહત યોજના મંજૂર છે. વ્યાજ 50% ઘટાડવા એક વખતની 999 રૂપિયા સક્રિયકરણ ફી ભરો.,gujarati,loan_scam,claude_synthetic
+"તાત્કાલિક: વીમા પ્રીમિયમના 4,500 રૂપિયા બાકી હોવાથી તમારી લોન વિતરણ અટકેલી છે. રકમ જારી કરવા હમણાં ચૂકવો.",gujarati,loan_scam,claude_synthetic
+"તમારા પાન કાર્ડ પર તાત્કાલિક લોન મેળવો, આવકનો પુરાવો જરૂરી નથી. તમારો પાન અને આધાર ફોટો વોટ્સએપ કરો.",gujarati,loan_scam,claude_synthetic
+"ખેડૂત લોન યોજના: સરકારી યોજના હેઠળ 1,00,000 રૂપિયાની કેસીસી લોન મંજૂર. આજે તમારા એજન્ટને 1,200 રૂપિયા નોંધણી ફી આપો.",gujarati,loan_scam,claude_synthetic
+"તમારી લોન એપમાં 2,500 રૂપિયાની પરત કરી શકાય તેવી સિક્યોરિટી ડિપોઝિટ બાકી છે. તમારી મંજૂર રકમ અનલોક કરવા હમણાં ટ્રાન્સફર કરો.",gujarati,loan_scam,claude_synthetic
+"અભિનંદન, તમે 10 લાખ રૂપિયાની ગીરવે વગરની બિઝનેસ લોન માટે લાયક છો. એજન્ટ કૉલ કરશે, તમારો ઓટીપી તૈયાર રાખો.",gujarati,loan_scam,claude_synthetic
+આ એપ તાત્કાલિક પર્સનલ લોન અને તે જ દિવસે વિતરણ આપે છે. ફક્ત ઇન્સ્ટોલ કરો અને પાત્રતા ચકાસવા બધી પરવાનગીઓ આપો.,gujarati,loan_scam,claude_synthetic
+"તમારી લોન ઈએમઆઈ ભૂલથી બે વાર કપાઈ ગઈ છે. 3,200 રૂપિયા રિફંડ મેળવવા તમારો ખાતા નંબર અને ઓટીપી જણાવો.",gujarati,loan_scam,claude_synthetic
+"મ્યુચ્યુઅલ ફંડ પર લોન 5 મિનિટમાં ઉપલબ્ધ, કોઈ કાગળકામ નથી. લિંક પર ક્લિક કરો અને નેટ બેંકિંગથી લોગિન કરો.",gujarati,loan_scam,claude_synthetic
+"પ્રિય અરજદાર, તમારી ગોલ્ડ ફાઇનાન્સ લોન માટે અંતિમ કેવાયસી જરૂરી છે. આગળ વધવા 1,500 રૂપિયા ચકાસણી ચાર્જ ભરો.",gujarati,loan_scam,claude_synthetic
+"અમે જોયું કે તમે પર્સનલ લોન શોધી. 4,00,000 રૂપિયા ઓછા વ્યાજે મેળવો, ફક્ત તમારી સેલેરી સ્લિપ અને આધાર વોટ્સએપ કરો.",gujarati,loan_scam,claude_synthetic
+"હું લોન એજન્ટ બોલું છું — તમારી ફાઇલ તૈયાર છે, રકમ જારી કરતા પહેલા 2,000 રૂપિયા દસ્તાવેજીકરણ ફી જોઈએ.",gujarati,loan_scam,claude_synthetic
+"તહેવાર ઓફર: કોઈ દસ્તાવેજ વગર 5 લાખ રૂપિયા સુધી તાત્કાલિક લોન. એપ ડાઉનલોડ કરો, ચકાસણી માટે સ્ક્રીન શેરિંગ ચાલુ કરો.",gujarati,loan_scam,claude_synthetic
+"તમારા અનૌપચારિક ચિટ ફંડની 15,000 રૂપિયાની ચુકવણી તૈયાર છે. મેળવવા તમારા ગ્રુપ એજન્ટને 800 રૂપિયા પ્રોસેસિંગ ચાર્જ આપો.",gujarati,loan_scam,claude_synthetic
+તમારા લોન ખાતામાં બાકી પ્રોસેસિંગ ચાર્જ દેખાય છે. 24 કલાકમાં સિબિલ સ્કોર પર અસર ટાળવા તાત્કાલિક ચૂકવો.,gujarati,loan_scam,claude_synthetic
+"મંજૂર: 25,000 રૂપિયાની સેલેરી એડવાન્સ લોન, સેલેરી સ્લિપની જરૂર નથી. ચકાસણી માટે તમારો બેંક સ્ટેટમેન્ટ સ્ક્રીનશોટ મોકલો.",gujarati,loan_scam,claude_synthetic
+હું તમારો લોન અધિકારી બોલું છું. ખોટા આઈએફએસસીના કારણે વિતરણ નિષ્ફળ ગયું. સાચો ખાતા નંબર અને ઓટીપી જણાવો.,gujarati,loan_scam,claude_synthetic
+આ એપ ઇન્સ્ટોલ કરીને અને કોન્ટેક્ટ લિસ્ટ એક્સેસ આપીને તાત્કાલિક લોન મંજૂરી મેળવો — પાત્રતા ચકાસવા જરૂરી છે.,gujarati,loan_scam,claude_synthetic
+"મુદ્રા યોજના હેઠળ તમારી 3,00,000 રૂપિયાની બિઝનેસ લોન મંજૂર છે. ચેક લેવા એજન્ટને 2,100 રૂપિયા સ્ટેમ્પ ડ્યુટી આપો.",gujarati,loan_scam,claude_synthetic
+"પ્રિય ગ્રાહક, અમે તમારા લોન દસ્તાવેજો ચકાસી શક્યા નથી. ઓળખ પુષ્ટિ માટે આધાર ઓટીપી સાથે જવાબ આપો.",gujarati,loan_scam,claude_synthetic
+"લોન સેટલમેન્ટ ઓફર: તમારી હાલની લોન 40% ઓછામાં પતાવો. આ એકવારની ઓફર પાક્કી કરવા આજે 5,000 રૂપિયા ભરો.",gujarati,loan_scam,claude_synthetic
+તમારી કાર લોન પ્રી-ક્લોઝર રકમ રિફંડ માટે તૈયાર છે. રિફંડ પ્રોસેસ કરવા ખાતા નંબર અને કાર્ડ સીવીવી આપો.,gujarati,loan_scam,claude_synthetic
+તમારા બાળક માટે ગીરવે વગર 8 લાખ રૂપિયાની શિક્ષણ લોન મંજૂર. એડમિશન ડેડલાઇન પહેલા વિતરણ માટે પ્રોસેસિંગ ફી ભરો.,gujarati,loan_scam,claude_synthetic
+"Congratulations! Your mobile number has been selected in a lucky draw. To win Rs 50,000, WhatsApp your bank account details and Aadhaar number to this number.",english,lottery_scam,claude_synthetic
+"You have won Rs 25,00,000 in the KBC lucky draw! To claim your prize, pay Rs 5,000 as GST charge to this account.",english,lottery_scam,claude_synthetic
+"Dear winner, your number is selected for the Amazon anniversary lucky draw. Prize: Rs 10,00,000. Share your bank details to claim.",english,lottery_scam,claude_synthetic
+URGENT: Your SIM card has won a lottery of Rs 15 lakh from Jio company. Call this number immediately with your Aadhaar details.,english,lottery_scam,claude_synthetic
+"You've been randomly selected for a cash prize of Rs 8,00,000! Pay a processing fee of Rs 2,500 to release your winnings today.",english,lottery_scam,claude_synthetic
+"Flipkart Big Billion Days lucky winner! You've won an iPhone 15 and Rs 50,000 cash. Click here and pay Rs 499 shipping to claim.",english,lottery_scam,claude_synthetic
+"This is to inform you that your WhatsApp number won 12,50,000 in the international lottery. Contact our agent with your bank IFSC code.",english,lottery_scam,claude_synthetic
+"Congratulations, you are our lucky customer this month! Claim your Rs 1,00,000 reward by sharing your UPI PIN for verification.",english,lottery_scam,claude_synthetic
+"Your name has been drawn for the Diwali bumper lottery worth Rs 21,00,000. Pay Rs 3,500 registration tax to claim before it expires.",english,lottery_scam,claude_synthetic
+"PUBG Mobile lucky draw winner announcement: you've won Rs 50,000 and a gaming phone. Send Rs 999 as delivery charge to claim now.",english,lottery_scam,claude_synthetic
+"Dear customer, your SBI account has been selected for the bank's anniversary lucky draw of Rs 5,00,000. Verify your account to claim.",english,lottery_scam,claude_synthetic
+"You have won a brand new car in the online survey lucky draw! Pay registration fee of Rs 4,999 to get it delivered to your address.",english,lottery_scam,claude_synthetic
+"This is Google lucky draw team. Your Gmail ID has won $50,000 in our annual promotion. Reply with your bank details to claim.",english,lottery_scam,claude_synthetic
+"Reliance Jio 10th anniversary offer: your number won Rs 25 lakh! Pay processing charges of Rs 2,999 to receive the amount instantly.",english,lottery_scam,claude_synthetic
+"Congratulations, you are today's WhatsApp lucky winner of Rs 12,00,000. Share your OTP to confirm your identity and claim the prize.",english,lottery_scam,claude_synthetic
+"Your ration card number has won under the government lucky draw scheme, prize Rs 50,000. Share your Aadhaar-linked bank details.",english,lottery_scam,claude_synthetic
+"Lucky winner alert: your recharge number has won Rs 8,88,888 in Airtel's special draw. Call now with your card details for verification.",english,lottery_scam,claude_synthetic
+"You have been selected among 10 winners nationwide for Rs 20,00,000. Pay income tax clearance of Rs 6,000 first to receive it.",english,lottery_scam,claude_synthetic
+"Big News! Your phone number is the 5,00,000th visitor and has won an iPhone and cash prize. Click the link to claim before it expires.",english,lottery_scam,claude_synthetic
+"This is your final notice: your KBC lottery prize of Rs 25,00,000 will be cancelled if you don't pay the Rs 5,500 GST today.",english,lottery_scam,claude_synthetic
+"Dear customer, on the occasion of Republic Day, your number has won a special lucky draw. Prize amount Rs 7,50,000, share OTP to claim.",english,lottery_scam,claude_synthetic
+"You've won a free holiday package to Goa worth Rs 45,000! Just pay a small booking confirmation fee of Rs 1,500 to lock your dates.",english,lottery_scam,claude_synthetic
+"Amazon Pay lucky draw: your account has won Rs 30,000 cashback. Enter your UPI PIN in the app to instantly receive the amount.",english,lottery_scam,claude_synthetic
+"Congratulations on winning the festival mega lottery of Rs 11,00,000! Our agent will call to collect your Aadhaar and bank passbook photo.",english,lottery_scam,claude_synthetic
+"Your lucky number has won Rs 9,99,999 in the year-end telecom draw. Deposit Rs 4,500 as legal verification fee to claim your prize.",english,lottery_scam,claude_synthetic
+"This is a notification that your recent online form entry has won Rs 2,00,000. Confirm by sending your account number and IFSC code now.",english,lottery_scam,claude_synthetic
+"Prize alert: You are one of 3 lucky winners of Rs 15,00,000 this week. Pay a refundable security deposit of Rs 3,000 to unlock the transfer.",english,lottery_scam,claude_synthetic
+Your name is confirmed for the Coca-Cola anniversary lucky draw worth Rs 25 lakh. Share your bank details to our representative today.,english,lottery_scam,claude_synthetic
+"Congratulations, your number is selected in the postal department lucky draw for Rs 5,00,000. Visit the link and enter your Aadhaar OTP.",english,lottery_scam,claude_synthetic
+"You have won a lucky draw prize of Rs 18,00,000 from an international lottery company. Pay customs clearance fee of Rs 7,000 to release funds.",english,lottery_scam,claude_synthetic
+"बधाई हो! आपका मोबाइल नंबर लकी ड्रॉ में चुना गया है। 50,000 रुपये जीतने के लिए अपना बैंक खाता विवरण और आधार नंबर व्हाट्सएप करें।",hindi,lottery_scam,claude_synthetic
+"आपने केबीसी लकी ड्रॉ में 25,00,000 रुपये जीते हैं! इनाम पाने के लिए इस खाते में 5,000 रुपये जीएसटी शुल्क भरें।",hindi,lottery_scam,claude_synthetic
+"प्रिय विजेता, आपका नंबर अमेज़न एनिवर्सरी लकी ड्रॉ के लिए चुना गया है। इनाम: 10,00,000 रुपये। दावा करने के लिए बैंक विवरण साझा करें।",hindi,lottery_scam,claude_synthetic
+जरूरी: आपके सिम कार्ड ने जियो कंपनी से 15 लाख रुपये की लॉटरी जीती है। तुरंत इस नंबर पर आधार विवरण के साथ कॉल करें।,hindi,lottery_scam,claude_synthetic
+"आपको 8,00,000 रुपये का नकद इनाम रैंडमली मिला है! आज अपनी जीत जारी करने के लिए 2,500 रुपये प्रोसेसिंग शुल्क भरें।",hindi,lottery_scam,claude_synthetic
+"फ्लिपकार्ट बिग बिलियन डेज़ लकी विनर! आपने आईफोन 15 और 50,000 रुपये नकद जीता। यहां क्लिक करें और 499 रुपये शिपिंग भरें।",hindi,lottery_scam,claude_synthetic
+"यह सूचित करना है कि आपके व्हाट्सएप नंबर ने अंतरराष्ट्रीय लॉटरी में 12,50,000 जीता। बैंक आईएफएससी कोड के साथ हमारे एजेंट से संपर्क करें।",hindi,lottery_scam,claude_synthetic
+"बधाई हो, आप इस महीने के हमारे लकी ग्राहक हैं! सत्यापन के लिए अपना यूपीआई पिन साझा करके 1,00,000 रुपये का इनाम पाएं।",hindi,lottery_scam,claude_synthetic
+"आपका नाम 21,00,000 रुपये की दिवाली बंपर लॉटरी के लिए निकाला गया है। समाप्त होने से पहले दावा करने के लिए 3,500 रुपये पंजीकरण कर भरें।",hindi,lottery_scam,claude_synthetic
+"पबजी मोबाइल लकी ड्रॉ विजेता घोषणा: आपने 50,000 रुपये और एक गेमिंग फोन जीता। अभी दावा करने के लिए 999 रुपये डिलीवरी शुल्क भेजें।",hindi,lottery_scam,claude_synthetic
+"प्रिय ग्राहक, आपका एसबीआई खाता बैंक की एनिवर्सरी लकी ड्रॉ के लिए चुना गया है, इनाम 5,00,000 रुपये। दावा करने के लिए खाता सत्यापित करें।",hindi,lottery_scam,claude_synthetic
+"आपने ऑनलाइन सर्वे लकी ड्रॉ में एक नई कार जीती है! अपने पते पर डिलीवरी पाने के लिए 4,999 रुपये पंजीकरण शुल्क भरें।",hindi,lottery_scam,claude_synthetic
+"यह गूगल लकी ड्रॉ टीम है। आपकी जीमेल आईडी ने हमारे वार्षिक प्रमोशन में 50,000 डॉलर जीते। दावा करने के लिए बैंक विवरण भेजें।",hindi,lottery_scam,claude_synthetic
+"रिलायंस जियो 10वीं वर्षगांठ ऑफर: आपके नंबर ने 25 लाख रुपये जीते! राशि तुरंत पाने के लिए 2,999 रुपये प्रोसेसिंग शुल्क भरें।",hindi,lottery_scam,claude_synthetic
+"बधाई हो, आप आज के 12,00,000 रुपये के व्हाट्सएप लकी विजेता हैं। पहचान पुष्टि और इनाम दावे के लिए ओटीपी साझा करें।",hindi,lottery_scam,claude_synthetic
+"आपके राशन कार्ड नंबर ने सरकारी लकी ड्रॉ योजना में 50,000 रुपये जीते हैं। अपना आधार से जुड़ा बैंक विवरण साझा करें।",hindi,lottery_scam,claude_synthetic
+"लकी विजेता अलर्ट: आपके रिचार्ज नंबर ने एयरटेल के विशेष ड्रॉ में 8,88,888 रुपये जीते। सत्यापन के लिए अभी कार्ड विवरण के साथ कॉल करें।",hindi,lottery_scam,claude_synthetic
+"आप 20,00,000 रुपये के लिए देशभर में चुने गए 10 विजेताओं में से एक हैं। पाने के लिए पहले 6,000 रुपये आयकर मंजूरी भरें।",hindi,lottery_scam,claude_synthetic
+"बड़ी खबर! आपका फोन नंबर 5,00,000वां विजिटर है और आईफोन व नकद इनाम जीता है। समाप्त होने से पहले लिंक पर क्लिक करें।",hindi,lottery_scam,claude_synthetic
+"यह आपकी अंतिम सूचना है: यदि आज 5,500 रुपये जीएसटी नहीं भरा तो आपका केबीसी लॉटरी इनाम 25,00,000 रद्द हो जाएगा।",hindi,lottery_scam,claude_synthetic
+"प्रिय ग्राहक, गणतंत्र दिवस के अवसर पर आपके नंबर ने विशेष लकी ड्रॉ जीता है। इनाम राशि 7,50,000, दावा करने के लिए ओटीपी साझा करें।",hindi,lottery_scam,claude_synthetic
+"आपने गोवा की मुफ्त छुट्टी पैकेज जीती है जिसकी कीमत 45,000 रुपये है! तारीखें पक्की करने के लिए बस 1,500 रुपये बुकिंग शुल्क भरें।",hindi,lottery_scam,claude_synthetic
+"अमेज़न पे लकी ड्रॉ: आपके खाते ने 30,000 रुपये कैशबैक जीता। राशि तुरंत पाने के लिए ऐप में अपना यूपीआई पिन दर्ज करें।",hindi,lottery_scam,claude_synthetic
+"त्योहार मेगा लॉटरी में 11,00,000 रुपये जीतने पर बधाई! हमारा एजेंट आपका आधार और बैंक पासबुक फोटो लेने के लिए कॉल करेगा।",hindi,lottery_scam,claude_synthetic
+"आपके लकी नंबर ने साल के अंत के टेलीकॉम ड्रॉ में 9,99,999 रुपये जीते। इनाम पाने के लिए 4,500 रुपये कानूनी सत्यापन शुल्क जमा करें।",hindi,lottery_scam,claude_synthetic
+"यह सूचना है कि आपकी हाल की ऑनलाइन फॉर्म एंट्री ने 2,00,000 रुपये जीते हैं। अभी अपना खाता नंबर और आईएफएससी कोड भेजकर पुष्टि करें।",hindi,lottery_scam,claude_synthetic
+"इनाम अलर्ट: आप इस सप्ताह के 15,00,000 रुपये के 3 लकी विजेताओं में से एक हैं। ट्रांसफर अनलॉक करने के लिए 3,000 रुपये वापसी योग्य जमा राशि भरें।",hindi,lottery_scam,claude_synthetic
+आपका नाम 25 लाख रुपये की कोका-कोला एनिवर्सरी लकी ड्रॉ के लिए पक्का हुआ है। आज हमारे प्रतिनिधि को बैंक विवरण साझा करें।,hindi,lottery_scam,claude_synthetic
+"बधाई हो, आपका नंबर 5,00,000 रुपये के डाक विभाग लकी ड्रॉ में चुना गया है। लिंक पर जाएं और अपना आधार ओटीपी दर्ज करें।",hindi,lottery_scam,claude_synthetic
+"आपने एक अंतरराष्ट्रीय लॉटरी कंपनी से 18,00,000 रुपये का लकी ड्रॉ इनाम जीता है। राशि जारी करने के लिए 7,000 रुपये सीमा शुल्क भरें।",hindi,lottery_scam,claude_synthetic
+"અભિનંદન! તમારો મોબાઈલ નંબર લકી ડ્રોમાં પસંદ થયો છે. 50,000 રૂપિયા જીતવા માટે બેંક ખાતાની વિગતો અને આધાર નંબર આ નંબર પર WhatsApp કરો.",gujarati,lottery_scam,claude_synthetic
+"તમે કેબીસી લકી ડ્રોમાં 25,00,000 રૂપિયા જીત્યા છે! ઈનામ મેળવવા આ ખાતામાં 5,000 રૂપિયા જીએસટી ચાર્જ ભરો.",gujarati,lottery_scam,claude_synthetic
+"પ્રિય વિજેતા, તમારો નંબર એમેઝોન એનિવર્સરી લકી ડ્રો માટે પસંદ થયો છે. ઈનામ: 10,00,000 રૂપિયા. દાવો કરવા બેંક વિગતો શેર કરો.",gujarati,lottery_scam,claude_synthetic
+તાત્કાલિક: તમારા સિમ કાર્ડે જિયો કંપની તરફથી 15 લાખ રૂપિયાની લોટરી જીતી છે. તાત્કાલિક આ નંબર પર આધાર વિગતો સાથે કૉલ કરો.,gujarati,lottery_scam,claude_synthetic
+"તમને 8,00,000 રૂપિયાનું રોકડ ઈનામ રેન્ડમલી મળ્યું છે! આજે તમારી જીત જારી કરવા 2,500 રૂપિયા પ્રોસેસિંગ ફી ભરો.",gujarati,lottery_scam,claude_synthetic
+"ફ્લિપકાર્ટ બિગ બિલિયન ડેઝ લકી વિનર! તમે આઈફોન 15 અને 50,000 રૂપિયા રોકડ જીત્યા. અહીં ક્લિક કરો અને 499 રૂપિયા શિપિંગ ભરો.",gujarati,lottery_scam,claude_synthetic
+"આ જણાવવાનું છે કે તમારા વોટ્સએપ નંબરે આંતરરાષ્ટ્રીય લોટરીમાં 12,50,000 જીત્યા. બેંક આઈએફએસસી કોડ સાથે અમારા એજન્ટનો સંપર્ક કરો.",gujarati,lottery_scam,claude_synthetic
+"અભિનંદન, તમે આ મહિનાના અમારા લકી ગ્રાહક છો! ચકાસણી માટે તમારો યુપીઆઈ પિન શેર કરીને 1,00,000 રૂપિયાનું ઈનામ મેળવો.",gujarati,lottery_scam,claude_synthetic
+"તમારું નામ 21,00,000 રૂપિયાની દિવાળી બમ્પર લોટરી માટે નીકળ્યું છે. સમાપ્ત થાય તે પહેલા દાવો કરવા 3,500 રૂપિયા નોંધણી ટેક્સ ભરો.",gujarati,lottery_scam,claude_synthetic
+"પબજી મોબાઈલ લકી ડ્રો વિજેતા જાહેરાત: તમે 50,000 રૂપિયા અને ગેમિંગ ફોન જીત્યા. હમણાં દાવો કરવા 999 રૂપિયા ડિલિવરી ચાર્જ મોકલો.",gujarati,lottery_scam,claude_synthetic
+"પ્રિય ગ્રાહક, તમારું એસબીઆઈ ખાતું બેંકની એનિવર્સરી લકી ડ્રો માટે પસંદ થયું છે, ઈનામ 5,00,000 રૂપિયા. દાવો કરવા ખાતું ચકાસો.",gujarati,lottery_scam,claude_synthetic
+"તમે ઓનલાઈન સર્વે લકી ડ્રોમાં નવી કાર જીતી છે! તમારા સરનામે ડિલિવરી મેળવવા 4,999 રૂપિયા નોંધણી ફી ભરો.",gujarati,lottery_scam,claude_synthetic
+"આ ગૂગલ લકી ડ્રો ટીમ છે. તમારી જીમેલ આઈડીએ અમારા વાર્ષિક પ્રમોશનમાં 50,000 ડોલર જીત્યા. દાવો કરવા બેંક વિગતો મોકલો.",gujarati,lottery_scam,claude_synthetic
+"રિલાયન્સ જિયો 10મી વર્ષગાંઠ ઓફર: તમારા નંબરે 25 લાખ રૂપિયા જીત્યા! રકમ તાત્કાલિક મેળવવા 2,999 રૂપિયા પ્રોસેસિંગ ચાર્જ ભરો.",gujarati,lottery_scam,claude_synthetic
+"અભિનંદન, તમે આજના 12,00,000 રૂપિયાના વોટ્સએપ લકી વિજેતા છો. ઓળખ પુષ્ટિ અને ઈનામ દાવા માટે ઓટીપી શેર કરો.",gujarati,lottery_scam,claude_synthetic
+"તમારા રેશન કાર્ડ નંબરે સરકારી લકી ડ્રો યોજનામાં 50,000 રૂપિયા જીત્યા છે. તમારો આધાર સાથે જોડાયેલ બેંક વિગતો શેર કરો.",gujarati,lottery_scam,claude_synthetic
+"લકી વિજેતા એલર્ટ: તમારા રિચાર્જ નંબરે એરટેલના ખાસ ડ્રોમાં 8,88,888 રૂપિયા જીત્યા. ચકાસણી માટે હમણાં કાર્ડ વિગતો સાથે કૉલ કરો.",gujarati,lottery_scam,claude_synthetic
+"તમે 20,00,000 રૂપિયા માટે દેશભરમાં પસંદ થયેલા 10 વિજેતાઓમાંથી એક છો. મેળવવા પહેલા 6,000 રૂપિયા ઈન્કમ ટેક્સ ક્લિયરન્સ ભરો.",gujarati,lottery_scam,claude_synthetic
+"મોટા સમાચાર! તમારો ફોન નંબર 5,00,000મો મુલાકાતી છે અને આઈફોન અને રોકડ ઈનામ જીત્યું છે. સમાપ્ત થાય તે પહેલા લિંક પર ક્લિક કરો.",gujarati,lottery_scam,claude_synthetic
+"આ તમારી અંતિમ સૂચના છે: જો આજે 5,500 રૂપિયા જીએસટી નહીં ભરો તો તમારું કેબીસી લોટરી ઈનામ 25,00,000 રદ થઈ જશે.",gujarati,lottery_scam,claude_synthetic
+"પ્રિય ગ્રાહક, પ્રજાસત્તાક દિવસના પ્રસંગે, તમારા નંબરે ખાસ લકી ડ્રો જીત્યો છે. ઈનામ રકમ 7,50,000, દાવો કરવા ઓટીપી શેર કરો.",gujarati,lottery_scam,claude_synthetic
+"તમે ગોવાનું મફત વેકેશન પેકેજ જીત્યું છે જેની કિંમત 45,000 રૂપિયા છે! તારીખો પાક્કી કરવા ફક્ત 1,500 રૂપિયા બુકિંગ ફી ભરો.",gujarati,lottery_scam,claude_synthetic
+"એમેઝોન પે લકી ડ્રો: તમારા ખાતાએ 30,000 રૂપિયા કેશબેક જીત્યું. રકમ તાત્કાલિક મેળવવા એપમાં તમારો યુપીઆઈ પિન દાખલ કરો.",gujarati,lottery_scam,claude_synthetic
+"તહેવાર મેગા લોટરીમાં 11,00,000 રૂપિયા જીતવા બદલ અભિનંદન! અમારો એજન્ટ તમારો આધાર અને બેંક પાસબુક ફોટો લેવા કૉલ કરશે.",gujarati,lottery_scam,claude_synthetic
+"તમારા લકી નંબરે વર્ષના અંતના ટેલિકોમ ડ્રોમાં 9,99,999 રૂપિયા જીત્યા. ઈનામ મેળવવા 4,500 રૂપિયા કાનૂની ચકાસણી ફી જમા કરો.",gujarati,lottery_scam,claude_synthetic
+"આ સૂચના છે કે તમારી તાજેતરની ઓનલાઈન ફોર્મ એન્ટ્રીએ 2,00,000 રૂપિયા જીત્યા છે. હમણાં તમારો ખાતા નંબર અને આઈએફએસસી કોડ મોકલીને પુષ્ટિ કરો.",gujarati,lottery_scam,claude_synthetic
+"ઈનામ એલર્ટ: તમે આ અઠવાડિયાના 15,00,000 રૂપિયાના 3 લકી વિજેતાઓમાંથી એક છો. ટ્રાન્સફર અનલોક કરવા 3,000 રૂપિયા પરત કરી શકાય તેવી ડિપોઝિટ ભરો.",gujarati,lottery_scam,claude_synthetic
+તમારું નામ 25 લાખ રૂપિયાની કોકા-કોલા એનિવર્સરી લકી ડ્રો માટે પાક્કું થયું છે. આજે અમારા પ્રતિનિધિને બેંક વિગતો શેર કરો.,gujarati,lottery_scam,claude_synthetic
+"અભિનંદન, તમારો નંબર 5,00,000 રૂપિયાના પોસ્ટલ ડિપાર્ટમેન્ટ લકી ડ્રોમાં પસંદ થયો છે. લિંક પર જાઓ અને તમારો આધાર ઓટીપી દાખલ કરો.",gujarati,lottery_scam,claude_synthetic
+"તમે આંતરરાષ્ટ્રીય લોટરી કંપની તરફથી 18,00,000 રૂપિયાનું લકી ડ્રો ઈનામ જીત્યું છે. ફંડ રિલીઝ કરવા 7,000 રૂપિયા કસ્ટમ્સ ક્લિયરન્સ ફી ભરો.",gujarati,lottery_scam,claude_synthetic
+"You have received a payment request of Rs 2,000 from Rahul. Accept to receive money in your account.",english,upi_scam,claude_synthetic
+Refund of Rs 499 pending. Tap Accept on the collect request in your UPI app to receive it instantly.,english,upi_scam,claude_synthetic
+Your cashback of Rs 150 is ready. Approve the payment request notification to claim it now.,english,upi_scam,claude_synthetic
+"Scan this QR code to receive Rs 5,000 as a gift from your relative. Do not share your UPI PIN with anyone else.",english,upi_scam,claude_synthetic
+"Payment failed, retry by entering your UPI PIN on this link to complete the refund process.",english,upi_scam,claude_synthetic
+"Congratulations! Someone sent you Rs 10,000 via UPI. Enter your PIN in the app to accept the transfer.",english,upi_scam,claude_synthetic
+Your electricity refund of Rs 850 is stuck. Accept the collect request sent to your registered UPI ID.,english,upi_scam,claude_synthetic
+"I am the buyer for your OLX listing, I've sent advance payment. Please accept the request to confirm.",english,upi_scam,claude_synthetic
+"Your GPay account shows Rs 3,200 pending refund. Click the link and scan the QR to release the amount.",english,upi_scam,claude_synthetic
+"Hi, I accidentally sent money to your account, please scan this QR code to refund it back to me.",english,upi_scam,claude_synthetic
+Your PhonePe KYC is linked to a pending Rs 999 cashback. Enter your UPI PIN to complete the claim.,english,upi_scam,claude_synthetic
+"Delivery agent here — for COD refund of Rs 350, please accept the payment request I just sent.",english,upi_scam,claude_synthetic
+"Your Paytm wallet has an unclaimed balance of Rs 1,200. Approve the request notification to transfer it to your bank.",english,upi_scam,claude_synthetic
+"Sir maine aapko paisa bhej diya hai, request accept kar dijiye taaki transaction complete ho jaye.",english,upi_scam,claude_synthetic
+Your bank has issued a refund via UPI for the failed transaction. Enter PIN on the collect request to receive Rs 700.,english,upi_scam,claude_synthetic
+"This is your relative, I sent money by mistake to a wrong UPI ID, please scan and refund immediately.",english,upi_scam,claude_synthetic
+"Your UPI ID has won a lucky transaction bonus of Rs 2,500. Accept the request to claim your reward.",english,upi_scam,claude_synthetic
+"Buyer interested in your Facebook Marketplace item, sending token amount now, please accept to confirm the sale.",english,upi_scam,claude_synthetic
+"Your bank UPI limit has increased. To activate, enter your UPI PIN when prompted by the SMS link.",english,upi_scam,claude_synthetic
+"I am your college senior, please accept this Rs 500 collect request, I'll explain later, urgent.",english,upi_scam,claude_synthetic
+Your cab fare refund of Rs 120 is pending due to app error. Scan the QR to receive it in your wallet.,english,upi_scam,claude_synthetic
+"Congratulations, your UPI transaction qualifies for a reward. Enter your UPI PIN to unlock Rs 999 instantly.",english,upi_scam,claude_synthetic
+"Sir aapka parcel COD hai, refund ke liye maine request bheji hai, accept kar dijiye.",english,upi_scam,claude_synthetic
+Your bank has flagged a pending UPI mandate for auto-refund. Approve now to avoid transaction reversal charges.,english,upi_scam,claude_synthetic
+"I found your lost wallet, sending back the cash via UPI, please scan the QR code I'm sharing to receive it.",english,upi_scam,claude_synthetic
+Your electricity board owes you a rebate. Tap the collect request link to receive Rs 640 in your account.,english,upi_scam,claude_synthetic
+"This is customer support, your last UPI transaction failed, please share your UPI PIN to process the reversal.",english,upi_scam,claude_synthetic
+"Your friend requested Rs 1,000 via UPI for an emergency. Please accept quickly, they said it's urgent.",english,upi_scam,claude_synthetic
+"Get instant loan disbursed to your UPI ID, just scan this QR and enter your PIN to activate.",english,upi_scam,claude_synthetic
+Your recharge failed but amount was deducted. Accept the refund request on your UPI app to get it back.,english,upi_scam,claude_synthetic
+"आपको राहुल से 2,000 रुपये का पेमेंट रिक्वेस्ट मिला है। पैसे पाने के लिए एक्सेप्ट करें।",hindi,upi_scam,claude_synthetic
+499 रुपये का रिफंड लंबित है। तुरंत पाने के लिए अपने यूपीआई ऐप में कलेक्ट रिक्वेस्ट पर एक्सेप्ट टैप करें।,hindi,upi_scam,claude_synthetic
+आपका 150 रुपये कैशबैक तैयार है। अभी दावा करने के लिए पेमेंट रिक्वेस्ट नोटिफिकेशन अप्रूव करें।,hindi,upi_scam,claude_synthetic
+"अपने रिश्तेदार से 5,000 रुपये का गिफ्ट पाने के लिए यह क्यूआर कोड स्कैन करें। किसी को भी यूपीआई पिन न बताएं।",hindi,upi_scam,claude_synthetic
+"भुगतान असफल रहा, रिफंड प्रोसेस पूरा करने के लिए इस लिंक पर अपना यूपीआई पिन दर्ज करके फिर कोशिश करें।",hindi,upi_scam,claude_synthetic
+"बधाई हो! किसी ने आपको यूपीआई से 10,000 रुपये भेजे हैं। ट्रांसफर स्वीकार करने के लिए ऐप में अपना पिन दर्ज करें।",hindi,upi_scam,claude_synthetic
+आपका बिजली रिफंड 850 रुपये अटका हुआ है। अपने रजिस्टर्ड यूपीआई आईडी पर भेजी गई कलेक्ट रिक्वेस्ट एक्सेप्ट करें।,hindi,upi_scam,claude_synthetic
+"मैं आपकी ओएलएक्स लिस्टिंग का खरीदार हूं, एडवांस पेमेंट भेज दिया है। पुष्टि के लिए रिक्वेस्ट एक्सेप्ट करें।",hindi,upi_scam,claude_synthetic
+"आपके जीपे खाते में 3,200 रुपये का रिफंड लंबित दिख रहा है। राशि पाने के लिए लिंक पर क्लिक करें और क्यूआर स्कैन करें।",hindi,upi_scam,claude_synthetic
+"नमस्ते, गलती से मैंने आपके खाते में पैसे भेज दिए, कृपया वापस भेजने के लिए यह क्यूआर कोड स्कैन करें।",hindi,upi_scam,claude_synthetic
+आपका फोनपे केवाईसी 999 रुपये के लंबित कैशबैक से जुड़ा है। दावा पूरा करने के लिए अपना यूपीआई पिन दर्ज करें।,hindi,upi_scam,claude_synthetic
+"डिलीवरी एजेंट बोल रहा हूं — 350 रुपये सीओडी रिफंड के लिए, मैंने भेजी पेमेंट रिक्वेस्ट एक्सेप्ट करें।",hindi,upi_scam,claude_synthetic
+"आपके पेटीएम वॉलेट में 1,200 रुपये का अनक्लेम्ड बैलेंस है। बैंक में ट्रांसफर करने के लिए रिक्वेस्ट नोटिफिकेशन अप्रूव करें।",hindi,upi_scam,claude_synthetic
+"सर मैंने आपको पैसा भेज दिया है, ट्रांजैक्शन पूरा करने के लिए रिक्वेस्ट एक्सेप्ट कर दीजिए।",hindi,upi_scam,claude_synthetic
+असफल ट्रांजैक्शन के लिए आपके बैंक ने यूपीआई से रिफंड जारी किया है। 700 रुपये पाने के लिए कलेक्ट रिक्वेस्ट पर पिन डालें।,hindi,upi_scam,claude_synthetic
+"यह आपका रिश्तेदार है, गलती से गलत यूपीआई आईडी पर पैसे भेज दिए, कृपया स्कैन करके तुरंत वापस भेजें।",hindi,upi_scam,claude_synthetic
+"आपकी यूपीआई आईडी ने लकी ट्रांजैक्शन बोनस 2,500 रुपये जीता है। इनाम दावा करने के लिए रिक्वेस्ट एक्सेप्ट करें।",hindi,upi_scam,claude_synthetic
+"आपके फेसबुक मार्केटप्लेस आइटम में खरीदार दिलचस्पी रखता है, टोकन राशि भेज रहा हूं, बिक्री पक्की करने के लिए एक्सेप्ट करें।",hindi,upi_scam,claude_synthetic
+आपकी यूपीआई सीमा बढ़ा दी गई है। सक्रिय करने के लिए एसएमएस लिंक पर पूछे जाने पर अपना यूपीआई पिन दर्ज करें।,hindi,upi_scam,claude_synthetic
+"मैं आपका कॉलेज सीनियर हूं, कृपया यह 500 रुपये की कलेक्ट रिक्वेस्ट एक्सेप्ट करें, बाद में बताऊंगा, अर्जेंट है।",hindi,upi_scam,claude_synthetic
+ऐप एरर के कारण आपका 120 रुपये का कैब किराया रिफंड लंबित है। वॉलेट में पाने के लिए क्यूआर स्कैन करें।,hindi,upi_scam,claude_synthetic
+"बधाई हो, आपका यूपीआई ट्रांजैक्शन इनाम के लिए योग्य है। तुरंत 999 रुपये अनलॉक करने के लिए अपना यूपीआई पिन दर्ज करें।",hindi,upi_scam,claude_synthetic
+"सर आपका पार्सल सीओडी है, रिफंड के लिए मैंने रिक्वेस्ट भेजी है, एक्सेप्ट कर दीजिए।",hindi,upi_scam,claude_synthetic
+आपके बैंक ने ऑटो-रिफंड के लिए लंबित यूपीआई मैंडेट फ्लैग किया है। ट्रांजैक्शन रिवर्सल शुल्क से बचने के लिए अभी अप्रूव करें।,hindi,upi_scam,claude_synthetic
+"मुझे आपका खोया हुआ वॉलेट मिला, यूपीआई से पैसे वापस भेज रहा हूं, पाने के लिए मेरा भेजा क्यूआर कोड स्कैन करें।",hindi,upi_scam,claude_synthetic
+बिजली बोर्ड पर आपका रिबेट बकाया है। 640 रुपये पाने के लिए कलेक्ट रिक्वेस्ट लिंक टैप करें।,hindi,upi_scam,claude_synthetic
+"यह कस्टमर सपोर्ट है, आपका आखिरी यूपीआई ट्रांजैक्शन असफल रहा, रिवर्सल प्रोसेस के लिए अपना यूपीआई पिन बताएं।",hindi,upi_scam,claude_synthetic
+"आपके दोस्त ने इमरजेंसी के लिए यूपीआई से 1,000 रुपये मांगे हैं। जल्दी एक्सेप्ट करें, उसने कहा अर्जेंट है।",hindi,upi_scam,claude_synthetic
+"अपनी यूपीआई आईडी पर तुरंत लोन पाएं, बस यह क्यूआर स्कैन करें और सक्रिय करने के लिए पिन दर्ज करें।",hindi,upi_scam,claude_synthetic
+आपका रिचार्ज असफल रहा लेकिन राशि कट गई। वापस पाने के लिए अपने यूपीआई ऐप पर रिफंड रिक्वेस्ट एक्सेप्ट करें।,hindi,upi_scam,claude_synthetic
+"તમને રાહુલ તરફથી 2,000 રૂપિયાની પેમેન્ટ રિક્વેસ્ટ મળી છે. પૈસા મેળવવા એક્સેપ્ટ કરો.",gujarati,upi_scam,claude_synthetic
+499 રૂપિયાનું રિફંડ બાકી છે. તાત્કાલિક મેળવવા તમારી યુપીઆઈ એપમાં કલેક્ટ રિક્વેસ્ટ પર એક્સેપ્ટ ટેપ કરો.,gujarati,upi_scam,claude_synthetic
+તમારું 150 રૂપિયા કેશબેક તૈયાર છે. હમણાં દાવો કરવા પેમેન્ટ રિક્વેસ્ટ નોટિફિકેશન મંજૂર કરો.,gujarati,upi_scam,claude_synthetic
+"તમારા સંબંધી પાસેથી 5,000 રૂપિયાની ભેટ મેળવવા આ ક્યુઆર કોડ સ્કેન કરો. કોઈને પણ યુપીઆઈ પિન ન જણાવો.",gujarati,upi_scam,claude_synthetic
+"ચુકવણી નિષ્ફળ ગઈ, રિફંડ પ્રક્રિયા પૂર્ણ કરવા આ લિંક પર તમારો યુપીઆઈ પિન દાખલ કરીને ફરી પ્રયાસ કરો.",gujarati,upi_scam,claude_synthetic
+"અભિનંદન! કોઈએ તમને યુપીઆઈ દ્વારા 10,000 રૂપિયા મોકલ્યા છે. ટ્રાન્સફર સ્વીકારવા એપમાં તમારો પિન દાખલ કરો.",gujarati,upi_scam,claude_synthetic
+તમારું વીજળી રિફંડ 850 રૂપિયા અટકેલું છે. તમારા નોંધાયેલ યુપીઆઈ આઈડી પર મોકલેલી કલેક્ટ રિક્વેસ્ટ એક્સેપ્ટ કરો.,gujarati,upi_scam,claude_synthetic
+"હું તમારી ઓએલએક્સ લિસ્ટિંગનો ખરીદનાર છું, એડવાન્સ પેમેન્ટ મોકલી દીધું છે. પુષ્ટિ માટે રિક્વેસ્ટ એક્સેપ્ટ કરો.",gujarati,upi_scam,claude_synthetic
+"તમારા જીપે ખાતામાં 3,200 રૂપિયાનું રિફંડ બાકી દેખાય છે. રકમ મેળવવા લિંક પર ક્લિક કરો અને ક્યુઆર સ્કેન કરો.",gujarati,upi_scam,claude_synthetic
+"નમસ્તે, ભૂલથી મેં તમારા ખાતામાં પૈસા મોકલી દીધા, કૃપા કરી પાછા મોકલવા આ ક્યુઆર કોડ સ્કેન કરો.",gujarati,upi_scam,claude_synthetic
+તમારું ફોનપે કેવાયસી 999 રૂપિયાના બાકી કેશબેક સાથે જોડાયેલું છે. દાવો પૂર્ણ કરવા તમારો યુપીઆઈ પિન દાખલ કરો.,gujarati,upi_scam,claude_synthetic
+"ડિલિવરી એજન્ટ બોલું છું — 350 રૂપિયા સીઓડી રિફંડ માટે, મેં મોકલેલી પેમેન્ટ રિક્વેસ્ટ એક્સેપ્ટ કરો.",gujarati,upi_scam,claude_synthetic
+"તમારા પેટીએમ વોલેટમાં 1,200 રૂપિયાનું અનક્લેમ્ડ બેલેન્સ છે. બેંકમાં ટ્રાન્સફર કરવા રિક્વેસ્ટ નોટિફિકેશન મંજૂર કરો.",gujarati,upi_scam,claude_synthetic
+"સર મેં તમને પૈસા મોકલી દીધા છે, ટ્રાન્ઝેક્શન પૂર્ણ કરવા રિક્વેસ્ટ એક્સેપ્ટ કરી દો.",gujarati,upi_scam,claude_synthetic
+નિષ્ફળ ટ્રાન્ઝેક્શન માટે તમારી બેંકે યુપીઆઈ દ્વારા રિફંડ જારી કર્યું છે. 700 રૂપિયા મેળવવા કલેક્ટ રિક્વેસ્ટ પર પિન નાખો.,gujarati,upi_scam,claude_synthetic
+"આ તમારો સંબંધી છે, ભૂલથી ખોટા યુપીઆઈ આઈડી પર પૈસા મોકલી દીધા, કૃપા કરી સ્કેન કરીને તાત્કાલિક પાછા મોકલો.",gujarati,upi_scam,claude_synthetic
+"તમારા યુપીઆઈ આઈડીએ લકી ટ્રાન્ઝેક્શન બોનસ 2,500 રૂપિયા જીત્યું છે. ઈનામ દાવો કરવા રિક્વેસ્ટ એક્સેપ્ટ કરો.",gujarati,upi_scam,claude_synthetic
+"તમારી ફેસબુક માર્કેટપ્લેસ આઈટમમાં ખરીદનારને રસ છે, ટોકન રકમ મોકલું છું, વેચાણ પાક્કું કરવા એક્સેપ્ટ કરો.",gujarati,upi_scam,claude_synthetic
+તમારી યુપીઆઈ મર્યાદા વધારી દેવામાં આવી છે. સક્રિય કરવા એસએમએસ લિંક પર પૂછતી વખતે તમારો યુપીઆઈ પિન દાખલ કરો.,gujarati,upi_scam,claude_synthetic
+"હું તમારો કોલેજ સિનિયર છું, કૃપા કરી આ 500 રૂપિયાની કલેક્ટ રિક્વેસ્ટ એક્સેપ્ટ કરો, પછી સમજાવીશ, અર્જન્ટ છે.",gujarati,upi_scam,claude_synthetic
+એપ ભૂલના કારણે તમારું 120 રૂપિયાનું કેબ ભાડું રિફંડ બાકી છે. વોલેટમાં મેળવવા ક્યુઆર સ્કેન કરો.,gujarati,upi_scam,claude_synthetic
+"અભિનંદન, તમારું યુપીઆઈ ટ્રાન્ઝેક્શન ઈનામ માટે લાયક છે. તાત્કાલિક 999 રૂપિયા અનલોક કરવા તમારો યુપીઆઈ પિન દાખલ કરો.",gujarati,upi_scam,claude_synthetic
+"સર તમારો પાર્સલ સીઓડી છે, રિફંડ માટે મેં રિક્વેસ્ટ મોકલી છે, એક્સેપ્ટ કરી દો.",gujarati,upi_scam,claude_synthetic
+તમારી બેંકે ઓટો-રિફંડ માટે બાકી યુપીઆઈ મેન્ડેટ ફ્લેગ કર્યું છે. ટ્રાન્ઝેક્શન રિવર્સલ ચાર્જથી બચવા હમણાં મંજૂર કરો.,gujarati,upi_scam,claude_synthetic
+"મને તમારું ખોવાયેલું વોલેટ મળ્યું, યુપીઆઈથી પૈસા પાછા મોકલું છું, મેળવવા મેં મોકલેલો ક્યુઆર કોડ સ્કેન કરો.",gujarati,upi_scam,claude_synthetic
+વીજળી બોર્ડ પર તમારો રિબેટ બાકી છે. 640 રૂપિયા મેળવવા કલેક્ટ રિક્વેસ્ટ લિંક ટેપ કરો.,gujarati,upi_scam,claude_synthetic
+"આ કસ્ટમર સપોર્ટ છે, તમારું છેલ્લું યુપીઆઈ ટ્રાન્ઝેક્શન નિષ્ફળ ગયું, રિવર્સલ પ્રક્રિયા માટે તમારો યુપીઆઈ પિન જણાવો.",gujarati,upi_scam,claude_synthetic
+"તમારા મિત્રએ ઈમરજન્સી માટે યુપીઆઈથી 1,000 રૂપિયા માંગ્યા છે. ઝડપથી એક્સેપ્ટ કરો, તેણે કહ્યું અર્જન્ટ છે.",gujarati,upi_scam,claude_synthetic
+"તમારા યુપીઆઈ આઈડી પર તાત્કાલિક લોન મેળવો, ફક્ત આ ક્યુઆર સ્કેન કરો અને સક્રિય કરવા પિન દાખલ કરો.",gujarati,upi_scam,claude_synthetic
+તમારું રિચાર્જ નિષ્ફળ ગયું પણ રકમ કપાઈ ગઈ. પાછી મેળવવા તમારી યુપીઆઈ એપ પર રિફંડ રિક્વેસ્ટ એક્સેપ્ટ કરો.,gujarati,upi_scam,claude_synthetic
+आपके ईमेल खाते में असामान्य गतिविधि देखी गई है। सुरक्षित करने के लिए तुरंत इस लिंक पर लॉगिन करें।,hindi,phishing,claude_synthetic
+आपका नेटफ्लिक्स सब्सक्रिप्शन समाप्त हो गया है। भुगतान अपडेट करने के लिए इस लिंक पर कार्ड विवरण दर्ज करें।,hindi,phishing,claude_synthetic
+आपका फेसबुक अकाउंट 24 घंटे में डिलीट हो जाएगा। सत्यापित करने के लिए अपना पासवर्ड इस लिंक पर डालें।,hindi,phishing,claude_synthetic
+जरूरी: आपके व्हाट्सएप अकाउंट पर नई पॉलिसी लागू होगी। जारी रखने के लिए इस लिंक पर टैप करें और ओटीपी डालें।,hindi,phishing,claude_synthetic
+आपका ईमेल स्टोरेज फुल हो गया है। डेटा खोने से बचाने के लिए तुरंत इस लिंक पर लॉगिन करके अपग्रेड करें।,hindi,phishing,claude_synthetic
+यह आपकी बैंक सुरक्षा टीम है। असामान्य लॉगिन रोकने के लिए तुरंत अपना नेट बैंकिंग पासवर्ड कन्फर्म करें।,hindi,phishing,claude_synthetic
+आपके अकाउंट में सस्पिशियस एक्टिविटी मिली है। सुरक्षा के लिए इस लिंक पर क्लिक करके अपनी डिटेल्स वेरीफाई करें।,hindi,phishing,claude_synthetic
+आपका इंस्टाग्राम अकाउंट कॉपीराइट उल्लंघन के कारण बंद हो जाएगा। अपील करने के लिए इस फॉर्म में लॉगिन डिटेल्स भरें।,hindi,phishing,claude_synthetic
+"गूगल सुरक्षा चेतावनी: नए डिवाइस से लॉगिन हुआ। यदि आप नहीं थे, तो तुरंत इस लिंक पर पासवर्ड रीसेट करें।",hindi,phishing,claude_synthetic
+आपका मोबाइल सिम कल बंद हो जाएगा। पुनः सक्रिय करने के लिए इस लिंक पर अपनी जानकारी भरें।,hindi,phishing,claude_synthetic
+यह ऐप्पल सपोर्ट है। आपकी आईक्लाउड आईडी लॉक हो गई है। अनलॉक करने के लिए अपना पासवर्ड और ओटीपी बताएं।,hindi,phishing,claude_synthetic
+"आपका पैन कार्ड आधार से लिंक नहीं है, जिससे आयकर रिटर्न रुक जाएगा। अभी इस लिंक पर लिंक करें।",hindi,phishing,claude_synthetic
+आपके पास एक सुरक्षित दस्तावेज़ है जिसे डाउनलोड करने के लिए आपको अपने ऑफिस ईमेल पासवर्ड से लॉगिन करना होगा।,hindi,phishing,claude_synthetic
+"आपका कूरियर डिलीवर नहीं हो सका, पता कन्फर्म करने के लिए इस लिंक पर अपना कार्ड नंबर दर्ज करें।",hindi,phishing,claude_synthetic
+"यह माइक्रोसॉफ्ट सपोर्ट टीम है, आपके कंप्यूटर में वायरस मिला है, ठीक करने के लिए हमें रिमोट एक्सेस दें।",hindi,phishing,claude_synthetic
+आपका डीमैट अकाउंट सस्पेंड होने वाला है। तुरंत इस लिंक पर लॉगिन करके अपनी जानकारी अपडेट करें।,hindi,phishing,claude_synthetic
+आपकी बिजली कनेक्शन आज रात काट दी जाएगी। भुगतान करने के लिए इस लिंक पर तुरंत कार्ड विवरण डालें।,hindi,phishing,claude_synthetic
+आपके क्रेडिट कार्ड की लिमिट बढ़ाने के लिए इस लिंक पर अपना कार्ड नंबर और सीवीवी दर्ज करें।,hindi,phishing,claude_synthetic
+एलआईसी पॉलिसी बोनस पाने के लिए अपनी पॉलिसी डिटेल्स और बैंक खाता इस लिंक पर सबमिट करें।,hindi,phishing,claude_synthetic
+"आपका पासपोर्ट आवेदन अटका हुआ है, आगे बढ़ाने के लिए इस लिंक पर अपनी व्यक्तिगत जानकारी भरें।",hindi,phishing,claude_synthetic
+"यह जॉब ऑफर लेटर है, अकाउंट सेटअप के लिए अपना बैंक विवरण और आधार इस फॉर्म में भरें।",hindi,phishing,claude_synthetic
+आपके ट्विटर अकाउंट में लॉगिन असफलताएं मिलीं। सुरक्षित करने के लिए इस लिंक पर अपना पासवर्ड बदलें।,hindi,phishing,claude_synthetic
+जीएसटी रिटर्न फाइलिंग में एरर मिली है। जुर्माने से बचने के लिए इस लिंक पर अपनी जानकारी अपडेट करें।,hindi,phishing,claude_synthetic
+आपका राशन कार्ड आधार से लिंक नहीं है। तुरंत इस लिंक पर सभी विवरण भरकर लिंक करें।,hindi,phishing,claude_synthetic
+"यह टेलीकॉम रेगुलेटर की सूचना है, आपका सिम कल बंद होगा, फिर से वेरीफाई करने के लिए ओटीपी भेजें।",hindi,phishing,claude_synthetic
+તમારા ઈમેલ ખાતામાં અસામાન્ય પ્રવૃત્તિ જોવા મળી છે. સુરક્ષિત કરવા તાત્કાલિક આ લિંક પર લોગિન કરો.,gujarati,phishing,claude_synthetic
+તમારું નેટફ્લિક્સ સબસ્ક્રિપ્શન સમાપ્ત થઈ ગયું છે. ચુકવણી અપડેટ કરવા આ લિંક પર કાર્ડ વિગતો દાખલ કરો.,gujarati,phishing,claude_synthetic
+તમારું ફેસબુક એકાઉન્ટ 24 કલાકમાં ડિલીટ થઈ જશે. ચકાસવા તમારો પાસવર્ડ આ લિંક પર નાખો.,gujarati,phishing,claude_synthetic
+તાત્કાલિક: તમારા વોટ્સએપ એકાઉન્ટ પર નવી પોલિસી લાગુ થશે. ચાલુ રાખવા આ લિંક પર ટેપ કરો અને ઓટીપી નાખો.,gujarati,phishing,claude_synthetic
+તમારો ઈમેલ સ્ટોરેજ ભરાઈ ગયો છે. ડેટા ગુમાવવાથી બચવા તાત્કાલિક આ લિંક પર લોગિન કરીને અપગ્રેડ કરો.,gujarati,phishing,claude_synthetic
+આ તમારી બેંક સુરક્ષા ટીમ છે. અસામાન્ય લોગિન રોકવા તાત્કાલિક તમારો નેટ બેંકિંગ પાસવર્ડ કન્ફર્મ કરો.,gujarati,phishing,claude_synthetic
+તમારા એકાઉન્ટમાં શંકાસ્પદ પ્રવૃત્તિ મળી છે. સુરક્ષા માટે આ લિંક પર ક્લિક કરીને તમારી વિગતો ચકાસો.,gujarati,phishing,claude_synthetic
+તમારું ઇન્સ્ટાગ્રામ એકાઉન્ટ કોપીરાઈટ ઉલ્લંઘનના કારણે બંધ થઈ જશે. અપીલ કરવા આ ફોર્મમાં લોગિન વિગતો ભરો.,gujarati,phishing,claude_synthetic
+"ગૂગલ સુરક્ષા ચેતવણી: નવા ડિવાઈસથી લોગિન થયું. જો તમે નહોતા, તો તાત્કાલિક આ લિંક પર પાસવર્ડ રીસેટ કરો.",gujarati,phishing,claude_synthetic
+તમારો મોબાઈલ સિમ કાલે બંધ થઈ જશે. ફરીથી સક્રિય કરવા આ લિંક પર તમારી માહિતી ભરો.,gujarati,phishing,claude_synthetic
+આ એપલ સપોર્ટ છે. તમારી આઈક્લાઉડ આઈડી લોક થઈ ગઈ છે. અનલોક કરવા તમારો પાસવર્ડ અને ઓટીપી જણાવો.,gujarati,phishing,claude_synthetic
+"તમારું પાન કાર્ડ આધાર સાથે લિંક નથી, જેનાથી ઈન્કમ ટેક્સ રિટર્ન અટકશે. હમણાં આ લિંક પર લિંક કરો.",gujarati,phishing,claude_synthetic
+તમારી પાસે એક સુરક્ષિત દસ્તાવેજ છે જે ડાઉનલોડ કરવા તમારે તમારા ઓફિસ ઈમેલ પાસવર્ડથી લોગિન કરવું પડશે.,gujarati,phishing,claude_synthetic
+"તમારો કુરિયર ડિલિવર થઈ શક્યો નથી, સરનામું કન્ફર્મ કરવા આ લિંક પર તમારો કાર્ડ નંબર દાખલ કરો.",gujarati,phishing,claude_synthetic
+"આ માઈક્રોસોફ્ટ સપોર્ટ ટીમ છે, તમારા કમ્પ્યુટરમાં વાયરસ મળ્યો છે, ઠીક કરવા અમને રિમોટ એક્સેસ આપો.",gujarati,phishing,claude_synthetic
+તમારું ડિમેટ એકાઉન્ટ સસ્પેન્ડ થવાનું છે. તાત્કાલિક આ લિંક પર લોગિન કરીને તમારી માહિતી અપડેટ કરો.,gujarati,phishing,claude_synthetic
+તમારું વીજળી કનેક્શન આજે રાત્રે કાપી નાખવામાં આવશે. ચુકવણી કરવા આ લિંક પર તાત્કાલિક કાર્ડ વિગતો નાખો.,gujarati,phishing,claude_synthetic
+તમારા ક્રેડિટ કાર્ડની મર્યાદા વધારવા આ લિંક પર તમારો કાર્ડ નંબર અને સીવીવી દાખલ કરો.,gujarati,phishing,claude_synthetic
+એલઆઈસી પોલિસી બોનસ મેળવવા તમારી પોલિસી વિગતો અને બેંક ખાતું આ લિંક પર સબમિટ કરો.,gujarati,phishing,claude_synthetic
+"તમારી પાસપોર્ટ અરજી અટકેલી છે, આગળ વધારવા આ લિંક પર તમારી વ્યક્તિગત માહિતી ભરો.",gujarati,phishing,claude_synthetic
+"આ જોબ ઓફર લેટર છે, એકાઉન્ટ સેટઅપ માટે તમારી બેંક વિગતો અને આધાર આ ફોર્મમાં ભરો.",gujarati,phishing,claude_synthetic
+તમારા ટ્વિટર એકાઉન્ટમાં લોગિન નિષ્ફળતાઓ મળી. સુરક્ષિત કરવા આ લિંક પર તમારો પાસવર્ડ બદલો.,gujarati,phishing,claude_synthetic
+જીએસટી રિટર્ન ફાઈલિંગમાં ભૂલ મળી છે. દંડથી બચવા આ લિંક પર તમારી માહિતી અપડેટ કરો.,gujarati,phishing,claude_synthetic
+તમારું રેશન કાર્ડ આધાર સાથે લિંક નથી. તાત્કાલિક આ લિંક પર બધી વિગતો ભરીને લિંક કરો.,gujarati,phishing,claude_synthetic
+"આ ટેલિકોમ રેગ્યુલેટરની સૂચના છે, તમારો સિમ કાલે બંધ થશે, ફરીથી ચકાસવા ઓટીપી મોકલો.",gujarati,phishing,claude_synthetic
+जांच के दौरान आपका बैंक खाता फ्रीज किया जा सकता है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। जांच के दौरान आपका बैंक खाता फ्रीज किया जा सकता है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। जांच के दौरान आपका बैंक खाता फ्रीज किया जा सकता है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपका मोबाइल नंबर साइबर फ्रॉड जांच में आया है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपका मोबाइल नंबर साइबर फ्रॉड जांच में आया है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपका मोबाइल नंबर साइबर फ्रॉड जांच में आया है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपका नंबर टेलीकॉम फ्रॉड केस में पहचाना गया है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपका नंबर टेलीकॉम फ्रॉड केस में पहचाना गया है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपका नंबर टेलीकॉम फ्रॉड केस में पहचाना गया है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके आधार कार्ड का इस्तेमाल करके फर्जी सिम जारी की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके आधार कार्ड का इस्तेमाल करके फर्जी सिम जारी की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके आधार कार्ड का इस्तेमाल करके फर्जी सिम जारी की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके दस्तावेज़ों का दुरुपयोग करके वित्तीय धोखाधड़ी की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके दस्तावेज़ों का दुरुपयोग करके वित्तीय धोखाधड़ी की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके दस्तावेज़ों का दुरुपयोग करके वित्तीय धोखाधड़ी की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके खिलाफ डिजिटल फ्रॉड की शिकायत मिली है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके खिलाफ डिजिटल फ्रॉड की शिकायत मिली है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके खिलाफ डिजिटल फ्रॉड की शिकायत मिली है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके खिलाफ कानूनी कार्रवाई शुरू की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके खिलाफ कानूनी कार्रवाई शुरू की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके खिलाफ कानूनी कार्रवाई शुरू की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके नाम पर एक आपराधिक शिकायत दर्ज हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके नाम पर एक आपराधिक शिकायत दर्ज हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके नाम पर एक आपराधिक शिकायत दर्ज हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके नाम पर मनी लॉन्ड्रिंग का केस दर्ज हुआ है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके नाम पर मनी लॉन्ड्रिंग का केस दर्ज हुआ है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके नाम पर मनी लॉन्ड्रिंग का केस दर्ज हुआ है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके नाम पर रजिस्टर्ड सिम के दुरुपयोग की रिपोर्ट हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके नाम पर रजिस्टर्ड सिम के दुरुपयोग की रिपोर्ट हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके नाम पर रजिस्टर्ड सिम के दुरुपयोग की रिपोर्ट हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके नाम पर रजिस्टर्ड खाता अवैध गतिविधियों में इस्तेमाल हुआ है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके नाम पर रजिस्टर्ड खाता अवैध गतिविधियों में इस्तेमाल हुआ है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके नाम पर रजिस्टर्ड खाता अवैध गतिविधियों में इस्तेमाल हुआ है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके नंबर से आपत्तिजनक सामग्री प्रसारित हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके नंबर से आपत्तिजनक सामग्री प्रसारित हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके नंबर से आपत्तिजनक सामग्री प्रसारित हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपको जांच अधिकारी से तुरंत बात करनी होगी।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपको जांच अधिकारी से तुरंत बात करनी होगी।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपको जांच अधिकारी से तुरंत बात करनी होगी।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके खाते से संदिग्ध लेन-देन हुए हैं।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके खाते से संदिग्ध लेन-देन हुए हैं।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके खाते से संदिग्ध लेन-देन हुए हैं।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+साइबर जांच टीम को आपके नंबर से संदिग्ध गतिविधि मिली है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। साइबर जांच टीम को आपके नंबर से संदिग्ध गतिविधि मिली है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। साइबर जांच टीम को आपके नंबर से संदिग्ध गतिविधि मिली है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+जांच के लिए आपकी पहचान सत्यापित करनी होगी।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। जांच के लिए आपकी पहचान सत्यापित करनी होगी।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। जांच के लिए आपकी पहचान सत्यापित करनी होगी।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+सत्यापन के लिए सहयोग कीजिए।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। सत्यापन के लिए सहयोग कीजिए।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। सत्यापन के लिए सहयोग कीजिए।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके मोबाइल नंबर से अवैध संदेश भेजे गए हैं।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके मोबाइल नंबर से अवैध संदेश भेजे गए हैं।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके मोबाइल नंबर से अवैध संदेश भेजे गए हैं।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+पुलिस सत्यापन पूरा करना ज़रूरी है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। पुलिस सत्यापन पूरा करना ज़रूरी है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। पुलिस सत्यापन पूरा करना ज़रूरी है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। जांच के दौरान आपका बैंक खाता फ्रीज किया जा सकता है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपका मोबाइल नंबर साइबर फ्रॉड जांच में आया है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपका नंबर टेलीकॉम फ्रॉड केस में पहचाना गया है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपके आधार कार्ड का इस्तेमाल करके फर्जी सिम जारी की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपके दस्तावेज़ों का दुरुपयोग करके वित्तीय धोखाधड़ी की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपके खिलाफ डिजिटल फ्रॉड की शिकायत मिली है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपके खिलाफ कानूनी कार्रवाई शुरू की गई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपके नाम पर एक आपराधिक शिकायत दर्ज हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपके नाम पर मनी लॉन्ड्रिंग का केस दर्ज हुआ है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपके नाम पर रजिस्टर्ड सिम के दुरुपयोग की रिपोर्ट हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपके नाम पर रजिस्टर्ड खाता अवैध गतिविधियों में इस्तेमाल हुआ है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपके नंबर से आपत्तिजनक सामग्री प्रसारित हुई है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपको जांच अधिकारी से तुरंत बात करनी होगी।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपके खाते से संदिग्ध लेन-देन हुए हैं।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। साइबर जांच टीम को आपके नंबर से संदिग्ध गतिविधि मिली है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। जांच के लिए आपकी पहचान सत्यापित करनी होगी।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। सत्यापन के लिए सहयोग कीजिए।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। आपके मोबाइल नंबर से अवैध संदेश भेजे गए हैं।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+मैं नेशनल साइबर सेल से बोल रहा हूं। पुलिस सत्यापन पूरा करना ज़रूरी है।,hindi,impersonation_digital_arrest,huggingface_hinglish_transliterated
+आपके व्हाट्सएप से महिलाओं को अश्लील संदेश भेजे जा रहे हैं। आपको संदिग्ध माना जा रहा है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके व्हाट्सएप से महिलाओं को अश्लील संदेश भेजे जा रहे हैं। आपको संदिग्ध माना जा रहा है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं इंस्पेक्टर राजेश कुमार बोल रहा हूं। आपके व्हाट्सएप से महिलाओं को अश्लील संदेश भेजे जा रहे हैं। आपको संदिग्ध माना जा रहा है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+आपके नंबर से अश्लील सामग्री व्हाट्सएप ग्रुप्स में भेजी जा रही है। एफआईआर हो चुकी है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके नंबर से अश्लील सामग्री व्हाट्सएप ग्रुप्स में भेजी जा रही है। एफआईआर हो चुकी है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं इंस्पेक्टर राजेश कुमार बोल रहा हूं। आपके नंबर से अश्लील सामग्री व्हाट्सएप ग्रुप्स में भेजी जा रही है। एफआईआर हो चुकी है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+आपके फोन नंबर से कोई अश्लील गंदी तस्वीरें और वीडियो शेयर किए जा रहे हैं। यह साइबर क्राइम है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके फोन नंबर से कोई अश्लील गंदी तस्वीरें और वीडियो शेयर किए जा रहे हैं। यह साइबर क्राइम है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं इंस्पेक्टर राजेश कुमार बोल रहा हूं। आपके फोन नंबर से कोई अश्लील गंदी तस्वीरें और वीडियो शेयर किए जा रहे हैं। यह साइबर क्राइम है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+आपके फोन से अवैध अश्लील सामग्री प्रसारित हो रही है। डिजिटल अरेस्ट हो सकता है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपके फोन से अवैध अश्लील सामग्री प्रसारित हो रही है। डिजिटल अरेस्ट हो सकता है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं इंस्पेक्टर राजेश कुमार बोल रहा हूं। आपके फोन से अवैध अश्लील सामग्री प्रसारित हो रही है। डिजिटल अरेस्ट हो सकता है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+आपकी मॉर्फ्ड तस्वीरें वायरल हो रही हैं। साइबर सेल ने केस दर्ज कर लिया है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। आपकी मॉर्फ्ड तस्वीरें वायरल हो रही हैं। साइबर सेल ने केस दर्ज कर लिया है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं इंस्पेक्टर राजेश कुमार बोल रहा हूं। आपकी मॉर्फ्ड तस्वीरें वायरल हो रही हैं। साइबर सेल ने केस दर्ज कर लिया है।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+एक गैंग आपके नंबर का दुरुपयोग करके गंदे वीडियो बना रहा है। तुरंत सत्यापन करना होगा।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं साइबर क्राइम डिपार्टमेंट से बोल रहा हूं। एक गैंग आपके नंबर का दुरुपयोग करके गंदे वीडियो बना रहा है। तुरंत सत्यापन करना होगा।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+मैं इंस्पेक्टर राजेश कुमार बोल रहा हूं। एक गैंग आपके नंबर का दुरुपयोग करके गंदे वीडियो बना रहा है। तुरंत सत्यापन करना होगा।,hindi,impersonation_blackmail,huggingface_hinglish_transliterated
+आपका आधार डीएक्टिवेट होने वाला है। तुरंत अपडेट कीजिए।,hindi,kyc_scam,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपका आधार डीएक्टिवेट होने वाला है। तुरंत अपडेट कीजिए।,hindi,kyc_scam,huggingface_hinglish_transliterated
+आपके आधार से जुड़े खाते पर शिकायत मिली है।,hindi,kyc_scam,huggingface_hinglish_transliterated
+मैं दिल्ली पुलिस से बोल रहा हूं। आपके आधार से जुड़े खाते पर शिकायत मिली है।,hindi,kyc_scam,huggingface_hinglish_transliterated
+"मैं अमेज़न से बोल रहा हूं। आपका पार्सल होल्ड पर है, क्लियरेंस चार्ज ₹499 देना होगा।",hindi,phishing,huggingface_hinglish_transliterated
+"मैं दिल्ली पुलिस से बोल रहा हूं। मैं अमेज़न से बोल रहा हूं। आपका पार्सल होल्ड पर है, क्लियरेंस चार्ज ₹499 देना होगा।",hindi,phishing,huggingface_hinglish_transliterated
+"आपके पिताजी का एक्सीडेंट हो गया है। अस्पताल के लिए तुरंत 50,000 रुपये भेज दीजिए।",hindi,phishing,huggingface_hinglish_transliterated
+"मैं दिल्ली पुलिस से बोल रहा हूं। आपके पिताजी का एक्सीडेंट हो गया है। अस्पताल के लिए तुरंत 50,000 रुपये भेज दीजिए।",hindi,phishing,huggingface_hinglish_transliterated
+आपका ऑर्डर डिलीवर हो चुका है। फीडबैक दे देना।,hindi,not_scam,huggingface_hinglish_transliterated
+"बेटा घर आ गया हूं, दरवाजा खोल दो।",hindi,not_scam,huggingface_hinglish_transliterated
+"भाई आज शाम को मिलते हैं, कॉफी पे बात करते हैं।",hindi,not_scam,huggingface_hinglish_transliterated
+कैब 3 मिनट में पहुंच रहा है।,hindi,not_scam,huggingface_hinglish_transliterated
+"डॉक्टर अपॉइंटमेंट कल 9 बजे है, फास्टिंग रहना।",hindi,not_scam,huggingface_hinglish_transliterated
+"मम्मी मैं ऑफिस पहुंच गया, आज थोड़ा लेट हो जाऊंगा।",hindi,not_scam,huggingface_hinglish_transliterated
+"पापा ट्रेन में बैठ गया हूं, सुरक्षित पहुंच जाऊंगा।",hindi,not_scam,huggingface_hinglish_transliterated
+प्रोजेक्ट की रिव्यू मीटिंग कल 4 बजे है क्या?,hindi,not_scam,huggingface_hinglish_transliterated
+"स्कूल फीस की लास्ट डेट कल है, पेमेंट कर देना।",hindi,not_scam,huggingface_hinglish_transliterated
+"सर कल सुबह 10 बजे मीटिंग है, एजेंडा मेल कर दिया।",hindi,not_scam,huggingface_hinglish_transliterated
+Your bank account may be frozen during the investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. Your bank account may be frozen during the investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. Your bank account may be frozen during the investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+Your mobile number has come up in a cyber fraud investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. Your mobile number has come up in a cyber fraud investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. Your mobile number has come up in a cyber fraud investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+Your number has been identified in a telecom fraud case.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. Your number has been identified in a telecom fraud case.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. Your number has been identified in a telecom fraud case.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+A fake SIM has been issued using your Aadhaar card.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. A fake SIM has been issued using your Aadhaar card.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. A fake SIM has been issued using your Aadhaar card.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+Financial fraud has been committed by misusing your documents.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. Financial fraud has been committed by misusing your documents.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. Financial fraud has been committed by misusing your documents.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+A digital fraud complaint has been received against you.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. A digital fraud complaint has been received against you.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. A digital fraud complaint has been received against you.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+Legal action has been initiated against you.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. Legal action has been initiated against you.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. Legal action has been initiated against you.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+A criminal complaint has been registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. A criminal complaint has been registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. A criminal complaint has been registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+A money laundering case has been registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. A money laundering case has been registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. A money laundering case has been registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+A misuse report has been filed for a SIM registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. A misuse report has been filed for a SIM registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. A misuse report has been filed for a SIM registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+An account registered in your name has been used in illegal activities.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. An account registered in your name has been used in illegal activities.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. An account registered in your name has been used in illegal activities.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+Objectionable content has been circulated from your number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. Objectionable content has been circulated from your number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. Objectionable content has been circulated from your number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+You need to speak with the investigating officer immediately.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. You need to speak with the investigating officer immediately.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. You need to speak with the investigating officer immediately.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+Suspicious transactions have occurred from your account.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. Suspicious transactions have occurred from your account.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. Suspicious transactions have occurred from your account.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+The cyber investigation team has found suspicious activity from your number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. The cyber investigation team has found suspicious activity from your number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. The cyber investigation team has found suspicious activity from your number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+Your identity needs to be verified for the investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. Your identity needs to be verified for the investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. Your identity needs to be verified for the investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+Please cooperate for verification.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. Please cooperate for verification.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. Please cooperate for verification.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+Illegal messages have been sent from your mobile number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. Illegal messages have been sent from your mobile number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. Illegal messages have been sent from your mobile number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+It is necessary to complete police verification.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from Delhi Police. It is necessary to complete police verification.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+This is the Cyber Crime Department. It is necessary to complete police verification.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. Your bank account may be frozen during the investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. Your mobile number has come up in a cyber fraud investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. Your number has been identified in a telecom fraud case.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. A fake SIM has been issued using your Aadhaar card.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. Financial fraud has been committed by misusing your documents.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. A digital fraud complaint has been received against you.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. Legal action has been initiated against you.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. A criminal complaint has been registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. A money laundering case has been registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. A misuse report has been filed for a SIM registered in your name.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. An account registered in your name has been used in illegal activities.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. Objectionable content has been circulated from your number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. You need to speak with the investigating officer immediately.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. Suspicious transactions have occurred from your account.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. The cyber investigation team has found suspicious activity from your number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. Your identity needs to be verified for the investigation.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. Please cooperate for verification.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. Illegal messages have been sent from your mobile number.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+I am calling from the National Cyber Cell. It is necessary to complete police verification.,english,impersonation_digital_arrest,huggingface_hinglish_translated
+તપાસ દરમિયાન તમારું બેંક ખાતું ફ્રીઝ થઈ શકે છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તપાસ દરમિયાન તમારું બેંક ખાતું ફ્રીઝ થઈ શકે છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તપાસ દરમિયાન તમારું બેંક ખાતું ફ્રીઝ થઈ શકે છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારો મોબાઈલ નંબર સાયબર ફ્રોડ તપાસમાં આવ્યો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારો મોબાઈલ નંબર સાયબર ફ્રોડ તપાસમાં આવ્યો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારો મોબાઈલ નંબર સાયબર ફ્રોડ તપાસમાં આવ્યો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારો નંબર ટેલિકોમ ફ્રોડ કેસમાં ઓળખાયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારો નંબર ટેલિકોમ ફ્રોડ કેસમાં ઓળખાયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારો નંબર ટેલિકોમ ફ્રોડ કેસમાં ઓળખાયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારા આધાર કાર્ડનો ઉપયોગ કરીને નકલી સિમ જારી કરવામાં આવ્યું છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારા આધાર કાર્ડનો ઉપયોગ કરીને નકલી સિમ જારી કરવામાં આવ્યું છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા આધાર કાર્ડનો ઉપયોગ કરીને નકલી સિમ જારી કરવામાં આવ્યું છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારા દસ્તાવેજોનો દુરુપયોગ કરીને નાણાકીય છેતરપિંડી કરવામાં આવી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારા દસ્તાવેજોનો દુરુપયોગ કરીને નાણાકીય છેતરપિંડી કરવામાં આવી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા દસ્તાવેજોનો દુરુપયોગ કરીને નાણાકીય છેતરપિંડી કરવામાં આવી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારી વિરુદ્ધ ડિજિટલ ફ્રોડની ફરિયાદ મળી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારી વિરુદ્ધ ડિજિટલ ફ્રોડની ફરિયાદ મળી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારી વિરુદ્ધ ડિજિટલ ફ્રોડની ફરિયાદ મળી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારી વિરુદ્ધ કાનૂની કાર્યવાહી શરૂ કરવામાં આવી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારી વિરુદ્ધ કાનૂની કાર્યવાહી શરૂ કરવામાં આવી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારી વિરુદ્ધ કાનૂની કાર્યવાહી શરૂ કરવામાં આવી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારા નામે એક ફોજદારી ફરિયાદ નોંધાઈ છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારા નામે એક ફોજદારી ફરિયાદ નોંધાઈ છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા નામે એક ફોજદારી ફરિયાદ નોંધાઈ છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારા નામે મની લોન્ડરિંગનો કેસ નોંધાયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારા નામે મની લોન્ડરિંગનો કેસ નોંધાયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા નામે મની લોન્ડરિંગનો કેસ નોંધાયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારા નામે નોંધાયેલ સિમના દુરુપયોગનો રિપોર્ટ થયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારા નામે નોંધાયેલ સિમના દુરુપયોગનો રિપોર્ટ થયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા નામે નોંધાયેલ સિમના દુરુપયોગનો રિપોર્ટ થયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારા નામે નોંધાયેલ ખાતું ગેરકાયદેસર પ્રવૃત્તિઓમાં વપરાયું છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારા નામે નોંધાયેલ ખાતું ગેરકાયદેસર પ્રવૃત્તિઓમાં વપરાયું છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા નામે નોંધાયેલ ખાતું ગેરકાયદેસર પ્રવૃત્તિઓમાં વપરાયું છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારા નંબર પરથી વાંધાજનક સામગ્રી પ્રસારિત થઈ છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારા નંબર પરથી વાંધાજનક સામગ્રી પ્રસારિત થઈ છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા નંબર પરથી વાંધાજનક સામગ્રી પ્રસારિત થઈ છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારે તપાસ અધિકારી સાથે તાત્કાલિક વાત કરવી પડશે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારે તપાસ અધિકારી સાથે તાત્કાલિક વાત કરવી પડશે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારે તપાસ અધિકારી સાથે તાત્કાલિક વાત કરવી પડશે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારા ખાતામાંથી શંકાસ્પદ વ્યવહારો થયા છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારા ખાતામાંથી શંકાસ્પદ વ્યવહારો થયા છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા ખાતામાંથી શંકાસ્પદ વ્યવહારો થયા છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+સાયબર તપાસ ટીમને તમારા નંબર પરથી શંકાસ્પદ પ્રવૃત્તિ મળી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. સાયબર તપાસ ટીમને તમારા નંબર પરથી શંકાસ્પદ પ્રવૃત્તિ મળી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. સાયબર તપાસ ટીમને તમારા નંબર પરથી શંકાસ્પદ પ્રવૃત્તિ મળી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તપાસ માટે તમારી ઓળખ ચકાસવી પડશે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તપાસ માટે તમારી ઓળખ ચકાસવી પડશે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તપાસ માટે તમારી ઓળખ ચકાસવી પડશે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+ચકાસણી માટે સહકાર આપો.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. ચકાસણી માટે સહકાર આપો.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. ચકાસણી માટે સહકાર આપો.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+તમારા મોબાઈલ નંબર પરથી ગેરકાયદેસર સંદેશા મોકલવામાં આવ્યા છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારા મોબાઈલ નંબર પરથી ગેરકાયદેસર સંદેશા મોકલવામાં આવ્યા છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા મોબાઈલ નંબર પરથી ગેરકાયદેસર સંદેશા મોકલવામાં આવ્યા છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+પોલીસ ચકાસણી પૂર્ણ કરવી જરૂરી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. પોલીસ ચકાસણી પૂર્ણ કરવી જરૂરી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. પોલીસ ચકાસણી પૂર્ણ કરવી જરૂરી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તપાસ દરમિયાન તમારું બેંક ખાતું ફ્રીઝ થઈ શકે છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારો મોબાઈલ નંબર સાયબર ફ્રોડ તપાસમાં આવ્યો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારો નંબર ટેલિકોમ ફ્રોડ કેસમાં ઓળખાયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારા આધાર કાર્ડનો ઉપયોગ કરીને નકલી સિમ જારી કરવામાં આવ્યું છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારા દસ્તાવેજોનો દુરુપયોગ કરીને નાણાકીય છેતરપિંડી કરવામાં આવી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારી વિરુદ્ધ ડિજિટલ ફ્રોડની ફરિયાદ મળી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારી વિરુદ્ધ કાનૂની કાર્યવાહી શરૂ કરવામાં આવી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારા નામે એક ફોજદારી ફરિયાદ નોંધાઈ છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારા નામે મની લોન્ડરિંગનો કેસ નોંધાયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારા નામે નોંધાયેલ સિમના દુરુપયોગનો રિપોર્ટ થયો છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારા નામે નોંધાયેલ ખાતું ગેરકાયદેસર પ્રવૃત્તિઓમાં વપરાયું છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારા નંબર પરથી વાંધાજનક સામગ્રી પ્રસારિત થઈ છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારે તપાસ અધિકારી સાથે તાત્કાલિક વાત કરવી પડશે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારા ખાતામાંથી શંકાસ્પદ વ્યવહારો થયા છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. સાયબર તપાસ ટીમને તમારા નંબર પરથી શંકાસ્પદ પ્રવૃત્તિ મળી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તપાસ માટે તમારી ઓળખ ચકાસવી પડશે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. ચકાસણી માટે સહકાર આપો.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. તમારા મોબાઈલ નંબર પરથી ગેરકાયદેસર સંદેશા મોકલવામાં આવ્યા છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+હું નેશનલ સાયબર સેલમાંથી બોલું છું. પોલીસ ચકાસણી પૂર્ણ કરવી જરૂરી છે.,gujarati,impersonation_digital_arrest,huggingface_hinglish_translated
+Obscene messages are being sent to women from your WhatsApp. You are being considered a suspect.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is the Cyber Crime Department. Obscene messages are being sent to women from your WhatsApp. You are being considered a suspect.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is Inspector Rajesh Kumar. Obscene messages are being sent to women from your WhatsApp. You are being considered a suspect.,english,impersonation_blackmail,huggingface_hinglish_translated
+Pornographic material is being sent from your number in WhatsApp groups. An FIR has already been filed.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is the Cyber Crime Department. Pornographic material is being sent from your number in WhatsApp groups. An FIR has already been filed.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is Inspector Rajesh Kumar. Pornographic material is being sent from your number in WhatsApp groups. An FIR has already been filed.,english,impersonation_blackmail,huggingface_hinglish_translated
+Obscene images and videos are being shared from your phone number. This is a cyber crime.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is the Cyber Crime Department. Obscene images and videos are being shared from your phone number. This is a cyber crime.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is Inspector Rajesh Kumar. Obscene images and videos are being shared from your phone number. This is a cyber crime.,english,impersonation_blackmail,huggingface_hinglish_translated
+Illegal obscene content is being circulated from your phone. You could face digital arrest.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is the Cyber Crime Department. Illegal obscene content is being circulated from your phone. You could face digital arrest.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is Inspector Rajesh Kumar. Illegal obscene content is being circulated from your phone. You could face digital arrest.,english,impersonation_blackmail,huggingface_hinglish_translated
+Your morphed photos are going viral. The cyber cell has already registered a case.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is the Cyber Crime Department. Your morphed photos are going viral. The cyber cell has already registered a case.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is Inspector Rajesh Kumar. Your morphed photos are going viral. The cyber cell has already registered a case.,english,impersonation_blackmail,huggingface_hinglish_translated
+A gang is misusing your number to make obscene videos. Immediate verification is required.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is the Cyber Crime Department. A gang is misusing your number to make obscene videos. Immediate verification is required.,english,impersonation_blackmail,huggingface_hinglish_translated
+This is Inspector Rajesh Kumar. A gang is misusing your number to make obscene videos. Immediate verification is required.,english,impersonation_blackmail,huggingface_hinglish_translated
+તમારા વોટ્સએપ પરથી મહિલાઓને અશ્લીલ સંદેશા મોકલવામાં આવી રહ્યા છે. તમને શંકાસ્પદ ગણવામાં આવે છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા વોટ્સએપ પરથી મહિલાઓને અશ્લીલ સંદેશા મોકલવામાં આવી રહ્યા છે. તમને શંકાસ્પદ ગણવામાં આવે છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું ઈન્સ્પેક્ટર રાજેશ કુમાર બોલું છું. તમારા વોટ્સએપ પરથી મહિલાઓને અશ્લીલ સંદેશા મોકલવામાં આવી રહ્યા છે. તમને શંકાસ્પદ ગણવામાં આવે છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+તમારા નંબર પરથી અશ્લીલ સામગ્રી વોટ્સએપ ગ્રુપ્સમાં મોકલવામાં આવી રહી છે. એફઆઈઆર થઈ ચૂકી છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા નંબર પરથી અશ્લીલ સામગ્રી વોટ્સએપ ગ્રુપ્સમાં મોકલવામાં આવી રહી છે. એફઆઈઆર થઈ ચૂકી છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું ઈન્સ્પેક્ટર રાજેશ કુમાર બોલું છું. તમારા નંબર પરથી અશ્લીલ સામગ્રી વોટ્સએપ ગ્રુપ્સમાં મોકલવામાં આવી રહી છે. એફઆઈઆર થઈ ચૂકી છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+તમારા ફોન નંબર પરથી અશ્લીલ ફોટા અને વીડિયો શેર કરવામાં આવી રહ્યા છે. આ સાયબર ક્રાઈમ છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા ફોન નંબર પરથી અશ્લીલ ફોટા અને વીડિયો શેર કરવામાં આવી રહ્યા છે. આ સાયબર ક્રાઈમ છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું ઈન્સ્પેક્ટર રાજેશ કુમાર બોલું છું. તમારા ફોન નંબર પરથી અશ્લીલ ફોટા અને વીડિયો શેર કરવામાં આવી રહ્યા છે. આ સાયબર ક્રાઈમ છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+તમારા ફોન પરથી ગેરકાયદેસર અશ્લીલ સામગ્રી પ્રસારિત થઈ રહી છે. ડિજિટલ અરેસ્ટ થઈ શકે છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા ફોન પરથી ગેરકાયદેસર અશ્લીલ સામગ્રી પ્રસારિત થઈ રહી છે. ડિજિટલ અરેસ્ટ થઈ શકે છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું ઈન્સ્પેક્ટર રાજેશ કુમાર બોલું છું. તમારા ફોન પરથી ગેરકાયદેસર અશ્લીલ સામગ્રી પ્રસારિત થઈ રહી છે. ડિજિટલ અરેસ્ટ થઈ શકે છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+તમારા મોર્ફ્ડ ફોટા વાયરલ થઈ રહ્યા છે. સાયબર સેલે કેસ નોંધી લીધો છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. તમારા મોર્ફ્ડ ફોટા વાયરલ થઈ રહ્યા છે. સાયબર સેલે કેસ નોંધી લીધો છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું ઈન્સ્પેક્ટર રાજેશ કુમાર બોલું છું. તમારા મોર્ફ્ડ ફોટા વાયરલ થઈ રહ્યા છે. સાયબર સેલે કેસ નોંધી લીધો છે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+એક ગેંગ તમારા નંબરનો દુરુપયોગ કરીને અશ્લીલ વીડિયો બનાવી રહી છે. તાત્કાલિક ચકાસણી કરવી પડશે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું સાયબર ક્રાઈમ ડિપાર્ટમેન્ટમાંથી બોલું છું. એક ગેંગ તમારા નંબરનો દુરુપયોગ કરીને અશ્લીલ વીડિયો બનાવી રહી છે. તાત્કાલિક ચકાસણી કરવી પડશે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+હું ઈન્સ્પેક્ટર રાજેશ કુમાર બોલું છું. એક ગેંગ તમારા નંબરનો દુરુપયોગ કરીને અશ્લીલ વીડિયો બનાવી રહી છે. તાત્કાલિક ચકાસણી કરવી પડશે.,gujarati,impersonation_blackmail,huggingface_hinglish_translated
+Your Aadhaar is about to be deactivated. Update it immediately.,english,kyc_scam,huggingface_hinglish_translated
+I am calling from Delhi Police. Your Aadhaar is about to be deactivated. Update it immediately.,english,kyc_scam,huggingface_hinglish_translated
+A complaint has been received regarding the account linked to your Aadhaar.,english,kyc_scam,huggingface_hinglish_translated
+I am calling from Delhi Police. A complaint has been received regarding the account linked to your Aadhaar.,english,kyc_scam,huggingface_hinglish_translated
+તમારું આધાર નિષ્ક્રિય થવાનું છે. તાત્કાલિક અપડેટ કરો.,gujarati,kyc_scam,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારું આધાર નિષ્ક્રિય થવાનું છે. તાત્કાલિક અપડેટ કરો.,gujarati,kyc_scam,huggingface_hinglish_translated
+તમારા આધાર સાથે જોડાયેલ ખાતા અંગે ફરિયાદ મળી છે.,gujarati,kyc_scam,huggingface_hinglish_translated
+હું દિલ્હી પોલીસમાંથી બોલું છું. તમારા આધાર સાથે જોડાયેલ ખાતા અંગે ફરિયાદ મળી છે.,gujarati,kyc_scam,huggingface_hinglish_translated
+"This is Amazon calling. Your parcel is on hold, a clearance charge of Rs 499 needs to be paid.",english,phishing,huggingface_hinglish_translated
+"I am calling from Delhi Police. This is Amazon calling. Your parcel is on hold, a clearance charge of Rs 499 needs to be paid.",english,phishing,huggingface_hinglish_translated
+"Your father has met with an accident. Please send Rs 50,000 immediately for the hospital.",english,phishing,huggingface_hinglish_translated
+"I am calling from Delhi Police. Your father has met with an accident. Please send Rs 50,000 immediately for the hospital.",english,phishing,huggingface_hinglish_translated
+"હું એમેઝોનમાંથી બોલું છું. તમારો પાર્સલ હોલ્ડ પર છે, 499 રૂપિયા ક્લિયરન્સ ચાર્જ ભરવો પડશે.",gujarati,phishing,huggingface_hinglish_translated
+"હું દિલ્હી પોલીસમાંથી બોલું છું. હું એમેઝોનમાંથી બોલું છું. તમારો પાર્સલ હોલ્ડ પર છે, 499 રૂપિયા ક્લિયરન્સ ચાર્જ ભરવો પડશે.",gujarati,phishing,huggingface_hinglish_translated
+"તમારા પિતાનો અકસ્માત થયો છે. હોસ્પિટલ માટે તાત્કાલિક 50,000 રૂપિયા મોકલો.",gujarati,phishing,huggingface_hinglish_translated
+"હું દિલ્હી પોલીસમાંથી બોલું છું. તમારા પિતાનો અકસ્માત થયો છે. હોસ્પિટલ માટે તાત્કાલિક 50,000 રૂપિયા મોકલો.",gujarati,phishing,huggingface_hinglish_translated
+Your order has been delivered. Please leave feedback.,english,not_scam,huggingface_hinglish_translated
+"I'm home, son, open the door.",english,not_scam,huggingface_hinglish_translated
+"Let's meet this evening, we'll catch up over coffee.",english,not_scam,huggingface_hinglish_translated
+The cab is arriving in 3 minutes.,english,not_scam,huggingface_hinglish_translated
+"The doctor's appointment is tomorrow at 9, stay fasting.",english,not_scam,huggingface_hinglish_translated
+"Mom, I've reached the office, I'll be a bit late today.",english,not_scam,huggingface_hinglish_translated
+"Dad, I've boarded the train, I'll reach safely.",english,not_scam,huggingface_hinglish_translated
+Is the project review meeting tomorrow at 4?,english,not_scam,huggingface_hinglish_translated
+"The school fee deadline is tomorrow, please make the payment.",english,not_scam,huggingface_hinglish_translated
+"Sir, tomorrow's meeting is at 10am, I've emailed the agenda.",english,not_scam,huggingface_hinglish_translated
+તમારો ઓર્ડર ડિલિવર થઈ ગયો છે. કૃપા કરી ફીડબેક આપો.,gujarati,not_scam,huggingface_hinglish_translated
+"બેટા હું ઘરે આવી ગયો છું, દરવાજો ખોલો.",gujarati,not_scam,huggingface_hinglish_translated
+"ભાઈ આજે સાંજે મળીએ, કોફી પર વાત કરીએ.",gujarati,not_scam,huggingface_hinglish_translated
+કેબ 3 મિનિટમાં પહોંચી રહી છે.,gujarati,not_scam,huggingface_hinglish_translated
+"ડોક્ટરની એપોઇન્ટમેન્ટ કાલે 9 વાગ્યે છે, ઉપવાસ રાખજો.",gujarati,not_scam,huggingface_hinglish_translated
+"મમ્મી હું ઓફિસ પહોંચી ગયો, આજે થોડું મોડું થશે.",gujarati,not_scam,huggingface_hinglish_translated
+"પપ્પા ટ્રેનમાં બેસી ગયો છું, સુરક્ષિત પહોંચી જઈશ.",gujarati,not_scam,huggingface_hinglish_translated
+પ્રોજેક્ટની રિવ્યુ મીટિંગ કાલે 4 વાગ્યે છે?,gujarati,not_scam,huggingface_hinglish_translated
+"શાળા ફીની છેલ્લી તારીખ કાલે છે, ચુકવણી કરી દેજો.",gujarati,not_scam,huggingface_hinglish_translated
+"સર કાલે સવારે 10 વાગ્યે મીટિંગ છે, એજન્ડા મેલ કરી દીધો છે.",gujarati,not_scam,huggingface_hinglish_translated
+Claim your loan approved by sending OTP immediately.,english,loan_scam,kaggle_financial_scams_filtered
+"Fraudulent transaction detected, provide your OTP.",english,phishing,kaggle_financial_scams_filtered
+"Your account has been suspended, verify OTP now!",english,phishing,kaggle_financial_scams_filtered
+Your account balance is adequate.,english,not_scam,kaggle_financial_scams_filtered
+Please ignore unknown SMS.,english,not_scam,kaggle_financial_scams_filtered
+Click here to reset your banking password.,english,phishing,kaggle_financial_scams_filtered
+Payment received successfully.,english,not_scam,kaggle_financial_scams_filtered
+Send your OTP to claim your prize!,english,lottery_scam,kaggle_financial_scams_filtered
+Your debit card has been blocked.,english,phishing,kaggle_financial_scams_filtered
+"New offers available, accept today!",english,not_scam,kaggle_financial_scams_filtered
+"Your account is at risk, immediate action required.",english,phishing,kaggle_financial_scams_filtered
+"Your mobile recharge was successful, thank you.",english,not_scam,kaggle_financial_scams_filtered
+"Your loan application is approved, send OTP now!",english,loan_scam,kaggle_financial_scams_filtered
+Do not share your bank details with anyone.,english,not_scam,kaggle_financial_scams_filtered
+Account hacked! Open the app now to secure it.,english,phishing,kaggle_financial_scams_filtered
+"Your OTP code expires in 5 minutes, do not share",english,not_scam,kaggle_financial_scams_filtered
+"Loan approved, confirm by sending OTP code.",english,loan_scam,kaggle_financial_scams_filtered
+Update your account details to avoid suspension.,english,phishing,kaggle_financial_scams_filtered
+Thank you for using our service.,english,not_scam,kaggle_financial_scams_filtered
+Claim your loan approved by sending OTP.,english,loan_scam,kaggle_financial_scams_filtered
+"Fraudulent transaction detected, provide OTP.",english,phishing,kaggle_financial_scams_filtered
+"Your OTP is 8741, do not share it with anyone.",english,not_scam,kaggle_financial_scams_filtered
+"Your account suspended, verify OTP now!",english,phishing,kaggle_financial_scams_filtered
+Congratulations! You won a prize. Please send OTP to claim.,english,lottery_scam,kaggle_financial_scams_filtered
+"Your OTP is 789654, keep it confidential to secure your account.",english,not_scam,kaggle_financial_scams_filtered
+Claim your cashback by entering OTP received in next 5 minutes.,english,lottery_scam,kaggle_financial_scams_filtered
+Important: Your account verification is pending. Please provide OTP.,english,phishing,kaggle_financial_scams_filtered
+Your debit card transaction of 5000 taka was declined. Contact support.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! Claim your reward by submitting OTP within 10 minutes.,english,phishing,kaggle_financial_scams_filtered
+"Your recent login was from a new device. If not you, verify with OTP.",english,phishing,kaggle_financial_scams_filtered
+Update your payment information immediately to avoid suspension.,english,phishing,kaggle_financial_scams_filtered
+Your mobile recharge of 20 taka is successful. Thank you for your payment.,english,not_scam,kaggle_financial_scams_filtered
+Refund of 100 taka has been processed to your account.,english,not_scam,kaggle_financial_scams_filtered
+"Warning: Suspicious activity detected, confirm via OTP now.",english,phishing,kaggle_financial_scams_filtered
+Your loan application was approved. Verify details using OTP.,english,loan_scam,kaggle_financial_scams_filtered
+Please ignore any unknown messages pretending to be your bank.,english,not_scam,kaggle_financial_scams_filtered
+Your online banking password expired. Reset it via the provided link.,english,phishing,kaggle_financial_scams_filtered
+Your account balance is low. Add funds to continue service.,english,not_scam,kaggle_financial_scams_filtered
+"To secure your account, provide the OTP sent to your registered phone.",english,phishing,kaggle_financial_scams_filtered
+Payment of 2500 taka received. Thanks for banking with us,english,not_scam,kaggle_financial_scams_filtered
+Alert: Unauthorized transaction attempt detected. Change password now.,english,phishing,kaggle_financial_scams_filtered
+Your credit card limit has been increased. Check details in app.,english,not_scam,kaggle_financial_scams_filtered
+Verify your identity to avoid account suspension. OTP required.,english,phishing,kaggle_financial_scams_filtered
+Your request to withdraw 5000 taka was successful.,english,not_scam,kaggle_financial_scams_filtered
+Last chance: Provide OTP to claim your prize money now.,english,lottery_scam,kaggle_financial_scams_filtered
+Your scheduled payment will be processed tomorrow.,english,not_scam,kaggle_financial_scams_filtered
+Alert! Unauthorized login attempt detected. Confirm with OTP immediately.,english,phishing,kaggle_financial_scams_filtered
+"Your internet banking password expired, reset it today to avoid service disruption.",english,phishing,kaggle_financial_scams_filtered
+Verify your identity by entering the OTP sent to your mobile to continue transactions.,english,phishing,kaggle_financial_scams_filtered
+Your debit card ending 1234 has been temporarily blocked for suspicious activity.,english,phishing,kaggle_financial_scams_filtered
+"Immediate action needed! Unrecognized device logged in, confirm with OTP now.",english,phishing,kaggle_financial_scams_filtered
+Update your mobile number in banking records today for uninterrupted service.,english,phishing,kaggle_financial_scams_filtered
+Secure your account now! OTP sent to your registered contact.,english,phishing,kaggle_financial_scams_filtered
+Warning: Suspicious activity in your account. Verify using your OTP immediately.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You won a free investment plan. Call now to claim your prize.,english,lottery_scam,kaggle_financial_scams_filtered
+New job opportunity with high salary. Send your CV to apply immediately.,english,phishing,kaggle_financial_scams_filtered
+Exclusive offer: Double your money in 30 days with our secret scheme.,english,phishing,kaggle_financial_scams_filtered
+Join our online trading platform for guaranteed profits.,english,phishing,kaggle_financial_scams_filtered
+Beware of strangers asking for your financial details over chat or SMS.,english,not_scam,kaggle_financial_scams_filtered
+Your KYC verification is complete. Thank you for your cooperation.,english,not_scam,kaggle_financial_scams_filtered
+Congratulations! You are shortlisted for a luxury car giveaway.,english,lottery_scam,kaggle_financial_scams_filtered
+Investment opportunity with zero risk and high returns. Contact us.,english,phishing,kaggle_financial_scams_filtered
+Monthly subscription paid successfully.,english,not_scam,kaggle_financial_scams_filtered
+Avoid fake schemes promising overnight wealth. Stay cautious.,english,not_scam,kaggle_financial_scams_filtered
+Free smartphone giveaway for lucky winners. Reply to participate.,english,lottery_scam,kaggle_financial_scams_filtered
+Your online order has been shipped successfully.,english,not_scam,kaggle_financial_scams_filtered
+Your health insurance claim has been approved. Contact for details.,english,not_scam,kaggle_financial_scams_filtered
+Secure your future with our pension plan. Enroll today!,english,phishing,kaggle_financial_scams_filtered
+Your package has been shipped. Track your delivery at this link.,english,not_scam,kaggle_financial_scams_filtered
+Congratulations! You've won a free gift card. Click now to claim.,english,lottery_scam,kaggle_financial_scams_filtered
+Our records show suspicious activity in your account. Contact support.,english,phishing,kaggle_financial_scams_filtered
+Your subscription is about to expire. Renew now for uninterrupted service.,english,phishing,kaggle_financial_scams_filtered
+Limited-time offer! Double your money in 7 days. Invest now.,english,phishing,kaggle_financial_scams_filtered
+Loan approved! Send your details to receive funds today.,english,loan_scam,kaggle_financial_scams_filtered
+Your online order is ready. View details here.,english,not_scam,kaggle_financial_scams_filtered
+Fake invoice attached. Please review and click the link to pay.,english,phishing,kaggle_financial_scams_filtered
+Your car insurance claim has been approved. Contact us to finalize.,english,phishing,kaggle_financial_scams_filtered
+It’s your last chance to claim your cashback. Act now!,english,lottery_scam,kaggle_financial_scams_filtered
+Attention! Your mobile data plan will expire tomorrow. Renew now.,english,phishing,kaggle_financial_scams_filtered
+Your bank account is locked. Verify now to regain access.,english,phishing,kaggle_financial_scams_filtered
+Limited-time deal: Buy now and get 50% discount on all products.,english,phishing,kaggle_financial_scams_filtered
+Warning! Suspicious activity detected. Change your credentials now.,english,phishing,kaggle_financial_scams_filtered
+Your gaming account has been hacked. Change your password immediately.,english,phishing,kaggle_financial_scams_filtered
+"Hello from BLOrange club. For 1 month's free access to games, news and sport, plus 10 free texts and 20 photo messages, reply YES. Terms apply: www.blorange.club.bd",english,phishing,kaggle_financial_scams_filtered
+Call FREEPHONE +8800 542 0578 now!,english,phishing,kaggle_financial_scams_filtered
+"7 wonders in My WORLD 7th You 6th Ur style 5th Ur smile 4th Ur Personality 3rd Ur Nature 2nd Ur SMS and 1st \Ur Lovely Friendship\""... good morning dear""",english,not_scam,kaggle_financial_scams_filtered
+"Loan for any purpose 500 tk- 75,000tk. Homeowners + Tenants welcome. Have you been previously refused? We can still help. Call Free +880 1956669 or text back 'help'",english,loan_scam,kaggle_financial_scams_filtered
+Sorry i'm not free...,english,not_scam,kaggle_financial_scams_filtered
+How. Its a little difficult but its a simple way to enter this place,english,not_scam,kaggle_financial_scams_filtered
+BIG BROTHER ALERT! The computer has selected u for 10k cash or #150 voucher. Call +8801906401883. NTT PO Box CRO1327 18+ BT Landline Cost 150ppm mobiles vary,english,phishing,kaggle_financial_scams_filtered
+Your package delivery is delayed. Track now at this fake link.,english,phishing,kaggle_financial_scams_filtered
+Your job application was successful! Reply to claim your position,english,phishing,kaggle_financial_scams_filtered
+Verify your phone number now to avoid service interruption.,english,phishing,kaggle_financial_scams_filtered
+Free $1000 gift card! Click here to redeem before it expires.,english,phishing,kaggle_financial_scams_filtered
+Your recent online purchase has been shipped successfully.,english,not_scam,kaggle_financial_scams_filtered
+Alert: Classified documents found linked to your account. Contact now!,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You’ve won a holiday trip. Reply to claim.,english,lottery_scam,kaggle_financial_scams_filtered
+Urgent notice! Verify your social security number immediately.,english,phishing,kaggle_financial_scams_filtered
+Your bank loan has been approved. Send documents to finalize.,english,loan_scam,kaggle_financial_scams_filtered
+Your subscription payment failed. Update billing info to continue.,english,phishing,kaggle_financial_scams_filtered
+Your ticket to the concert is confirmed. Thank you for your purchase.,english,not_scam,kaggle_financial_scams_filtered
+Your online account will be suspended soon. Verify credentials now.,english,phishing,kaggle_financial_scams_filtered
+Your medical insurance claim has been processed successfully.,english,not_scam,kaggle_financial_scams_filtered
+New investment opportunity: Guaranteed 30% monthly returns.,english,phishing,kaggle_financial_scams_filtered
+Your parcel has been dispatched. Track with tracking number XYZ123.,english,not_scam,kaggle_financial_scams_filtered
+You have unclaimed cashback waiting. Submit your details to claim it immediately.,english,lottery_scam,kaggle_financial_scams_filtered
+Congratulations! Claim your exclusive shopping voucher by replying with YES.,english,phishing,kaggle_financial_scams_filtered
+Claim your prize by verifying your phone number within 2 hours.,english,lottery_scam,kaggle_financial_scams_filtered
+Claim your loan disbursed amount now by confirming your bank details.,english,loan_scam,kaggle_financial_scams_filtered
+Urgent: Claim compensation for delayed delivery by visiting this link.,english,phishing,kaggle_financial_scams_filtered
+Claim your free ticket for the concert happening near you this weekend.,english,phishing,kaggle_financial_scams_filtered
+Claim your cashback by logging into your account with this link.,english,lottery_scam,kaggle_financial_scams_filtered
+"You have been selected to claim a new government subsidy, respond with your ID",english,phishing,kaggle_financial_scams_filtered
+Claim your refund for the recent transaction now before the offer expires.,english,phishing,kaggle_financial_scams_filtered
+Claim your mystery gift by sending a reply with your full name and address.,english,phishing,kaggle_financial_scams_filtered
+Claim your free mobile upgrade by confirming your account info via SMS.,english,phishing,kaggle_financial_scams_filtered
+You have a new message from the lottery office. Claim your winnings ASAP.,english,lottery_scam,kaggle_financial_scams_filtered
+Claim your prize money by paying a small processing fee at the link below,english,lottery_scam,kaggle_financial_scams_filtered
+Claim your tax refund by uploading your financial documents immediately.,english,phishing,kaggle_financial_scams_filtered
+Claim your exclusive membership rewards by clicking here. Limited time offer!,english,phishing,kaggle_financial_scams_filtered
+Urgent: Verify your identity to avoid account closure. Click this link now.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You have been selected for a free smartwatch. Reply YES.,english,phishing,kaggle_financial_scams_filtered
+Immediate action required! Suspicious login detected. Confirm your password.,english,phishing,kaggle_financial_scams_filtered
+Package delivered! Track it anytime using tracking number #12345.,english,not_scam,kaggle_financial_scams_filtered
+You won an exclusive holiday package. Contact us immediately to claim.,english,lottery_scam,kaggle_financial_scams_filtered
+Your online subscription has been renewed successfully,english,not_scam,kaggle_financial_scams_filtered
+Warning! Your account has been suspended due to suspicious activity.,english,phishing,kaggle_financial_scams_filtered
+Enjoy 20% discount on your next purchase. Use code SAVE20.,english,not_scam,kaggle_financial_scams_filtered
+Your loan application was approved. Submit documents to receive payment.,english,loan_scam,kaggle_financial_scams_filtered
+Alert! Unrecognized device logged in to your account. Verify immediately.,english,phishing,kaggle_financial_scams_filtered
+Your food delivery has arrived. Please collect it.,english,not_scam,kaggle_financial_scams_filtered
+Your appointment with Dr. Rahman has been confirmed for tomorrow.,english,not_scam,kaggle_financial_scams_filtered
+Urgent! Confirm your credit card details to avoid suspension.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You won a free trip. Reply YES to claim your prize.,english,lottery_scam,kaggle_financial_scams_filtered
+Your mobile data has been recharged with 2GB. Enjoy surfing.,english,not_scam,kaggle_financial_scams_filtered
+Warning: Suspicious transaction detected. Verify your identity immediately.,english,phishing,kaggle_financial_scams_filtered
+Your food order from FoodieApp is delivered. Enjoy your meal!,english,not_scam,kaggle_financial_scams_filtered
+Limited-time offer! Double your investment in 15 days. Call now.,english,phishing,kaggle_financial_scams_filtered
+You have successfully booked a taxi for 9 AM tomorrow.,english,not_scam,kaggle_financial_scams_filtered
+Your monthly gym subscription has been renewed. Thank you.,english,not_scam,kaggle_financial_scams_filtered
+Event reminder: Music concert tonight at 7 PM at City Arena.,english,not_scam,kaggle_financial_scams_filtered
+Your debit card has been temporarily blocked for security reasons.,english,phishing,kaggle_financial_scams_filtered
+Your parcel #XZ1234 is ready for pickup at the post office.,english,not_scam,kaggle_financial_scams_filtered
+Urgent: Your loan approval is pending. Submit documents to proceed.,english,loan_scam,kaggle_financial_scams_filtered
+Your cab driver will arrive in 5 minutes. Please be ready,english,not_scam,kaggle_financial_scams_filtered
+Thank you for registering for the webinar. We will email the link soon.,english,not_scam,kaggle_financial_scams_filtered
+Last chance: Claim your cashback by verifying your account details now.,english,lottery_scam,kaggle_financial_scams_filtered
+Alert: Suspicious account activity detected. Verify your info immediately.,english,not_scam,kaggle_financial_scams_filtered
+Congratulations! You are selected for a free smartphone giveaway. Reply YES.,english,lottery_scam,kaggle_financial_scams_filtered
+Urgent! Your login was from an unknown device. Confirm your identity now.,english,phishing,kaggle_financial_scams_filtered
+Your food delivery order has arrived. Enjoy your meal!,english,not_scam,kaggle_financial_scams_filtered
+Double your money with our new investment plan. Call us today,english,phishing,kaggle_financial_scams_filtered
+Urgent! Verify your bank details to prevent account suspension.,english,phishing,kaggle_financial_scams_filtered
+Your parcel #AB123 is out for delivery.,english,not_scam,kaggle_financial_scams_filtered
+"Immediate notice: Unauthorized transaction detected, act now!",english,phishing,kaggle_financial_scams_filtered
+You have won a free luxury watch. Reply to claim now.,english,lottery_scam,kaggle_financial_scams_filtered
+Reminder: Doctor’s appointment tomorrow at 10 AM,english,not_scam,kaggle_financial_scams_filtered
+"Alert! Suspicious login attempt detected, verify your account.",english,phishing,kaggle_financial_scams_filtered
+Your cab driver will arrive in 10 minutes.,english,not_scam,kaggle_financial_scams_filtered
+Your online subscription has been renewed. Thank you!,english,not_scam,kaggle_financial_scams_filtered
+You have a new message from the lottery office. Claim winnings.,english,not_scam,kaggle_financial_scams_filtered
+Your credit card has been temporarily blocked. Confirm details.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You are selected for exclusive cashback offer.,english,lottery_scam,kaggle_financial_scams_filtered
+Your order #5678 has been processed and shipped.,english,not_scam,kaggle_financial_scams_filtered
+You won a free vacation to the Bahamas! Reply YES to claim your prize.,english,lottery_scam,kaggle_financial_scams_filtered
+Your package #ZX12345 is out for delivery. Track it using our app.,english,not_scam,kaggle_financial_scams_filtered
+Reminder: Doctor appointment scheduled for tomorrow at 9:30 AM.,english,not_scam,kaggle_financial_scams_filtered
+Urgent: Your bank account has been locked due to suspicious activity. Verify now.,english,phishing,kaggle_financial_scams_filtered
+Your Uber ride has been confirmed for 3 PM today.,english,not_scam,kaggle_financial_scams_filtered
+Last chance to update your payment info or your subscription will be suspended.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You have been pre-approved for a loan. Apply now to get instant approval.,english,loan_scam,kaggle_financial_scams_filtered
+Your recent grocery order #78345 has been delivered. Enjoy your purchase!,english,not_scam,kaggle_financial_scams_filtered
+Your Netflix subscription has been renewed. Thank you for staying with us.,english,not_scam,kaggle_financial_scams_filtered
+Alert: Unrecognized login attempt detected on your email. Secure your account now.,english,phishing,kaggle_financial_scams_filtered
+Please verify your social security number to claim your government grant.,english,phishing,kaggle_financial_scams_filtered
+Your cab driver is on the way and will arrive in 5 minutes.,english,not_scam,kaggle_financial_scams_filtered
+Verify your Apple ID to prevent permanent lockout. Ignore if you did not request.,english,phishing,kaggle_financial_scams_filtered
+Let's meet at the cafe around 8 PM?,english,not_scam,kaggle_financial_scams_filtered
+Claim your cashback reward #10 now! Limited time offer.,english,lottery_scam,kaggle_financial_scams_filtered
+Congratulations! You won a free iPhone. Claim now at secure-link.com,english,lottery_scam,kaggle_financial_scams_filtered
+Don't forget to bring the documents for tomorrow's meeting,english,not_scam,kaggle_financial_scams_filtered
+Limited offer! Get 50% cashback on your next payment. Click here,english,lottery_scam,kaggle_financial_scams_filtered
+Can you send me your notes for today's class?,english,not_scam,kaggle_financial_scams_filtered
+Win ₹5000 instantly! Verify your account at rewardsite.com,english,phishing,kaggle_financial_scams_filtered
+Your parcel #YZ6789 will be delivered today. Track live through our app,english,not_scam,kaggle_financial_scams_filtered
+Reminder: Your flight booking to Dhaka is scheduled for tomorrow at 6 AM.,english,not_scam,kaggle_financial_scams_filtered
+Important: Your bank account is locked due to suspicious activity. Verify your identity now.,english,phishing,kaggle_financial_scams_filtered
+Your hotel booking confirmation #12345 for 3 nights in London.,english,not_scam,kaggle_financial_scams_filtered
+Final notice: Update your billing info or your mobile service will be suspended.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You’re pre-qualified for a credit card with a $5000 limit. Apply now.,english,phishing,kaggle_financial_scams_filtered
+Your online shopping order #78654 is confirmed and will be delivered soon.,english,not_scam,kaggle_financial_scams_filtered
+Your subscription to Sports Daily renewed successfully. Enjoy your exclusive content!,english,not_scam,kaggle_financial_scams_filtered
+Alert: Suspicious login attempt on your email account. Secure it immediately.,english,phishing,kaggle_financial_scams_filtered
+"Your taxi will arrive in 7 minutes. Driver: Saiful, Car: Blue Toyota.",english,not_scam,kaggle_financial_scams_filtered
+Your Apple ID has been temporarily disabled. Verify now to avoid permanent lockout,english,phishing,kaggle_financial_scams_filtered
+You’ve won a free entry to the VIP concert! Reply YES to claim your tickets.,english,lottery_scam,kaggle_financial_scams_filtered
+Your parcel #A7821 was successfully delivered. Thank you for shopping with us.,english,not_scam,kaggle_financial_scams_filtered
+Warning: Multiple failed login attempts on your social media account. Check activity now.,english,phishing,kaggle_financial_scams_filtered
+Your flight to Chittagong is on schedule for 10 AM tomorrow. Have a safe trip!,english,not_scam,kaggle_financial_scams_filtered
+Confirm your bank details now to avoid loan application cancellation.,english,loan_scam,kaggle_financial_scams_filtered
+Congratulations! You have been selected to get an exclusive reward! Your name came up for a YETI War Survival Kit. This special gift is from Tractor Supply. Hurry up! Your Reward is Ready,english,phishing,kaggle_financial_scams_filtered
+Enjoy Annual Fee Waiver on Your Medical Quota Debit Card for Safe and Convenient Payment Abroad!,english,phishing,kaggle_financial_scams_filtered
+Your cloud storage is full. Please take action to free up space. Cloud Storage – Storage Limit Reached Your storage reached 100%,english,phishing,kaggle_financial_scams_filtered
+ANSWER FOR FREE!You have been chosen to participate in our Loyalty Program for FREE! It will take you only a minute to receive this fantastic prize.,english,lottery_scam,kaggle_financial_scams_filtered
+Get a free Amazon voucher by completing this survey now.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! Your subscription is upgraded. Click to confirm,english,phishing,kaggle_financial_scams_filtered
+Alert: Suspicious activity detected in your PayPal account. Verify now,english,phishing,kaggle_financial_scams_filtered
+Do you want to join the study group this evening?,english,not_scam,kaggle_financial_scams_filtered
+Bank Alert: Your account will be locked due to pending verification.,english,phishing,kaggle_financial_scams_filtered
+Earn $100 per day from home with this financial program. Apply now!,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You have been selected for a $5000 government loan with 0% interest. Apply now!,english,loan_scam,kaggle_financial_scams_filtered
+Get 200% return by investing just $100 in our crypto program. Limited seats!,english,phishing,kaggle_financial_scams_filtered
+Claim your free cashback of $250 today by entering your card details,english,lottery_scam,kaggle_financial_scams_filtered
+Last chance! Clear your loan dues now to avoid legal action,english,loan_scam,kaggle_financial_scams_filtered
+Win a brand new iPhone 15 by paying just $5 registration fee!,english,phishing,kaggle_financial_scams_filtered
+Your credit card has been temporarily blocked. Reactivate by verifying your PIN.,english,phishing,kaggle_financial_scams_filtered
+Client sent the 40% advance today. Check the bank statement,english,not_scam,kaggle_financial_scams_filtered
+Earn $300 per day without investment. Just forward messages!,english,phishing,kaggle_financial_scams_filtered
+Can you share the bank details for transferring the rent money?,english,not_scam,kaggle_financial_scams_filtered
+"Your bank flagged a transaction of $1,250. Verify at securebank-verify.com within 24 hours to avoid suspension",english,phishing,kaggle_financial_scams_filtered
+"Congratulations, you have been pre-approved for an instant $5,000 loan. Apply here to receive funds within 24 hours",english,loan_scam,kaggle_financial_scams_filtered
+Alert: Unusual login detected on your PayPal. Confirm identity to prevent account hold,english,phishing,kaggle_financial_scams_filtered
+Limited offer: Get 15% cashback on utility bill payments. Submit card details to claim reward,english,lottery_scam,kaggle_financial_scams_filtered
+Immediate action required: Confirm your bank OTP to stop a pending fraudulent transfer,english,phishing,kaggle_financial_scams_filtered
+"You are shortlisted for a high-return investment program. Invest $200 to get $2,000 monthly returns. Limited seats",english,phishing,kaggle_financial_scams_filtered
+Final notice: Overdue loan amount of $850 must be cleared or legal action will follow. Click to resolve,english,loan_scam,kaggle_financial_scams_filtered
+Reward claim: Your tax refund of $420 is pending. Submit bank details to process immediately,english,phishing,kaggle_financial_scams_filtered
+Urgent verification requested: Reactivate your debit card by confirming 4-digit PIN at banklink.verify,english,phishing,kaggle_financial_scams_filtered
+"I sent the freelance payment of $150 via Payoneer. Check and confirm receipt, please",english,not_scam,kaggle_financial_scams_filtered
+"Exclusive: Instant credit limit increase to $3,000 available. Click link to accept the offer now",english,phishing,kaggle_financial_scams_filtered
+Claim your cashback reward of $300 now. Complete the form to receive instant transfer,english,lottery_scam,kaggle_financial_scams_filtered
+Your credit score has been upgraded. Unlock premium loan access with zero documentation,english,loan_scam,kaggle_financial_scams_filtered
+Sent the advance payment of $200 via Wise. Check your email for confirmation,english,not_scam,kaggle_financial_scams_filtered
+PayPal alert: Unverified login attempt blocked. Recover account before suspension,english,phishing,kaggle_financial_scams_filtered
+Government relief fund available for selected citizens. Register to receive $500 instantly,english,phishing,kaggle_financial_scams_filtered
+Your insurance refund request is approved. Submit billing address to release payment,english,phishing,kaggle_financial_scams_filtered
+"Crypto investment deal: Deposit $100 and earn $1,000 monthly return guaranteed",english,phishing,kaggle_financial_scams_filtered
+Salary allowance of $120 added separately. Check your payroll slip,english,not_scam,kaggle_financial_scams_filtered
+Your subscription payment failed. Update card details to avoid service halt,english,phishing,kaggle_financial_scams_filtered
+Settled the vendor payment through bank draft just now. Awaiting your acknowledgment,english,not_scam,kaggle_financial_scams_filtered
+Limited stock: Get gold savings account with 5x bonus interest. Activate through special code,english,phishing,kaggle_financial_scams_filtered
+Immediate action required to prevent permanent block on your debit card. Confirm identity at verify-mybank.net,english,phishing,kaggle_financial_scams_filtered
+"Exclusive loan offer of $10,000 with no credit check. Apply before midnight",english,loan_scam,kaggle_financial_scams_filtered
+Final reminder: Your pending tax fee of $260 must be cleared to avoid penalty,english,phishing,kaggle_financial_scams_filtered
+"Congratulations, your wallet has been credited with $700 bonus. Activate reward using secure link",english,upi_scam,kaggle_financial_scams_filtered
+Suspicious payment attempt detected on your MasterCard. Validate transaction immediately,english,phishing,kaggle_financial_scams_filtered
+Your reward of $950 is waiting for withdrawal. Submit bank details to receive instantly,english,phishing,kaggle_financial_scams_filtered
+Urgent notification: Loan recovery team assigned to your case. Clear dues to avoid legal visit,english,loan_scam,kaggle_financial_scams_filtered
+"Increase your credit limit to $5,000 instantly without documentation. Click to activate",english,phishing,kaggle_financial_scams_filtered
+Your insurance refund of $350 is ready. Complete verification before it expires,english,phishing,kaggle_financial_scams_filtered
+I paid the hotel booking charge via Visa. Check the confirmation email,english,not_scam,kaggle_financial_scams_filtered
+Security alert: Multiple failed login attempts on your wallet. Restore access now,english,upi_scam,kaggle_financial_scams_filtered
+Final warning: Your credit card account will be frozen within 24 hours. Verify now at securebankportal.com,english,phishing,kaggle_financial_scams_filtered
+"Congratulations! You are selected for a $2,000 investment bonus. Submit details to claim",english,phishing,kaggle_financial_scams_filtered
+Your PayPal account is under review due to suspicious activity. Confirm identity immediately,english,phishing,kaggle_financial_scams_filtered
+Exclusive: Unlock a high-yield savings account with 5% bonus interest. Apply now,english,phishing,kaggle_financial_scams_filtered
+Alert: Unauthorized loan application detected in your name. Verify or report now,english,loan_scam,kaggle_financial_scams_filtered
+Urgent: Your bank account has been flagged for multiple failed login attempts. Verify now to avoid freeze,english,phishing,kaggle_financial_scams_filtered
+"Limited offer: Apply for an instant $1,500 payday loan without credit check",english,loan_scam,kaggle_financial_scams_filtered
+"Your lottery reward of $1,200 is pending. Submit bank details to claim before deadline",english,lottery_scam,kaggle_financial_scams_filtered
+Security alert: Your debit card shows suspicious activity. Confirm transaction immediately,english,phishing,kaggle_financial_scams_filtered
+"Exclusive crypto investment opportunity: Deposit $200 to earn $1,500 monthly. Limited seats",english,phishing,kaggle_financial_scams_filtered
+Congratulations! You have won a prize. Send OTP to claim your reward.,english,lottery_scam,kaggle_financial_scams_filtered
+"Urgent! Your account will be suspended, verify now by sending OTP.",english,phishing,kaggle_financial_scams_filtered
+Your loan approved! Send your personal details to receive funds.,english,loan_scam,kaggle_financial_scams_filtered
+Monthly subscription payment received. Thank you for your service usage.,english,not_scam,kaggle_financial_scams_filtered
+"Warning! Suspicious login detected, confirm your identity with OTP.",english,phishing,kaggle_financial_scams_filtered
+Account locked! Provide OTP now to unlock your account.,english,phishing,kaggle_financial_scams_filtered
+Urgent! Update your bank details to continue service.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You are selected for a free gift. Send OTP to claim.,english,phishing,kaggle_financial_scams_filtered
+Urgent action required! Verify your account with OTP within 10 minutes.,english,phishing,kaggle_financial_scams_filtered
+Your debit card is blocked for suspicious activity. Call now to unblock.,english,phishing,kaggle_financial_scams_filtered
+New mobile plan launched. Contact customer care for details.,english,not_scam,kaggle_financial_scams_filtered
+OTP verification failed. Please try again.,english,not_scam,kaggle_financial_scams_filtered
+Warning! Unauthorized access attempt detected. Verify with OTP now.,english,phishing,kaggle_financial_scams_filtered
+Your subscription has been renewed successfully.,english,not_scam,kaggle_financial_scams_filtered
+Your debit card has been temporarily blocked due to suspicious activity.,english,phishing,kaggle_financial_scams_filtered
+Your subscription has been renewed successfully. Thank you.,english,not_scam,kaggle_financial_scams_filtered
+Update your bank details now to avoid service disruption.,english,phishing,kaggle_financial_scams_filtered
+"Dear user, update your payment info to avoid account suspension. Click the link now.",english,phishing,kaggle_financial_scams_filtered
+Your package delivery is scheduled for tomorrow. Track here: tracking-link.com,english,not_scam,kaggle_financial_scams_filtered
+Urgent: Verify your email by clicking the verification link within 24 hours.,english,phishing,kaggle_financial_scams_filtered
+Congratulations! You are selected for a free iPhone. Claim by replying with your address.,english,phishing,kaggle_financial_scams_filtered
+"Team meeting is rescheduled to 3 PM, please confirm your availability.",english,not_scam,kaggle_financial_scams_filtered
+Win big with our new lottery. Reply WIN to participate.,english,lottery_scam,kaggle_financial_scams_filtered
+A new login to your account was detected from an unknown device. Secure your login now.,english,not_scam,kaggle_financial_scams_filtered
+Thank you for your recent purchase. Your order #12345 will arrive soon.,english,not_scam,kaggle_financial_scams_filtered
+Update your password immediately to safeguard your account.,english,phishing,kaggle_financial_scams_filtered
+Limited time offer: Upgrade your plan now and save 30%.,english,phishing,kaggle_financial_scams_filtered
+Your bank statement is ready. Download your PDF here.,english,not_scam,kaggle_financial_scams_filtered
+New message from support team. Check your inbox for details.,english,not_scam,kaggle_financial_scams_filtered
+Friend request from Raisa Moni.,english,not_scam,kaggle_financial_scams_filtered
+Your insurance claim has been approved. Contact us for details.,english,not_scam,kaggle_financial_scams_filtered
+Your software update is ready to install. Proceed now.,english,not_scam,kaggle_financial_scams_filtered
+Verify your email address by clicking this link.,english,phishing,kaggle_financial_scams_filtered
+Your subscription will expire tomorrow. Renew to continue service.,english,not_scam,kaggle_financial_scams_filtered
+Friend request from Rafi Ahmed. Accept to connect.,english,not_scam,kaggle_financial_scams_filtered
+"તમાનો આવકવેરા રિફંડ ₹18,500 મંજૂર થયેલ છે. તમારા બેંક ખાતાની ચકાસણી કરવા માટે અહીં ક્લિક કરો: [લિંક]",gujarati,phishing,huggingface_adaption_extracted
+"Badhav! Tumcho mobile number lucky draw-ant nivddla. ₹50,000 jeunk tumche bank account-acho vivran ani Aadhaar number hea numberar WhatsApp korat.",english,lottery_scam,huggingface_adaption_extracted
+"તરીકે ₹3,200 કાપી લીધા જે સીધા ઉપરથી કપાઈ ગયા. હવે તેઓ મારી પાસેથી અઠવાડિયે ₹1,200 ચૂકવણીની માંગણી કરે છે અને મોડું થવા પર",gujarati,loan_scam,huggingface_adaption_extracted
+"Congratulations! Your mobile number has been selected in a lucky draw. To win ₹50,000, WhatsApp your bank account details and Aadhaar number to this number.",english,lottery_scam,huggingface_adaption_extracted
+"Assessment Year 2024-25 mein aapka ₹60,000 ka refund approve hua hai, aaj hi verify karein.",english,phishing,huggingface_adaption_extracted
+"Your refund of ₹60,000 for Assessment Year 2024-25 has been approved; verify it today.",english,phishing,huggingface_adaption_extracted
+"Congratulations! Aapka mobile number lucky draw mein select hua. ₹50,000 jeetne ke liye bank account details aur Aadhaar number is number pe WhatsApp karein.",english,lottery_scam,huggingface_adaption_extracted
+"નાણાકીય વર્ષ 2024-25 માં તમારું ₹60,000 નું રિફંડ મંજૂર થયું છે, આજે જ ચકાસણી કરો.",gujarati,phishing,huggingface_adaption_extracted
+"Your Income Tax refund of ₹18,500 is approved. Click here to verify your bank account: [link]",english,phishing,huggingface_adaption_extracted
+"Assessment Year 2024-25 hatunt tumkam ₹60,000 cho refund manzuri zala, ajuch verify korat.",english,phishing,huggingface_adaption_extracted
+સ્મોલ ઇન્ડસ્ટ્રીઝ ડેવલપમેન્ટ બેંક ઓફ ઇન્ડિયા (SIDBI),gujarati,loan_scam,huggingface_adaption_extracted
+"અભિનંદન! તમારો મોબાઈલ નંબર લકી ડ્રોમાં પસંદ થયો છે. ₹50,000 જીતવા માટે બેંક ખાતાની વિગતો અને આધાર નંબર આ નંબર પર WhatsApp કરો.",gujarati,lottery_scam,huggingface_adaption_extracted
+आपकी पीएफ राशि निकासी के लिए तैयार है। तुरंत दावा करने के लिए यूएएन नंबर और आधार ओटीपी इस लिंक पर दर्ज करें।,hindi,phishing,claude_synthetic_topup
+"वर्क फ्रॉम होम जॉब: रोजाना 2,000 रुपये कमाएं। शुरू करने के लिए 500 रुपये रजिस्ट्रेशन फीस भरें।",hindi,phishing,claude_synthetic_topup
+आपका हेल्थ इंश्योरेंस क्लेम अप्रूव होने वाला है। प्रोसेस करने के लिए अपनी पॉलिसी डिटेल्स और बैंक विवरण भेजें।,hindi,phishing,claude_synthetic_topup
+क्रिप्टोकरेंसी में निवेश करें और 10 दिन में डबल पैसा पाएं। अभी इस लिंक पर अकाउंट बनाएं और पैसे जमा करें।,hindi,phishing,claude_synthetic_topup
+आपकी संपत्ति कर की छूट के लिए आवेदन स्वीकृत हुआ है। लाभ पाने के लिए अपना संपत्ति नंबर और बैंक विवरण दर्ज करें।,hindi,phishing,claude_synthetic_topup
+"मैट्रिमोनी साइट पर आपकी प्रोफाइल वेरिफाई करने के लिए आधार और फोटो आईडी अपलोड करें, वरना प्रोफाइल हटा दी जाएगी।",hindi,phishing,claude_synthetic_topup
+"स्टॉक मार्केट टिप्स: गारंटीड मुनाफे के लिए हमारे प्रीमियम ग्रुप में जुड़ें, बस 999 रुपये सब्सक्रिप्शन फीस दें।",hindi,phishing,claude_synthetic_topup
+आपका ड्राइविंग लाइसेंस रिन्यूअल पेंडिंग है। ऑनलाइन प्रोसेस करने के लिए इस लिंक पर अपना लाइसेंस नंबर और फीस भरें।,hindi,phishing,claude_synthetic_topup
+आपकी पेंशन राशि रुकी हुई है। तुरंत जारी करने के लिए अपना पेंशन खाता नंबर और आधार इस पोर्टल पर अपडेट करें।,hindi,phishing,claude_synthetic_topup
+"जॉब इंटरव्यू के लिए आपका सिलेक्शन हुआ है। सिक्योरिटी डिपॉजिट के रूप में 2,000 रुपये भेजकर सीट कन्फर्म करें।",hindi,phishing,claude_synthetic_topup
+आपके वोटर आईडी में गलती पाई गई है। सुधार के लिए तुरंत इस लिंक पर अपनी व्यक्तिगत जानकारी दोबारा भरें।,hindi,phishing,claude_synthetic_topup
+"आपका पानी का बिल बकाया है, कनेक्शन कल कट जाएगा। अभी भुगतान करने के लिए इस लिंक पर कार्ड विवरण डालें।",hindi,phishing,claude_synthetic_topup
+फ्री iPhone जीतने के लिए बस इस सर्वे को पूरा करें और अपनी बैंक डिटेल्स वेरिफिकेशन के लिए दर्ज करें।,hindi,phishing,claude_synthetic_topup
+आपका डिजिलॉकर अकाउंट सस्पेंड हो गया है। पुनः सक्रिय करने के लिए इस लिंक पर आधार और ओटीपी दर्ज करें।,hindi,phishing,claude_synthetic_topup
+"बीमा पॉलिसी का प्रीमियम बकाया है, पॉलिसी लैप्स होने से बचाने के लिए तुरंत इस लिंक पर कार्ड से भुगतान करें।",hindi,phishing,claude_synthetic_topup
+"आपके नाम पर एक नया सिम कार्ड जारी हुआ है। यदि आपने नहीं लिया, तो तुरंत इस लिंक पर अपनी जानकारी वेरिफाई करें।",hindi,phishing,claude_synthetic_topup
+"सरकारी योजना के तहत मुफ्त लैपटॉप पाने के लिए अपना आधार, बैंक खाता और पता इस फॉर्म में भरें।",hindi,phishing,claude_synthetic_topup
+आपका फूड डिलीवरी ऐप अकाउंट हैक हो गया है। सुरक्षित करने के लिए तुरंत पासवर्ड इस लिंक पर रीसेट करें।,hindi,phishing,claude_synthetic_topup
+आपके नाम पर प्रॉपर्टी रजिस्ट्री में गड़बड़ी पाई गई है। सुधार के लिए दस्तावेज़ इस पोर्टल पर अपलोड करें।,hindi,phishing,claude_synthetic_topup
+ट्रेन टिकट रिफंड 350 रुपये पेंडिंग है। तुरंत पाने के लिए पीएनआर नंबर और बैंक विवरण इस लिंक पर दर्ज करें।,hindi,phishing,claude_synthetic_topup
+आपके सोशल मीडिया अकाउंट पर कॉपीराइट स्ट्राइक आई है। अपील के लिए इस फॉर्म में लॉगिन डिटेल्स भरें।,hindi,phishing,claude_synthetic_topup
+आपका आधार कार्ड अपडेट सेंटर पर नियुक्ति बुक हो गई है। कन्फर्म करने के लिए 100 रुपये बुकिंग फीस भरें।,hindi,phishing,claude_synthetic_topup
+"मुफ्त सिलाई मशीन योजना के लिए आवेदन करें, बस अपना आधार, बैंक खाता नंबर इस लिंक पर सबमिट करें।",hindi,phishing,claude_synthetic_topup
+"आपके नाम पर एक नया क्रेडिट कार्ड अप्रूव हुआ है, कार्ड एक्टिवेट करने के लिए अपना पैन नंबर और ओटीपी दर्ज करें।",hindi,phishing,claude_synthetic_topup
+"आपका फोन वारंटी क्लेम पेंडिंग है, प्रोसेस करने के लिए सर्विस सेंटर लिंक पर अपना कार्ड विवरण भरें।",hindi,phishing,claude_synthetic_topup
+તમારી પીએફ રકમ ઉપાડ માટે તૈયાર છે. તાત્કાલિક દાવો કરવા યુએએન નંબર અને આધાર ઓટીપી આ લિંક પર દાખલ કરો.,gujarati,phishing,claude_synthetic_topup
+"વર્ક ફ્રોમ હોમ જોબ: રોજના 2,000 રૂપિયા કમાઓ. શરૂ કરવા 500 રૂપિયા નોંધણી ફી ભરો.",gujarati,phishing,claude_synthetic_topup
+તમારો હેલ્થ ઈન્શ્યોરન્સ ક્લેમ મંજૂર થવાનો છે. પ્રોસેસ કરવા તમારી પોલિસી વિગતો અને બેંક વિગતો મોકલો.,gujarati,phishing,claude_synthetic_topup
+ક્રિપ્ટોકરન્સીમાં રોકાણ કરો અને 10 દિવસમાં પૈસા ડબલ મેળવો. હમણાં આ લિંક પર ખાતું બનાવો અને પૈસા જમા કરો.,gujarati,phishing,claude_synthetic_topup
+તમારી પ્રોપર્ટી ટેક્સ છૂટ માટેની અરજી મંજૂર થઈ છે. લાભ મેળવવા તમારો પ્રોપર્ટી નંબર અને બેંક વિગતો દાખલ કરો.,gujarati,phishing,claude_synthetic_topup
+"મેટ્રિમોની સાઈટ પર તમારી પ્રોફાઈલ ચકાસવા આધાર અને ફોટો આઈડી અપલોડ કરો, નહીં તો પ્રોફાઈલ દૂર કરવામાં આવશે.",gujarati,phishing,claude_synthetic_topup
+"સ્ટોક માર્કેટ ટિપ્સ: ગેરંટીડ નફા માટે અમારા પ્રીમિયમ ગ્રુપમાં જોડાઓ, ફક્ત 999 રૂપિયા સબસ્ક્રિપ્શન ફી આપો.",gujarati,phishing,claude_synthetic_topup
+તમારું ડ્રાઈવિંગ લાઇસન્સ રિન્યુઅલ બાકી છે. ઓનલાઈન પ્રોસેસ કરવા આ લિંક પર તમારો લાઇસન્સ નંબર અને ફી ભરો.,gujarati,phishing,claude_synthetic_topup
+તમારી પેન્શન રકમ અટકેલી છે. તાત્કાલિક જારી કરવા તમારો પેન્શન ખાતા નંબર અને આધાર આ પોર્ટલ પર અપડેટ કરો.,gujarati,phishing,claude_synthetic_topup
+"જોબ ઈન્ટરવ્યુ માટે તમારી પસંદગી થઈ છે. સિક્યોરિટી ડિપોઝિટ તરીકે 2,000 રૂપિયા મોકલીને સીટ કન્ફર્મ કરો.",gujarati,phishing,claude_synthetic_topup
+તમારા વોટર આઈડીમાં ભૂલ મળી છે. સુધારા માટે તાત્કાલિક આ લિંક પર તમારી વ્યક્તિગત માહિતી ફરીથી ભરો.,gujarati,phishing,claude_synthetic_topup
+"તમારું પાણીનું બિલ બાકી છે, કનેક્શન કાલે કપાઈ જશે. હમણાં ચુકવણી કરવા આ લિંક પર કાર્ડ વિગતો નાખો.",gujarati,phishing,claude_synthetic_topup
+મફત આઈફોન જીતવા ફક્ત આ સર્વે પૂર્ણ કરો અને ચકાસણી માટે તમારી બેંક વિગતો દાખલ કરો.,gujarati,phishing,claude_synthetic_topup
+તમારું ડિજિલોકર એકાઉન્ટ સસ્પેન્ડ થઈ ગયું છે. ફરીથી સક્રિય કરવા આ લિંક પર આધાર અને ઓટીપી દાખલ કરો.,gujarati,phishing,claude_synthetic_topup
+"વીમા પોલિસીનું પ્રીમિયમ બાકી છે, પોલિસી લેપ્સ થતી અટકાવવા તાત્કાલિક આ લિંક પર કાર્ડથી ચુકવણી કરો.",gujarati,phishing,claude_synthetic_topup
+"તમારા નામે નવું સિમ કાર્ડ જારી થયું છે. જો તમે નથી લીધું, તો તાત્કાલિક આ લિંક પર તમારી માહિતી ચકાસો.",gujarati,phishing,claude_synthetic_topup
+"સરકારી યોજના હેઠળ મફત લેપટોપ મેળવવા તમારો આધાર, બેંક ખાતું અને સરનામું આ ફોર્મમાં ભરો.",gujarati,phishing,claude_synthetic_topup
+તમારું ફૂડ ડિલિવરી એપ એકાઉન્ટ હેક થઈ ગયું છે. સુરક્ષિત કરવા તાત્કાલિક પાસવર્ડ આ લિંક પર રીસેટ કરો.,gujarati,phishing,claude_synthetic_topup
+તમારા નામે પ્રોપર્ટી રજિસ્ટ્રીમાં ગરબડ મળી છે. સુધારા માટે દસ્તાવેજો આ પોર્ટલ પર અપલોડ કરો.,gujarati,phishing,claude_synthetic_topup
+ટ્રેન ટિકિટ રિફંડ 350 રૂપિયા બાકી છે. તાત્કાલિક મેળવવા પીએનઆર નંબર અને બેંક વિગતો આ લિંક પર દાખલ કરો.,gujarati,phishing,claude_synthetic_topup
+તમારા સોશિયલ મીડિયા એકાઉન્ટ પર કોપીરાઈટ સ્ટ્રાઈક આવી છે. અપીલ માટે આ ફોર્મમાં લોગિન વિગતો ભરો.,gujarati,phishing,claude_synthetic_topup
+તમારા આધાર કાર્ડ અપડેટ સેન્ટર પર એપોઇન્ટમેન્ટ બુક થઈ ગઈ છે. કન્ફર્મ કરવા 100 રૂપિયા બુકિંગ ફી ભરો.,gujarati,phishing,claude_synthetic_topup
+"મફત સિલાઈ મશીન યોજના માટે અરજી કરો, ફક્ત તમારો આધાર, બેંક ખાતા નંબર આ લિંક પર સબમિટ કરો.",gujarati,phishing,claude_synthetic_topup
+"તમારા નામે નવું ક્રેડિટ કાર્ડ મંજૂર થયું છે, કાર્ડ સક્રિય કરવા તમારો પાન નંબર અને ઓટીપી દાખલ કરો.",gujarati,phishing,claude_synthetic_topup
+"તમારો ફોન વોરંટી ક્લેમ બાકી છે, પ્રોસેસ કરવા સર્વિસ સેન્ટર લિંક પર તમારી કાર્ડ વિગતો ભરો.",gujarati,phishing,claude_synthetic_topup
+"आज ऑफिस में टीम लंच है, शाम 6 बजे तक निकलूंगा।",hindi,not_scam,claude_synthetic_topup
+बारिश की वजह से खेत का काम कल तक टाल दिया है।,hindi,not_scam,claude_synthetic_topup
+"तुम्हारी रिपोर्ट कार्ड आ गई है, बहुत अच्छे नंबर हैं, बधाई हो।",hindi,not_scam,claude_synthetic_topup
+"मंदिर में आज शाम आरती है, साथ चलोगी क्या?",hindi,not_scam,claude_synthetic_topup
+"नई साइकिल की सर्विसिंग हो गई, अब अच्छे से चल रही है।",hindi,not_scam,claude_synthetic_topup
+"पड़ोस में शादी है, कल शाम का प्रोग्राम है, तैयार रहना।",hindi,not_scam,claude_synthetic_topup
+"गांव की पंचायत बैठक शुक्रवार शाम को है, सब आना।",hindi,not_scam,claude_synthetic_topup
+"आज बाजार में सब्जी सस्ती मिल रही है, ले आना।",hindi,not_scam,claude_synthetic_topup
+"बेटी का स्कूल एडमिशन फॉर्म भर दिया, अगले हफ्ते इंटरव्यू है।",hindi,not_scam,claude_synthetic_topup
+"मौसम बहुत अच्छा है, शाम को घूमने चलें?",hindi,not_scam,claude_synthetic_topup
+"गाड़ी की सर्विस के लिए कल गैराज ले जाना है, याद रखना।",hindi,not_scam,claude_synthetic_topup
+"दादी की तबीयत अब बेहतर है, आज खाना भी खाया।",hindi,not_scam,claude_synthetic_topup
+"फसल की कटाई अगले हफ्ते शुरू होगी, मजदूर बुक कर लिए हैं।",hindi,not_scam,claude_synthetic_topup
+आज शाम को क्रिकेट मैच देखने चलोगे?,hindi,not_scam,claude_synthetic_topup
+"नई दुकान खुली है गली में, अच्छा सामान मिल रहा है।",hindi,not_scam,claude_synthetic_topup
+"बिजली आज दोपहर 2 से 4 बजे तक नहीं रहेगी, सूचना है।",hindi,not_scam,claude_synthetic_topup
+"भतीजे का जन्मदिन अगले रविवार है, केक ऑर्डर कर दिया।",hindi,not_scam,claude_synthetic_topup
+"आज बैंक जाना है पासबुक अपडेट करवाने, साथ चलोगे?",hindi,not_scam,claude_synthetic_topup
+"गाँव में मेला लगा है, शाम को चलते हैं बच्चों के साथ।",hindi,not_scam,claude_synthetic_topup
+"कल हवन है घर में सुबह 8 बजे, समय पर आ जाना।",hindi,not_scam,claude_synthetic_topup
+"આજે ઓફિસમાં ટીમ લંચ છે, સાંજે 6 વાગ્યા સુધીમાં નીકળીશ.",gujarati,not_scam,claude_synthetic_topup
+વરસાદના કારણે ખેતરનું કામ કાલ સુધી ટાળી દીધું છે.,gujarati,not_scam,claude_synthetic_topup
+"તારું રિપોર્ટ કાર્ડ આવી ગયું, ખૂબ સારા માર્ક્સ છે, અભિનંદન.",gujarati,not_scam,claude_synthetic_topup
+"મંદિરમાં આજે સાંજે આરતી છે, સાથે આવીશ?",gujarati,not_scam,claude_synthetic_topup
+"નવી સાયકલની સર્વિસિંગ થઈ ગઈ, હવે સારી રીતે ચાલે છે.",gujarati,not_scam,claude_synthetic_topup
+"પડોશમાં લગ્ન છે, કાલે સાંજનો પ્રોગ્રામ છે, તૈયાર રહેજો.",gujarati,not_scam,claude_synthetic_topup
+"ગામની પંચાયત મીટિંગ શુક્રવારે સાંજે છે, બધા આવજો.",gujarati,not_scam,claude_synthetic_topup
+"આજે બજારમાં શાકભાજી સસ્તા મળે છે, લેતા આવજો.",gujarati,not_scam,claude_synthetic_topup
+"દીકરીનું શાળા પ્રવેશ ફોર્મ ભરી દીધું, આવતા અઠવાડિયે ઈન્ટરવ્યુ છે.",gujarati,not_scam,claude_synthetic_topup
+"હવામાન ખૂબ સરસ છે, સાંજે ફરવા જઈએ?",gujarati,not_scam,claude_synthetic_topup
+"ગાડીની સર્વિસ માટે કાલે ગેરેજ લઈ જવાની છે, યાદ રાખજો.",gujarati,not_scam,claude_synthetic_topup
+"દાદીની તબિયત હવે સારી છે, આજે જમ્યા પણ ખરા.",gujarati,not_scam,claude_synthetic_topup
+"પાકની કાપણી આવતા અઠવાડિયે શરૂ થશે, મજૂરો બુક કરી લીધા છે.",gujarati,not_scam,claude_synthetic_topup
+આજે સાંજે ક્રિકેટ મેચ જોવા આવીશ?,gujarati,not_scam,claude_synthetic_topup
+"ગલીમાં નવી દુકાન ખુલી છે, સારો સામાન મળે છે.",gujarati,not_scam,claude_synthetic_topup
+"વીજળી આજે બપોરે 2 થી 4 વાગ્યા સુધી નહીં હોય, સૂચના છે.",gujarati,not_scam,claude_synthetic_topup
+"ભત્રીજાનો જન્મદિવસ આવતા રવિવારે છે, કેક ઓર્ડર કરી દીધો.",gujarati,not_scam,claude_synthetic_topup
+"આજે બેંક જવાનું છે પાસબુક અપડેટ કરાવવા, સાથે આવીશ?",gujarati,not_scam,claude_synthetic_topup
+"ગામમાં મેળો લાગ્યો છે, સાંજે બાળકો સાથે જઈએ.",gujarati,not_scam,claude_synthetic_topup
+"કાલે સવારે 8 વાગ્યે ઘરે હવન છે, સમયસર આવી જજો.",gujarati,not_scam,claude_synthetic_topup

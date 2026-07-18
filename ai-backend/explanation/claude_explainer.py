@@ -29,6 +29,17 @@ _FALLBACK_TEMPLATES = {
         Language.HINDI: "यह संदेश किसी ज्ञात धोखाधड़ी पैटर्न से मेल नहीं खाता।",
         Language.GUJARATI: "આ સંદેશ કોઈ જાણીતા છેતરપિંડી પેટર્ન સાથે મેળ ખાતો નથી.",
     },
+
+    ScamCategory.IMPERSONATION_DIGITAL_ARREST: {
+        Language.ENGLISH: "This looks like a fake police/CBI call. Real police never arrest you over a phone or video call, or ask for money to close a case — hang up and verify at your nearest police station.",
+        Language.HINDI: "यह एक फर्जी पुलिस/सीबीआई कॉल लगता है। असली पुलिस कभी फोन या वीडियो कॉल पर गिरफ्तार नहीं करती, न ही केस बंद करने के लिए पैसे मांगती है — कॉल काटें और नजदीकी थाने में पुष्टि करें।",
+        Language.GUJARATI: "આ નકલી પોલીસ/સીબીઆઈ કૉલ લાગે છે. સાચી પોલીસ ક્યારેય ફોન કે વિડિયો કૉલ પર ધરપકડ કરતી નથી, કે કેસ બંધ કરવા પૈસા માંગતી નથી — કૉલ કાપો અને નજીકના પોલીસ સ્ટેશને ચકાસો.",
+    },
+    ScamCategory.IMPERSONATION_BLACKMAIL: {
+        Language.ENGLISH: "This looks like a fake blackmail threat. Do not send money or share more information — block the number and report it to cybercrime.gov.in.",
+        Language.HINDI: "यह एक फर्जी ब्लैकमेल धमकी लगती है। पैसे न भेजें और कोई जानकारी साझा न करें — नंबर ब्लॉक करें और cybercrime.gov.in पर रिपोर्ट करें।",
+        Language.GUJARATI: "આ નકલી બ્લેકમેલ ધમકી લાગે છે. પૈસા ન મોકલો અને વધુ માહિતી શેર ન કરો — નંબર બ્લોક કરો અને cybercrime.gov.in પર જાણ કરો.",
+    },
 }
 _GENERIC_FALLBACK = {
     Language.ENGLISH: "This message shows signs of a scam. Be cautious and don't share personal or payment details.",

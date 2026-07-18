@@ -12,7 +12,8 @@ degrees — check coverage before committing):
 
 BASE_MODEL = "distilbert-base-multilingual-cased"  # placeholder — benchmark before locking in
 
-NUM_LABELS = 6  # kyc_scam, loan_scam, lottery_scam, upi_scam, phishing, not_scam
+NUM_LABELS = 8  # kyc_scam, loan_scam, lottery_scam, upi_scam, phishing,
+                # impersonation_digital_arrest, impersonation_blackmail, not_scam
 
 TRAINING_ARGS = {
     "learning_rate": 2e-5,
