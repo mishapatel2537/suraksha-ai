@@ -14,14 +14,22 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.suraksha.ai.ui.theme.SurakshaTheme
 
 import com.suraksha.ai.navigation.AppNavigation
+import android.content.Intent
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
+        val sharedText: String? = if (intent?.action == Intent.ACTION_SEND && intent.type == "text/plain") {
+            intent.getStringExtra(Intent.EXTRA_TEXT)
+        } else {
+            null
+        }
+
         setContent {
             SurakshaTheme {
-                AppNavigation()
+                AppNavigation(sharedText = sharedText)
             }
         }
     }
