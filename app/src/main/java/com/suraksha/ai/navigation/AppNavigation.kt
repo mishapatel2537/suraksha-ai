@@ -8,7 +8,8 @@ import com.suraksha.ai.screens.home.HomeScreen
 import com.suraksha.ai.screens.messagecheck.MessageInputScreen
 import com.suraksha.ai.screens.messagecheck.MessageInputViewModel
 import com.suraksha.ai.screens.result.ResultScreen
-
+import com.suraksha.ai.screens.sms.SmsPermissionScreen
+import com.suraksha.ai.screens.sms.SmsInboxScreen
 @Composable
 fun AppNavigation(sharedText: String? = null) {
     val navController = rememberNavController()
@@ -22,6 +23,9 @@ fun AppNavigation(sharedText: String? = null) {
             HomeScreen(
                 onCheckMessageClick = {
                     navController.navigate("messageInput")
+                },
+                onScanSmsClick = {
+                    navController.navigate("smsPermission")
                 }
             )
         }
@@ -38,6 +42,18 @@ fun AppNavigation(sharedText: String? = null) {
             sharedViewModel.result?.let { result ->
                 ResultScreen(result = result)
             }
+        }
+        composable("smsPermission") {
+            SmsPermissionScreen(
+                onPermissionGranted = {
+                    navController.navigate("smsInbox") {
+                        popUpTo("smsPermission") { inclusive = true }
+                    }
+                }
+            )
+        }
+        composable("smsInbox") {
+            SmsInboxScreen()
         }
     }
 }

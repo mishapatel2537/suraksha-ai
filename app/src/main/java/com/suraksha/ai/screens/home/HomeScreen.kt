@@ -19,7 +19,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -29,12 +28,13 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun HomeScreen(
     modifier: Modifier = Modifier,
-    onCheckMessageClick: () -> Unit = {}
+    onCheckMessageClick: () -> Unit = {},
+    onScanSmsClick: () -> Unit = {}
 ) {
     val backgroundGradient = Brush.verticalGradient(
         colors = listOf(
-            Color(0xFF0D47A1), // deep trust blue
-            Color(0xFF00897B)  // teal
+            Color(0xFF0D47A1),
+            Color(0xFF00897B)
         )
     )
 
@@ -43,7 +43,6 @@ fun HomeScreen(
             .fillMaxSize()
             .background(backgroundGradient)
     ) {
-
         Canvas(modifier = Modifier.fillMaxSize()) {
             val dotSpacing = 40.dp.toPx()
             val dotRadius = 2.dp.toPx()
@@ -113,6 +112,20 @@ fun HomeScreen(
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Bold
                 )
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Button(
+                onClick = onScanSmsClick,
+                shape = RoundedCornerShape(28.dp),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = Color.White.copy(alpha = 0.85f),
+                    contentColor = Color(0xFF0D47A1)
+                ),
+                modifier = Modifier.height(56.dp)
+            ) {
+                Text(text = "Scan SMS Inbox", fontSize = 16.sp, fontWeight = FontWeight.Bold)
             }
         }
     }
