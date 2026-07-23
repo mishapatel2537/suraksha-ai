@@ -45,3 +45,50 @@ def test_guardian_alert_mock_response():
     )
     assert response.status_code == 200
     assert response.json()["sent"] is True
+
+
+def test_analyze_call_no_speech_detected(monkeypatch):
+    """Empty transcript (silence/non-speech audio) should be a clear 400, not a wrong classification."""
+    def fake_transcribe(path):
+        return {"text": "", "whisper_language_code": "en", "language": "english"}
+
+    monkeypatch.setattr("api.routes.analyze_call.transcribe_audio", fake_transcribe)
+    response = client.post(
+        "/analyze-call",
+        files={"audio": ("test.wav", b"fake audio bytes", "audio/wav")},
+    )
+    assert response.status_code == 400
+
+
+def test_analyze_call_routes_transcript_through_ensemble(monkeypatch):
+    """A transcribed KYC scam call should classify the same way the equivalent text message would."""
+    def fake_transcribe(path):
+        return {
+            "text": "Your KYC is pending, account will be blocked, share your OTP immediately",
+            "whisper_language_code": "en",
+            "language": "english",
+        }
+
+    monkeypatch.setattr("api.routes.analyze_call.transcribe_audio", fake_transcribe)
+    response = client.post(
+        "/analyze-call",
+        files={"audio": ("test.wav", b"fake audio bytes", "audio/wav")},
+    )
+    assert response.status_code == 200
+    body = response.json()
+    assert body["category"] == "kyc_scam"
+    assert body["language"] == "english"
+
+
+def test_analyze_call_unsupported_language_falls_back(monkeypatch):
+    """If Whisper detects a language outside english/hindi/gujarati, fall back rather than crash."""
+    def fake_transcribe(path):
+        return {"text": "some transcribed text", "whisper_language_code": "ta", "language": None}
+
+    monkeypatch.setattr("api.routes.analyze_call.transcribe_audio", fake_transcribe)
+    response = client.post(
+        "/analyze-call",
+        files={"audio": ("test.wav", b"fake audio bytes", "audio/wav")},
+    )
+    assert response.status_code == 200
+    assert response.json()["language"] == "english"  # FALLBACK_LANGUAGE

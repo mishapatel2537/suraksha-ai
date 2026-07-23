@@ -1,24 +1,24 @@
 # --- API framework ---
-fastapi==0.115.0
-uvicorn[standard]==0.30.6
-pydantic==2.9.2
-python-dotenv==1.0.1
-python-multipart==0.0.9
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.6
+pydantic>=2.9.2
+python-dotenv>=1.0.1
+python-multipart>=0.0.9
 
 # --- ML / classifier ---
-transformers==4.44.2
-torch==2.4.1
-scikit-learn==1.5.1
-pandas==2.2.2
-numpy==1.26.4
-onnxruntime==1.19.2
+transformers>=4.44.2
+torch>=2.6.0
+scikit-learn>=1.5.1
+pandas>=2.2.2
+numpy>=1.26.4
+onnxruntime>=1.19.2
 
 # --- LLM explanation generation ---
-anthropic==0.34.2
+anthropic>=0.34.2
 
-# --- Speech-to-text (Step 9, add when you get there) ---
-# openai-whisper==20231117
+# --- Speech-to-text ---
+openai-whisper>=20231117
 
 # --- Testing ---
-pytest==8.3.2
-httpx==0.27.2
+pytest>=8.3.2
+httpx>=0.27.2

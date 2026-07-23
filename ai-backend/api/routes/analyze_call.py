@@ -1,21 +1,68 @@
 """
-POST /analyze-call — Step 9 (Important, drop 2nd if time is short).
+POST /analyze-call
 
 Transcribes uploaded call audio with Whisper, then reuses the exact same
-rules/model/explanation pipeline as /analyze-message. Not implemented yet
-— stubbed so the route exists and Person B can build against it, but it
-currently returns 501 until speech/transcribe.py is written.
+rules -> model -> fallback ensemble (model/ensemble.py) and explanation
+generation that /analyze-message uses -- a scam is a scam whether it
+arrived as text or a transcribed call, so the classification logic
+shouldn't differ.
 """
+
+import os
+import tempfile
 
 from fastapi import APIRouter, HTTPException, UploadFile
 
-from api.schemas.response_models import AnalyzeResponse
+from api.schemas.response_models import AnalyzeResponse, ScamCategory, Language
+from explanation.claude_explainer import generate_explanation
+from model.ensemble import classify
+from speech.transcribe import transcribe_audio
 
 router = APIRouter()
+
+# Language to assume if Whisper detects something outside english/hindi/gujarati,
+# or if it fails to detect a language at all. This is a rough stopgap --
+# proper handling of unsupported languages is Step 14 (error handling / edge cases).
+FALLBACK_LANGUAGE = "english"
 
 
 @router.post("/analyze-call", response_model=AnalyzeResponse)
 async def analyze_call(audio: UploadFile):
-    # TODO (Step 9): transcribe via speech/transcribe.py, then call the
-    # same logic as analyze_message.analyze_message() on the transcript.
-    raise HTTPException(status_code=501, detail="Call analysis not implemented yet — coming in Step 9.")
+    suffix = os.path.splitext(audio.filename or "")[1] or ".wav"
+    with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
+        tmp.write(await audio.read())
+        tmp_path = tmp.name
+
+    try:
+        result = transcribe_audio(tmp_path)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Transcription failed: {e}")
+    finally:
+        os.unlink(tmp_path)  # clean up the temp file regardless of outcome
+
+    transcript = result["text"]
+    language = result["language"] or FALLBACK_LANGUAGE
+
+    if not transcript:
+        # No speech detected -- silence, non-speech audio, or a language
+        # Whisper couldn't transcribe at all. Better to say so plainly
+        # than force a category guess on empty text.
+        raise HTTPException(
+            status_code=400,
+            detail="No speech could be transcribed from this audio. Try a clearer recording.",
+        )
+
+    category_str, risk_percent = classify(transcript, language)
+    category = ScamCategory(category_str)
+    language_enum = Language(language)
+
+    explanation = generate_explanation(
+        category=category, risk_percent=risk_percent, language=language_enum
+    )
+
+    return AnalyzeResponse(
+        category=category,
+        risk_percent=risk_percent,
+        explanation=explanation,
+        language=language_enum,
+    )
