@@ -22,6 +22,21 @@ def test_analyze_message_flags_known_kyc_pattern():
     assert body["risk_percent"] > 50
     assert body["language"] == "english"
     assert len(body["explanation"]) > 0
+    # high risk_percent (rules layer gives 90 for 2+ matches) -- should trigger
+    assert body["trigger_alert"] is True
+    assert len(body["alert_message"]) > 0
+
+
+def test_analyze_message_no_alert_when_not_scam():
+    response = client.post(
+        "/analyze-message",
+        json={"text": "Hey, are we still on for dinner tonight?", "language": "english"},
+    )
+    assert response.status_code == 200
+    body = response.json()
+    assert body["category"] == "not_scam"
+    assert body["trigger_alert"] is False
+    assert body["alert_message"] == ""
 
 
 def test_analyze_message_clean_text_not_flagged():

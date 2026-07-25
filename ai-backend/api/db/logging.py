@@ -2,8 +2,10 @@
 Step 11: basic logging of flagged messages for demo purposes. SQLite is
 enough — no production database needed.
 
-Not wired into the routes yet (that's part of Step 11) — this just sets
-up the table so it's ready when you get there.
+Wired into both analyze_message.py and analyze_call.py -- every
+classification gets a row here, regardless of category (including
+not_scam, so you can see the full traffic picture, not just flagged scams).
+init_db() runs once at app startup (api/main.py).
 """
 
 import os

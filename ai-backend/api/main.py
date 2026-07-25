@@ -12,9 +12,11 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from api.db.logging import init_db
 from api.routes import analyze_call, analyze_message, guardian_alert
 
 load_dotenv()
+init_db()  # creates the flagged_messages table if it doesn't exist yet
 
 app = FastAPI(
     title="Suraksha API",

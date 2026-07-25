@@ -2,10 +2,10 @@
 POST /analyze-call
 
 Transcribes uploaded call audio with Whisper, then reuses the exact same
-rules -> model -> fallback ensemble (model/ensemble.py) and explanation
-generation that /analyze-message uses -- a scam is a scam whether it
-arrived as text or a transcribed call, so the classification logic
-shouldn't differ.
+rules -> model -> fallback ensemble (model/ensemble.py), Family Guardian
+alert logic, and logging that /analyze-message uses -- a scam is a scam
+whether it arrived as text or a transcribed call, so none of that logic
+should differ by input type.
 """
 
 import os
@@ -13,7 +13,9 @@ import tempfile
 
 from fastapi import APIRouter, HTTPException, UploadFile
 
+from api.db.logging import log_flagged_message
 from api.schemas.response_models import AnalyzeResponse, ScamCategory, Language
+from explanation.alert_generator import compute_trigger_alert, generate_alert_message
 from explanation.claude_explainer import generate_explanation
 from model.ensemble import classify
 from speech.transcribe import transcribe_audio
@@ -60,9 +62,18 @@ async def analyze_call(audio: UploadFile):
         category=category, risk_percent=risk_percent, language=language_enum
     )
 
+    trigger_alert = compute_trigger_alert(risk_percent)
+    alert_message = generate_alert_message(category_str, language_enum) if trigger_alert else ""
+
+    log_flagged_message(
+        text=transcript, category=category_str, risk_percent=risk_percent, language=language,
+    )
+
     return AnalyzeResponse(
         category=category,
         risk_percent=risk_percent,
         explanation=explanation,
         language=language_enum,
+        trigger_alert=trigger_alert,
+        alert_message=alert_message,
     )
