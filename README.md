@@ -55,7 +55,7 @@ pytest tests/ -v
 - **`POST /guardian-alert`** — mocked SMS-send confirmation (real sending
   happens entirely on Person B's Android side via `SmsManager`).
 
-## API contract (locked - do not change without discussing)
+## API contract
 
 ```json
 {
