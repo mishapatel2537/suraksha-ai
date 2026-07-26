@@ -5,12 +5,6 @@ digital banking users in rural India detect scam calls, texts, and UPI
 fraud in English, Hindi, and Gujarati. Built for the Maverick Effect AI
 Challenge 2026, Season 3 — "Financial Safety for Rural India" track.
 
-## Status: core pipeline complete and live
-
-All three endpoints are built and working, backed by a trained classifier,
-a rules-based fallback layer, live Claude-generated explanations, and
-Family Guardian alert logic. Remaining work is deployment and integration
-testing with the Android app (see "What's next" below).
 
 ## Setup
 
@@ -53,7 +47,7 @@ pytest tests/ -v
 - **`POST /analyze-call`** — audio file in, transcribes via Whisper then
   runs the exact same classification pipeline as `/analyze-message`.
 - **`POST /guardian-alert`** — mocked SMS-send confirmation (real sending
-  happens entirely on Person B's Android side via `SmsManager`).
+  happens entirely on Android side via `SmsManager`).
 
 ## API contract
 
@@ -85,7 +79,7 @@ performing strongest.
 Run `python -m model.evaluate` to reproduce this report (rules-only vs
 model-only vs ensemble, side by side, plus a full confusion matrix).
 
-## Known limitations, worth mentioning if asked
+## Known limitations
 
 - **Whisper can confuse Hindi and Gujarati** on short or noisy audio
   clips, since they're related languages — a known Whisper limitation,
