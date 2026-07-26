@@ -3,7 +3,7 @@ Turn a classification result into a plain-language explanation
 via the Claude API, in the user's chosen language.
 
 Kept separate from api/ so it's testable without spinning up FastAPI, and
-swappable for the fixed-template fallback if the API
+swappable for the fixed-template fallback (see below) if the API
 integration stalls under time pressure.
 """
 
@@ -29,7 +29,6 @@ _FALLBACK_TEMPLATES = {
         Language.HINDI: "यह संदेश किसी ज्ञात धोखाधड़ी पैटर्न से मेल नहीं खाता।",
         Language.GUJARATI: "આ સંદેશ કોઈ જાણીતા છેતરપિંડી પેટર્ન સાથે મેળ ખાતો નથી.",
     },
-
     ScamCategory.IMPERSONATION_DIGITAL_ARREST: {
         Language.ENGLISH: "This looks like a fake police/CBI call. Real police never arrest you over a phone or video call, or ask for money to close a case — hang up and verify at your nearest police station.",
         Language.HINDI: "यह एक फर्जी पुलिस/सीबीआई कॉल लगता है। असली पुलिस कभी फोन या वीडियो कॉल पर गिरफ्तार नहीं करती, न ही केस बंद करने के लिए पैसे मांगती है — कॉल काटें और नजदीकी थाने में पुष्टि करें।",
@@ -70,12 +69,22 @@ def generate_explanation(category: ScamCategory, risk_percent: int, language: La
 
 
 def _call_claude(client: Anthropic, category: ScamCategory, risk_percent: int, language: Language) -> str:
+    script_instruction = {
+        Language.HINDI: "Write in Hindi using Devanagari script (देवनागरी) -- NOT romanized Hinglish in Latin letters.",
+        Language.GUJARATI: "Write in Gujarati using Gujarati script (ગુજરાતી) -- NOT romanized text in Latin letters.",
+        Language.ENGLISH: "Write in English.",
+    }[language]
+
     prompt = (
         f"A message-scanning tool classified a message as category='{category.value}' "
         f"with risk_percent={risk_percent}. Write a single short (1-2 sentence) plain-language "
         f"explanation for a first-time digital banking user in rural India, in {language.value}. "
+        f"{script_instruction} "
         "Be direct and reassuring, avoid jargon, and if it's a scam say clearly what NOT to do "
-        "(e.g. don't click the link, don't share OTP)."
+        "(e.g. don't click the link, don't share OTP). "
+        "IMPORTANT: reply with plain text only -- no markdown, no headers, no bold/asterisks, "
+        "no bullet points, no title. Just 1-2 plain sentences, nothing else, since this goes "
+        "directly into a mobile app's UI where markdown symbols would show up as literal characters."
     )
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",  # fast/cheap — fine for a 1-2 sentence explanation
