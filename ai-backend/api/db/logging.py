@@ -1,6 +1,5 @@
 """
-Step 11: basic logging of flagged messages for demo purposes. SQLite is
-enough — no production database needed.
+Basic logging of flagged messages for demo purposes. SQLite — no production database.
 
 Wired into both analyze_message.py and analyze_call.py -- every
 classification gets a row here, regardless of category (including

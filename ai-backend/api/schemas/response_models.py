@@ -1,11 +1,9 @@
 """
 Response schemas for the Suraksha API.
 
-THIS IS THE LOCKED CONTRACT (Step 2, extended per the Family Guardian
-roadmap). Field names here must exactly match what Person B expects in
+THIS IS THE LOCKED CONTRACT. Field names here must exactly match in
 AnalyzeResponse.kt: category, risk_percent, explanation, language,
-trigger_alert, alert_message. Do not rename/restructure these without
-telling her first -- her screens are built directly against this shape.
+trigger_alert, alert_message.
 """
 
 from enum import Enum

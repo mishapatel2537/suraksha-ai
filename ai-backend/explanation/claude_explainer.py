@@ -1,9 +1,9 @@
 """
-Step 8: turn a classification result into a plain-language explanation
+Turn a classification result into a plain-language explanation
 via the Claude API, in the user's chosen language.
 
 Kept separate from api/ so it's testable without spinning up FastAPI, and
-swappable for the fixed-template fallback (see below) if the API
+swappable for the fixed-template fallback if the API
 integration stalls under time pressure.
 """
 

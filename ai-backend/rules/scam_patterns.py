@@ -1,14 +1,9 @@
 """
-Rules-based fallback layer (Step 4).
+Rules-based fallback layer.
 
-This is a permanent safety net under the ML model, not a stopgap — keep it
-even after the classifier is trained. Right now (before Step 5) it's also
-the ONLY classification logic, so the API has something real to return
-from day one instead of waiting on the dataset + model to be ready.
-
+This is a permanent safety net under the ML model.
 Detection is deliberately simple: case-insensitive substring match against
-per-category phrase lists in pattern_lists/*.json. Expand those lists as
-you find more real examples — this file's logic shouldn't need to change.
+per-category phrase lists in pattern_lists/*.json.
 """
 
 import json

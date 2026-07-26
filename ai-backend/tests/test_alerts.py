@@ -1,7 +1,7 @@
 """
 Tests for the Family Guardian alert logic (explanation/alert_generator.py).
 
-Person B's roadmap explicitly asks for boundary tests around the threshold
+Team mate's roadmap explicitly asks for boundary tests around the threshold
 (69 vs 70 vs 71) so this doesn't silently break -- that's most of what
 this file is.
 """

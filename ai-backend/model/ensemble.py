@@ -5,7 +5,7 @@ call the exact same code path. Evaluating a re-implementation of the
 ensemble logic instead of the real thing would risk the two silently
 drifting apart -- this module is the single source of truth for it.
 
-Policy: rules are precise but not exhaustive (Step 4 validation: ~99.6%
+Policy: rules are precise but not exhaustive (Validation: ~99.6%
 precision, ~30-80% recall depending on category). The model is more
 exhaustive but occasionally wrong in different ways. So:
 

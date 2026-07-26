@@ -1,5 +1,5 @@
 """
-Step 9: Whisper integration for call-recording transcription.
+Whisper integration for call-recording transcription.
 
 Uses local open-source Whisper (not the paid OpenAI API) -- free, and your
 RTX 4060 handles it fine. Requires ffmpeg to be installed and on PATH

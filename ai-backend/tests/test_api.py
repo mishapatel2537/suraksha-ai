@@ -107,3 +107,96 @@ def test_analyze_call_unsupported_language_falls_back(monkeypatch):
     )
     assert response.status_code == 200
     assert response.json()["language"] == "english"  # FALLBACK_LANGUAGE
+
+
+def test_analyze_call_rejects_unsupported_file_type():
+    response = client.post(
+        "/analyze-call",
+        files={"audio": ("test.pdf", b"not actually audio", "application/pdf")},
+    )
+    assert response.status_code == 400
+    assert "Unsupported file type" in response.json()["detail"]
+
+
+def test_analyze_call_rejects_oversized_file():
+    oversized = b"x" * (16 * 1024 * 1024)  # 16MB, over the 15MB cap
+    response = client.post(
+        "/analyze-call",
+        files={"audio": ("test.wav", oversized, "audio/wav")},
+    )
+    assert response.status_code == 413
+    assert "too large" in response.json()["detail"]
+
+
+def test_analyze_call_rejects_empty_file():
+    response = client.post(
+        "/analyze-call",
+        files={"audio": ("test.wav", b"", "audio/wav")},
+    )
+    assert response.status_code == 400
+    assert "empty" in response.json()["detail"].lower()
+
+
+def test_analyze_call_transcription_crash_returns_clean_message(monkeypatch):
+    """A raw exception from Whisper/ffmpeg should never leak to the client."""
+    def broken_transcribe(path):
+        raise RuntimeError("some internal ffmpeg path detail that shouldn't leak: /tmp/xyz123")
+
+    monkeypatch.setattr("api.routes.analyze_call.transcribe_audio", broken_transcribe)
+    response = client.post(
+        "/analyze-call",
+        files={"audio": ("test.wav", b"fake audio bytes", "audio/wav")},
+    )
+    assert response.status_code == 500
+    assert "xyz123" not in response.json()["detail"]  # internal detail didn't leak
+    assert "ffmpeg" not in response.json()["detail"].lower()
+
+
+def test_guardian_alert_accepts_valid_phone():
+    response = client.post(
+        "/guardian-alert",
+        json={"message_id": "abc", "category": "kyc_scam", "risk_percent": 90,
+              "guardian_contact": "+919876543210"},
+    )
+    assert response.status_code == 200
+
+
+def test_guardian_alert_accepts_valid_email():
+    response = client.post(
+        "/guardian-alert",
+        json={"message_id": "abc", "category": "kyc_scam", "risk_percent": 90,
+              "guardian_contact": "family@example.com"},
+    )
+    assert response.status_code == 200
+
+
+def test_guardian_alert_rejects_garbage_contact():
+    response = client.post(
+        "/guardian-alert",
+        json={"message_id": "abc", "category": "kyc_scam", "risk_percent": 90,
+              "guardian_contact": "not a real contact!!"},
+    )
+    assert response.status_code == 422  # Pydantic validation error
+
+
+def test_unhandled_exception_returns_clean_response(monkeypatch):
+    """The global exception handler should catch anything unexpected and
+    never leak a raw traceback to the client."""
+    from fastapi.testclient import TestClient as TC
+    # raise_server_exceptions=False is needed here specifically -- TestClient
+    # re-raises unhandled exceptions by default (for easier debugging of
+    # genuine test failures), which bypasses the exception-handler
+    # middleware a real running server actually goes through.
+    no_raise_client = TC(app, raise_server_exceptions=False)
+
+    def broken_classify(text, language):
+        raise RuntimeError("unexpected internal failure with a fake /etc/secret path")
+
+    monkeypatch.setattr("api.routes.analyze_message.classify", broken_classify)
+    response = no_raise_client.post(
+        "/analyze-message",
+        json={"text": "some message", "language": "english"},
+    )
+    assert response.status_code == 500
+    assert "secret" not in response.json()["detail"]
+    assert "Traceback" not in response.text

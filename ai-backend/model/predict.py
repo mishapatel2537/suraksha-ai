@@ -1,12 +1,11 @@
 """
-Loads the fine-tuned classifier (Step 5) and exposes a simple predict()
+Loads the fine-tuned classifier and exposes a simple predict()
 function for the API layer to call.
 
 Designed to fail gracefully: if model/artifacts/suraksha-classifier/ doesn't
-exist yet (e.g. a teammate hasn't run training locally), predict() returns
+exist yet, predict() returns
 None instead of crashing -- callers should fall back to rules-only in that
-case. This matters because Person B (or anyone pulling the repo fresh)
-shouldn't have the API break just because they haven't run model/train.py.
+case.
 """
 
 import sys

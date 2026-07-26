@@ -1,7 +1,7 @@
 """
-Family Guardian alert logic (Section 4 of the backend roadmap).
+Family Guardian alert logic.
 
-Two responsibilities, both backend-only:
+Two responsibilities:
   1. Decide WHETHER an alert should fire (compute_trigger_alert)
   2. Draft WHAT it should say (generate_alert_message)
 

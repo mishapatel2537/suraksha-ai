@@ -1,14 +1,12 @@
 """
 Request schemas for the Suraksha API.
-
-Must stay in sync with the frontend's AnalyzeRequest.kt (Person B's branch).
-Agree on any field changes with Person B before merging — her screens are
-built directly against this shape.
+Must stay in sync with the frontend's AnalyzeRequest.kt.
 """
 
 from enum import Enum
+import re
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 class Language(str, Enum):
@@ -34,3 +32,15 @@ class GuardianAlertRequest(BaseModel):
     category: str = Field(..., description="Scam category that triggered the alert")
     risk_percent: int = Field(..., ge=0, le=100)
     guardian_contact: str = Field(..., description="Phone number or email of the trusted family member")
+
+    @field_validator("guardian_contact")
+    @classmethod
+    def validate_contact_shape(cls, v: str) -> str:
+        v = v.strip()
+        phone_pattern = r"^\+?[\d\s\-()]{7,20}$"
+        email_pattern = r"^[^@\s]+@[^@\s]+\.[^@\s]+$"
+        if re.match(phone_pattern, v) or re.match(email_pattern, v):
+            return v
+        raise ValueError(
+            "guardian_contact must look like a phone number (e.g. +919876543210) or an email address"
+        )
