@@ -111,14 +111,3 @@ ai-backend/
 ├── api/            # FastAPI app, routes, schemas, SQLite logging
 └── tests/          # pytest suite
 ```
-
-## What's next
-
-- **Deploy** — not yet done. Plan is Render (free tier), watching this
-  branch directly rather than `main`, so merging into `main` doesn't
-  trigger unrelated redeploys.
-- **Integration testing with Person B's app** — real end-to-end test
-  with her actual Android code, not just Swagger UI (contract shape,
-  audio format from a real device, HTTPS, SMS trigger all need
-  verifying together).
-- **Merge into `main`** once the above are stable.
