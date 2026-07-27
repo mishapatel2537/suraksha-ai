@@ -19,6 +19,17 @@ class MessageInputViewModel : ViewModel() {
     var isLoading by mutableStateOf(false)
         private set
 
+    var hasLoggedResult by mutableStateOf(false)
+        private set
+
+    fun markResultLogged() {
+        hasLoggedResult = true
+    }
+
+    fun resetLogFlag() {
+        hasLoggedResult = false
+    }
+
     fun onMessageTextChange(newText: String) {
         messageText = newText
     }
@@ -27,8 +38,12 @@ class MessageInputViewModel : ViewModel() {
         viewModelScope.launch {
             isLoading = true
             result = MockApiService.analyzeMessage(messageText)
+            hasLoggedResult = false
             isLoading = false
             onComplete()
         }
+    }
+    fun updateResult(response: AnalyzeResponse) {
+        result = response
     }
 }

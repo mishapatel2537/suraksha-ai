@@ -1,5 +1,5 @@
 package com.suraksha.ai.screens.sms
-
+import androidx.compose.ui.res.stringResource
 import android.Manifest
 import android.content.pm.PackageManager
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -25,10 +25,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
+import com.suraksha.ai.R
 
 @Composable
 fun SmsPermissionScreen(
@@ -73,7 +75,7 @@ fun SmsPermissionScreen(
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            text = "Read your messages?",
+            text = stringResource(R.string.sms_permission_title),
             fontSize = 26.sp,
             fontWeight = FontWeight.Bold,
             color = Color.White
@@ -82,7 +84,7 @@ fun SmsPermissionScreen(
         Spacer(modifier = Modifier.height(16.dp))
 
         Text(
-            text = "Suraksha can scan your SMS inbox to automatically flag scam messages. Your messages are analyzed only on your device and are never shared without your permission.",
+            text = stringResource(R.string.sms_permission_body),
             fontSize = 15.sp,
             color = Color.White.copy(alpha = 0.9f)
         )
@@ -101,7 +103,7 @@ fun SmsPermissionScreen(
             modifier = Modifier.height(56.dp)
         ) {
             Text(
-                text = if (hasPermission) "Permission granted ✓" else "Allow SMS Access",
+                text = if (hasPermission) stringResource(R.string.sms_permission_granted) else stringResource(R.string.sms_permission_allow),
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Bold
             )

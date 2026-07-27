@@ -1,5 +1,5 @@
 package com.suraksha.ai.screens.messagecheck
-
+import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -30,23 +30,21 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.material3.OutlinedTextFieldDefaults
+import androidx.compose.ui.res.stringResource
+import com.suraksha.ai.R
 
-
-
-
-    @Composable
-    fun MessageInputScreen(
-        modifier: Modifier = Modifier,
-        initialText: String = "",
-        viewModel: MessageInputViewModel = viewModel(),
-        onCheckMessageClick: () -> Unit = {}
-    ) {
-        // Set initial text once, only the first time this screen appears
-        androidx.compose.runtime.LaunchedEffect(Unit) {
-            if (viewModel.messageText.isEmpty() && initialText.isNotEmpty()) {
-                viewModel.onMessageTextChange(initialText)
-            }
+@Composable
+fun MessageInputScreen(
+    modifier: Modifier = Modifier,
+    initialText: String = "",
+    viewModel: MessageInputViewModel = viewModel(),
+    onCheckMessageClick: () -> Unit = {}
+) {
+    androidx.compose.runtime.LaunchedEffect(Unit) {
+        if (viewModel.messageText.isEmpty() && initialText.isNotEmpty()) {
+            viewModel.onMessageTextChange(initialText)
         }
+    }
 
     val backgroundGradient = Brush.verticalGradient(
         colors = listOf(
@@ -64,7 +62,7 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            text = "Check a Message",
+            text = stringResource(R.string.check_message_title),
             fontSize = 28.sp,
             fontWeight = FontWeight.Bold,
             color = Color.White
@@ -82,7 +80,7 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
             OutlinedTextField(
                 value = viewModel.messageText,
                 onValueChange = { viewModel.onMessageTextChange(it) },
-                label = { Text("Paste or type the message", fontFamily = FontFamily.Serif) },
+                label = { Text(stringResource(R.string.message_input_label), fontFamily = FontFamily.Serif) },
                 modifier = Modifier.fillMaxWidth(),
                 minLines = 5,
                 shape = RoundedCornerShape(16.dp),
@@ -103,13 +101,18 @@ import androidx.compose.material3.OutlinedTextFieldDefaults
         }
 
         Spacer(modifier = Modifier.height(24.dp))
-
         Button(
             onClick = {
                 viewModel.checkMessage(onComplete = onCheckMessageClick)
             },
+            shape = RoundedCornerShape(28.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color.White,
+                contentColor = Color(0xFF0D47A1)
+            ),
+            modifier = Modifier.height(56.dp)
         ) {
-            Text(text = "Check Message", fontSize = 16.sp, fontWeight = FontWeight.Bold)
+            Text(text = stringResource(R.string.check_message_submit), fontSize = 16.sp, fontWeight = FontWeight.Bold)
         }
     }
 }

@@ -1,6 +1,5 @@
 package com.suraksha.ai.screens.sms
-
-
+import androidx.compose.ui.res.stringResource
 import android.provider.Telephony
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -24,9 +23,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.suraksha.ai.R
 
 data class SmsMessage(val sender: String, val body: String)
 
@@ -35,6 +36,8 @@ fun SmsInboxScreen(modifier: Modifier = Modifier) {
     val context = LocalContext.current
 
     var messages by remember { mutableStateOf<List<SmsMessage>>(emptyList()) }
+
+    val unknownSenderLabel = stringResource(R.string.sms_unknown_sender)
 
     androidx.compose.runtime.LaunchedEffect(Unit) {
         val cursor = context.contentResolver.query(
@@ -52,7 +55,7 @@ fun SmsInboxScreen(modifier: Modifier = Modifier) {
             while (it.moveToNext() && loadedMessages.size < 50) {
                 loadedMessages.add(
                     SmsMessage(
-                        sender = it.getString(addressIndex) ?: "Unknown",
+                        sender = it.getString(addressIndex) ?: unknownSenderLabel,
                         body = it.getString(bodyIndex) ?: ""
                     )
                 )
@@ -72,7 +75,7 @@ fun SmsInboxScreen(modifier: Modifier = Modifier) {
             .padding(24.dp)
     ) {
         Text(
-            text = "Inbox",
+            text = stringResource(R.string.sms_inbox_title),
             fontSize = 28.sp,
             fontWeight = FontWeight.Bold,
             color = Color.White
@@ -82,7 +85,7 @@ fun SmsInboxScreen(modifier: Modifier = Modifier) {
 
         if (messages.isEmpty()) {
             Text(
-                text = "No messages found.",
+                text = stringResource(R.string.sms_inbox_empty),
                 fontSize = 16.sp,
                 color = Color.White.copy(alpha = 0.8f)
             )
