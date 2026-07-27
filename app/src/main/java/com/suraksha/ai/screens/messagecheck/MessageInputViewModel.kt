@@ -5,8 +5,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.suraksha.ai.network.MockApiService
-import com.suraksha.ai.network.models.AnalyzeResponse
+import com.suraksha.ai.network.RetrofitClient
+import com.suraksha.ai.network.AnalyzeRequest
+import com.suraksha.ai.network.AnalyzeResponse
 import kotlinx.coroutines.launch
 
 class MessageInputViewModel : ViewModel() {
@@ -17,6 +18,9 @@ class MessageInputViewModel : ViewModel() {
         private set
 
     var isLoading by mutableStateOf(false)
+        private set
+
+    var errorMessage by mutableStateOf<String?>(null)
         private set
 
     var hasLoggedResult by mutableStateOf(false)
@@ -34,15 +38,25 @@ class MessageInputViewModel : ViewModel() {
         messageText = newText
     }
 
-    fun checkMessage(onComplete: () -> Unit) {
+    fun checkMessage(language: String, onComplete: () -> Unit) {
         viewModelScope.launch {
             isLoading = true
-            result = MockApiService.analyzeMessage(messageText)
-            hasLoggedResult = false
-            isLoading = false
-            onComplete()
+            errorMessage = null
+            try {
+                val response = RetrofitClient.apiService.analyzeMessage(
+                    AnalyzeRequest(message = messageText, language = language)
+                )
+                result = response
+                hasLoggedResult = false
+            } catch (e: Exception) {
+                errorMessage = "Couldn't reach the server: ${e.message}"
+            } finally {
+                isLoading = false
+                onComplete()
+            }
         }
     }
+
     fun updateResult(response: AnalyzeResponse) {
         result = response
     }

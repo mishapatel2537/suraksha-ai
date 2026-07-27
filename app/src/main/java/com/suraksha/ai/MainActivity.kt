@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.suraksha.ai.ui.theme.SurakshaTheme
+import com.suraksha.ai.ui.theme.AppThemeState
 import com.suraksha.ai.navigation.AppNavigation
 import android.content.Intent
 
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         setContent {
-            SurakshaTheme {
+            SurakshaTheme(darkTheme = AppThemeState.isDarkMode) {
                 AppNavigation(sharedText = sharedText)
             }
         }

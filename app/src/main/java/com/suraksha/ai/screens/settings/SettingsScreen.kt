@@ -29,11 +29,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.suraksha.ai.components.LanguageToggle
+import com.suraksha.ai.ui.theme.AppThemeState
+import com.suraksha.ai.screens.guardian.GuardianViewModel
 
 @Composable
-fun SettingsScreen(modifier: Modifier = Modifier) {
-    var notificationsEnabled by remember { mutableStateOf(true) }
-    var darkModeEnabled by remember { mutableStateOf(false) }
+fun SettingsScreen(
+    modifier: Modifier = Modifier,
+    guardianViewModel: GuardianViewModel
+) {
     var dataCleared by remember { mutableStateOf(false) }
 
     val backgroundGradient = Brush.verticalGradient(
@@ -87,7 +90,11 @@ fun SettingsScreen(modifier: Modifier = Modifier) {
                     color = Color.White.copy(alpha = 0.8f)
                 )
             }
-            Switch(checked = notificationsEnabled, onCheckedChange = { notificationsEnabled = it }, colors = switchColors)
+            Switch(
+                checked = guardianViewModel.alertsEnabled,
+                onCheckedChange = { guardianViewModel.updateAlertsEnabled(it) },
+                colors = switchColors
+            )
         }
 
         Spacer(modifier = Modifier.height(20.dp))
@@ -100,7 +107,11 @@ fun SettingsScreen(modifier: Modifier = Modifier) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             Text(text = "Dark Mode", fontSize = 16.sp, fontWeight = FontWeight.Bold, color = Color.White)
-            Switch(checked = darkModeEnabled, onCheckedChange = { darkModeEnabled = it }, colors = switchColors)
+            Switch(
+                checked = AppThemeState.isDarkMode,
+                onCheckedChange = { AppThemeState.isDarkMode = it },
+                colors = switchColors
+            )
         }
 
         Spacer(modifier = Modifier.height(20.dp))

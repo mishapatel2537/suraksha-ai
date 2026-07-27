@@ -28,11 +28,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.suraksha.ai.network.MockApiService
-import com.suraksha.ai.network.models.AnalyzeResponse
+import com.suraksha.ai.network.AnalyzeResponse
 import kotlinx.coroutines.delay
+import com.suraksha.ai.network.RetrofitClient
 import androidx.compose.ui.text.style.TextAlign
 import kotlinx.coroutines.launch
+import com.suraksha.ai.network.AnalyzeRequest
 
 @Composable
 fun CallUploadScreen(
@@ -82,13 +83,24 @@ fun CallUploadScreen(
         Spacer(modifier = Modifier.height(32.dp))
 
         Button(
-            onClick = { filePicker.launch("audio/*") },
-            shape = RoundedCornerShape(28.dp),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = Color.White,
-                contentColor = Color(0xFF0D47A1)
-            ),
-            modifier = Modifier.height(56.dp)
+            onClick = {
+                scope.launch {
+                    isProcessing = true
+                    try {
+                        val fakeTranscribedText =
+                            "This is a fake transcribed message from the audio file."
+                        val result = RetrofitClient.apiService.analyzeMessage(
+                            AnalyzeRequest(message = fakeTranscribedText, language = "english")
+                        )
+                        onResultReady(result)
+                    } catch (e: Exception) {
+                        // TODO: show an error to the user, e.g. a Toast or a text state
+                    } finally {
+                        isProcessing = false
+                    }
+                }
+            },
+            // ...unchanged
         ) {
             Text(text = "Choose an Audio File", fontSize = 16.sp, fontWeight = FontWeight.Bold)
         }
@@ -102,29 +114,81 @@ fun CallUploadScreen(
             if (isProcessing) {
                 CircularProgressIndicator(color = Color.White)
                 Spacer(modifier = Modifier.height(8.dp))
-                Text(text = "Transcribing and analyzing...", fontSize = 14.sp, color = Color.White.copy(alpha = 0.9f))
+                Text(
+                    text = "Transcribing and analyzing...",
+                    fontSize = 14.sp,
+                    color = Color.White.copy(alpha = 0.9f)
+                )
             } else {
                 Button(
-                    onClick = {
-                        scope.launch {
-                            isProcessing = true
-                            delay(1500)
-                            val fakeTranscribedText = "This is a fake transcribed message from the audio file."
-                            val result = MockApiService.analyzeMessage(fakeTranscribedText)
-                            isProcessing = false
-                            onResultReady(result)
-                        }
-                    },
+                    onClick = { filePicker.launch("audio/*") },
                     shape = RoundedCornerShape(28.dp),
                     colors = ButtonDefaults.buttonColors(
-                        containerColor = Color.White.copy(alpha = 0.85f),
+                        containerColor = Color.White,
                         contentColor = Color(0xFF0D47A1)
                     ),
                     modifier = Modifier.height(56.dp)
                 ) {
-                    Text(text = "Analyze Recording", fontSize = 16.sp, fontWeight = FontWeight.Bold)
+                    Text(
+                        text = "Choose an Audio File",
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Bold
+                    )
+                }
+
+                fileName?.let { name ->
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text(text = "Selected: $name", fontSize = 14.sp, color = Color.White)
+
+                    Spacer(modifier = Modifier.height(16.dp))
+
+                    if (isProcessing) {
+                        CircularProgressIndicator(color = Color.White)
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Text(
+                            text = "Transcribing and analyzing...",
+                            fontSize = 14.sp,
+                            color = Color.White.copy(alpha = 0.9f)
+                        )
+                    } else {
+                        Button(
+                            onClick = {
+                                scope.launch {
+                                    isProcessing = true
+                                    try {
+                                        val fakeTranscribedText =
+                                            "This is a fake transcribed message from the audio file."
+                                        val result = RetrofitClient.apiService.analyzeMessage(
+                                            AnalyzeRequest(
+                                                message = fakeTranscribedText,
+                                                language = "english"
+                                            )
+                                        )
+                                        onResultReady(result)
+                                    } catch (e: Exception) {
+                                        // TODO: show an error to the user, e.g. a Toast or a text state
+                                    } finally {
+                                        isProcessing = false
+                                    }
+                                }
+                            },
+                            shape = RoundedCornerShape(28.dp),
+                            colors = ButtonDefaults.buttonColors(
+                                containerColor = Color.White.copy(alpha = 0.85f),
+                                contentColor = Color(0xFF0D47A1)
+                            ),
+                            modifier = Modifier.height(56.dp)
+                        ) {
+                            Text(
+                                text = "Analyze Recording",
+                                fontSize = 16.sp,
+                                fontWeight = FontWeight.Bold
+                            )
+                        }
+                    }
                 }
             }
         }
+
     }
 }

@@ -26,9 +26,20 @@ class GuardianViewModel(application: Application) : AndroidViewModel(application
     var contactPhone by mutableStateOf("")
         private set
 
+    var alertsEnabled by mutableStateOf(prefs.getBoolean("alerts_enabled", true))
+        private set
+
+    fun updateAlertsEnabled(enabled: Boolean) {
+        alertsEnabled = enabled
+        prefs.edit().putBoolean("alerts_enabled", enabled).apply()
+    }
+
+
+
     init {
         loadGuardians()
     }
+
 
     fun onContactNameChange(newValue: String) { contactName = newValue }
     fun onContactRelationChange(newValue: String) { contactRelation = newValue }
@@ -55,7 +66,8 @@ class GuardianViewModel(application: Application) : AndroidViewModel(application
     }
     enum class AlertResult { NO_GUARDIANS, NO_PERMISSION, SUCCESS, FAILED }
 
-    fun sendTestAlert(
+    fun sendAlert(
+        message: String,
         context: android.content.Context,
         onResult: (AlertResult, Int, String?) -> Unit
     ) {
@@ -74,8 +86,6 @@ class GuardianViewModel(application: Application) : AndroidViewModel(application
             return
         }
 
-        val message = "This is a test alert from Suraksha. If this were a real scam detection, your family member would be notified like this."
-
         try {
             val smsManager = android.telephony.SmsManager.getDefault()
             guardians.forEach { guardian ->
@@ -85,6 +95,14 @@ class GuardianViewModel(application: Application) : AndroidViewModel(application
         } catch (e: Exception) {
             onResult(AlertResult.FAILED, 0, e.message)
         }
+    }
+
+    fun sendTestAlert(
+        context: android.content.Context,
+        onResult: (AlertResult, Int, String?) -> Unit
+    ) {
+        val testMessage = "This is a test alert from Suraksha. If this were a real scam detection, your family member would be notified like this."
+        sendAlert(testMessage, context, onResult)
     }
 
     private fun saveGuardians() {

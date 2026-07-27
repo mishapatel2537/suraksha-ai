@@ -20,7 +20,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.suraksha.ai.R
-import com.suraksha.ai.network.models.AnalyzeResponse
+import com.suraksha.ai.network.AnalyzeResponse
 
 @Composable
 fun ResultScreen(
@@ -35,14 +35,14 @@ fun ResultScreen(
     )
 
     val riskColor = when {
-        result.riskPercent >= 70 -> Color(0xFFE53935)
-        result.riskPercent >= 40 -> Color(0xFFFFA726)
+        result.risk_percent >= 70 -> Color(0xFFE53935)
+        result.risk_percent >= 40 -> Color(0xFFFFA726)
         else -> Color(0xFF43A047)
     }
 
     val riskLabel = when {
-        result.riskPercent >= 70 -> stringResource(R.string.risk_high)
-        result.riskPercent >= 40 -> stringResource(R.string.risk_medium)
+        result.risk_percent >= 70 -> stringResource(R.string.risk_high)
+        result.risk_percent >= 40 -> stringResource(R.string.risk_medium)
         else -> stringResource(R.string.risk_low)
     }
 
@@ -83,7 +83,7 @@ fun ResultScreen(
             Spacer(modifier = Modifier.height(8.dp))
 
             Text(
-                text = stringResource(R.string.confidence_label, result.riskPercent),
+                text = stringResource(R.string.confidence_label, result.risk_percent),
                 fontSize = 16.sp,
                 color = Color.White.copy(alpha = 0.9f)
             )

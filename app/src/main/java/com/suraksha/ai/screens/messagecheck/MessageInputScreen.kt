@@ -1,5 +1,4 @@
 package com.suraksha.ai.screens.messagecheck
-import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -32,14 +31,25 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.ui.res.stringResource
 import com.suraksha.ai.R
+import androidx.compose.ui.platform.LocalContext
+import androidx.appcompat.app.AppCompatDelegate
+import com.suraksha.ai.screens.guardian.GuardianViewModel
 
 @Composable
 fun MessageInputScreen(
     modifier: Modifier = Modifier,
     initialText: String = "",
     viewModel: MessageInputViewModel = viewModel(),
+    guardianViewModel: GuardianViewModel,
     onCheckMessageClick: () -> Unit = {}
 ) {
+    val context = LocalContext.current
+    val currentLanguage = when (AppCompatDelegate.getApplicationLocales().get(0)?.language) {
+        "hi" -> "hindi"
+        "gu" -> "gujarati"
+        else -> "english"
+    }
+
     androidx.compose.runtime.LaunchedEffect(Unit) {
         if (viewModel.messageText.isEmpty() && initialText.isNotEmpty()) {
             viewModel.onMessageTextChange(initialText)
@@ -103,8 +113,15 @@ fun MessageInputScreen(
         Spacer(modifier = Modifier.height(24.dp))
         Button(
             onClick = {
-                viewModel.checkMessage(onComplete = onCheckMessageClick)
+                viewModel.checkMessage(language = currentLanguage) {
+                    val response = viewModel.result
+                    if (response?.trigger_alert == true && guardianViewModel.alertsEnabled) {
+                        guardianViewModel.sendAlert(response.alert_message, context) { _, _, _ -> }
+                    }
+                    onCheckMessageClick()
+                }
             },
+            enabled = !viewModel.isLoading,   // ADD THIS
             shape = RoundedCornerShape(28.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.White,
@@ -113,6 +130,10 @@ fun MessageInputScreen(
             modifier = Modifier.height(56.dp)
         ) {
             Text(text = stringResource(R.string.check_message_submit), fontSize = 16.sp, fontWeight = FontWeight.Bold)
+        }
+        if (viewModel.isLoading) {
+            Spacer(modifier = Modifier.height(16.dp))
+            androidx.compose.material3.CircularProgressIndicator(color = Color.White)
         }
     }
 }

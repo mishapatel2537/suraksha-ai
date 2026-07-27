@@ -13,15 +13,18 @@ import com.suraksha.ai.screens.sms.SmsInboxScreen
 import com.suraksha.ai.screens.splash.SplashScreen
 import com.suraksha.ai.screens.callupload.CallUploadScreen
 import com.suraksha.ai.screens.guardian.GuardianScreen
+import com.suraksha.ai.screens.guardian.GuardianViewModel
 import com.suraksha.ai.screens.profile.ProfileScreen
 import com.suraksha.ai.screens.settings.SettingsScreen
 import com.suraksha.ai.screens.profile.ProfileViewModel
+import com.suraksha.ai.network.AnalyzeResponse
 
 @Composable
 fun AppNavigation(sharedText: String? = null) {
     val navController = rememberNavController()
     val profileViewModel: ProfileViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
     val sharedViewModel: MessageInputViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
+    val guardianViewModel: GuardianViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
 
     NavHost(
         navController = navController,
@@ -39,7 +42,9 @@ fun AppNavigation(sharedText: String? = null) {
         composable("home") {
             HomeScreen(
                 onCheckMessageClick = {
-                    navController.navigate("messageInput")
+                    navController.navigate("result"){
+                        launchSingleTop = true
+                    }
                 },
                 onScanSmsClick = {
                     navController.navigate("smsPermission")
@@ -55,6 +60,7 @@ fun AppNavigation(sharedText: String? = null) {
             MessageInputScreen(
                 initialText = sharedText ?: "",
                 viewModel = sharedViewModel,
+                guardianViewModel = guardianViewModel,
                 onCheckMessageClick = {
                     navController.navigate("result")
                 }
@@ -63,7 +69,8 @@ fun AppNavigation(sharedText: String? = null) {
         composable("result") {
             sharedViewModel.result?.let { result ->
                 if (!sharedViewModel.hasLoggedResult) {
-                    profileViewModel.addActivityEntry("Message", result.riskLevel)
+                    val label = if (result.risk_percent >= 70) "High" else if (result.risk_percent >= 40) "Medium" else "Low"
+                    profileViewModel.addActivityEntry("Message", label)
                     sharedViewModel.markResultLogged()
                 }
                 ResultScreen(result = result)
@@ -85,13 +92,14 @@ fun AppNavigation(sharedText: String? = null) {
             CallUploadScreen(
                 onResultReady = { result ->
                     sharedViewModel.updateResult(result)
-                    profileViewModel.addActivityEntry("Call", result.riskLevel)
+                    val label = if (result.risk_percent >= 70) "High" else if (result.risk_percent >= 40) "Medium" else "Low"
+                    profileViewModel.addActivityEntry("Call", label)
                     navController.navigate("result")
                 }
             )
         }
         composable("guardian") {
-            GuardianScreen()
+            GuardianScreen(viewModel = guardianViewModel)
         }
         composable("profile") {
             ProfileScreen(
@@ -100,7 +108,7 @@ fun AppNavigation(sharedText: String? = null) {
             )
         }
         composable("settings") {
-            SettingsScreen()
+            SettingsScreen(guardianViewModel = guardianViewModel)
         }
 
     }
