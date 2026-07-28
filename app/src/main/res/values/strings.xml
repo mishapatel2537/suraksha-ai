@@ -68,4 +68,16 @@
 </string>
 
     <string name="analyze_recording">Analyze Recording</string>
+    <string name="settings_title">Settings</string>
+    <string name="language_label">Language</string>
+    <string name="guardian_alerts_title">Guardian Alerts</string>
+    <string name="guardian_alerts_desc">Alert my family if a high-risk scam is detected</string>
+    <string name="dark_mode_label">Dark Mode</string>
+    <string name="data_label">Data</string>
+    <string name="clear_activity_button">Clear Activity Data</string>
+    <string name="activity_cleared_confirm">✓ Activity data cleared</string>
+    <string name="log_out_button">Log Out</string>
+    <string name="about_suraksha_title">About Suraksha</string>
+    <string name="about_suraksha_body">Suraksha helps you detect scam calls, fake UPI requests, phishing, and loan scams. Paste or share a suspicious message, scan your SMS inbox, or upload a call recording — Suraksha analyzes it and shows a risk score with a simple explanation in your own chosen language. If a high-risk scam is detected, your Family Guardian can be alerted automatically.</string>
+    <string name="app_version">Suraksha v1.0</string>
 </resources>

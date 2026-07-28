@@ -7,8 +7,8 @@ import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Scaffold
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.material.icons.filled.Settings
+import androidx.compose.ui.res.stringResource
+import com.suraksha.ai.R
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -46,7 +46,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.layout.size
-import androidx.compose.ui.res.stringResource
+
 
 
 data class HomeAction(
@@ -70,10 +70,10 @@ fun HomeScreen(
     )
 
     val actions = listOf(
-        HomeAction("Check a message", Icons.Outlined.Chat, onCheckMessageClick),
-        HomeAction("Scan SMS inbox", Icons.Outlined.MarkEmailUnread, onScanSmsClick),
-        HomeAction("Family guardian", Icons.Outlined.Group, onGuardianClick),
-        HomeAction("Check a call", Icons.Outlined.Call, onCallUploadClick)
+        HomeAction(stringResource(R.string.check_message_button), Icons.Outlined.Chat, onCheckMessageClick),
+        HomeAction(stringResource(R.string.scan_sms_button), Icons.Outlined.MarkEmailUnread, onScanSmsClick),
+        HomeAction(stringResource(R.string.guardian_button), Icons.Outlined.Group, onGuardianClick),
+        HomeAction(stringResource(R.string.call_upload_button), Icons.Outlined.Call, onCallUploadClick)
     )
     Scaffold(
         modifier = modifier.fillMaxSize(),
@@ -84,7 +84,7 @@ fun HomeScreen(
                     selected = true,
                     onClick = { /* already on Home */ },
                     icon = { Icon(Icons.Filled.Home, contentDescription = "Home") },
-                    label = { Text("Home") },
+                    label = { Text(stringResource(R.string.home)) },
                     colors = NavigationBarItemDefaults.colors(
                         selectedIconColor = Color.White,
                         selectedTextColor = Color.White,
@@ -97,7 +97,7 @@ fun HomeScreen(
                     selected = false,
                     onClick = onSettingsClick,
                     icon = { Icon(Icons.Filled.Settings, contentDescription = "Settings") },
-                    label = { Text("Settings") },
+                    label = { Text(stringResource(R.string.settings)) },
                     colors = NavigationBarItemDefaults.colors(
                         selectedIconColor = Color.White,
                         selectedTextColor = Color.White,
@@ -162,13 +162,13 @@ fun HomeScreen(
 
             // Greeting
             Text(
-                text = "VERIFY BEFORE YOUR TRUST!",
+                text = stringResource(R.string.home_title),
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.White
             )
             Text(
-                text = "Select an action below ",
+                text = stringResource(R.string.home_subtitle),
                 fontSize = 14.sp,
                 color = Color.White.copy(alpha = 0.8f)
             )
@@ -224,7 +224,7 @@ fun HomeScreen(
                 shape = RoundedCornerShape(16.dp)
             ) {
                 Text(
-                    text = "✓ No threats detected recently",
+                    text = stringResource(R.string.status_safe),
                     modifier = Modifier.padding(16.dp),
                     fontSize = 14.sp,
                     fontWeight = FontWeight.Bold,

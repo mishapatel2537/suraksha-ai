@@ -1,10 +1,12 @@
 package com.suraksha.ai.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.suraksha.ai.screens.home.HomeScreen
+import com.suraksha.ai.screens.login.LoginScreen
 import com.suraksha.ai.screens.messagecheck.MessageInputScreen
 import com.suraksha.ai.screens.messagecheck.MessageInputViewModel
 import com.suraksha.ai.screens.result.ResultScreen
@@ -22,9 +24,9 @@ import com.suraksha.ai.network.AnalyzeResponse
 @Composable
 fun AppNavigation(sharedText: String? = null) {
     val navController = rememberNavController()
-    val profileViewModel: ProfileViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
-    val sharedViewModel: MessageInputViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
-    val guardianViewModel: GuardianViewModel = androidx.lifecycle.viewmodel.compose.viewModel()
+    val profileViewModel: ProfileViewModel = viewModel()
+    val sharedViewModel: MessageInputViewModel = viewModel()
+    val guardianViewModel: GuardianViewModel = viewModel()
 
     NavHost(
         navController = navController,
@@ -33,8 +35,24 @@ fun AppNavigation(sharedText: String? = null) {
         composable("splash") {
             SplashScreen(
                 onSplashFinished = {
-                    navController.navigate(if (sharedText != null) "messageInput" else "home") {
+                    val next = when {
+                        !profileViewModel.isLoggedIn -> "login"
+                        sharedText != null -> "messageInput"
+                        else -> "home"
+                    }
+                    navController.navigate(next) {
                         popUpTo("splash") { inclusive = true }
+                    }
+                }
+            )
+        }
+        composable("login") {
+            LoginScreen(
+                viewModel = profileViewModel,
+                onLoginComplete = {
+                    val next = if (sharedText != null) "messageInput" else "home"
+                    navController.navigate(next) {
+                        popUpTo("login") { inclusive = true }
                     }
                 }
             )
@@ -42,7 +60,7 @@ fun AppNavigation(sharedText: String? = null) {
         composable("home") {
             HomeScreen(
                 onCheckMessageClick = {
-                    navController.navigate("result"){
+                    navController.navigate("messageInput") {
                         launchSingleTop = true
                     }
                 },
@@ -53,7 +71,6 @@ fun AppNavigation(sharedText: String? = null) {
                 onSettingsClick = { navController.navigate("settings") },
                 onProfileClick = { navController.navigate("profile") },
                 onGuardianClick = { navController.navigate("guardian") }
-
             )
         }
         composable("messageInput") {
@@ -62,7 +79,10 @@ fun AppNavigation(sharedText: String? = null) {
                 viewModel = sharedViewModel,
                 guardianViewModel = guardianViewModel,
                 onCheckMessageClick = {
-                    navController.navigate("result")
+                    navController.navigate("result"){
+                        launchSingleTop = true
+                    }
+
                 }
             )
         }
@@ -108,8 +128,10 @@ fun AppNavigation(sharedText: String? = null) {
             )
         }
         composable("settings") {
-            SettingsScreen(guardianViewModel = guardianViewModel)
+            SettingsScreen(
+                guardianViewModel = guardianViewModel,
+                profileViewModel = profileViewModel,
+                navController = navController)
         }
-
     }
 }

@@ -42,7 +42,8 @@ fun MessageInputScreen(
     viewModel: MessageInputViewModel = viewModel(),
     guardianViewModel: GuardianViewModel,
     onCheckMessageClick: () -> Unit = {}
-) {
+)
+{
     val context = LocalContext.current
     val currentLanguage = when (AppCompatDelegate.getApplicationLocales().get(0)?.language) {
         "hi" -> "hindi"
@@ -90,7 +91,12 @@ fun MessageInputScreen(
             OutlinedTextField(
                 value = viewModel.messageText,
                 onValueChange = { viewModel.onMessageTextChange(it) },
-                label = { Text(stringResource(R.string.message_input_label), fontFamily = FontFamily.Serif) },
+                label = {
+                    Text(
+                        stringResource(R.string.message_input_label),
+                        fontFamily = FontFamily.Serif
+                    )
+                },
                 modifier = Modifier.fillMaxWidth(),
                 minLines = 5,
                 shape = RoundedCornerShape(16.dp),
@@ -129,7 +135,11 @@ fun MessageInputScreen(
             ),
             modifier = Modifier.height(56.dp)
         ) {
-            Text(text = stringResource(R.string.check_message_submit), fontSize = 16.sp, fontWeight = FontWeight.Bold)
+            Text(
+                text = stringResource(R.string.check_message_submit),
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold
+            )
         }
         if (viewModel.isLoading) {
             Spacer(modifier = Modifier.height(16.dp))

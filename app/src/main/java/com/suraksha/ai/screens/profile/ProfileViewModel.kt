@@ -27,6 +27,26 @@ class ProfileViewModel(application: Application) : AndroidViewModel(application)
     var activityLog by mutableStateOf<List<ActivityEntry>>(emptyList())
         private set
 
+    // New state
+    var phoneNumber by mutableStateOf(prefs.getString("phone_number", "") ?: "")
+        private set
+
+    var isLoggedIn by mutableStateOf(prefs.getBoolean("is_logged_in", false))
+        private set
+
+    fun onPhoneChange(newPhone: String) {
+        phoneNumber = newPhone
+        prefs.edit().putString("phone_number", newPhone).apply()
+    }
+
+    fun completeLogin() {
+        isLoggedIn = true
+        prefs.edit().putBoolean("is_logged_in", true).apply()
+    }
+    fun logout() {
+        isLoggedIn = false
+        prefs.edit().putBoolean("is_logged_in", false).apply()
+    }
     init {
         userName = prefs.getString("user_name", "Guest") ?: "Guest"
 

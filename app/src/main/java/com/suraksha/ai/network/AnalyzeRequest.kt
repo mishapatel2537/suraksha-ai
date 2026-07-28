@@ -1,5 +1,5 @@
 package com.suraksha.ai.network
 data class AnalyzeRequest(
-    val message: String,
+    val text: String,
     val language: String // "english" | "hindi" | "gujarati"
 )

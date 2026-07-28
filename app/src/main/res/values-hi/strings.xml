@@ -67,4 +67,16 @@
 </string>
 
     <string name="analyze_recording">रिकॉर्डिंग का विश्लेषण करें</string>
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="language_label">भाषा</string>
+    <string name="guardian_alerts_title">गार्जियन अलर्ट</string>
+    <string name="guardian_alerts_desc">यदि उच्च जोखिम वाला घोटाला मिले तो मेरे परिवार को सचेत करें</string>
+    <string name="dark_mode_label">डार्क मोड</string>
+    <string name="data_label">डेटा</string>
+    <string name="clear_activity_button">गतिविधि डेटा साफ़ करें</string>
+    <string name="activity_cleared_confirm">✓ गतिविधि डेटा साफ़ हो गया</string>
+    <string name="log_out_button">लॉग आउट</string>
+    <string name="about_suraksha_title">सुरक्षा के बारे में</string>
+    <string name="about_suraksha_body">सुरक्षा आपको स्कैम कॉल, फर्जी यूपीआई अनुरोध, फिशिंग और लोन घोटालों का पता लगाने में मदद करता है। कोई संदिग्ध संदेश पेस्ट करें या शेयर करें, अपना एसएमएस इनबॉक्स स्कैन करें, या कॉल रिकॉर्डिंग अपलोड करें। यदि उच्च जोखिम वाला घोटाला पाया जाता है, तो आपके फैमिली गार्जियन को स्वचालित रूप से सचेत किया जा सकता है।</string>
+    <string name="app_version">सुरक्षा v1.0</string>
 </resources>

@@ -44,7 +44,7 @@ class MessageInputViewModel : ViewModel() {
             errorMessage = null
             try {
                 val response = RetrofitClient.apiService.analyzeMessage(
-                    AnalyzeRequest(message = messageText, language = language)
+                    AnalyzeRequest(text = messageText, language = language)
                 )
                 result = response
                 hasLoggedResult = false

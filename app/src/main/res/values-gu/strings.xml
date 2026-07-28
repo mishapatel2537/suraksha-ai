@@ -68,4 +68,16 @@
 </string>
 
     <string name="analyze_recording">રેકોર્ડિંગનું વિશ્લેષણ કરો</string>
+    <string name="settings_title">સેટિંગ્સ</string>
+    <string name="language_label">ભાષા</string>
+    <string name="guardian_alerts_title">ગાર્ડિયન એલર્ટ</string>
+    <string name="guardian_alerts_desc">જો ઉચ્ચ જોખમી કૌભાંડ મળે તો મારા પરિવારને ચેતવો</string>
+    <string name="dark_mode_label">ડાર્ક મોડ</string>
+    <string name="data_label">ડેટા</string>
+    <string name="clear_activity_button">પ્રવૃત્તિ ડેટા સાફ કરો</string>
+    <string name="activity_cleared_confirm">✓ પ્રવૃત્તિ ડેટા સાફ થયો</string>
+    <string name="log_out_button">લૉગ આઉટ</string>
+    <string name="about_suraksha_title">સુરક્ષા વિશે</string>
+    <string name="about_suraksha_body">સુરક્ષા તમને સ્કેમ કૉલ્સ, નકલી યુપીઆઈ વિનંતીઓ, ફિશિંગ અને લોન કૌભાંડો શોધવામાં મદદ કરે છે. શંકાસ્પદ સંદેશ પેસ્ટ કરો અથવા શેર કરો, તમારું એસએમએસ ઇનબોક્સ સ્કેન કરો, અથવા કૉલ રેકોર્ડિંગ અપલોડ કરો. જો ઉચ્ચ જોખમી કૌભાંડ મળે, તો તમારા ફેમિલી ગાર્ડિયનને આપમેળે ચેતવી શકાય છે.</string>
+    <string name="app_version">સુરક્ષા v1.0</string>
 </resources>
