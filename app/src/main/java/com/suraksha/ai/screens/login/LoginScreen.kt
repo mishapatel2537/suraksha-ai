@@ -1,6 +1,7 @@
 package com.suraksha.ai.screens.login
 
 import androidx.compose.foundation.background
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -40,7 +41,8 @@ fun LoginScreen(
     var showError by remember { mutableStateOf(false) }
 
     val backgroundGradient = Brush.verticalGradient(
-        colors = listOf(Color(0xFF0D47A1), Color(0xFF00897B))
+        colors = listOf(MaterialTheme.colorScheme.primary,
+            MaterialTheme.colorScheme.secondary)
     )
 
     val fieldColors = OutlinedTextFieldDefaults.colors(

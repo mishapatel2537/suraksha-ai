@@ -3,6 +3,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -48,7 +50,8 @@ fun ProfileScreen(
     var nameDraft by remember { mutableStateOf(viewModel.userName) }
 
     val backgroundGradient = Brush.verticalGradient(
-        colors = listOf(Color(0xFF0D47A1), Color(0xFF00897B))
+        colors = listOf(MaterialTheme.colorScheme.primary,
+            MaterialTheme.colorScheme.secondary)
     )
 
     val dividerColor = Color.White.copy(alpha = 0.25f)
@@ -73,7 +76,7 @@ fun ProfileScreen(
                 imageVector = Icons.Outlined.AccountCircle,
                 contentDescription = "Profile",
                 tint = Color.White,
-                modifier = Modifier.height(90.dp)
+                modifier = Modifier.size(54.dp)
             )
 
             Spacer(modifier = Modifier.height(10.dp))

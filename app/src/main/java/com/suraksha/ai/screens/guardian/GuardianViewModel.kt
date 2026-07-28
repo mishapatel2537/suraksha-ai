@@ -7,7 +7,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
 import org.json.JSONArray
 import org.json.JSONObject
-import androidx.compose.ui.res.stringResource
+
 data class Guardian(val name: String, val relation: String, val phone: String)
 
 class GuardianViewModel(application: Application) : AndroidViewModel(application) {
@@ -118,13 +118,20 @@ class GuardianViewModel(application: Application) : AndroidViewModel(application
     }
 
     private fun loadGuardians() {
+        try{
         val jsonString = prefs.getString("guardians", null) ?: return
         val jsonArray = JSONArray(jsonString)
+
         val loaded = mutableListOf<Guardian>()
+
         for (i in 0 until jsonArray.length()) {
             val obj = jsonArray.getJSONObject(i)
             loaded.add(Guardian(obj.getString("name"), obj.getString("relation"), obj.getString("phone")))
         }
         guardians = loaded
+    }
+        catch(e:Exception){
+            guardians = emptyList()
+        }
     }
 }

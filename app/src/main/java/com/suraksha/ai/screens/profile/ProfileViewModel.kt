@@ -99,4 +99,11 @@ class ProfileViewModel(application: Application) : AndroidViewModel(application)
         }
         activityLog = loaded
     }
+    fun clearActivityData() {
+        activityLog = emptyList()
+
+        prefs.edit()
+            .remove("activity_log")
+            .apply()
+    }
 }

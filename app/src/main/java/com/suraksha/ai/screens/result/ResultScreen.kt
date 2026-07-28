@@ -1,5 +1,7 @@
 package com.suraksha.ai.screens.result
+
 import androidx.compose.ui.res.stringResource
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -29,8 +31,8 @@ fun ResultScreen(
 ) {
     val backgroundGradient = Brush.verticalGradient(
         colors = listOf(
-            Color(0xFF0D47A1),
-            Color(0xFF00897B)
+            MaterialTheme.colorScheme.primary,
+            MaterialTheme.colorScheme.secondary
         )
     )
 

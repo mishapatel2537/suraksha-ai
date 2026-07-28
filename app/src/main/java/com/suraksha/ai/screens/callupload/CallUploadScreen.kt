@@ -1,6 +1,7 @@
 package com.suraksha.ai.screens.callupload
 
 import android.net.Uri
+import androidx.compose.material3.MaterialTheme
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
@@ -56,14 +57,17 @@ fun CallUploadScreen(
         contract = ActivityResultContracts.GetContent()
     ) { uri ->
         if (uri != null) {
-            fileName = uri.lastPathSegment ?: "recording.mp3"
+            fileName = "recording.mp3"
             selectedUri = uri
             errorMessage = null
         }
     }
 
     val backgroundGradient = Brush.verticalGradient(
-        colors = listOf(Color(0xFF0D47A1), Color(0xFF00897B))
+        colors = listOf(
+            MaterialTheme.colorScheme.primary,
+            MaterialTheme.colorScheme.secondary
+        )
     )
 
     Column(
@@ -97,7 +101,7 @@ fun CallUploadScreen(
             shape = RoundedCornerShape(28.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.White,
-                contentColor = Color(0xFF0D47A1)
+                contentColor = MaterialTheme.colorScheme.primary
             ),
             modifier = Modifier.height(56.dp)
         ) {
@@ -158,7 +162,7 @@ fun CallUploadScreen(
                     shape = RoundedCornerShape(28.dp),
                     colors = ButtonDefaults.buttonColors(
                         containerColor = Color.White.copy(alpha = 0.85f),
-                        contentColor = Color(0xFF0D47A1)
+                        contentColor =  MaterialTheme.colorScheme.primary
                     ),
                     modifier = Modifier.height(56.dp)
                 ) {

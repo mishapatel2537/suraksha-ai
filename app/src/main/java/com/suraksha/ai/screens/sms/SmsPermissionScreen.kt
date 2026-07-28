@@ -1,6 +1,8 @@
 package com.suraksha.ai.screens.sms
+
 import androidx.compose.ui.res.stringResource
 import android.Manifest
+import androidx.compose.material3.MaterialTheme
 import android.content.pm.PackageManager
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -63,8 +65,10 @@ fun SmsPermissionScreen(
     }
 
     val backgroundGradient = Brush.verticalGradient(
-        colors = listOf(Color(0xFF0D47A1), Color(0xFF00897B))
-    )
+        colors = listOf(
+            MaterialTheme.colorScheme.primary,
+            MaterialTheme.colorScheme.secondary
+        ))
 
     Column(
         modifier = modifier

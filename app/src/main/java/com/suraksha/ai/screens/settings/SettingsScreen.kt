@@ -1,7 +1,9 @@
 package com.suraksha.ai.screens.settings
+
 import androidx.compose.ui.res.stringResource
 import com.suraksha.ai.R
 import androidx.compose.foundation.background
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -46,17 +48,19 @@ fun SettingsScreen(
     var dataCleared by remember { mutableStateOf(false) }
 
     val backgroundGradient = Brush.verticalGradient(
-        colors = listOf(Color(0xFF0D47A1), Color(0xFF00897B))
+        colors = listOf(MaterialTheme.colorScheme.primary,
+            MaterialTheme.colorScheme.secondary)
     )
 
     val switchColors = SwitchDefaults.colors(
         checkedThumbColor = Color.White,
-        checkedTrackColor = Color(0xFF00897B),
+        checkedTrackColor = MaterialTheme.colorScheme.secondary,
         uncheckedThumbColor = Color.White,
         uncheckedTrackColor = Color.White.copy(alpha = 0.3f)
     )
 
     val dividerColor = Color.White.copy(alpha = 0.25f)
+
 
     Column(
         modifier = modifier
@@ -128,7 +132,8 @@ fun SettingsScreen(
         Text(text = stringResource(R.string.data_label), fontSize = 16.sp, fontWeight = FontWeight.Bold, color = Color.White)
         Spacer(modifier = Modifier.height(8.dp))
         Button(
-            onClick = { dataCleared = true },
+            onClick = { profileViewModel.clearActivityData()
+                dataCleared = true },
             shape = RoundedCornerShape(20.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.White.copy(alpha = 0.15f),

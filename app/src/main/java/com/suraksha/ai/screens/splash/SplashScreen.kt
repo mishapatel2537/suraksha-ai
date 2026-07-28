@@ -2,6 +2,7 @@ package com.suraksha.ai.screens.splash
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.size
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -36,7 +37,8 @@ fun SplashScreen(onSplashFinished: () -> Unit) {
     }
 
     val backgroundGradient = Brush.verticalGradient(
-        colors = listOf(Color(0xFF0D47A1), Color(0xFF00897B))
+        colors = listOf(MaterialTheme.colorScheme.primary,
+            MaterialTheme.colorScheme.secondary)
     )
 
     Box(

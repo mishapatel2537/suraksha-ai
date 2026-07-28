@@ -14,6 +14,7 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -58,10 +59,11 @@ fun MessageInputScreen(
     }
 
     val backgroundGradient = Brush.verticalGradient(
-        colors = listOf(
-            Color(0xFF0D47A1),
-            Color(0xFF00897B)
-        )
+            colors = listOf(
+                MaterialTheme.colorScheme.primary,
+                MaterialTheme.colorScheme.secondary
+            )
+
     )
 
     Column(
@@ -131,7 +133,7 @@ fun MessageInputScreen(
             shape = RoundedCornerShape(28.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.White,
-                contentColor = Color(0xFF0D47A1)
+                contentColor = MaterialTheme.colorScheme.primary
             ),
             modifier = Modifier.height(56.dp)
         ) {

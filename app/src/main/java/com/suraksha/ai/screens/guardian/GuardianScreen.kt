@@ -1,6 +1,7 @@
 package com.suraksha.ai.screens.guardian
 
 import androidx.compose.ui.res.stringResource
+import androidx.compose.material3.MaterialTheme
 import android.Manifest
 import android.content.pm.PackageManager
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -81,7 +82,10 @@ fun GuardianScreen(
     }
 
     val backgroundGradient = Brush.verticalGradient(
-        colors = listOf(Color(0xFF0D47A1), Color(0xFF00897B))
+        colors = listOf(
+            MaterialTheme.colorScheme.primary,
+            MaterialTheme.colorScheme.secondary
+        )
     )
 
     val fieldColors = OutlinedTextFieldDefaults.colors(
@@ -156,7 +160,7 @@ fun GuardianScreen(
             shape = RoundedCornerShape(20.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.White,
-                contentColor = Color(0xFF0D47A1)
+                contentColor = MaterialTheme.colorScheme.primary
             )
         ) {
             Text(stringResource(R.string.guardian_add_button), fontWeight = FontWeight.Bold)
@@ -180,7 +184,7 @@ fun GuardianScreen(
             shape = RoundedCornerShape(20.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.White.copy(alpha = 0.85f),
-                contentColor = Color(0xFF0D47A1)
+                contentColor = MaterialTheme.colorScheme.primary
             )
         ) {
             Text(stringResource(R.string.guardian_test_alert_button), fontWeight = FontWeight.Bold)
