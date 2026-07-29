@@ -60,6 +60,8 @@ def transcribe_audio(audio_path: str) -> dict:
     whisper_lang = result.get("language", "")
     app_lang = WHISPER_LANG_TO_APP_LANG.get(whisper_lang)
 
+    print(f"[DEBUG] Whisper transcript: {result['text']}") #temporary - to check transcribed text
+
     return {
         "text": result.get("text", "").strip(),
         "whisper_language_code": whisper_lang,
