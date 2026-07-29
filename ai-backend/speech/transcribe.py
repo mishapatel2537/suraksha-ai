@@ -22,7 +22,7 @@ WHISPER_LANG_TO_APP_LANG = {
     "gu": "gujarati",
 }
 
-WHISPER_MODEL_SIZE = "small"
+WHISPER_MODEL_SIZE = "tiny"
 
 
 @lru_cache(maxsize=1)
