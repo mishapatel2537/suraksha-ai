@@ -1,5 +1,5 @@
 package com.suraksha.ai.components
-import androidx.compose.ui.res.stringResource
+
 import android.app.Activity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.compose.foundation.layout.Row

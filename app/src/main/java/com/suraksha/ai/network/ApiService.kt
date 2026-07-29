@@ -1,6 +1,7 @@
 package com.suraksha.ai.network
 
 import okhttp3.MultipartBody
+import okhttp3.RequestBody
 import retrofit2.http.Body
 import retrofit2.http.Multipart
 import retrofit2.http.POST
@@ -16,7 +17,8 @@ interface ApiService {
     @Multipart
     @POST("analyze-call")
     suspend fun analyzeCall(
-        @Part audio: MultipartBody.Part
+        @Part audio: MultipartBody.Part,
+        @Part("output_language") output_language: RequestBody?
     ): AnalyzeResponse
 
     @POST("guardian-alert")

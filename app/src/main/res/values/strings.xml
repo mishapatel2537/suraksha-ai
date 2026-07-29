@@ -1,8 +1,10 @@
 <resources>
     <string name="app_name">Suraksha</string>
+    <string name="processing_audio_long">Analyzing your recording — this can take a few minutes. Please don\'t close the app.</string>
     <string name="home">Home</string>
     <string name="settings">Settings</string>
     <string name="home_title">VERIFY BEFORE YOU TRUST!</string>
+    <string name="choose_language">Select language of message</string>
     <string name="home_subtitle">Select an action below</string>
     <string name="status_safe">✓ No threats detected recently</string>
     <string name="check_message_button">Check a Message</string>
@@ -59,7 +61,7 @@
     Upload a recording of a suspicious call. We will transcribe and analyze it for scam patterns.
 </string>
 
-    <string name="choose_audio_file">Choose an Audio File</string>
+    <string name="choose_audio_file">Choose Recording (MP3, WAV, M4A, MP4)</string>
 
     <string name="selected_file">Selected: %1$s</string>
 
@@ -78,6 +80,6 @@
     <string name="activity_cleared_confirm">✓ Activity data cleared</string>
     <string name="log_out_button">Log Out</string>
     <string name="about_suraksha_title">About Suraksha</string>
-    <string name="about_suraksha_body">Suraksha helps you detect scam calls, fake UPI requests, phishing, and loan scams. Paste or share a suspicious message, scan your SMS inbox, or upload a call recording — Suraksha analyzes it and shows a risk score with a simple explanation in your own chosen language. If a high-risk scam is detected, your Family Guardian can be alerted automatically.</string>
+    <string name="about_suraksha_body">Suraksha helps first time digital banking users to detect scam calls, fake UPI requests, phishing, and loan scams. Paste or share a suspicious message, scan your SMS inbox, or upload a call recording — Suraksha analyzes it and shows a risk score with a simple explanation in your own chosen language. If a high-risk scam is detected, your Family Guardian can be alerted automatically.</string>
     <string name="app_version">Suraksha v1.0</string>
 </resources>

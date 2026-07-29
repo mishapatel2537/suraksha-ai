@@ -54,6 +54,7 @@
     <string name="guardian_alert_failed">મોકલવામાં નિષ્ફળ: %1$s</string>
     <string name="guardian_relation_phone_separator">%1$s • %2$s</string>
     <string name="call_upload_title">કૉલ રેકોર્ડિંગ તપાસો</string>
+    <string name="choose_language">સંદેશની ભાષા પસંદ કરો</string>
 
     <string name="call_upload_description">
     શંકાસ્પદ કૉલનું રેકોર્ડિંગ અપલોડ કરો. અમે તેને લખાણમાં ફેરવીને છેતરપિંડીના સંકેતો માટે તપાસીશું.
@@ -66,6 +67,7 @@
     <string name="processing_audio">
     રેકોર્ડિંગને લખાણમાં ફેરવી વિશ્લેષણ કરવામાં આવી રહ્યું છે...
 </string>
+    <string name="processing_audio_long">તમારી રેકોર્ડિંગનું વિશ્લેષણ થઈ રહ્યું છે — આમાં થોડી મિનિટો લાગી શકે છે. કૃપા કરીને એપ બંધ ન કરો.</string>
 
     <string name="analyze_recording">રેકોર્ડિંગનું વિશ્લેષણ કરો</string>
     <string name="settings_title">સેટિંગ્સ</string>

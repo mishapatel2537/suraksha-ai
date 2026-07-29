@@ -6,7 +6,8 @@
     <string name="status_safe">✓ हाल ही में कोई खतरा नहीं मिला</string>
     <string name="check_message_button">संदेश जांचें</string>
     <string name="scan_sms_button">SMS इनबॉक्स स्कैन करें</string>
-    <string name="guardian_button">परिवार गार्जियन</string>
+    <string name="choose_language">संदेश की भाषा चुनें</string>
+    <string name="guardian_button">परिवार गार्डियन</string>
     <string name="call_upload_button">कॉल रिकॉर्डिंग जांचें</string>
     <string name="home_tagline">धोखाधड़ी से आपकी सुरक्षा</string>
     <string name="check_message_title">संदेश जांचें</string>
@@ -36,20 +37,21 @@
     <string name="sms_inbox_title">इनबॉक्स</string>
     <string name="sms_inbox_empty">कोई संदेश नहीं मिला।</string>
     <string name="sms_unknown_sender">अज्ञात</string>
-    <string name="guardian_title">परिवार गार्जियन</string>
+    <string name="guardian_title">परिवार गार्डियन</string>
     <string name="guardian_subtitle">उच्च-जोखिम वाला धोखाधड़ी पहचाने जाने पर सूचित करने के लिए विश्वसनीय संपर्क जोड़ें।</string>
     <string name="guardian_name_label">संपर्क का नाम</string>
     <string name="guardian_relation_label">रिश्ता (जैसे बेटा, बेटी)</string>
     <string name="guardian_phone_label">फ़ोन नंबर</string>
-    <string name="guardian_add_button">गार्जियन जोड़ें</string>
+    <string name="processing_audio_long">आपकी रिकॉर्डिंग का विश्लेषण हो रहा है — इसमें कुछ मिनट लग सकते हैं। कृपया ऐप बंद न करें।</string>
+    <string name="guardian_add_button">गार्डियन जोड़ें</string>
     <string name="guardian_test_alert_button">परीक्षण अलर्ट भेजें</string>
-    <string name="guardian_saved_title">सहेजे गए गार्जियन</string>
-    <string name="guardian_empty">अभी तक कोई गार्जियन नहीं जोड़ा गया।</string>
+    <string name="guardian_saved_title">सहेजे गए गार्डियन</string>
+    <string name="guardian_empty">अभी तक कोई गार्डियन नहीं जोड़ा गया।</string>
     <string name="guardian_remove_desc">हटाएं</string>
-    <string name="guardian_alert_no_guardians">पहले एक गार्जियन जोड़ें।</string>
+    <string name="guardian_alert_no_guardians">पहले एक गार्डियन जोड़ें।</string>
     <string name="guardian_alert_no_permission">SMS अनुमति नहीं दी गई।</string>
     <string name="guardian_alert_denied">SMS अनुमति अस्वीकृत।</string>
-    <string name="guardian_alert_success">%1$d गार्जियन को परीक्षण अलर्ट भेजा गया।</string>
+    <string name="guardian_alert_success">%1$d गार्डियन को परीक्षण अलर्ट भेजा गया।</string>
     <string name="guardian_alert_failed">भेजने में विफल: %1$s</string>
     <string name="guardian_relation_phone_separator">%1$s • %2$s</string>
     <string name="call_upload_title">कॉल रिकॉर्डिंग जांचें</string>
@@ -69,7 +71,7 @@
     <string name="analyze_recording">रिकॉर्डिंग का विश्लेषण करें</string>
     <string name="settings_title">सेटिंग्स</string>
     <string name="language_label">भाषा</string>
-    <string name="guardian_alerts_title">गार्जियन अलर्ट</string>
+    <string name="guardian_alerts_title">गार्डियन अलर्ट</string>
     <string name="guardian_alerts_desc">यदि उच्च जोखिम वाला घोटाला मिले तो मेरे परिवार को सचेत करें</string>
     <string name="dark_mode_label">डार्क मोड</string>
     <string name="data_label">डेटा</string>
@@ -77,6 +79,6 @@
     <string name="activity_cleared_confirm">✓ गतिविधि डेटा साफ़ हो गया</string>
     <string name="log_out_button">लॉग आउट</string>
     <string name="about_suraksha_title">सुरक्षा के बारे में</string>
-    <string name="about_suraksha_body">सुरक्षा आपको स्कैम कॉल, फर्जी यूपीआई अनुरोध, फिशिंग और लोन घोटालों का पता लगाने में मदद करता है। कोई संदिग्ध संदेश पेस्ट करें या शेयर करें, अपना एसएमएस इनबॉक्स स्कैन करें, या कॉल रिकॉर्डिंग अपलोड करें। यदि उच्च जोखिम वाला घोटाला पाया जाता है, तो आपके फैमिली गार्जियन को स्वचालित रूप से सचेत किया जा सकता है।</string>
+    <string name="about_suraksha_body">सुरक्षा आपको स्कैम कॉल, फर्जी यूपीआई अनुरोध, फिशिंग और लोन घोटालों का पता लगाने में मदद करता है। कोई संदिग्ध संदेश पेस्ट करें या शेयर करें, अपना एसएमएस इनबॉक्स स्कैन करें, या कॉल रिकॉर्डिंग अपलोड करें। यदि उच्च जोखिम वाला घोटाला पाया जाता है, तो आपके फैमिली गार्डियन को स्वचालित रूप से सचेत किया जा सकता है।</string>
     <string name="app_version">सुरक्षा v1.0</string>
 </resources>

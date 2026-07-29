@@ -19,7 +19,7 @@ import com.suraksha.ai.screens.guardian.GuardianViewModel
 import com.suraksha.ai.screens.profile.ProfileScreen
 import com.suraksha.ai.screens.settings.SettingsScreen
 import com.suraksha.ai.screens.profile.ProfileViewModel
-import com.suraksha.ai.network.AnalyzeResponse
+
 
 @Composable
 fun AppNavigation(sharedText: String? = null) {

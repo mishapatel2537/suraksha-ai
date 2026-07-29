@@ -1,6 +1,9 @@
 package com.suraksha.ai.screens.callupload
 
+import okhttp3.RequestBody.Companion.toRequestBody
 import android.net.Uri
+import android.provider.OpenableColumns
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.compose.material3.MaterialTheme
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
@@ -40,6 +43,7 @@ import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
 import okhttp3.RequestBody.Companion.asRequestBody
 import java.io.File
+import android.util.Log
 
 @Composable
 fun CallUploadScreen(
@@ -47,6 +51,12 @@ fun CallUploadScreen(
     onResultReady: (AnalyzeResponse) -> Unit = {}
 ) {
     val context = LocalContext.current
+    val currentLanguage = when (AppCompatDelegate.getApplicationLocales().get(0)?.language) {
+        "hi" -> "hindi"
+        "gu" -> "gujarati"
+        else -> "english"
+    }
+
     var fileName by remember { mutableStateOf<String?>(null) }
     var selectedUri by remember { mutableStateOf<Uri?>(null) }
     var isProcessing by remember { mutableStateOf(false) }
@@ -54,12 +64,22 @@ fun CallUploadScreen(
     val scope = rememberCoroutineScope()
 
     val filePicker = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.GetContent()
+        contract = ActivityResultContracts.OpenDocument()
     ) { uri ->
         if (uri != null) {
-            fileName = "recording.mp3"
             selectedUri = uri
             errorMessage = null
+
+            context.contentResolver.query(uri, null, null, null, null)?.use { cursor ->
+                val nameIndex = cursor.getColumnIndex(OpenableColumns.DISPLAY_NAME)
+                if (cursor.moveToFirst() && nameIndex != -1) {
+                    fileName = cursor.getString(nameIndex)
+                }
+            }
+
+            if (fileName == null) {
+                fileName = "recording"
+            }
         }
     }
 
@@ -97,7 +117,14 @@ fun CallUploadScreen(
         Spacer(modifier = Modifier.height(32.dp))
 
         Button(
-            onClick = { filePicker.launch("audio/*") },
+            onClick = {
+                filePicker.launch(
+                    arrayOf(
+                        "audio/*",
+                        "video/mp4"
+                    )
+                )
+            },
             shape = RoundedCornerShape(28.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.White,
@@ -123,9 +150,10 @@ fun CallUploadScreen(
                 CircularProgressIndicator(color = Color.White)
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = stringResource(R.string.processing_audio),
+                    text = stringResource(R.string.processing_audio_long),
                     fontSize = 14.sp,
-                    color = Color.White.copy(alpha = 0.9f)
+                    color = Color.White.copy(alpha = 0.9f),
+                    textAlign = TextAlign.Center
                 )
             } else {
                 Button(
@@ -135,7 +163,6 @@ fun CallUploadScreen(
                             isProcessing = true
                             errorMessage = null
                             try {
-                                // Copy the picked content:// URI to a real file Retrofit/OkHttp can read
                                 val inputStream = context.contentResolver.openInputStream(uri)
                                     ?: throw IllegalStateException("Could not open selected file")
                                 val tempFile = File(context.cacheDir, fileName ?: "recording.mp3")
@@ -144,15 +171,37 @@ fun CallUploadScreen(
                                 }
                                 inputStream.close()
 
-                                val mimeType = context.contentResolver.getType(uri) ?: "audio/*"
+                                val mimeType = context.contentResolver.getType(uri)
+                                    ?: when {
+                                        fileName?.endsWith(".mp4",      true) == true -> "video/mp4"
+                                        fileName?.endsWith(".m4a", true) == true -> "audio/mp4"
+                                        fileName?.endsWith(".mp3", true) == true -> "audio/mpeg"
+                                        fileName?.endsWith(".wav", true) == true -> "audio/wav"
+                                        else -> "application/octet-stream"
+                                    }
+                                Log.d("UPLOAD", "Mime type: $mimeType")
+                                Log.d("UPLOAD", "Filename: ${tempFile.name}")
+                                Log.d("UPLOAD", "File size: ${tempFile.length()} bytes")
                                 val requestBody = tempFile.asRequestBody(mimeType.toMediaTypeOrNull())
                                 val audioPart = MultipartBody.Part.createFormData(
                                     "audio", tempFile.name, requestBody
                                 )
 
-                                val result = RetrofitClient.apiService.analyzeCall(audioPart)
+                                val outputLanguageBody = currentLanguage
+                                    .toRequestBody("text/plain".toMediaTypeOrNull())
+
+                                Log.d("UPLOAD", "Sending request to backend...")
+
+                                val result = RetrofitClient.apiService.analyzeCall(
+                                    audioPart,
+                                    outputLanguageBody
+                                )
+
+                                Log.d("UPLOAD", "Response received: $result")
+
                                 onResultReady(result)
                             } catch (e: Exception) {
+                                Log.e("UPLOAD", "Upload failed", e)
                                 errorMessage = "Couldn't analyze the recording: ${e.message}"
                             } finally {
                                 isProcessing = false

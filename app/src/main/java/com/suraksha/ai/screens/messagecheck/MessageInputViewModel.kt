@@ -38,13 +38,17 @@ class MessageInputViewModel : ViewModel() {
         messageText = newText
     }
 
-    fun checkMessage(language: String, onComplete: () -> Unit) {
+    fun checkMessage(language: String, output_language: String, onComplete: () -> Unit) {
         viewModelScope.launch {
             isLoading = true
             errorMessage = null
             try {
                 val response = RetrofitClient.apiService.analyzeMessage(
-                    AnalyzeRequest(text = messageText, language = language)
+                    AnalyzeRequest(
+                        text = messageText,
+                        language = language,
+                        output_language = output_language
+                    )
                 )
                 result = response
                 hasLoggedResult = false
