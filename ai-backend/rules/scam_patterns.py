@@ -47,6 +47,34 @@ def check_rules(text: str, language: str) -> tuple[str | None, int]:
     return best_category, best_matches
 
 
+def check_rules_any_language(text: str, declared_language: str) -> tuple[str | None, int]:
+    """
+    For call transcripts specifically: Whisper's declared spoken-language
+    detection and the actual language of its transcribed text can diverge
+    -- especially with the smaller "tiny" model, which sometimes detects
+    Hindi/Gujarati audio correctly but transcribes it into rough English
+    words anyway. check_rules() alone would then check that English-ish
+    text against Hindi/Gujarati pattern lists and find nothing.
+
+    This checks the declared language first (the common, correct case),
+    then falls back to checking the other two languages' patterns if that
+    finds nothing -- catching the mismatch case without changing behavior
+    for the normal case. Not used for /analyze-message, where the language
+    is explicitly and reliably provided by the user.
+    """
+    category, matches = check_rules(text, declared_language)
+    if matches > 0:
+        return category, matches
+
+    other_languages = [l for l in ("english", "hindi", "gujarati") if l != declared_language]
+    for lang in other_languages:
+        category, matches = check_rules(text, lang)
+        if matches > 0:
+            return category, matches
+
+    return None, 0
+
+
 def rules_risk_percent(matches_found: int) -> int:
     """Rough confidence mapping until Step 5/6 give a real model probability."""
     if matches_found >= 2:

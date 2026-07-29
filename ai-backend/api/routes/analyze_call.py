@@ -108,7 +108,7 @@ async def analyze_call(audio: UploadFile):
     else:
         language = detected_language
 
-    category_str, risk_percent = classify(transcript, language)
+    category_str, risk_percent = classify(transcript, language, use_any_language_rules=True)
     category = ScamCategory(category_str)
     language_enum = Language(language)
 

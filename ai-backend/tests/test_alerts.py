@@ -1,9 +1,5 @@
 """
 Tests for the Family Guardian alert logic (explanation/alert_generator.py).
-
-Team mate's roadmap explicitly asks for boundary tests around the threshold
-(69 vs 70 vs 71) so this doesn't silently break -- that's most of what
-this file is.
 """
 
 from api.schemas.request_models import Language
@@ -12,6 +8,7 @@ from explanation.alert_generator import (
     compute_trigger_alert,
     generate_alert_message,
 )
+from rules.scam_patterns import check_rules, check_rules_any_language
 
 
 def test_threshold_constant_is_70():
@@ -61,3 +58,29 @@ def test_alert_message_unknown_category_falls_back_gracefully():
     # falls back to the raw string rather than raising.
     msg = generate_alert_message("some_future_category", Language.ENGLISH)
     assert "some_future_category" in msg
+
+
+def test_check_rules_any_language_catches_whisper_language_mismatch():
+    """
+    Regression test for a real bug found in production: Whisper's 'tiny'
+    model detected Hindi audio correctly but transcribed it into rough
+    English words. check_rules() alone (checking only against the
+    declared 'hindi' patterns) found nothing, since the text was actually
+    English. check_rules_any_language() should catch this by falling
+    back to checking the other languages' patterns.
+    """
+    garbled_transcript = (
+        "Namaste, I am Delhi Police Cyber Crime Department saying that you are "
+        "a mani-londering case. Sir, your name is a criminal complaint. If you "
+        "dont operate, then digital arrest can be done. Investigation officer, "
+        "talk about this."
+    )
+
+    # the bug: declared-language-only check finds nothing
+    category, matches = check_rules(garbled_transcript, "hindi")
+    assert matches == 0
+
+    # the fix: any-language check finds it
+    category, matches = check_rules_any_language(garbled_transcript, "hindi")
+    assert category == "impersonation_digital_arrest"
+    assert matches >= 2
