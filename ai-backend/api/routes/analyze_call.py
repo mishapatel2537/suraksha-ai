@@ -32,6 +32,7 @@ import os
 import tempfile
 
 from fastapi import APIRouter, Form, HTTPException, UploadFile
+from starlette.concurrency import run_in_threadpool
 
 from api.db.logging import log_flagged_message
 from api.schemas.response_models import AnalyzeResponse, ScamCategory, Language
@@ -89,7 +90,14 @@ async def analyze_call(audio: UploadFile, output_language: str | None = Form(def
         tmp_path = tmp.name
 
     try:
-        result = transcribe_audio(tmp_path)
+        # Whisper transcription is blocking CPU work -- running it directly
+        # inside this async route would freeze the ENTIRE server (including
+        # unrelated requests like /health) until it finishes, since Render's
+        # free tier runs a single worker (WEB_CONCURRENCY=1). Offloading to
+        # a thread pool keeps the event loop free to handle other requests
+        # while transcription runs. This was the actual cause of requests
+        # getting progressively slower when made back-to-back.
+        result = await run_in_threadpool(transcribe_audio, tmp_path)
     except Exception as e:
         # Log the real exception server-side for debugging, but don't hand
         # the client raw internals (file paths, library stack traces).
