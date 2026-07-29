@@ -200,3 +200,64 @@ def test_unhandled_exception_returns_clean_response(monkeypatch):
     assert response.status_code == 500
     assert "secret" not in response.json()["detail"]
     assert "Traceback" not in response.text
+
+
+def test_analyze_message_output_language_differs_from_input_language():
+    """
+    Gujarati message, but the app wants the explanation in English --
+    classification must still run against Gujarati patterns for accuracy,
+    while the returned explanation/alert_message come back in English.
+    """
+    response = client.post(
+        "/analyze-message",
+        json={
+            "text": "તમારું કેવાયસી અપડેટ નથી. તાત્કાલિક તમારો ઓટીપી જણાવો.",
+            "language": "gujarati",
+            "output_language": "english",
+        },
+    )
+    assert response.status_code == 200
+    body = response.json()
+    assert body["category"] == "kyc_scam"  # classification worked correctly on the Gujarati text
+    assert body["language"] == "english"   # but response language reflects output_language
+    assert body["risk_percent"] > 50
+
+
+def test_analyze_message_output_language_defaults_to_language_when_omitted():
+    """Old callers who never send output_language should see identical behavior to before."""
+    response = client.post(
+        "/analyze-message",
+        json={"text": "Your KYC is pending, verify your KYC immediately", "language": "english"},
+    )
+    assert response.status_code == 200
+    assert response.json()["language"] == "english"
+
+
+def test_analyze_call_output_language_differs_from_detected(monkeypatch):
+    """Hindi call, but output_language=english should return the explanation in English."""
+    def fake_transcribe(path):
+        return {
+            "text": "Your KYC is pending, account will be blocked, share your OTP immediately",
+            "whisper_language_code": "hi",
+            "language": "hindi",
+        }
+
+    monkeypatch.setattr("api.routes.analyze_call.transcribe_audio", fake_transcribe)
+    response = client.post(
+        "/analyze-call",
+        files={"audio": ("test.wav", b"fake audio bytes", "audio/wav")},
+        data={"output_language": "english"},
+    )
+    assert response.status_code == 200
+    body = response.json()
+    assert body["category"] == "kyc_scam"
+    assert body["language"] == "english"
+
+
+def test_analyze_call_rejects_invalid_output_language():
+    response = client.post(
+        "/analyze-call",
+        files={"audio": ("test.wav", b"fake audio bytes", "audio/wav")},
+        data={"output_language": "french"},
+    )
+    assert response.status_code == 400

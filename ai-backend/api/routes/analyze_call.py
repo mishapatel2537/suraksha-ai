@@ -7,6 +7,15 @@ alert logic, and logging that /analyze-message uses -- a scam is a scam
 whether it arrived as text or a transcribed call, so none of that logic
 should differ by input type.
 
+Classification always uses the language Whisper detected in the audio
+(for accuracy -- same reasoning as /analyze-message). The explanation/alert
+text is generated in output_language if provided (falls back to the
+detected language otherwise) -- lets a user whose app is set to English
+get an English explanation for a call that was actually spoken in Hindi.
+
+output_language arrives as a form field here, not JSON, since this is a
+multipart/form-data upload alongside the audio file.
+
 Edge cases handled here:
   - Oversized audio uploads rejected before transcription (avoids hanging
     the demo on a huge/long file -- Whisper on CPU is slow)
@@ -22,7 +31,7 @@ import logging
 import os
 import tempfile
 
-from fastapi import APIRouter, HTTPException, UploadFile
+from fastapi import APIRouter, Form, HTTPException, UploadFile
 
 from api.db.logging import log_flagged_message
 from api.schemas.response_models import AnalyzeResponse, ScamCategory, Language
@@ -50,13 +59,19 @@ ALLOWED_AUDIO_EXTENSIONS = {".wav", ".mp3", ".m4a", ".mp4", ".ogg", ".opus", ".w
 
 
 @router.post("/analyze-call", response_model=AnalyzeResponse)
-async def analyze_call(audio: UploadFile):
+async def analyze_call(audio: UploadFile, output_language: str | None = Form(default=None)):
     suffix = os.path.splitext(audio.filename or "")[1].lower()
     if suffix not in ALLOWED_AUDIO_EXTENSIONS:
         raise HTTPException(
             status_code=400,
             detail=f"Unsupported file type '{suffix or 'unknown'}'. "
             f"Accepted formats: {', '.join(sorted(ALLOWED_AUDIO_EXTENSIONS))}",
+        )
+
+    if output_language is not None and output_language not in ("english", "hindi", "gujarati"):
+        raise HTTPException(
+            status_code=400,
+            detail=f"Invalid output_language '{output_language}'. Must be english, hindi, or gujarati.",
         )
 
     content = await audio.read()
@@ -110,14 +125,15 @@ async def analyze_call(audio: UploadFile):
 
     category_str, risk_percent = classify(transcript, language, use_any_language_rules=True)
     category = ScamCategory(category_str)
-    language_enum = Language(language)
+
+    resolved_output_language = Language(output_language) if output_language else Language(language)
 
     explanation = generate_explanation(
-        category=category, risk_percent=risk_percent, language=language_enum
+        category=category, risk_percent=risk_percent, language=resolved_output_language
     )
 
     trigger_alert = compute_trigger_alert(risk_percent)
-    alert_message = generate_alert_message(category_str, language_enum) if trigger_alert else ""
+    alert_message = generate_alert_message(category_str, resolved_output_language) if trigger_alert else ""
 
     log_flagged_message(
         text=transcript, category=category_str, risk_percent=risk_percent, language=language,
@@ -127,7 +143,7 @@ async def analyze_call(audio: UploadFile):
         category=category,
         risk_percent=risk_percent,
         explanation=explanation,
-        language=language_enum,
+        language=resolved_output_language,
         trigger_alert=trigger_alert,
         alert_message=alert_message,
     )

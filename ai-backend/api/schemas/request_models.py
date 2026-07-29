@@ -1,5 +1,6 @@
 """
 Request schemas for the Suraksha API.
+
 Must stay in sync with the frontend's AnalyzeRequest.kt.
 """
 
@@ -17,7 +18,14 @@ class Language(str, Enum):
 
 class AnalyzeMessageRequest(BaseModel):
     text: str = Field(..., min_length=1, description="The message content to analyze")
-    language: Language = Field(..., description="Language the message is written in")
+    language: Language = Field(..., description="Language the message text is actually written in -- used for accurate scam-pattern matching, keep this as the message's real language even if the user's app UI is set to a different language")
+    output_language: Language | None = Field(
+        default=None,
+        description="Language to return the explanation/alert_message in. Defaults to "
+        "`language` if not provided (old behavior, unchanged). Set this when the "
+        "message's language differs from the user's app-wide language preference "
+        "-- e.g. a Gujarati message pasted while the app is set to English.",
+    )
 
 
 class AnalyzeCallRequest(BaseModel):
