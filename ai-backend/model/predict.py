@@ -1,5 +1,5 @@
 """
-Loads the fine-tuned classifier (Step 5) and exposes a simple predict()
+Loads the fine-tuned classifier and exposes a simple predict()
 function for the API layer to call.
 
 Designed to fail gracefully: if model/artifacts/suraksha-classifier/ doesn't
@@ -11,7 +11,7 @@ shouldn't have the API break just because they haven't run model/train.py.
 
 import logging
 import sys
-from functools import lru_cache
+import threading
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -20,44 +20,72 @@ logger = logging.getLogger("suraksha.model")
 
 MODEL_DIR = Path(__file__).parent / "artifacts" / "suraksha-classifier"
 
+# Manual cache + lock instead of @lru_cache(maxsize=1). lru_cache's internal
+# lock only protects the cache dict itself -- it does NOT serialize calls to
+# the wrapped function. Two concurrent requests can both see a cache miss
+# and both start loading the model at once, which is exactly what happened
+# right after a cold start: two simultaneous `transformers` imports collided
+# and one raised a spurious ImportError, silently falling back to rules-only
+# for that request. This lock makes loading itself mutually exclusive.
+_model_cache = None
+_model_cache_set = False  # distinguishes "not loaded yet" from "loaded, and the result was None"
+_model_load_lock = threading.Lock()
 
-@lru_cache(maxsize=1)
+
 def _load_model():
     """
-    Loads model + tokenizer once and caches them (lru_cache with maxsize=1
-    means this only actually runs on the first call, subsequent calls
-    reuse the cached model -- loading a transformer from disk on every
-    request would make /analyze-message unusably slow).
+    Loads model + tokenizer once and caches them. Double-checked locking:
+    the first check (no lock) makes the common case -- already warm --
+    cheap. The second check (inside the lock) ensures that if two threads
+    both passed the first check, only one of them actually performs the
+    load; the other sees the now-populated cache and returns immediately.
 
-    Returns (model, tokenizer, id2label) or None if artifacts aren't present.
+    Returns (model, tokenizer, id2label) or None if artifacts aren't present
+    or loading failed. None is cached too, so a missing-artifacts state
+    doesn't retry the (expensive) load on every single request.
     """
-    model_file = MODEL_DIR / "model.safetensors"
-    if not model_file.exists():
-        logger.warning(f"Model artifacts NOT FOUND at {model_file} -- falling back to rules-only.")
-        return None
+    global _model_cache, _model_cache_set
 
-    file_size_mb = model_file.stat().st_size / 1024 / 1024
-    logger.info(f"Found model.safetensors ({file_size_mb:.1f}MB) at {model_file}, loading...")
+    if _model_cache_set:
+        return _model_cache
 
-    try:
-        import torch
-        from transformers import AutoModelForSequenceClassification, AutoTokenizer
+    with _model_load_lock:
+        if _model_cache_set:
+            return _model_cache
 
-        model = AutoModelForSequenceClassification.from_pretrained(str(MODEL_DIR))
-        tokenizer = AutoTokenizer.from_pretrained(str(MODEL_DIR))
-        model.eval()
+        model_file = MODEL_DIR / "model.safetensors"
+        if not model_file.exists():
+            logger.warning(f"Model artifacts NOT FOUND at {model_file} -- falling back to rules-only.")
+            _model_cache = None
+            _model_cache_set = True
+            return None
 
-        # id2label is baked into the model's config by train.py, but falls back
-        # to labels.json if that's somehow missing
-        id2label = model.config.id2label
-        logger.info("Model loaded successfully.")
-        return model, tokenizer, id2label
-    except Exception:
-        # Loading can fail for real reasons (OOM, corrupted file, version
-        # mismatch) -- log it clearly rather than letting it crash the
-        # request, and fall back to rules-only same as a missing file.
-        logger.exception("Model file exists but failed to load -- falling back to rules-only.")
-        return None
+        file_size_mb = model_file.stat().st_size / 1024 / 1024
+        logger.info(f"Found model.safetensors ({file_size_mb:.1f}MB) at {model_file}, loading...")
+
+        try:
+            import torch
+            from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+            model = AutoModelForSequenceClassification.from_pretrained(str(MODEL_DIR))
+            tokenizer = AutoTokenizer.from_pretrained(str(MODEL_DIR))
+            model.eval()
+
+            # id2label is baked into the model's config by train.py, but falls back
+            # to labels.json if that's somehow missing
+            id2label = model.config.id2label
+            logger.info("Model loaded successfully.")
+            _model_cache = (model, tokenizer, id2label)
+            _model_cache_set = True
+            return _model_cache
+        except Exception:
+            # Loading can fail for real reasons (OOM, corrupted file, version
+            # mismatch) -- log it clearly rather than letting it crash the
+            # request, and fall back to rules-only same as a missing file.
+            logger.exception("Model file exists but failed to load -- falling back to rules-only.")
+            _model_cache = None
+            _model_cache_set = True
+            return None
 
 
 def predict(text: str, max_length: int = 128):
