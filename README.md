@@ -65,6 +65,7 @@ This README documents the frontend work completed for this project.
 
 ## 📂 Project Structure
 
+```text
 SURAKSHA-AI/
 ├── app/
 │   ├── src/
@@ -89,9 +90,11 @@ SURAKSHA-AI/
 ├── gradlew
 ├── gradlew.bat
 └── README.md
+```
 
 ## screens folder structure
 
+```text
 screens/
 ├── callupload/
 │   └── CallUploadScreen.kt
@@ -117,6 +120,7 @@ screens/
 │   └── SmsPermissionScreen.kt
 └── splash/
     └── SplashScreen.kt
+```
 
 
 
