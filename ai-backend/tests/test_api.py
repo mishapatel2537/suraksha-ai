@@ -260,4 +260,8 @@ def test_analyze_call_rejects_invalid_output_language():
         files={"audio": ("test.wav", b"fake audio bytes", "audio/wav")},
         data={"output_language": "french"},
     )
+<<<<<<< HEAD
     assert response.status_code == 400
+=======
+    assert response.status_code == 400
+>>>>>>> bb07b751af6c17b23a2304ee016745ef2526f44b
