@@ -4,8 +4,6 @@ __pycache__/
 .venv/
 venv/
 *.db
-model/artifacts/suraksha-classifier/*
-!model/artifacts/suraksha-classifier/.gitkeep
 model/checkpoints
 .pytest_cache/
 *.egg-info/

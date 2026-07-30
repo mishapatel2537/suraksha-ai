@@ -1,0 +1,32 @@
+{
+  "labels": [
+    "kyc_scam",
+    "loan_scam",
+    "lottery_scam",
+    "upi_scam",
+    "phishing",
+    "impersonation_digital_arrest",
+    "impersonation_blackmail",
+    "not_scam"
+  ],
+  "label2id": {
+    "kyc_scam": 0,
+    "loan_scam": 1,
+    "lottery_scam": 2,
+    "upi_scam": 3,
+    "phishing": 4,
+    "impersonation_digital_arrest": 5,
+    "impersonation_blackmail": 6,
+    "not_scam": 7
+  },
+  "id2label": {
+    "0": "kyc_scam",
+    "1": "loan_scam",
+    "2": "lottery_scam",
+    "3": "upi_scam",
+    "4": "phishing",
+    "5": "impersonation_digital_arrest",
+    "6": "impersonation_blackmail",
+    "7": "not_scam"
+  }
+}
