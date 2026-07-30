@@ -9,11 +9,14 @@ case. This matters because Person B (or anyone pulling the repo fresh)
 shouldn't have the API break just because they haven't run model/train.py.
 """
 
+import logging
 import sys
 from functools import lru_cache
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
+
+logger = logging.getLogger("suraksha.model")
 
 MODEL_DIR = Path(__file__).parent / "artifacts" / "suraksha-classifier"
 
@@ -28,20 +31,33 @@ def _load_model():
 
     Returns (model, tokenizer, id2label) or None if artifacts aren't present.
     """
-    if not (MODEL_DIR / "model.safetensors").exists():
+    model_file = MODEL_DIR / "model.safetensors"
+    if not model_file.exists():
+        logger.warning(f"Model artifacts NOT FOUND at {model_file} -- falling back to rules-only.")
         return None
 
-    import torch
-    from transformers import AutoModelForSequenceClassification, AutoTokenizer
+    file_size_mb = model_file.stat().st_size / 1024 / 1024
+    logger.info(f"Found model.safetensors ({file_size_mb:.1f}MB) at {model_file}, loading...")
 
-    model = AutoModelForSequenceClassification.from_pretrained(str(MODEL_DIR))
-    tokenizer = AutoTokenizer.from_pretrained(str(MODEL_DIR))
-    model.eval()
+    try:
+        import torch
+        from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-    # id2label is baked into the model's config by train.py, but falls back
-    # to labels.json if that's somehow missing
-    id2label = model.config.id2label
-    return model, tokenizer, id2label
+        model = AutoModelForSequenceClassification.from_pretrained(str(MODEL_DIR))
+        tokenizer = AutoTokenizer.from_pretrained(str(MODEL_DIR))
+        model.eval()
+
+        # id2label is baked into the model's config by train.py, but falls back
+        # to labels.json if that's somehow missing
+        id2label = model.config.id2label
+        logger.info("Model loaded successfully.")
+        return model, tokenizer, id2label
+    except Exception:
+        # Loading can fail for real reasons (OOM, corrupted file, version
+        # mismatch) -- log it clearly rather than letting it crash the
+        # request, and fall back to rules-only same as a missing file.
+        logger.exception("Model file exists but failed to load -- falling back to rules-only.")
+        return None
 
 
 def predict(text: str, max_length: int = 128):

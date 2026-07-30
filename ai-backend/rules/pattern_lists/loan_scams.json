@@ -1,26 +1,32 @@
 {
-  "category": "loan_scam",
-  "description": "Fake instant-loan / processing-fee scams",
+  "category": "kyc_scam",
+  "description": "Fake KYC update requests — a very common scam vector for rural digital-banking users",
   "patterns": {
     "english": [
-      "instant loan approved",
-      "processing fee",
-      "loan without documents",
-      "guaranteed loan approval",
-      "loan approved",
-      "your loan",
-      "loan disbursed"
+      "kyc update",
+      "kyc expire",
+      "account will be blocked",
+      "verify your kyc",
+      "update kyc immediately",
+      "kyc pending",
+      "complete kyc",
+      "kyc verification",
+      "kyc"
     ],
     "hindi": [
-      "तुरंत लोन स्वीकृत",
-      "प्रोसेसिंग फीस",
-      "लोन स्वीकृत",
-      "प्रोसेसिंग शुल्क"
+      "केवाईसी अपडेट",
+      "केवाईसी समाप्त",
+      "खाता ब्लॉक हो जाएगा",
+      "केवाईसी पेंडिंग",
+      "केवाईसी वेरिफिकेशन",
+      "केवाईसी"
     ],
     "gujarati": [
-      "તાત્કાલિક લોન મંજૂર",
-      "પ્રોસેસિંગ ફી",
-      "લોન મંજૂર"
+      "કેવાયસી અપડેટ",
+      "કેવાયસી સમાપ્ત",
+      "ખાતું બ્લોક થઈ જશે",
+      "કેવાયસી પેન્ડિંગ",
+      "કેવાયસી"
     ]
   }
 }

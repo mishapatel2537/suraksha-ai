@@ -1,6 +1,6 @@
 """
-Validates the rules-based fallback layer (Step 4) against the real labeled
-dataset. This isn't the full model evaluation (that's Step 7) — it's a
+Validates the rules-based fallback layer against the real labeled
+dataset. This isn't the full model evaluation — it's a
 regression check that pattern-list edits don't accidentally tank recall
 or, more importantly, spike the false-alarm rate on real not_scam text.
 

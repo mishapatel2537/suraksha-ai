@@ -1,5 +1,5 @@
 """
-Step 9: Whisper integration for call-recording transcription.
+Whisper integration for call-recording transcription.
 
 Uses local open-source Whisper (not the paid OpenAI API) -- free, and your
 RTX 4060 handles it fine. Requires ffmpeg to be installed and on PATH
@@ -22,7 +22,7 @@ WHISPER_LANG_TO_APP_LANG = {
     "gu": "gujarati",
 }
 
-WHISPER_MODEL_SIZE = "small"
+WHISPER_MODEL_SIZE = "tiny"
 
 
 @lru_cache(maxsize=1)
@@ -59,6 +59,8 @@ def transcribe_audio(audio_path: str) -> dict:
 
     whisper_lang = result.get("language", "")
     app_lang = WHISPER_LANG_TO_APP_LANG.get(whisper_lang)
+
+    print(f"[DEBUG] Whisper transcript: {result['text']}") #temporary - to check transcribed text
 
     return {
         "text": result.get("text", "").strip(),

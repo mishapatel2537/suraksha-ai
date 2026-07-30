@@ -1,10 +1,5 @@
 """
-Step 5: fine-tune the multilingual scam classifier.
-
-This needs a GPU and downloads pretrained weights from Hugging Face — run it
-on Google Colab's free GPU tier (Runtime -> Change runtime type -> GPU),
-not on a laptop CPU (it will technically work but take hours instead of
-minutes).
+Fine-tune the multilingual scam classifier.
 
 Usage on Colab:
     1. Upload data/processed/labeled_dataset.csv to the Colab session

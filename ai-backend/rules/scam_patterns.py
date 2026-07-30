@@ -1,14 +1,9 @@
 """
-Rules-based fallback layer (Step 4).
+Rules-based fallback layer.
 
-This is a permanent safety net under the ML model, not a stopgap — keep it
-even after the classifier is trained. Right now (before Step 5) it's also
-the ONLY classification logic, so the API has something real to return
-from day one instead of waiting on the dataset + model to be ready.
-
+This is a permanent safety net under the ML model.
 Detection is deliberately simple: case-insensitive substring match against
-per-category phrase lists in pattern_lists/*.json. Expand those lists as
-you find more real examples — this file's logic shouldn't need to change.
+per-category phrase lists in pattern_lists/*.json.
 """
 
 import json
@@ -50,6 +45,34 @@ def check_rules(text: str, language: str) -> tuple[str | None, int]:
             best_category = category
 
     return best_category, best_matches
+
+
+def check_rules_any_language(text: str, declared_language: str) -> tuple[str | None, int]:
+    """
+    For call transcripts specifically: Whisper's declared spoken-language
+    detection and the actual language of its transcribed text can diverge
+    -- especially with the smaller "tiny" model, which sometimes detects
+    Hindi/Gujarati audio correctly but transcribes it into rough English
+    words anyway. check_rules() alone would then check that English-ish
+    text against Hindi/Gujarati pattern lists and find nothing.
+
+    This checks the declared language first (the common, correct case),
+    then falls back to checking the other two languages' patterns if that
+    finds nothing -- catching the mismatch case without changing behavior
+    for the normal case. Not used for /analyze-message, where the language
+    is explicitly and reliably provided by the user.
+    """
+    category, matches = check_rules(text, declared_language)
+    if matches > 0:
+        return category, matches
+
+    other_languages = [l for l in ("english", "hindi", "gujarati") if l != declared_language]
+    for lang in other_languages:
+        category, matches = check_rules(text, lang)
+        if matches > 0:
+            return category, matches
+
+    return None, 0
 
 
 def rules_risk_percent(matches_found: int) -> int:

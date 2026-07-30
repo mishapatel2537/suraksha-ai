@@ -1,10 +1,9 @@
 """
 Response schemas for the Suraksha API.
 
-THIS IS THE LOCKED CONTRACT (Step 2). Field names here must exactly match
-what Person B expects in AnalyzeResponse.kt: category, risk_percent,
-explanation, language. Do not rename/restructure these without telling her
-first — her screens are built directly against this shape.
+THIS IS THE LOCKED CONTRACT. Field names here must exactly match in
+AnalyzeResponse.kt: category, risk_percent, explanation, language,
+trigger_alert, alert_message.
 """
 
 from enum import Enum
@@ -27,14 +26,19 @@ class ScamCategory(str, Enum):
 
 
 class AnalyzeResponse(BaseModel):
-    # Exactly the 4 locked fields — category, risk_percent, explanation, language.
-    # If probabilities turn out unreliable (plan's fallback note), bucket
-    # risk_percent into ~10/50/90 bands rather than adding a new field —
-    # changing the shape means Person B has to touch her Kotlin models.
+    # Locked contract fields: category, risk_percent, explanation, language,
+    # trigger_alert, alert_message. Last two added for Family Guardian --
+    # tell Person B before changing any of these further.
     category: ScamCategory
     risk_percent: int = Field(..., ge=0, le=100, description="Model confidence as a percentage")
     explanation: str = Field(..., description="Plain-language explanation, in the requested language")
     language: Language = Field(..., description="Language the explanation was generated in")
+    trigger_alert: bool = Field(..., description="True if risk_percent crosses the alert threshold")
+    alert_message: str = Field(
+        default="",
+        description="Pre-written SMS-ready alert text, in the requested language. "
+        "Empty string when trigger_alert is False.",
+    )
 
 
 class GuardianAlertResponse(BaseModel):

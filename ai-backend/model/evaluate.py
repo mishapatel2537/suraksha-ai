@@ -1,11 +1,11 @@
 """
-Step 7: evaluate.py -- precision/recall/confusion matrix per category.
+Evaluate.py -- precision/recall/confusion matrix per category.
 
 Evaluates three things side by side, on the same held-out validation split
 train.py used (same random_state=42, so this is genuinely held-out data
 the model never trained on):
 
-  1. Rules-only (Step 4's fallback layer alone)
+  1. Rules-only (fallback layer alone)
   2. Model-only (the raw classifier, ignoring rules)
   3. Ensemble (model/ensemble.py -- what the live API actually returns)
 

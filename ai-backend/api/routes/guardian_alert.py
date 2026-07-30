@@ -1,5 +1,5 @@
 """
-POST /guardian-alert — Important, drop 1st if time is short.
+POST /guardian-alert
 
 Per the plan's fallback, this can stay mocked (no real SMS/email send) and
 the frontend can simulate the alert UI without a real trigger. Wired up
@@ -25,3 +25,4 @@ def guardian_alert(request: GuardianAlertRequest) -> GuardianAlertResponse:
         message=f"[MOCK] Alert would be sent to {request.guardian_contact} "
         f"about a {request.category} risk ({request.risk_percent}% confidence).",
     )
+

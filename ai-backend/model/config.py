@@ -1,13 +1,6 @@
 """
-Step 5 config: base model choice + hyperparameters for fine-tuning.
+Config: base model choice + hyperparameters for fine-tuning.
 
-Nothing trains against this yet — fill in once you get to Step 5.
-Candidates to evaluate (all handle English/Hindi/Gujarati to varying
-degrees — check coverage before committing):
-  - "distilbert-base-multilingual-cased" — smallest/fastest, decent baseline
-  - "bert-base-multilingual-cased" — better accuracy, still small enough for CPU inference
-  - "ai4bharat/indic-bert" — trained specifically on Indian languages, worth
-    benchmarking against the multilingual-BERT options for Hindi/Gujarati
 """
 
 BASE_MODEL = "distilbert-base-multilingual-cased"  # placeholder — benchmark before locking in
