@@ -15,6 +15,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Divider
 import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
@@ -66,6 +68,7 @@ fun SettingsScreen(
         modifier = modifier
             .fillMaxSize()
             .background(backgroundGradient)
+            .verticalScroll(rememberScrollState())
             .padding(24.dp)
     ) {
         Text(
@@ -132,8 +135,11 @@ fun SettingsScreen(
         Text(text = stringResource(R.string.data_label), fontSize = 16.sp, fontWeight = FontWeight.Bold, color = Color.White)
         Spacer(modifier = Modifier.height(8.dp))
         Button(
-            onClick = { profileViewModel.clearActivityData()
-                dataCleared = true },
+            onClick = {
+                profileViewModel.clearActivityData()
+                dataCleared = true
+            },
+            modifier = Modifier.fillMaxWidth(),
             shape = RoundedCornerShape(20.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color.White.copy(alpha = 0.15f),
@@ -154,12 +160,8 @@ fun SettingsScreen(
                     popUpTo(0) { inclusive = true }
                 }
             },
-            shape = RoundedCornerShape(20.dp),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = Color.White.copy(alpha = 0.15f),
-                contentColor = Color.White
-            )
-        ) {
+            modifier = Modifier.fillMaxWidth(),
+            shape = RoundedCornerShape(20.dp),){
             Text(stringResource(R.string.log_out_button))
         }
 
@@ -171,11 +173,11 @@ fun SettingsScreen(
         Spacer(modifier = Modifier.height(8.dp))
         Text(
             text =  stringResource(R.string.about_suraksha_body),
-            fontSize = 14.sp,
-            color = Color.White.copy(alpha = 0.9f)
+            fontSize = 12.sp,
+            color = Color.White.copy(alpha = 0.6f)
         )
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(32.dp))
         Text(text =  stringResource(R.string.app_version), fontSize = 12.sp, color = Color.White.copy(alpha = 0.6f))
     }
 }

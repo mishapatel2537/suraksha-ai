@@ -106,7 +106,7 @@ fun AppNavigation(sharedText: String? = null) {
             )
         }
         composable("smsInbox") {
-            SmsInboxScreen()
+            SmsInboxScreen(guardianViewModel = guardianViewModel)
         }
         composable("callUpload") {
             CallUploadScreen(
