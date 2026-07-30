@@ -1,0 +1,84 @@
+<resources>
+    <string name="home">होम</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="home_title">भरोसा करने से पहले सत्यापित करें!</string>
+    <string name="home_subtitle">नीचे दिए गए विकल्पों में से चुनें</string>
+    <string name="status_safe">✓ हाल ही में कोई खतरा नहीं मिला</string>
+    <string name="check_message_button">संदेश जांचें</string>
+    <string name="scan_sms_button">SMS इनबॉक्स स्कैन करें</string>
+    <string name="choose_language">संदेश की भाषा चुनें</string>
+    <string name="guardian_button">परिवार गार्डियन</string>
+    <string name="call_upload_button">कॉल रिकॉर्डिंग जांचें</string>
+    <string name="home_tagline">धोखाधड़ी से आपकी सुरक्षा</string>
+    <string name="check_message_title">संदेश जांचें</string>
+    <string name="message_input_label">संदेश पेस्ट करें या टाइप करें</string>
+    <string name="check_message_submit">संदेश जांचें</string>
+    <string name="risk_high">उच्च</string>
+    <string name="risk_medium">मध्यम</string>
+    <string name="risk_low">कम</string>
+    <string name="risk_suffix">जोखिम</string>
+    <string name="confidence_label">%1$d%% विश्वास</string>
+    <string name="category_label">श्रेणी: %1$s</string>
+    <string name="category_kyc_scam">KYC धोखाधड़ी</string>
+    <string name="category_loan_scam">लोन धोखाधड़ी</string>
+    <string name="category_lottery_scam">लॉटरी धोखाधड़ी</string>
+    <string name="category_upi_scam">UPI धोखाधड़ी</string>
+    <string name="category_phishing">फ़िशिंग</string>
+    <string name="category_impersonation_digital_arrest">डिजिटल अरेस्ट प्रतिरूपण</string>
+    <string name="category_impersonation_blackmail">ब्लैकमेल प्रतिरूपण</string>
+    <string name="category_not_scam">धोखाधड़ी नहीं</string>
+    <string name="category_unknown">अज्ञात</string>
+    <string name="explanation_phishing">यह संदेश तात्कालिकता और संवेदनशील जानकारी माँगने की चाल का उपयोग करता है, जो फ़िशिंग की एक आम तकनीक है। अपना OTP या बैंक विवरण कभी साझा न करें।</string>
+    <string name="explanation_safe">इस संदेश में सामान्य धोखाधड़ी के लक्षण नहीं दिखते। फिर भी, अप्रत्याशित अनुरोधों की स्वतंत्र रूप से पुष्टि करें।</string>
+    <string name="sms_permission_title">अपने संदेश पढ़ें?</string>
+    <string name="sms_permission_body">सुरक्षा धोखाधड़ी वाले संदेशों को स्वतः पहचानने के लिए आपके SMS इनबॉक्स को स्कैन कर सकता है। आपके संदेश केवल आपके डिवाइस पर विश्लेषित किए जाते हैं और आपकी अनुमति के बिना कभी साझा नहीं किए जाते।</string>
+    <string name="sms_permission_granted">अनुमति दी गई ✓</string>
+    <string name="sms_permission_allow">SMS एक्सेस की अनुमति दें</string>
+    <string name="sms_inbox_title">इनबॉक्स</string>
+    <string name="sms_inbox_empty">कोई संदेश नहीं मिला।</string>
+    <string name="sms_unknown_sender">अज्ञात</string>
+    <string name="guardian_title">परिवार गार्डियन</string>
+    <string name="guardian_subtitle">उच्च-जोखिम वाला धोखाधड़ी पहचाने जाने पर सूचित करने के लिए विश्वसनीय संपर्क जोड़ें।</string>
+    <string name="guardian_name_label">संपर्क का नाम</string>
+    <string name="guardian_relation_label">रिश्ता (जैसे बेटा, बेटी)</string>
+    <string name="guardian_phone_label">फ़ोन नंबर</string>
+    <string name="processing_audio_long">आपकी रिकॉर्डिंग का विश्लेषण हो रहा है — इसमें कुछ मिनट लग सकते हैं। कृपया ऐप बंद न करें।</string>
+    <string name="guardian_add_button">गार्डियन जोड़ें</string>
+    <string name="guardian_test_alert_button">परीक्षण अलर्ट भेजें</string>
+    <string name="guardian_saved_title">सहेजे गए गार्डियन</string>
+    <string name="guardian_empty">अभी तक कोई गार्डियन नहीं जोड़ा गया।</string>
+    <string name="guardian_remove_desc">हटाएं</string>
+    <string name="guardian_alert_no_guardians">पहले एक गार्डियन जोड़ें।</string>
+    <string name="guardian_alert_no_permission">SMS अनुमति नहीं दी गई।</string>
+    <string name="guardian_alert_denied">SMS अनुमति अस्वीकृत।</string>
+    <string name="guardian_alert_success">%1$d गार्डियन को परीक्षण अलर्ट भेजा गया।</string>
+    <string name="guardian_alert_failed">भेजने में विफल: %1$s</string>
+    <string name="guardian_relation_phone_separator">%1$s • %2$s</string>
+    <string name="call_upload_title">कॉल रिकॉर्डिंग जांचें</string>
+
+    <string name="call_upload_description">
+    संदिग्ध कॉल की रिकॉर्डिंग अपलोड करें। हम इसे टेक्स्ट में बदलकर धोखाधड़ी के संकेतों के लिए जांचेंगे।
+</string>
+
+    <string name="choose_audio_file">ऑडियो फ़ाइल चुनें</string>
+
+    <string name="selected_file">चयनित: %1$s</string>
+
+    <string name="processing_audio">
+    रिकॉर्डिंग को टेक्स्ट में बदलकर विश्लेषण किया जा रहा है...
+</string>
+
+    <string name="analyze_recording">रिकॉर्डिंग का विश्लेषण करें</string>
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="language_label">भाषा</string>
+    <string name="guardian_alerts_title">गार्डियन अलर्ट</string>
+    <string name="guardian_alerts_desc">यदि उच्च जोखिम वाला घोटाला मिले तो मेरे परिवार को सचेत करें</string>
+    <string name="dark_mode_label">डार्क मोड</string>
+    <string name="data_label">डेटा</string>
+    <string name="clear_activity_button">गतिविधि डेटा साफ़ करें</string>
+    <string name="activity_cleared_confirm">✓ गतिविधि डेटा साफ़ हो गया</string>
+    <string name="log_out_button">लॉग आउट</string>
+    <string name="about_suraksha_title">सुरक्षा के बारे में</string>
+    <string name="about_suraksha_body">सुरक्षा आपको स्कैम कॉल, फर्जी यूपीआई अनुरोध, फिशिंग और लोन घोटालों का पता लगाने में मदद करता है। कोई संदिग्ध संदेश पेस्ट करें या शेयर करें, अपना एसएमएस इनबॉक्स स्कैन करें, या कॉल रिकॉर्डिंग अपलोड करें। यदि उच्च जोखिम वाला घोटाला पाया जाता है, तो आपके फैमिली गार्डियन को स्वचालित रूप से सचेत किया जा सकता है।</string>
+    <string name="app_version">सुरक्षा v1.0</string>
+</resources>

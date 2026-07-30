@@ -1,0 +1,220 @@
+package com.suraksha.ai.screens.messagecheck
+
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.clickable
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.material3.OutlinedTextFieldDefaults
+import androidx.compose.ui.res.stringResource
+import com.suraksha.ai.R
+import androidx.compose.ui.platform.LocalContext
+import androidx.appcompat.app.AppCompatDelegate
+import com.suraksha.ai.screens.guardian.GuardianViewModel
+
+@Composable
+fun MessageInputScreen(
+    modifier: Modifier = Modifier,
+    initialText: String = "",
+    viewModel: MessageInputViewModel = viewModel(),
+    guardianViewModel: GuardianViewModel,
+    onCheckMessageClick: () -> Unit = {}
+)
+{
+    val context = LocalContext.current
+
+    // The app's display language, from Settings — used as outputLanguage only
+    val displayLanguage = when (AppCompatDelegate.getApplicationLocales().get(0)?.language) {
+        "hi" -> "hindi"
+        "gu" -> "gujarati"
+        else -> "english"
+    }
+
+    // The message's actual language, chosen by the user on this screen —
+    // defaults to matching the display language, but is independent of it
+    var messageLanguage by remember { mutableStateOf(displayLanguage) }
+
+    androidx.compose.runtime.LaunchedEffect(Unit) {
+        if (viewModel.messageText.isEmpty() && initialText.isNotEmpty()) {
+            viewModel.onMessageTextChange(initialText)
+        }
+    }
+
+    val backgroundGradient = Brush.verticalGradient(
+        colors = listOf(
+            MaterialTheme.colorScheme.primary,
+            MaterialTheme.colorScheme.secondary
+        )
+
+    )
+
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .background(backgroundGradient)
+            .padding(24.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
+    ) {
+        Text(
+            text = stringResource(R.string.check_message_title),
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White
+        )
+        Text(
+            text = stringResource(R.string.choose_language),
+            fontSize = 22.sp,
+            color = Color.White
+        )
+
+        Spacer(modifier = Modifier.height(20.dp))
+
+        // Which language is this message written in?
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            LanguageChip(
+                label = "English",
+                selected = messageLanguage == "english",
+                onClick = { messageLanguage = "english" }
+            )
+            LanguageChip(
+                label = "हिंदी",
+                selected = messageLanguage == "hindi",
+                onClick = { messageLanguage = "hindi" }
+            )
+            LanguageChip(
+                label = "ગુજરાતી",
+                selected = messageLanguage == "gujarati",
+                onClick = { messageLanguage = "gujarati" }
+            )
+        }
+
+        Spacer(modifier = Modifier.height(20.dp))
+
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .background(Color.White.copy(alpha = 0.15f), RoundedCornerShape(20.dp))
+                .border(2.dp, Color.White.copy(alpha = 0.6f), RoundedCornerShape(20.dp))
+                .padding(4.dp)
+        ) {
+            OutlinedTextField(
+                value = viewModel.messageText,
+                onValueChange = { viewModel.onMessageTextChange(it) },
+                label = {
+                    Text(
+                        stringResource(R.string.message_input_label),
+                        fontFamily = FontFamily.Serif
+                    )
+                },
+                modifier = Modifier.fillMaxWidth(),
+                minLines = 5,
+                shape = RoundedCornerShape(16.dp),
+                colors = OutlinedTextFieldDefaults.colors(
+                    focusedBorderColor = Color.Transparent,
+                    unfocusedBorderColor = Color.Transparent,
+                    focusedLabelColor = Color.White,
+                    unfocusedLabelColor = Color.White.copy(alpha = 0.8f),
+                    focusedTextColor = Color.White,
+                    unfocusedTextColor = Color.White,
+                    cursorColor = Color.White
+                ),
+                textStyle = androidx.compose.ui.text.TextStyle(
+                    fontFamily = FontFamily.Serif,
+                    fontSize = 16.sp
+                )
+            )
+        }
+
+        Spacer(modifier = Modifier.height(24.dp))
+        Button(
+            onClick = {
+                viewModel.checkMessage(
+                    language = messageLanguage,
+                    output_language = displayLanguage
+                ) {
+                    val response = viewModel.result
+                    if (response?.trigger_alert == true && guardianViewModel.alertsEnabled) {
+                        guardianViewModel.sendAlert(response.alert_message, context) { _, _, _ -> }
+                    }
+                    onCheckMessageClick()
+                }
+            },
+            enabled = !viewModel.isLoading,
+            shape = RoundedCornerShape(28.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color.White,
+                contentColor = MaterialTheme.colorScheme.primary
+            ),
+            modifier = Modifier.height(56.dp)
+        ) {
+            Text(
+                text = stringResource(R.string.check_message_submit),
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold
+            )
+        }
+        if (viewModel.isLoading) {
+            Spacer(modifier = Modifier.height(16.dp))
+            androidx.compose.material3.CircularProgressIndicator(color = Color.White)
+        }
+    }
+}
+
+@Composable
+private fun LanguageChip(
+    label: String,
+    selected: Boolean,
+    onClick: () -> Unit
+) {
+    Box(
+        modifier = Modifier
+            .background(
+                color = if (selected) Color.White else Color.White.copy(alpha = 0.15f),
+                shape = RoundedCornerShape(20.dp)
+            )
+            .border(
+                width = 1.dp,
+                color = Color.White.copy(alpha = if (selected) 1f else 0.5f),
+                shape = RoundedCornerShape(20.dp)
+            )
+            .clickable { onClick() }
+            .padding(horizontal = 16.dp, vertical = 8.dp)
+    ) {
+        Text(
+            text = label,
+            fontSize = 13.sp,
+            fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal,
+            color = if (selected) MaterialTheme.colorScheme.primary else Color.White
+        )
+    }
+}

@@ -1,0 +1,85 @@
+<resources>
+    <string name="home">હોમ</string>
+    <string name="settings">સેટિંગ્સ</string>
+    <string name="home_title">વિશ્વાસ કરતા પહેલા ચકાસો!</string>
+    <string name="home_subtitle">નીચે આપેલા વિકલ્પોમાંથી પસંદ કરો</string>
+    <string name="status_safe">✓ તાજેતરમાં કોઈ જોખમ મળ્યું નથી</string>
+    <string name="check_message_button">સંદેશ તપાસો</string>
+    <string name="scan_sms_button">SMS ઇનબોક્સ સ્કેન કરો</string>
+    <string name="guardian_button">કુટુંબ ગાર્ડિયન</string>
+    <string name="call_upload_button">કોલ રેકોર્ડિંગ તપાસો</string>
+    <string name="home_tagline">છેતરપિંડી સામે તમારી ઢાલ</string>
+    <string name="check_message_title">સંદેશ તપાસો</string>
+    <string name="message_input_label">સંદેશ પેસ્ટ કરો અથવા ટાઈપ કરો</string>
+    <string name="check_message_submit">સંદેશ તપાસો</string>
+    <string name="risk_high">ઉચ્ચ</string>
+    <string name="risk_medium">મધ્યમ</string>
+    <string name="risk_low">ઓછું</string>
+    <string name="risk_suffix">જોખમ</string>
+    <string name="confidence_label">%1$d%% વિશ્વાસ</string>
+    <string name="category_label">શ્રેણી: %1$s</string>
+    <string name="category_kyc_scam">KYC કૌભાંડ</string>
+    <string name="category_loan_scam">લોન કૌભાંડ</string>
+    <string name="category_lottery_scam">લોટરી કૌભાંડ</string>
+    <string name="category_upi_scam">UPI કૌભાંડ</string>
+    <string name="category_phishing">ફિશિંગ</string>
+    <string name="category_impersonation_digital_arrest">ડિજિટલ અરેસ્ટ ઢોંગ</string>
+    <string name="category_impersonation_blackmail">બ્લેકમેલ ઢોંગ</string>
+    <string name="category_not_scam">કૌભાંડ નથી</string>
+    <string name="category_unknown">અજ્ઞાત</string>
+
+    <string name="explanation_phishing">આ સંદેશ તાકીદ અને સંવેદનશીલ માહિતી માંગવાની યુક્તિનો ઉપયોગ કરે છે, જે ફિશિંગની સામાન્ય પદ્ધતિ છે. ક્યારેય તમારો OTP અથવા બેંક વિગતો શેર ન કરો.</string>
+    <string name="explanation_safe">આ સંદેશમાં સામાન્ય કૌભાંડના ચિહ્નો દેખાતા નથી. તેમ છતાં, અનપેક્ષિત વિનંતીઓની હંમેશા સ્વતંત્ર રીતે ચકાસણી કરો.</string>
+    <string name="sms_permission_title">તમારા સંદેશા વાંચો?</string>
+    <string name="sms_permission_body">સુરક્ષા છેતરપિંડીવાળા સંદેશાઓને આપોઆપ ઓળખવા માટે તમારા SMS ઇનબોક્સને સ્કેન કરી શકે છે. તમારા સંદેશા ફક્ત તમારા ડિવાઇસ પર જ વિશ્લેષિત થાય છે અને તમારી પરવાનગી વિના ક્યારેય શેર થતા નથી.</string>
+    <string name="sms_permission_granted">પરવાનગી આપવામાં આવી ✓</string>
+    <string name="sms_permission_allow">SMS ઍક્સેસની મંજૂરી આપો</string>
+    <string name="sms_inbox_title">ઇનબોક્સ</string>
+    <string name="sms_inbox_empty">કોઈ સંદેશ મળ્યો નથી.</string>
+    <string name="sms_unknown_sender">અજ્ઞાત</string>
+    <string name="guardian_title">કુટુંબ ગાર્ડિયન</string>
+    <string name="guardian_subtitle">ઉચ્ચ-જોખમી કૌભાંડ શોધાય ત્યારે ચેતવણી આપવા વિશ્વસનીય સંપર્કો ઉમેરો.</string>
+    <string name="guardian_name_label">સંપર્કનું નામ</string>
+    <string name="guardian_relation_label">સંબંધ (દા.ત. પુત્ર, પુત્રી)</string>
+    <string name="guardian_phone_label">ફોન નંબર</string>
+    <string name="guardian_add_button">ગાર્ડિયન ઉમેરો</string>
+    <string name="guardian_test_alert_button">ટેસ્ટ એલર્ટ મોકલો</string>
+    <string name="guardian_saved_title">સાચવેલા ગાર્ડિયન</string>
+    <string name="guardian_empty">હજુ સુધી કોઈ ગાર્ડિયન ઉમેર્યું નથી.</string>
+    <string name="guardian_remove_desc">દૂર કરો</string>
+    <string name="guardian_alert_no_guardians">પહેલા ગાર્ડિયન ઉમેરો.</string>
+    <string name="guardian_alert_no_permission">SMS પરવાનગી આપવામાં આવી નથી.</string>
+    <string name="guardian_alert_denied">SMS પરવાનગી નકારાઈ.</string>
+    <string name="guardian_alert_success">%1$d ગાર્ડિયનને ટેસ્ટ એલર્ટ મોકલવામાં આવ્યું.</string>
+    <string name="guardian_alert_failed">મોકલવામાં નિષ્ફળ: %1$s</string>
+    <string name="guardian_relation_phone_separator">%1$s • %2$s</string>
+    <string name="call_upload_title">કૉલ રેકોર્ડિંગ તપાસો</string>
+    <string name="choose_language">સંદેશની ભાષા પસંદ કરો</string>
+
+    <string name="call_upload_description">
+    શંકાસ્પદ કૉલનું રેકોર્ડિંગ અપલોડ કરો. અમે તેને લખાણમાં ફેરવીને છેતરપિંડીના સંકેતો માટે તપાસીશું.
+</string>
+
+    <string name="choose_audio_file">ઑડિયો ફાઇલ પસંદ કરો</string>
+
+    <string name="selected_file">પસંદ કરેલ: %1$s</string>
+
+    <string name="processing_audio">
+    રેકોર્ડિંગને લખાણમાં ફેરવી વિશ્લેષણ કરવામાં આવી રહ્યું છે...
+</string>
+    <string name="processing_audio_long">તમારી રેકોર્ડિંગનું વિશ્લેષણ થઈ રહ્યું છે — આમાં થોડી મિનિટો લાગી શકે છે. કૃપા કરીને એપ બંધ ન કરો.</string>
+
+    <string name="analyze_recording">રેકોર્ડિંગનું વિશ્લેષણ કરો</string>
+    <string name="settings_title">સેટિંગ્સ</string>
+    <string name="language_label">ભાષા</string>
+    <string name="guardian_alerts_title">ગાર્ડિયન એલર્ટ</string>
+    <string name="guardian_alerts_desc">જો ઉચ્ચ જોખમી કૌભાંડ મળે તો મારા પરિવારને ચેતવો</string>
+    <string name="dark_mode_label">ડાર્ક મોડ</string>
+    <string name="data_label">ડેટા</string>
+    <string name="clear_activity_button">પ્રવૃત્તિ ડેટા સાફ કરો</string>
+    <string name="activity_cleared_confirm">✓ પ્રવૃત્તિ ડેટા સાફ થયો</string>
+    <string name="log_out_button">લૉગ આઉટ</string>
+    <string name="about_suraksha_title">સુરક્ષા વિશે</string>
+    <string name="about_suraksha_body">સુરક્ષા તમને સ્કેમ કૉલ્સ, નકલી યુપીઆઈ વિનંતીઓ, ફિશિંગ અને લોન કૌભાંડો શોધવામાં મદદ કરે છે. શંકાસ્પદ સંદેશ પેસ્ટ કરો અથવા શેર કરો, તમારું એસએમએસ ઇનબોક્સ સ્કેન કરો, અથવા કૉલ રેકોર્ડિંગ અપલોડ કરો. જો ઉચ્ચ જોખમી કૌભાંડ મળે, તો તમારા ફેમિલી ગાર્ડિયનને આપમેળે ચેતવી શકાય છે.</string>
+    <string name="app_version">સુરક્ષા v1.0</string>
+</resources>
