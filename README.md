@@ -44,15 +44,9 @@ This README documents the frontend work completed for this project.
 - `ApiService.kt` defines the real network contract; a `MockApiService` was used during early development and has since been replaced by real calls in message and call flows
 - `AppThemeState` holds the dark mode flag; screen backgrounds are being migrated to a shared theme-aware helper so Dark Mode actually changes appearance app-wide
 
-## Known Issues / In Progress
-
-- **Dark Mode** — toggle exists and updates state correctly, but most screens still hardcode their background colors rather than reading from the shared theme; visual dark mode is not yet fully wired across all screens
-- **Language coverage** — some screens (e.g. Settings, Call Upload) still use hardcoded English strings instead of `stringResource()`, so the language toggle doesn't affect them yet; string resources for Hindi/Gujarati need to be completed and applied consistently across every screen
-- **Guardian list persistence** — currently held in memory; not yet backed by durable local storage, so the list resets on app restart
 
 ## Git Workflow
 
 - `main` — demo-ready, no direct commits
 - `ai-backend` — backend/AI work
 - `frontend` — this branch, frontend work
-- Small, frequent commits; PRs into `main` every couple of days
