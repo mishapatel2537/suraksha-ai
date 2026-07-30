@@ -12,6 +12,12 @@ This README documents the frontend work completed for this project.
 - **Navigation:** Jetpack Navigation Compose
 - **Package:** `com.suraksha.ai`
 
+  ### Steps
+1. Clone this repository.
+2. Open the project in Android Studio.
+3. Allow Gradle to sync automatically.
+4. Run the application on an emulator or a physical Android device.
+
 ## Screens Built
 
 | Screen | Description |
@@ -40,13 +46,77 @@ This README documents the frontend work completed for this project.
 
 ## Architecture Notes
 
-- Shared state (`MessageInputViewModel`, `GuardianViewModel`, `ProfileViewModel`) is passed through `AppNavigation` rather than serialized through nav route arguments
-- `ApiService.kt` defines the real network contract; a `MockApiService` was used during early development and has since been replaced by real calls in message and call flows
-- `AppThemeState` holds the dark mode flag; screen backgrounds are being migrated to a shared theme-aware helper so Dark Mode actually changes appearance app-wide
+- Shared application state is managed using `MessageInputViewModel`, `GuardianViewModel`, and `ProfileViewModel`, which are provided through `AppNavigation` instead of being passed as navigation route arguments.
+- Networking is implemented using Retrofit through `ApiService.kt`, which communicates with the FastAPI backend.
+- A `MockApiService` was used during the initial development phase for frontend testing before being replaced with the production API integration for SMS and call analysis.
+- The UI is built entirely with Jetpack Compose and follows a screen-based navigation architecture.
+- User preferences (such as guardians and app settings) are persisted locally using `SharedPreferences`.
+
+## Consuming the API contract
+
+{
+  "category": "kyc_scam | loan_scam | lottery_scam | upi_scam | phishing | impersonation_digital_arrest | impersonation_blackmail | not_scam | unknown",
+  "risk_percent": 0-100,
+  "explanation": "string, in the requested language",
+  "language": "english | hindi | gujarati",
+  "trigger_alert": true,
+  "alert_message": "string, empty if trigger_alert is false"
+}
+
+## 📂 Project Structure
+
+SURAKSHA-AI/
+├── app/
+│   ├── src/
+│   │   ├── androidTest/
+│   │   ├── main/
+│   │   │   ├── java/com/suraksha/ai/
+│   │   │   │   ├── components/
+│   │   │   │   ├── navigation/
+│   │   │   │   ├── network/
+│   │   │   │   ├── screens/
+│   │   │   │   ├── ui/
+│   │   │   │   └── MainActivity.kt
+│   │   │   ├── res/
+│   │   │   └── AndroidManifest.xml
+│   │   └── test/
+│   ├── build.gradle.kts
+│   └── .gitignore
+├── gradle/
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+└── README.md
+
+## screens folder structure
+
+screens/
+├── callupload/
+│   └── CallUploadScreen.kt
+├── guardian/
+│   ├── GuardianScreen.kt
+│   └── GuardianViewModel.kt
+├── home/
+│   └── HomeScreen.kt
+├── login/
+│   └── LoginScreen.kt
+├── messagecheck/
+│   ├── MessageInputScreen.kt
+│   └── MessageInputViewModel.kt
+├── profile/
+│   ├── ProfileScreen.kt
+│   └── ProfileViewModel.kt
+├── result/
+│   └── ResultScreen.kt
+├── settings/
+│   └── SettingsScreen.kt
+├── sms/
+│   ├── SmsInboxScreen.kt
+│   └── SmsPermissionScreen.kt
+└── splash/
+    └── SplashScreen.kt
 
 
-## Git Workflow
 
-- `main` — demo-ready, no direct commits
-- `ai-backend` — backend/AI work
-- `frontend` — this branch, frontend work
